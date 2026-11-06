@@ -1,0 +1,1780 @@
+{
+  "champion": "xgboost",
+  "champion_rule": "max VALID Gini; models within 0.002 Gini of the best are tied and the tie goes to 'xgboost'",
+  "main_advanced_model": "xgboost",
+  "model_meta": {
+    "penalised_lr": {
+      "C": 1.0,
+      "penalty": "l2"
+    },
+    "random_forest": {
+      "train_rows": 500000
+    },
+    "xgboost": {
+      "colsample_bytree": 0.5,
+      "max_depth": 7,
+      "min_child_weight": 100,
+      "reg_lambda": 1.0,
+      "subsample": 0.9
+    }
+  },
+  "models": {
+    "dummy": {
+      "model": "dummy",
+      "oot": {
+        "auc": 0.5,
+        "brier": 0.02088647735799902,
+        "calibration": {
+          "calibration_intercept": 0.021192166478804536,
+          "calibration_slope": 0.0,
+          "expected_actual_ratio": 1.565103092677334,
+          "mean_predicted": 0.03316792529650991,
+          "observed_rate": 0.021192166478804536
+        },
+        "gini": 0.0,
+        "ks": 0.03559434361556002,
+        "logloss": 0.10519979670479855,
+        "pr_auc": 0.021192166478804536,
+        "stability": {
+          "mean_gini": 0.0,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.0,
+          "stability_metric": 0.0,
+          "std_residual": 0.0,
+          "volatility_term": -0.0,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.019972315602135655,
+          "recall": 0.0942457231726283,
+          "reviewed": 15171
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.02043506921555702,
+          "recall": 0.04821150855365474,
+          "reviewed": 7585
+        }
+      },
+      "valid": {
+        "auc": 0.5,
+        "brier": 0.023770647037967055,
+        "calibration": {
+          "calibration_intercept": 0.024281253364918702,
+          "calibration_slope": 0.0,
+          "expected_actual_ratio": 1.3659890121006102,
+          "mean_predicted": 0.033167925296509915,
+          "observed_rate": 0.024281253364918702
+        },
+        "gini": 0.0,
+        "ks": 0.04488721012475358,
+        "logloss": 0.11561756158155553,
+        "pr_auc": 0.024281253364918702,
+        "stability": {
+          "mean_gini": 0.0,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.0,
+          "stability_metric": 0.0,
+          "std_residual": 0.0,
+          "volatility_term": -0.0,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.01927425433401529,
+          "recall": 0.07937915742793791,
+          "reviewed": 9287
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.02045650301464255,
+          "recall": 0.04212860310421286,
+          "reviewed": 4644
+        }
+      },
+      "weekly": {
+        "oot": [
+          {
+            "gini": 0.0,
+            "n": 8755,
+            "n_defaults": 195,
+            "week": 78
+          },
+          {
+            "gini": 0.0,
+            "n": 5158,
+            "n_defaults": 112,
+            "week": 79
+          },
+          {
+            "gini": 0.0,
+            "n": 6246,
+            "n_defaults": 120,
+            "week": 80
+          },
+          {
+            "gini": 0.0,
+            "n": 6743,
+            "n_defaults": 188,
+            "week": 81
+          },
+          {
+            "gini": 0.0,
+            "n": 5423,
+            "n_defaults": 122,
+            "week": 82
+          },
+          {
+            "gini": 0.0,
+            "n": 7295,
+            "n_defaults": 156,
+            "week": 83
+          },
+          {
+            "gini": 0.0,
+            "n": 9721,
+            "n_defaults": 216,
+            "week": 84
+          },
+          {
+            "gini": 0.0,
+            "n": 16239,
+            "n_defaults": 308,
+            "week": 85
+          },
+          {
+            "gini": 0.0,
+            "n": 15630,
+            "n_defaults": 277,
+            "week": 86
+          },
+          {
+            "gini": 0.0,
+            "n": 17886,
+            "n_defaults": 329,
+            "week": 87
+          },
+          {
+            "gini": 0.0,
+            "n": 14234,
+            "n_defaults": 265,
+            "week": 88
+          },
+          {
+            "gini": 0.0,
+            "n": 13600,
+            "n_defaults": 309,
+            "week": 89
+          },
+          {
+            "gini": 0.0,
+            "n": 12103,
+            "n_defaults": 330,
+            "week": 90
+          },
+          {
+            "gini": 0.0,
+            "n": 12674,
+            "n_defaults": 288,
+            "week": 91
+          }
+        ],
+        "valid": [
+          {
+            "gini": 0.0,
+            "n": 10268,
+            "n_defaults": 322,
+            "week": 64
+          },
+          {
+            "gini": 0.0,
+            "n": 4258,
+            "n_defaults": 96,
+            "week": 65
+          },
+          {
+            "gini": 0.0,
+            "n": 2278,
+            "n_defaults": 52,
+            "week": 66
+          },
+          {
+            "gini": 0.0,
+            "n": 1434,
+            "n_defaults": 30,
+            "week": 67
+          },
+          {
+            "gini": 0.0,
+            "n": 825,
+            "n_defaults": 21,
+            "week": 68
+          },
+          {
+            "gini": 0.0,
+            "n": 1582,
+            "n_defaults": 35,
+            "week": 69
+          },
+          {
+            "gini": 0.0,
+            "n": 3808,
+            "n_defaults": 82,
+            "week": 70
+          },
+          {
+            "gini": 0.0,
+            "n": 7921,
+            "n_defaults": 176,
+            "week": 71
+          },
+          {
+            "gini": 0.0,
+            "n": 8858,
+            "n_defaults": 207,
+            "week": 72
+          },
+          {
+            "gini": 0.0,
+            "n": 8687,
+            "n_defaults": 189,
+            "week": 73
+          },
+          {
+            "gini": 0.0,
+            "n": 11280,
+            "n_defaults": 303,
+            "week": 74
+          },
+          {
+            "gini": 0.0,
+            "n": 13656,
+            "n_defaults": 290,
+            "week": 75
+          },
+          {
+            "gini": 0.0,
+            "n": 10261,
+            "n_defaults": 255,
+            "week": 76
+          },
+          {
+            "gini": 0.0,
+            "n": 7754,
+            "n_defaults": 197,
+            "week": 77
+          }
+        ]
+      }
+    },
+    "lightgbm": {
+      "model": "lightgbm",
+      "oot": {
+        "auc": 0.834114180512691,
+        "brier": 0.020030754749837967,
+        "calibration": {
+          "calibration_intercept": 0.10860612353010687,
+          "calibration_slope": 0.02273829233039917,
+          "expected_actual_ratio": 1.7950318027547616,
+          "mean_predicted": 0.03804061279872754,
+          "observed_rate": 0.021192166478804536
+        },
+        "gini": 0.6682283610253821,
+        "ks": 0.5164232923471713,
+        "logloss": 0.09030294658260742,
+        "pr_auc": 0.12726876221462843,
+        "stability": {
+          "mean_gini": 0.6589107996701634,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.0027988898989361444,
+          "stability_metric": 0.636521995172371,
+          "std_residual": 0.04477760899558498,
+          "volatility_term": -0.02238880449779249,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.10091622173884385,
+          "recall": 0.47620528771384135,
+          "reviewed": 15171
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.14159525379037574,
+          "recall": 0.3340590979782271,
+          "reviewed": 7585
+        }
+      },
+      "valid": {
+        "auc": 0.8177795583346272,
+        "brier": 0.022719018948022522,
+        "calibration": {
+          "calibration_intercept": 0.1187884604399635,
+          "calibration_slope": 0.024778129284200784,
+          "expected_actual_ratio": 1.605578863269813,
+          "mean_predicted": 0.03898546717641249,
+          "observed_rate": 0.024281253364918702
+        },
+        "gini": 0.6355591166692545,
+        "ks": 0.4835950397095579,
+        "logloss": 0.10002538776456166,
+        "pr_auc": 0.13168909319011934,
+        "stability": {
+          "mean_gini": 0.6190343734697609,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.005562513277895694,
+          "stability_metric": 0.5901679671570494,
+          "std_residual": 0.057732812625422784,
+          "volatility_term": -0.028866406312711392,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.11123075266501561,
+          "recall": 0.4580931263858093,
+          "reviewed": 9287
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.14513350559862187,
+          "recall": 0.29889135254988913,
+          "reviewed": 4644
+        }
+      },
+      "weekly": {
+        "oot": [
+          {
+            "gini": 0.692120776419842,
+            "n": 8755,
+            "n_defaults": 195,
+            "week": 78
+          },
+          {
+            "gini": 0.6945777419172185,
+            "n": 5158,
+            "n_defaults": 112,
+            "week": 79
+          },
+          {
+            "gini": 0.591400043530308,
+            "n": 6246,
+            "n_defaults": 120,
+            "week": 80
+          },
+          {
+            "gini": 0.6004268302578832,
+            "n": 6743,
+            "n_defaults": 188,
+            "week": 81
+          },
+          {
+            "gini": 0.5995651918444094,
+            "n": 5423,
+            "n_defaults": 122,
+            "week": 82
+          },
+          {
+            "gini": 0.6432506887052345,
+            "n": 7295,
+            "n_defaults": 156,
+            "week": 83
+          },
+          {
+            "gini": 0.6254330079685155,
+            "n": 9721,
+            "n_defaults": 216,
+            "week": 84
+          },
+          {
+            "gini": 0.6960612201808611,
+            "n": 16239,
+            "n_defaults": 308,
+            "week": 85
+          },
+          {
+            "gini": 0.7353289529839417,
+            "n": 15630,
+            "n_defaults": 277,
+            "week": 86
+          },
+          {
+            "gini": 0.6850491140190706,
+            "n": 17886,
+            "n_defaults": 329,
+            "week": 87
+          },
+          {
+            "gini": 0.6886715462945578,
+            "n": 14234,
+            "n_defaults": 265,
+            "week": 88
+          },
+          {
+            "gini": 0.6374717884623486,
+            "n": 13600,
+            "n_defaults": 309,
+            "week": 89
+          },
+          {
+            "gini": 0.6276734901894165,
+            "n": 12103,
+            "n_defaults": 330,
+            "week": 90
+          },
+          {
+            "gini": 0.7077208026086801,
+            "n": 12674,
+            "n_defaults": 288,
+            "week": 91
+          }
+        ],
+        "valid": [
+          {
+            "gini": 0.5883297758204866,
+            "n": 10268,
+            "n_defaults": 322,
+            "week": 64
+          },
+          {
+            "gini": 0.6331341102034276,
+            "n": 4258,
+            "n_defaults": 96,
+            "week": 65
+          },
+          {
+            "gini": 0.5263667150459603,
+            "n": 2278,
+            "n_defaults": 52,
+            "week": 66
+          },
+          {
+            "gini": 0.6280626780626781,
+            "n": 1434,
+            "n_defaults": 30,
+            "week": 67
+          },
+          {
+            "gini": 0.4816394219379294,
+            "n": 825,
+            "n_defaults": 21,
+            "week": 68
+          },
+          {
+            "gini": 0.6038045987625817,
+            "n": 1582,
+            "n_defaults": 35,
+            "week": 69
+          },
+          {
+            "gini": 0.7239569014047629,
+            "n": 3808,
+            "n_defaults": 82,
+            "week": 70
+          },
+          {
+            "gini": 0.6712013615822523,
+            "n": 7921,
+            "n_defaults": 176,
+            "week": 71
+          },
+          {
+            "gini": 0.6142754153690313,
+            "n": 8858,
+            "n_defaults": 207,
+            "week": 72
+          },
+          {
+            "gini": 0.601528401952031,
+            "n": 8687,
+            "n_defaults": 189,
+            "week": 73
+          },
+          {
+            "gini": 0.6707727618894714,
+            "n": 11280,
+            "n_defaults": 303,
+            "week": 74
+          },
+          {
+            "gini": 0.67245558725949,
+            "n": 13656,
+            "n_defaults": 290,
+            "week": 75
+          },
+          {
+            "gini": 0.6552809490776124,
+            "n": 10261,
+            "n_defaults": 255,
+            "week": 76
+          },
+          {
+            "gini": 0.5956725502089364,
+            "n": 7754,
+            "n_defaults": 197,
+            "week": 77
+          }
+        ]
+      }
+    },
+    "penalised_lr": {
+      "model": "penalised_lr",
+      "oot": {
+        "auc": 0.7785851762010607,
+        "brier": 0.020518073497211773,
+        "calibration": {
+          "calibration_intercept": 0.10466565994871133,
+          "calibration_slope": 0.022428634419014985,
+          "expected_actual_ratio": 1.6898951062183858,
+          "mean_predicted": 0.035812538422697104,
+          "observed_rate": 0.021192166478804536
+        },
+        "gini": 0.5571703524021214,
+        "ks": 0.4227461259151568,
+        "logloss": 0.095322838442502,
+        "pr_auc": 0.08403982736898466,
+        "stability": {
+          "mean_gini": 0.5489908608384696,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.00207466184783075,
+          "stability_metric": 0.5237538306230328,
+          "std_residual": 0.05047406043087356,
+          "volatility_term": -0.02523703021543678,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.08160305846681168,
+          "recall": 0.38506998444790047,
+          "reviewed": 15171
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.1040210942649967,
+          "recall": 0.2454121306376361,
+          "reviewed": 7585
+        }
+      },
+      "valid": {
+        "auc": 0.7629906895147264,
+        "brier": 0.023379303067315196,
+        "calibration": {
+          "calibration_intercept": 0.11395395923881228,
+          "calibration_slope": 0.024601215623602242,
+          "expected_actual_ratio": 1.5654876809701144,
+          "mean_predicted": 0.038012003021294365,
+          "observed_rate": 0.024281253364918702
+        },
+        "gini": 0.5259813790294527,
+        "ks": 0.39712384197023715,
+        "logloss": 0.10614876915589841,
+        "pr_auc": 0.08749270873895282,
+        "stability": {
+          "mean_gini": 0.5062845823458425,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.008537552151766954,
+          "stability_metric": 0.47856807220617653,
+          "std_residual": 0.055433020279331925,
+          "volatility_term": -0.027716510139665963,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.08851082157855067,
+          "recall": 0.3645232815964523,
+          "reviewed": 9287
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.10960378983634797,
+          "recall": 0.22572062084257205,
+          "reviewed": 4644
+        }
+      },
+      "weekly": {
+        "oot": [
+          {
+            "gini": 0.5916307213036185,
+            "n": 8755,
+            "n_defaults": 195,
+            "week": 78
+          },
+          {
+            "gini": 0.5927750410509032,
+            "n": 5158,
+            "n_defaults": 112,
+            "week": 79
+          },
+          {
+            "gini": 0.5105343345304165,
+            "n": 6246,
+            "n_defaults": 120,
+            "week": 80
+          },
+          {
+            "gini": 0.5001411948001362,
+            "n": 6743,
+            "n_defaults": 188,
+            "week": 81
+          },
+          {
+            "gini": 0.4389088356357136,
+            "n": 5423,
+            "n_defaults": 122,
+            "week": 82
+          },
+          {
+            "gini": 0.5580721281799863,
+            "n": 7295,
+            "n_defaults": 156,
+            "week": 83
+          },
+          {
+            "gini": 0.4917616459173533,
+            "n": 9721,
+            "n_defaults": 216,
+            "week": 84
+          },
+          {
+            "gini": 0.5633148472267173,
+            "n": 16239,
+            "n_defaults": 308,
+            "week": 85
+          },
+          {
+            "gini": 0.631629750038857,
+            "n": 15630,
+            "n_defaults": 277,
+            "week": 86
+          },
+          {
+            "gini": 0.5678322954344279,
+            "n": 17886,
+            "n_defaults": 329,
+            "week": 87
+          },
+          {
+            "gini": 0.5942217065550808,
+            "n": 14234,
+            "n_defaults": 265,
+            "week": 88
+          },
+          {
+            "gini": 0.547261097674437,
+            "n": 13600,
+            "n_defaults": 309,
+            "week": 89
+          },
+          {
+            "gini": 0.5207508706362014,
+            "n": 12103,
+            "n_defaults": 330,
+            "week": 90
+          },
+          {
+            "gini": 0.5770375827547232,
+            "n": 12674,
+            "n_defaults": 288,
+            "week": 91
+          }
+        ],
+        "valid": [
+          {
+            "gini": 0.4522133808278992,
+            "n": 10268,
+            "n_defaults": 322,
+            "week": 64
+          },
+          {
+            "gini": 0.5281465241069998,
+            "n": 4258,
+            "n_defaults": 96,
+            "week": 65
+          },
+          {
+            "gini": 0.38129794733568323,
+            "n": 2278,
+            "n_defaults": 52,
+            "week": 66
+          },
+          {
+            "gini": 0.574786324786325,
+            "n": 1434,
+            "n_defaults": 30,
+            "week": 67
+          },
+          {
+            "gini": 0.38521677327647463,
+            "n": 825,
+            "n_defaults": 21,
+            "week": 68
+          },
+          {
+            "gini": 0.4277587958260227,
+            "n": 1582,
+            "n_defaults": 35,
+            "week": 69
+          },
+          {
+            "gini": 0.5427647513190108,
+            "n": 3808,
+            "n_defaults": 82,
+            "week": 70
+          },
+          {
+            "gini": 0.5343065907623687,
+            "n": 7921,
+            "n_defaults": 176,
+            "week": 71
+          },
+          {
+            "gini": 0.527096082829775,
+            "n": 8858,
+            "n_defaults": 207,
+            "week": 72
+          },
+          {
+            "gini": 0.5311290175964221,
+            "n": 8687,
+            "n_defaults": 189,
+            "week": 73
+          },
+          {
+            "gini": 0.5433265655070563,
+            "n": 11280,
+            "n_defaults": 303,
+            "week": 74
+          },
+          {
+            "gini": 0.557988617542194,
+            "n": 13656,
+            "n_defaults": 290,
+            "week": 75
+          },
+          {
+            "gini": 0.5707634242983624,
+            "n": 10261,
+            "n_defaults": 255,
+            "week": 76
+          },
+          {
+            "gini": 0.5311893568271997,
+            "n": 7754,
+            "n_defaults": 197,
+            "week": 77
+          }
+        ]
+      }
+    },
+    "random_forest": {
+      "model": "random_forest",
+      "oot": {
+        "auc": 0.8190842396942886,
+        "brier": 0.0201133861542692,
+        "calibration": {
+          "calibration_intercept": 0.11164499846166263,
+          "calibration_slope": 0.024719248193324907,
+          "expected_actual_ratio": 1.8117539036193273,
+          "mean_predicted": 0.038394990344124774,
+          "observed_rate": 0.021192166478804536
+        },
+        "gini": 0.6381684793885771,
+        "ks": 0.4865405089189236,
+        "logloss": 0.09285186489399114,
+        "pr_auc": 0.11122992884315948,
+        "stability": {
+          "mean_gini": 0.6269906117157452,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.003380169013685501,
+          "stability_metric": 0.6010871988602075,
+          "std_residual": 0.05180682571107548,
+          "volatility_term": -0.02590341285553774,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.09643398589414014,
+          "recall": 0.455054432348367,
+          "reviewed": 15171
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.12880685563612393,
+          "recall": 0.30388802488335925,
+          "reviewed": 7585
+        }
+      },
+      "valid": {
+        "auc": 0.8016416448674877,
+        "brier": 0.022799504878862373,
+        "calibration": {
+          "calibration_intercept": 0.12158653844610702,
+          "calibration_slope": 0.026444246030372317,
+          "expected_actual_ratio": 1.5616437164008692,
+          "mean_predicted": 0.03791866674366275,
+          "observed_rate": 0.024281253364918702
+        },
+        "gini": 0.6032832897349754,
+        "ks": 0.4571298638901725,
+        "logloss": 0.1020727818113537,
+        "pr_auc": 0.11470688934618958,
+        "stability": {
+          "mean_gini": 0.5904679764175267,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.004951802923559893,
+          "stability_metric": 0.5606204834006203,
+          "std_residual": 0.05969498603381264,
+          "volatility_term": -0.02984749301690632,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.10509314094971466,
+          "recall": 0.4328159645232816,
+          "reviewed": 9287
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.13458225667527993,
+          "recall": 0.2771618625277162,
+          "reviewed": 4644
+        }
+      },
+      "weekly": {
+        "oot": [
+          {
+            "gini": 0.6615540378624489,
+            "n": 8755,
+            "n_defaults": 195,
+            "week": 78
+          },
+          {
+            "gini": 0.6610434007134365,
+            "n": 5158,
+            "n_defaults": 112,
+            "week": 79
+          },
+          {
+            "gini": 0.5422570464686036,
+            "n": 6246,
+            "n_defaults": 120,
+            "week": 80
+          },
+          {
+            "gini": 0.5845886687115569,
+            "n": 6743,
+            "n_defaults": 188,
+            "week": 81
+          },
+          {
+            "gini": 0.5449652246251095,
+            "n": 5423,
+            "n_defaults": 122,
+            "week": 82
+          },
+          {
+            "gini": 0.625513161722715,
+            "n": 7295,
+            "n_defaults": 156,
+            "week": 83
+          },
+          {
+            "gini": 0.5735115046661603,
+            "n": 9721,
+            "n_defaults": 216,
+            "week": 84
+          },
+          {
+            "gini": 0.6712028007144448,
+            "n": 16239,
+            "n_defaults": 308,
+            "week": 85
+          },
+          {
+            "gini": 0.7224293938484017,
+            "n": 15630,
+            "n_defaults": 277,
+            "week": 86
+          },
+          {
+            "gini": 0.6619742937160129,
+            "n": 17886,
+            "n_defaults": 329,
+            "week": 87
+          },
+          {
+            "gini": 0.6391249086589306,
+            "n": 14234,
+            "n_defaults": 265,
+            "week": 88
+          },
+          {
+            "gini": 0.6080214876407353,
+            "n": 13600,
+            "n_defaults": 309,
+            "week": 89
+          },
+          {
+            "gini": 0.5996682187542635,
+            "n": 12103,
+            "n_defaults": 330,
+            "week": 90
+          },
+          {
+            "gini": 0.6820144159176131,
+            "n": 12674,
+            "n_defaults": 288,
+            "week": 91
+          }
+        ],
+        "valid": [
+          {
+            "gini": 0.5601902447127531,
+            "n": 10268,
+            "n_defaults": 322,
+            "week": 64
+          },
+          {
+            "gini": 0.6105137754284797,
+            "n": 4258,
+            "n_defaults": 96,
+            "week": 65
+          },
+          {
+            "gini": 0.48776695003110104,
+            "n": 2278,
+            "n_defaults": 52,
+            "week": 66
+          },
+          {
+            "gini": 0.5921652421652421,
+            "n": 1434,
+            "n_defaults": 30,
+            "week": 67
+          },
+          {
+            "gini": 0.44918265813788194,
+            "n": 825,
+            "n_defaults": 21,
+            "week": 68
+          },
+          {
+            "gini": 0.6296980330593775,
+            "n": 1582,
+            "n_defaults": 35,
+            "week": 69
+          },
+          {
+            "gini": 0.6934625505675347,
+            "n": 3808,
+            "n_defaults": 82,
+            "week": 70
+          },
+          {
+            "gini": 0.6267093139268736,
+            "n": 7921,
+            "n_defaults": 176,
+            "week": 71
+          },
+          {
+            "gini": 0.5949573281020262,
+            "n": 8858,
+            "n_defaults": 207,
+            "week": 72
+          },
+          {
+            "gini": 0.5627486579475285,
+            "n": 8687,
+            "n_defaults": 189,
+            "week": 73
+          },
+          {
+            "gini": 0.6312806465123146,
+            "n": 11280,
+            "n_defaults": 303,
+            "week": 74
+          },
+          {
+            "gini": 0.6319647897134777,
+            "n": 13656,
+            "n_defaults": 290,
+            "week": 75
+          },
+          {
+            "gini": 0.6320486139688737,
+            "n": 10261,
+            "n_defaults": 255,
+            "week": 76
+          },
+          {
+            "gini": 0.5638628655719071,
+            "n": 7754,
+            "n_defaults": 197,
+            "week": 77
+          }
+        ]
+      }
+    },
+    "woe_scorecard": {
+      "model": "woe_scorecard",
+      "oot": {
+        "auc": 0.8007265106971323,
+        "brier": 0.020288831542675575,
+        "calibration": {
+          "calibration_intercept": 0.10459763644679565,
+          "calibration_slope": 0.02123881189437696,
+          "expected_actual_ratio": 1.5645232601337435,
+          "mean_predicted": 0.03315563738871631,
+          "observed_rate": 0.021192166478804536
+        },
+        "gini": 0.6014530213942646,
+        "ks": 0.464732207324405,
+        "logloss": 0.09212306868383847,
+        "pr_auc": 0.0925870789938383,
+        "stability": {
+          "mean_gini": 0.5914776086135453,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.0029569243281668185,
+          "stability_metric": 0.5660384656681124,
+          "std_residual": 0.05087828589086572,
+          "volatility_term": -0.02543914294543286,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.08694219234064993,
+          "recall": 0.4102643856920684,
+          "reviewed": 15171
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.11127224785761371,
+          "recall": 0.2625194401244168,
+          "reviewed": 7585
+        }
+      },
+      "valid": {
+        "auc": 0.790411645086489,
+        "brier": 0.023014389183404628,
+        "calibration": {
+          "calibration_intercept": 0.1165100860191827,
+          "calibration_slope": 0.02389551057913443,
+          "expected_actual_ratio": 1.4335813479693322,
+          "mean_predicted": 0.034809151929265036,
+          "observed_rate": 0.024281253364918702
+        },
+        "gini": 0.580823290172978,
+        "ks": 0.44116472887351554,
+        "logloss": 0.10215931275116596,
+        "pr_auc": 0.10137955239064406,
+        "stability": {
+          "mean_gini": 0.5656091063404148,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.0066874422336803884,
+          "stability_metric": 0.5386522344161115,
+          "std_residual": 0.0539137438486066,
+          "volatility_term": -0.0269568719243033,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.0960482394745343,
+          "recall": 0.39556541019955654,
+          "reviewed": 9287
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.1227390180878553,
+          "recall": 0.25277161862527714,
+          "reviewed": 4644
+        }
+      },
+      "weekly": {
+        "oot": [
+          {
+            "gini": 0.6469602204648934,
+            "n": 8755,
+            "n_defaults": 195,
+            "week": 78
+          },
+          {
+            "gini": 0.626412009512485,
+            "n": 5158,
+            "n_defaults": 112,
+            "week": 79
+          },
+          {
+            "gini": 0.5093971052345194,
+            "n": 6246,
+            "n_defaults": 120,
+            "week": 80
+          },
+          {
+            "gini": 0.5252040832887028,
+            "n": 6743,
+            "n_defaults": 188,
+            "week": 81
+          },
+          {
+            "gini": 0.5083992812986105,
+            "n": 5423,
+            "n_defaults": 122,
+            "week": 82
+          },
+          {
+            "gini": 0.584027426092141,
+            "n": 7295,
+            "n_defaults": 156,
+            "week": 83
+          },
+          {
+            "gini": 0.5607589572739493,
+            "n": 9721,
+            "n_defaults": 216,
+            "week": 84
+          },
+          {
+            "gini": 0.6360369434093618,
+            "n": 16239,
+            "n_defaults": 308,
+            "week": 85
+          },
+          {
+            "gini": 0.6648553029182549,
+            "n": 15630,
+            "n_defaults": 277,
+            "week": 86
+          },
+          {
+            "gini": 0.630098266125116,
+            "n": 17886,
+            "n_defaults": 329,
+            "week": 87
+          },
+          {
+            "gini": 0.6042495714905107,
+            "n": 14234,
+            "n_defaults": 265,
+            "week": 88
+          },
+          {
+            "gini": 0.5785590122425108,
+            "n": 13600,
+            "n_defaults": 309,
+            "week": 89
+          },
+          {
+            "gini": 0.5650425086677526,
+            "n": 12103,
+            "n_defaults": 330,
+            "week": 90
+          },
+          {
+            "gini": 0.6406858325708233,
+            "n": 12674,
+            "n_defaults": 288,
+            "week": 91
+          }
+        ],
+        "valid": [
+          {
+            "gini": 0.5200911006391036,
+            "n": 10268,
+            "n_defaults": 322,
+            "week": 64
+          },
+          {
+            "gini": 0.5817465561428801,
+            "n": 4258,
+            "n_defaults": 96,
+            "week": 65
+          },
+          {
+            "gini": 0.4602339484414957,
+            "n": 2278,
+            "n_defaults": 52,
+            "week": 66
+          },
+          {
+            "gini": 0.5357549857549857,
+            "n": 1434,
+            "n_defaults": 30,
+            "week": 67
+          },
+          {
+            "gini": 0.4494787964937217,
+            "n": 825,
+            "n_defaults": 21,
+            "week": 68
+          },
+          {
+            "gini": 0.5629143965278418,
+            "n": 1582,
+            "n_defaults": 35,
+            "week": 69
+          },
+          {
+            "gini": 0.6723387402956158,
+            "n": 3808,
+            "n_defaults": 82,
+            "week": 70
+          },
+          {
+            "gini": 0.6247769822172662,
+            "n": 7921,
+            "n_defaults": 176,
+            "week": 71
+          },
+          {
+            "gini": 0.5819231755062246,
+            "n": 8858,
+            "n_defaults": 207,
+            "week": 72
+          },
+          {
+            "gini": 0.5682195997564317,
+            "n": 8687,
+            "n_defaults": 189,
+            "week": 73
+          },
+          {
+            "gini": 0.5920317639853627,
+            "n": 11280,
+            "n_defaults": 303,
+            "week": 74
+          },
+          {
+            "gini": 0.6045181546590166,
+            "n": 13656,
+            "n_defaults": 290,
+            "week": 75
+          },
+          {
+            "gini": 0.6154860025161375,
+            "n": 10261,
+            "n_defaults": 255,
+            "week": 76
+          },
+          {
+            "gini": 0.5490132858297245,
+            "n": 7754,
+            "n_defaults": 197,
+            "week": 77
+          }
+        ]
+      }
+    },
+    "xgboost": {
+      "model": "xgboost",
+      "oot": {
+        "auc": 0.8369784042279859,
+        "brier": 0.020078947748749826,
+        "calibration": {
+          "calibration_intercept": 0.09649398688744504,
+          "calibration_slope": 0.018798953797788988,
+          "expected_actual_ratio": 1.7764029238314474,
+          "mean_predicted": 0.037645826495271165,
+          "observed_rate": 0.021192166478804536
+        },
+        "gini": 0.6739568084559717,
+        "ks": 0.5270084057918678,
+        "logloss": 0.08960946601547859,
+        "pr_auc": 0.12918139745194415,
+        "stability": {
+          "mean_gini": 0.6657858494787089,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.0019509173135395352,
+          "stability_metric": 0.6445527219652368,
+          "std_residual": 0.04246625502694414,
+          "volatility_term": -0.02123312751347207,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.10256410256410256,
+          "recall": 0.4839813374805599,
+          "reviewed": 15171
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.14001318391562295,
+          "recall": 0.33032659409020215,
+          "reviewed": 7585
+        }
+      },
+      "valid": {
+        "auc": 0.820417440664452,
+        "brier": 0.022744781064271823,
+        "calibration": {
+          "calibration_intercept": 0.10702826392649087,
+          "calibration_slope": 0.020896670930936632,
+          "expected_actual_ratio": 1.5905712736838333,
+          "mean_predicted": 0.038621064091278606,
+          "observed_rate": 0.024281253364918702
+        },
+        "gini": 0.640834881328904,
+        "ks": 0.4939677172726943,
+        "logloss": 0.09940084692118525,
+        "pr_auc": 0.13434203917379384,
+        "stability": {
+          "mean_gini": 0.6252950755890445,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.004812733370772956,
+          "stability_metric": 0.5972950885173999,
+          "std_residual": 0.05599997414328931,
+          "volatility_term": -0.027999987071644656,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.1134919780338107,
+          "recall": 0.4674057649667406,
+          "reviewed": 9287
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.14987080103359174,
+          "recall": 0.30864745011086475,
+          "reviewed": 4644
+        }
+      },
+      "weekly": {
+        "oot": [
+          {
+            "gini": 0.6997765396597173,
+            "n": 8755,
+            "n_defaults": 195,
+            "week": 78
+          },
+          {
+            "gini": 0.7069000905950966,
+            "n": 5158,
+            "n_defaults": 112,
+            "week": 79
+          },
+          {
+            "gini": 0.6089114702361518,
+            "n": 6246,
+            "n_defaults": 120,
+            "week": 80
+          },
+          {
+            "gini": 0.6131489686287876,
+            "n": 6743,
+            "n_defaults": 188,
+            "week": 81
+          },
+          {
+            "gini": 0.6087314178271344,
+            "n": 5423,
+            "n_defaults": 122,
+            "week": 82
+          },
+          {
+            "gini": 0.6499168525362671,
+            "n": 7295,
+            "n_defaults": 156,
+            "week": 83
+          },
+          {
+            "gini": 0.6284869561829056,
+            "n": 9721,
+            "n_defaults": 216,
+            "week": 84
+          },
+          {
+            "gini": 0.7038625174963133,
+            "n": 16239,
+            "n_defaults": 308,
+            "week": 85
+          },
+          {
+            "gini": 0.7372378215572355,
+            "n": 15630,
+            "n_defaults": 277,
+            "week": 86
+          },
+          {
+            "gini": 0.681811894319726,
+            "n": 17886,
+            "n_defaults": 329,
+            "week": 87
+          },
+          {
+            "gini": 0.7006938544512986,
+            "n": 14234,
+            "n_defaults": 265,
+            "week": 88
+          },
+          {
+            "gini": 0.6363341960238322,
+            "n": 13600,
+            "n_defaults": 309,
+            "week": 89
+          },
+          {
+            "gini": 0.6445786326700282,
+            "n": 12103,
+            "n_defaults": 330,
+            "week": 90
+          },
+          {
+            "gini": 0.7006106805174304,
+            "n": 12674,
+            "n_defaults": 288,
+            "week": 91
+          }
+        ],
+        "valid": [
+          {
+            "gini": 0.5947076948440835,
+            "n": 10268,
+            "n_defaults": 322,
+            "week": 64
+          },
+          {
+            "gini": 0.6490769662021465,
+            "n": 4258,
+            "n_defaults": 96,
+            "week": 65
+          },
+          {
+            "gini": 0.5435240859769161,
+            "n": 2278,
+            "n_defaults": 52,
+            "week": 66
+          },
+          {
+            "gini": 0.6341405508072175,
+            "n": 1434,
+            "n_defaults": 30,
+            "week": 67
+          },
+          {
+            "gini": 0.4959725183605781,
+            "n": 825,
+            "n_defaults": 21,
+            "week": 68
+          },
+          {
+            "gini": 0.5993720565149137,
+            "n": 1582,
+            "n_defaults": 35,
+            "week": 69
+          },
+          {
+            "gini": 0.7296126101357632,
+            "n": 3808,
+            "n_defaults": 82,
+            "week": 70
+          },
+          {
+            "gini": 0.6699454193321204,
+            "n": 7921,
+            "n_defaults": 176,
+            "week": 71
+          },
+          {
+            "gini": 0.6202628273964585,
+            "n": 8858,
+            "n_defaults": 207,
+            "week": 72
+          },
+          {
+            "gini": 0.607930157235876,
+            "n": 8687,
+            "n_defaults": 189,
+            "week": 73
+          },
+          {
+            "gini": 0.679681578433875,
+            "n": 11280,
+            "n_defaults": 303,
+            "week": 74
+          },
+          {
+            "gini": 0.6782773584029473,
+            "n": 13656,
+            "n_defaults": 290,
+            "week": 75
+          },
+          {
+            "gini": 0.652336833194201,
+            "n": 10261,
+            "n_defaults": 255,
+            "week": 76
+          },
+          {
+            "gini": 0.5992904014095244,
+            "n": 7754,
+            "n_defaults": 197,
+            "week": 77
+          }
+        ]
+      }
+    },
+    "xgboost_monotone": {
+      "model": "xgboost_monotone",
+      "oot": {
+        "auc": 0.8350534239734088,
+        "brier": 0.020721852101135693,
+        "calibration": {
+          "calibration_intercept": 0.09286809833684824,
+          "calibration_slope": 0.01815003891406855,
+          "expected_actual_ratio": 1.961262021507366,
+          "mean_predicted": 0.04156339126834082,
+          "observed_rate": 0.021192166478804536
+        },
+        "gini": 0.6701068479468175,
+        "ks": 0.5213470569799719,
+        "logloss": 0.09204261203903787,
+        "pr_auc": 0.12627825972890167,
+        "stability": {
+          "mean_gini": 0.6606050533488154,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.003090624389384465,
+          "stability_metric": 0.6366212408044823,
+          "std_residual": 0.04796762508866609,
+          "volatility_term": -0.023983812544333044,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.10263001779711291,
+          "recall": 0.4842923794712286,
+          "reviewed": 15171
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.13922214897824653,
+          "recall": 0.32846034214618974,
+          "reviewed": 7585
+        }
+      },
+      "valid": {
+        "auc": 0.8170456646764478,
+        "brier": 0.023349725086486833,
+        "calibration": {
+          "calibration_intercept": 0.10265770037323574,
+          "calibration_slope": 0.019980670585110643,
+          "expected_actual_ratio": 1.7203502322718502,
+          "mean_predicted": 0.041772259866189536,
+          "observed_rate": 0.024281253364918702
+        },
+        "gini": 0.6340913293528956,
+        "ks": 0.48627629894905144,
+        "logloss": 0.10159076680994698,
+        "pr_auc": 0.12973965150675704,
+        "stability": {
+          "mean_gini": 0.6170593230930889,
+          "min_zero_slope_term": 0.0,
+          "slope": 0.005945277416187329,
+          "stability_metric": 0.5889358084342061,
+          "std_residual": 0.056247029317765554,
+          "volatility_term": -0.028123514658882777,
+          "weeks_total": 14,
+          "weeks_used": 14
+        },
+        "top10": {
+          "capacity": 0.1,
+          "precision": 0.1108000430709594,
+          "recall": 0.4563192904656319,
+          "reviewed": 9287
+        },
+        "top5": {
+          "capacity": 0.05,
+          "precision": 0.1479328165374677,
+          "recall": 0.3046563192904656,
+          "reviewed": 4644
+        }
+      },
+      "weekly": {
+        "oot": [
+          {
+            "gini": 0.6997627606038823,
+            "n": 8755,
+            "n_defaults": 195,
+            "week": 78
+          },
+          {
+            "gini": 0.7036584847970102,
+            "n": 5158,
+            "n_defaults": 112,
+            "week": 79
+          },
+          {
+            "gini": 0.5840107737512243,
+            "n": 6246,
+            "n_defaults": 120,
+            "week": 80
+          },
+          {
+            "gini": 0.5994092539396596,
+            "n": 6743,
+            "n_defaults": 188,
+            "week": 81
+          },
+          {
+            "gini": 0.602595860354217,
+            "n": 5423,
+            "n_defaults": 122,
+            "week": 82
+          },
+          {
+            "gini": 0.6435811235503068,
+            "n": 7295,
+            "n_defaults": 156,
+            "week": 83
+          },
+          {
+            "gini": 0.6101632668965651,
+            "n": 9721,
+            "n_defaults": 216,
+            "week": 84
+          },
+          {
+            "gini": 0.6901083976597127,
+            "n": 16239,
+            "n_defaults": 308,
+            "week": 85
+          },
+          {
+            "gini": 0.7387667034817922,
+            "n": 15630,
+            "n_defaults": 277,
+            "week": 86
+          },
+          {
+            "gini": 0.6898529202235426,
+            "n": 17886,
+            "n_defaults": 329,
+            "week": 87
+          },
+          {
+            "gini": 0.6976615335574594,
+            "n": 14234,
+            "n_defaults": 265,
+            "week": 88
+          },
+          {
+            "gini": 0.6456752616742625,
+            "n": 13600,
+            "n_defaults": 309,
+            "week": 89
+          },
+          {
+            "gini": 0.631528741933906,
+            "n": 12103,
+            "n_defaults": 330,
+            "week": 90
+          },
+          {
+            "gini": 0.7116956644598742,
+            "n": 12674,
+            "n_defaults": 288,
+            "week": 91
+          }
+        ],
+        "valid": [
+          {
+            "gini": 0.5856229227892733,
+            "n": 10268,
+            "n_defaults": 322,
+            "week": 64
+          },
+          {
+            "gini": 0.6324833813871535,
+            "n": 4258,
+            "n_defaults": 96,
+            "week": 65
+          },
+          {
+            "gini": 0.5334508259036559,
+            "n": 2278,
+            "n_defaults": 52,
+            "week": 66
+          },
+          {
+            "gini": 0.6084995251661918,
+            "n": 1434,
+            "n_defaults": 30,
+            "week": 67
+          },
+          {
+            "gini": 0.4806917791992418,
+            "n": 825,
+            "n_defaults": 21,
+            "week": 68
+          },
+          {
+            "gini": 0.5896574014221074,
+            "n": 1582,
+            "n_defaults": 35,
+            "week": 69
+          },
+          {
+            "gini": 0.7250238927510047,
+            "n": 3808,
+            "n_defaults": 82,
+            "week": 70
+          },
+          {
+            "gini": 0.672225482716122,
+            "n": 7921,
+            "n_defaults": 176,
+            "week": 71
+          },
+          {
+            "gini": 0.6240813242667766,
+            "n": 8858,
+            "n_defaults": 207,
+            "week": 72
+          },
+          {
+            "gini": 0.5984564061758695,
+            "n": 8687,
+            "n_defaults": 189,
+            "week": 73
+          },
+          {
+            "gini": 0.6592479144060894,
+            "n": 11280,
+            "n_defaults": 303,
+            "week": 74
+          },
+          {
+            "gini": 0.6738740086787371,
+            "n": 13656,
+            "n_defaults": 290,
+            "week": 75
+          },
+          {
+            "gini": 0.6522655034430322,
+            "n": 10261,
+            "n_defaults": 255,
+            "week": 76
+          },
+          {
+            "gini": 0.6032501549979883,
+            "n": 7754,
+            "n_defaults": 197,
+            "week": 77
+          }
+        ]
+      }
+    }
+  }
+}

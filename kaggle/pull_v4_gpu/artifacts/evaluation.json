@@ -1,0 +1,184 @@
+{
+  "bootstrap": {
+    "xgboost_minus_lightgbm": {
+      "ci95_hi": 0.00883744404892736,
+      "ci95_lo": 0.002682250470846015,
+      "n_boot": 1000,
+      "point_gini_diff": 0.005728447430589645,
+      "share_positive": 1.0
+    },
+    "xgboost_minus_penalised_lr": {
+      "ci95_hi": 0.1272936971173029,
+      "ci95_lo": 0.10557100728520363,
+      "n_boot": 1000,
+      "point_gini_diff": 0.1167864560538503,
+      "share_positive": 1.0
+    },
+    "xgboost_minus_random_forest": {
+      "ci95_hi": 0.042511165319465555,
+      "ci95_lo": 0.029449476539508475,
+      "n_boot": 1000,
+      "point_gini_diff": 0.0357883290673946,
+      "share_positive": 1.0
+    },
+    "xgboost_minus_woe_scorecard": {
+      "ci95_hi": 0.08097746652328253,
+      "ci95_lo": 0.06486242407308332,
+      "n_boot": 1000,
+      "point_gini_diff": 0.07250378706170713,
+      "share_positive": 1.0
+    }
+  },
+  "calibration": [
+    {
+      "decile": 1,
+      "expected_over_actual": 1.4770590535302734,
+      "mean_pd": 0.0008762462251514378,
+      "n": 15171,
+      "observed": 0.0005932370970931383
+    },
+    {
+      "decile": 2,
+      "expected_over_actual": 1.2458146715185099,
+      "mean_pd": 0.0021350722733821936,
+      "n": 15171,
+      "observed": 0.001713796058269066
+    },
+    {
+      "decile": 3,
+      "expected_over_actual": 1.7217472908208915,
+      "mean_pd": 0.003745396216024352,
+      "n": 15170,
+      "observed": 0.002175346077785102
+    },
+    {
+      "decile": 4,
+      "expected_over_actual": 1.1793644158238568,
+      "mean_pd": 0.005830356020485746,
+      "n": 15171,
+      "observed": 0.004943642475776152
+    },
+    {
+      "decile": 5,
+      "expected_over_actual": 1.4465640033274638,
+      "mean_pd": 0.008772255507621559,
+      "n": 15171,
+      "observed": 0.0060642014369520795
+    },
+    {
+      "decile": 6,
+      "expected_over_actual": 1.2796813156264628,
+      "mean_pd": 0.012906476024446195,
+      "n": 15170,
+      "observed": 0.01008569545154911
+    },
+    {
+      "decile": 7,
+      "expected_over_actual": 1.353822945620661,
+      "mean_pd": 0.018829124087137265,
+      "n": 15171,
+      "observed": 0.013908114165183574
+    },
+    {
+      "decile": 8,
+      "expected_over_actual": 1.0565455999800588,
+      "mean_pd": 0.028276698325109026,
+      "n": 15170,
+      "observed": 0.026763348714568227
+    },
+    {
+      "decile": 9,
+      "expected_over_actual": 1.0631364489168424,
+      "mean_pd": 0.04583028393590501,
+      "n": 15171,
+      "observed": 0.04310856238876804
+    },
+    {
+      "decile": 10,
+      "expected_over_actual": 1.062151936662846,
+      "mean_pd": 0.1089386601705483,
+      "n": 15171,
+      "observed": 0.10256410256410256
+    }
+  ],
+  "note": "'shap' key kept for the app; values are XGBoost gain shares",
+  "shap": {
+    "top_features": [
+      {
+        "feature": "train_static_0__lastcancelreason_561M",
+        "gain_share": 0.046445172440260994,
+        "plain_name": "Cancellation reason of the last application [application]"
+      },
+      {
+        "feature": "train_applprev_1__maxdpdtolerance_577P__mean",
+        "gain_share": 0.04468702115918472,
+        "plain_name": "average Maximum DPD with tolerance (on previous application/s) [previous applications]"
+      },
+      {
+        "feature": "train_credit_bureau_a_2__pmts_dpd_303P__mean",
+        "gain_share": 0.0388155278819182,
+        "plain_name": "average Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)]"
+      },
+      {
+        "feature": "train_static_0__avgdpdtolclosure24_3658938P",
+        "gain_share": 0.03725143016197762,
+        "plain_name": "Average DPD (days past due) with tolerance within the past 24 months from the... [application]"
+      },
+      {
+        "feature": "train_static_0__lastrejectreasonclient_4145040M",
+        "gain_share": 0.026224411287973735,
+        "plain_name": "Reason for the client's last loan rejection [application]"
+      },
+      {
+        "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__mean",
+        "gain_share": 0.02149454722013636,
+        "plain_name": "average Active contract that has overdue payments (num_group1 - existing contract, nu... [credit bureau (b)]"
+      },
+      {
+        "feature": "train_static_0__lastrejectreason_759M",
+        "gain_share": 0.020553911780200825,
+        "plain_name": "Reason for rejection on the most recent rejected application [application]"
+      },
+      {
+        "feature": "train_applprev_1__maxdpdtolerance_577P__min",
+        "gain_share": 0.019306592562017815,
+        "plain_name": "minimum Maximum DPD with tolerance (on previous application/s) [previous applications]"
+      },
+      {
+        "feature": "train_static_0__maxdbddpdtollast12m_3658940P",
+        "gain_share": 0.016113407784470058,
+        "plain_name": "Maximum number of days past due in last 12 months [application]"
+      },
+      {
+        "feature": "train_static_0__mobilephncnt_593L",
+        "gain_share": 0.015417016249410154,
+        "plain_name": "Number of persons with the same mobile phone number [application]"
+      },
+      {
+        "feature": "train_applprev_1__education_1138M__maxcode",
+        "gain_share": 0.014678921584001445,
+        "plain_name": "most recent category of Applicant's education level from their previous application [previous applications]"
+      },
+      {
+        "feature": "train_static_0__numrejects9m_859L",
+        "gain_share": 0.013734257055401619,
+        "plain_name": "Number of credit applications that were rejected in the last 9 months [application]"
+      },
+      {
+        "feature": "train_credit_bureau_a_2__pmts_year_507T__rel_max",
+        "gain_share": 0.013236335952736693,
+        "plain_name": "maximum time before decision of Payment year for a closed credit contract (num_group1 - terminated contract,... [credit bureau (a)]"
+      },
+      {
+        "feature": "train_person_1__incometype_1044T__maxcode",
+        "gain_share": 0.012877700307684793,
+        "plain_name": "most recent category of Type of income of the person [applicant / related person]"
+      },
+      {
+        "feature": "train_credit_bureau_a_2__pmts_overdue_1152A__mean",
+        "gain_share": 0.012612118734275438,
+        "plain_name": "average Overdue payment for a closed contract (num_group1 - terminated contract, num_... [credit bureau (a)]"
+      }
+    ]
+  }
+}

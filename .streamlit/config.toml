@@ -1,0 +1,14 @@
+[theme]
+# Matches the palette in app.py: navy accent, near-black ink, quiet grey rules.
+primaryColor = "#2F5D8A"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#FAFBFC"
+textColor = "#0F172A"
+font = "sans serif"
+
+[server]
+# The app scores a handful of rows at a time; a large upload cap invites misuse.
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false

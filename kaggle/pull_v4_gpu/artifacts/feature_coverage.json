@@ -1,0 +1,4110 @@
+{
+  "by_source": {
+    "train_applprev_1": {
+      "mean_coverage_oot": 0.7788551900289736,
+      "mean_coverage_train": 0.6871678331057774,
+      "mean_coverage_valid": 0.7587437214575719,
+      "n_features": 51
+    },
+    "train_applprev_2": {
+      "mean_coverage_oot": 0.8626606990228972,
+      "mean_coverage_train": 0.7891614316920966,
+      "mean_coverage_valid": 0.8463335845805965,
+      "n_features": 3
+    },
+    "train_credit_bureau_a_1": {
+      "mean_coverage_oot": 0.6350302996346028,
+      "mean_coverage_train": 0.4128918171120621,
+      "mean_coverage_valid": 0.6562416998671979,
+      "n_features": 24
+    },
+    "train_credit_bureau_a_2": {
+      "mean_coverage_oot": 0.9029426083550155,
+      "mean_coverage_train": 0.7010428015859025,
+      "mean_coverage_valid": 0.8962166776907814,
+      "n_features": 14
+    },
+    "train_credit_bureau_b_2": {
+      "mean_coverage_oot": 0.03596406230431028,
+      "mean_coverage_train": 0.021275030250275204,
+      "mean_coverage_valid": 0.03774451742579233,
+      "n_features": 6
+    },
+    "train_person_1": {
+      "mean_coverage_oot": 0.8931598410093139,
+      "mean_coverage_train": 0.9008506476184831,
+      "mean_coverage_valid": 0.8704274792721007,
+      "n_features": 5
+    },
+    "train_static_0": {
+      "mean_coverage_oot": 0.6444242589506851,
+      "mean_coverage_train": 0.5788749430511017,
+      "mean_coverage_valid": 0.6121994242092796,
+      "n_features": 76
+    }
+  },
+  "features": [
+    {
+      "coverage_oot": 0.5969994792593618,
+      "coverage_train": 0.5201648568500299,
+      "coverage_valid": 0.5563475826424034,
+      "feature": "train_static_0__actualdpdtolerance_344P",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.4312657068736633,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__amtinstpaidbefduel24m_4187115A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__annuity_780A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899569565016775,
+      "coverage_train": 0.7939772963039805,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__annuitynextmonth_57A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__applicationcnt_361L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__applications30d_658L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__applicationscnt_1086L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__applicationscnt_464L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__applicationscnt_629L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__applicationscnt_867L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.4828056714587989,
+      "coverage_train": 0.40725944206376813,
+      "coverage_valid": 0.4435662754387854,
+      "feature": "train_static_0__avgdbddpdlast24m_3658932P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.2870401497623709,
+      "coverage_train": 0.22494427033528278,
+      "coverage_valid": 0.2628297620329493,
+      "feature": "train_static_0__avgdbddpdlast3m_4187120P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.4827858964978544,
+      "coverage_train": 0.1901048450879117,
+      "coverage_valid": 0.4435447399590826,
+      "feature": "train_static_0__avgdbdtollast24m_4525197P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.574350557324316,
+      "coverage_train": 0.4941010013400079,
+      "coverage_valid": 0.5332938516205449,
+      "feature": "train_static_0__avgdpdtolclosure24_3658938P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.47583170189905544,
+      "coverage_train": 0.4006787397373959,
+      "coverage_valid": 0.4344890707440508,
+      "feature": "train_static_0__avginstallast24m_3658937A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.07120304270732399,
+      "coverage_train": 0.051491246269739374,
+      "coverage_valid": 0.1033164638742328,
+      "feature": "train_static_0__avglnamtstart24m_4525187A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.3734962790115156,
+      "coverage_train": 0.32980651783583265,
+      "coverage_valid": 0.3446322816840745,
+      "feature": "train_static_0__avgmaxdpdlast9m_3716943P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.3680515730981431,
+      "coverage_train": 0.27560639647074053,
+      "coverage_valid": 0.33697641864972544,
+      "feature": "train_static_0__avgoutstandbalancel6m_4187114A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.4190050557983481,
+      "coverage_train": 0.164731273038698,
+      "coverage_valid": 0.38642188004737804,
+      "feature": "train_static_0__avgpmtlast12m_4525200A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt12m_3712952L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt3m_3712950L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt6m_3712949L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_100L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_1022L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_1071L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_1130L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.00024257418792245737,
+      "coverage_valid": 0.0001076773985140519,
+      "feature": "train_static_0__clientscnt_136L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_157L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_257L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_304L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_360L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_493L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_533L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_887L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__clientscnt_946L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5802171290711701,
+      "coverage_train": 0.4984977559937664,
+      "coverage_valid": 0.5384839022289222,
+      "feature": "train_static_0__cntincpaycont9m_3716944L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5802764539540034,
+      "coverage_train": 0.4944473130423795,
+      "coverage_valid": 0.5385377409281792,
+      "feature": "train_static_0__cntpmts24_3658933L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.560591288232734,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__commnoinclast6m_3546845L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__credamount_770A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899569565016775,
+      "coverage_train": 0.7939772963039805,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__currdebt_22A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899569565016775,
+      "coverage_train": 0.7939772963039805,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__currdebtcredtyperange_828A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.49887604692991555,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__daysoverduetolerancedd_3976961L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__deferredmnthsnum_166L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__disbursedcredamount_1113A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__downpmt_116A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.715754711384445,
+      "coverage_train": 0.6862829366608376,
+      "coverage_valid": 0.6839668353612577,
+      "feature": "train_static_0__eir_270L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.006894869715965644,
+      "coverage_train": 0.007064290739593879,
+      "coverage_valid": 0.004382470119521913,
+      "feature": "train_static_0__equalitydataagreement_891L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.0006327987502224683,
+      "coverage_train": 0.008245182445428607,
+      "coverage_valid": 0.0015397867987509421,
+      "feature": "train_static_0__equalityempfrom_62L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__homephncnt_628L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.07571832545630722,
+      "coverage_train": 0.10843144198265009,
+      "coverage_valid": 0.08221169376547863,
+      "feature": "train_static_0__inittransactionamount_650A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.715754711384445,
+      "coverage_train": 0.6862829366608376,
+      "coverage_valid": 0.6839668353612577,
+      "feature": "train_static_0__interestrate_311L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.0021422874356489814,
+      "coverage_train": 0.012070990779060934,
+      "coverage_valid": 0.009798643264778722,
+      "feature": "train_static_0__interestrategrace_34L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__isbidproduct_1095L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.006637795223687766,
+      "coverage_train": 0.007149308702563487,
+      "coverage_valid": 0.0070421018628189945,
+      "feature": "train_static_0__isbidproductrequest_292L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.07571832545630722,
+      "coverage_train": 0.10843144198265009,
+      "coverage_valid": 0.08221169376547863,
+      "feature": "train_static_0__isdebitcard_729L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5844489707132828,
+      "coverage_train": 0.5035013361079869,
+      "coverage_valid": 0.5425110369333477,
+      "feature": "train_static_0__lastapprcredamount_781A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.004521874402631388,
+      "coverage_train": 0.014831344640982402,
+      "coverage_valid": 0.004867018412835146,
+      "feature": "train_static_0__lastdependentsnum_448L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.0014699387635376086,
+      "coverage_train": 0.001652000418069983,
+      "coverage_valid": 0.0012275223430601916,
+      "feature": "train_static_0__lastotherinc_902A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.0015754052219080202,
+      "coverage_train": 0.0016699399882378818,
+      "coverage_valid": 0.0013244320017228384,
+      "feature": "train_static_0__lastotherlnsexpense_631A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.4250825604619431,
+      "coverage_train": 0.3568921488641132,
+      "coverage_valid": 0.3908151179067514,
+      "feature": "train_static_0__lastrejectcredamount_222A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5023565161792138,
+      "coverage_train": 0.47983748309390506,
+      "coverage_valid": 0.4789921395499085,
+      "feature": "train_static_0__maininc_215A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.5882580053381921,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__mastercontrelectronic_519L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.5882580053381921,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__mastercontrexist_109L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.5882580053381921,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__maxannuity_159A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.021942434259275147,
+      "coverage_valid": 0.01732529342091095,
+      "feature": "train_static_0__maxannuity_4075009A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.2334500056029056,
+      "coverage_train": 0.22299899694403322,
+      "coverage_valid": 0.21676537094863788,
+      "feature": "train_static_0__maxdbddpdlast1m_3658939P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.4126836599497716,
+      "coverage_train": 0.3571238033136726,
+      "coverage_valid": 0.38239474534295254,
+      "feature": "train_static_0__maxdbddpdtollast12m_3658940P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.33979315390852105,
+      "coverage_train": 0.26218837796646394,
+      "coverage_valid": 0.3124152040486702,
+      "feature": "train_static_0__maxdbddpdtollast6m_4187119P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.5882580053381921,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__maxdebt4_972A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.560591288232734,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__maxdpdfrom6mto36m_3546853P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.3957628850349687,
+      "coverage_train": 0.31547748115955143,
+      "coverage_valid": 0.363885000538387,
+      "feature": "train_static_0__maxdpdinstlnum_3546846P",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.5882580053381921,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__maxdpdlast12m_727P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.5882580053381921,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__maxdpdlast24m_143P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.5882580053381921,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__maxdpdlast3m_392P",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.5882580053381921,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__maxdpdlast6m_474P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.5882580053381921,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__maxdpdlast9m_1059P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6582886748798671,
+      "coverage_train": 0.5882580053381921,
+      "coverage_valid": 0.618229783568429,
+      "feature": "train_static_0__maxdpdtolerance_374P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.47583170189905544,
+      "coverage_train": 0.4006787397373959,
+      "coverage_valid": 0.4344890707440508,
+      "feature": "train_static_0__maxinstallast24m_3658928A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.40715326253897316,
+      "coverage_train": 0.16479913141281136,
+      "coverage_valid": 0.37724776569398083,
+      "feature": "train_static_0__maxlnamtstart6m_4525199A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.4313512230813344,
+      "coverage_train": 0.3142037716776306,
+      "coverage_valid": 0.3943684720577151,
+      "feature": "train_static_0__maxoutstandbalancel12m_4187113A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.2985162187638013,
+      "coverage_train": 0.11904464769024134,
+      "coverage_valid": 0.27371594702271995,
+      "feature": "train_static_0__maxpmtlast3m_4525190A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.4828056714587989,
+      "coverage_train": 0.40725944206376813,
+      "coverage_valid": 0.4435662754387854,
+      "feature": "train_static_0__mindbddpdlast24m_3658935P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.4827858964978544,
+      "coverage_train": 0.1901048450879117,
+      "coverage_valid": 0.4435447399590826,
+      "feature": "train_static_0__mindbdtollast24m_4525191P",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__mobilephncnt_593L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.49887604692991555,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__monthsannuity_845L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__numactivecreds_622L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__numactivecredschannel_414L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__numactiverelcontr_750L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__numcontrs3months_479L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5802764539540034,
+      "coverage_train": 0.4985624944426332,
+      "coverage_valid": 0.5385377409281792,
+      "feature": "train_static_0__numincomingpmts_3546848L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5832558814029676,
+      "coverage_train": 0.5029553491898334,
+      "coverage_valid": 0.5416711532249381,
+      "feature": "train_static_0__numinstlallpaidearly3d_817L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899569565016775,
+      "coverage_train": 0.7939772963039805,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__numinstls_657L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5832558814029676,
+      "coverage_train": 0.5029553491898334,
+      "coverage_valid": 0.5416711532249381,
+      "feature": "train_static_0__numinstlsallpaid_934L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.4984899561806499,
+      "coverage_valid": 0.5386238828469904,
+      "feature": "train_static_0__numinstlswithdpd10_728L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.4312657068736633,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstlswithdpd5_4187116L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.4984899561806499,
+      "coverage_valid": 0.5386238828469904,
+      "feature": "train_static_0__numinstlswithoutdpd_562L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.25228963514034203,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstmatpaidtearly2d_4499204L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.25228963514034203,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstpaid_4499208L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5832558814029676,
+      "coverage_train": 0.5019881723633902,
+      "coverage_valid": 0.5416711532249381,
+      "feature": "train_static_0__numinstpaidearly3d_3546850L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.2563424180356639,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstpaidearly3dest_4493216L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.49887604692991555,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstpaidearly5d_1087L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.2563424180356639,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstpaidearly5dest_4493211L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.25228963514034203,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstpaidearly5dobd_4499205L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.49887604692991555,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstpaidearly_338L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.2563424180356639,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstpaidearlyest_4493214L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.36374662463087387,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstpaidlastcontr_4325080L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.49887604692991555,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstpaidlate1d_3546852L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.49700643172589587,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstregularpaid_973L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.2563424180356639,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstregularpaidest_4493210L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.49887604692991555,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinsttopaygr_769L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.2563424180356639,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinsttopaygrest_4493213L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.49887604692991555,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstunpaidmax_3546851L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.2563424180356639,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__numinstunpaidmaxest_4493212L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__numnotactivated_1143L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__numpmtchanneldd_318L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__numrejects9m_859L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6527516858154205,
+      "coverage_train": 0.583335543280383,
+      "coverage_valid": 0.6122321524711963,
+      "feature": "train_static_0__opencred_647L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5785362573908917,
+      "coverage_train": 0.49740656213877116,
+      "coverage_valid": 0.5369010444707656,
+      "feature": "train_static_0__pctinstlsallpaidearl3d_427L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5785296657372435,
+      "coverage_train": 0.49722872639971544,
+      "coverage_valid": 0.5369010444707656,
+      "feature": "train_static_0__pctinstlsallpaidlat10d_839L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5785362573908917,
+      "coverage_train": 0.49740656213877116,
+      "coverage_valid": 0.5369010444707656,
+      "feature": "train_static_0__pctinstlsallpaidlate1d_3546856L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5785296657372435,
+      "coverage_train": 0.4973371438020345,
+      "coverage_valid": 0.5369010444707656,
+      "feature": "train_static_0__pctinstlsallpaidlate4d_3546849L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5785296657372435,
+      "coverage_train": 0.49732310413842484,
+      "coverage_valid": 0.5369010444707656,
+      "feature": "train_static_0__pctinstlsallpaidlate6d_3546844L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7536764948222561,
+      "coverage_train": 0.7771640191501011,
+      "coverage_valid": 0.751157532034026,
+      "feature": "train_static_0__pmtnum_254L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5976388696632324,
+      "coverage_train": 0.7784205690431657,
+      "coverage_valid": 0.6213524281253365,
+      "feature": "train_static_0__posfpd10lastmonth_333P",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5930642620314158,
+      "coverage_train": 0.7469147839217772,
+      "coverage_valid": 0.6066329277484656,
+      "feature": "train_static_0__posfpd30lastmonth_3976960P",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5636852617216082,
+      "coverage_train": 0.7219803413510212,
+      "coverage_valid": 0.5886831054161732,
+      "feature": "train_static_0__posfstqpd30lastmonth_3976962P",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6419084155642126,
+      "coverage_train": 0.7060960219393143,
+      "coverage_valid": 0.6558630343490901,
+      "feature": "train_static_0__price_1097A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__sellerplacecnt_915L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__sellerplacescnt_216L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5844489707132828,
+      "coverage_train": 0.5025310393562971,
+      "coverage_valid": 0.5425110369333477,
+      "feature": "train_static_0__sumoutstandtotal_3546847A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5804412452952072,
+      "coverage_train": 0.2563424180356639,
+      "coverage_valid": 0.5386454183266932,
+      "feature": "train_static_0__sumoutstandtotalest_4493215A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939772963039805,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__totaldebt_9A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899569565016775,
+      "coverage_train": 0.7939772963039805,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__totalsettled_863A",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.25093107107780127,
+      "coverage_train": 0.09841960186633929,
+      "coverage_valid": 0.23160331646387422,
+      "feature": "train_static_0__totinstallast1m_4525188A",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.024224327156953863,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.017023796705071606,
+      "feature": "train_static_cb_0__contractssum_5085716L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028179319345844292,
+      "coverage_train": 0.01269185590313256,
+      "coverage_valid": 0.03342306449876171,
+      "feature": "train_static_cb_0__days120_123L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028179319345844292,
+      "coverage_train": 0.01269185590313256,
+      "coverage_valid": 0.03342306449876171,
+      "feature": "train_static_cb_0__days180_256L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028179319345844292,
+      "coverage_train": 0.01269185590313256,
+      "coverage_valid": 0.03342306449876171,
+      "feature": "train_static_cb_0__days30_165L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028179319345844292,
+      "coverage_train": 0.01269185590313256,
+      "coverage_valid": 0.03342306449876171,
+      "feature": "train_static_cb_0__days360_512L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028179319345844292,
+      "coverage_train": 0.01269185590313256,
+      "coverage_valid": 0.03342306449876171,
+      "feature": "train_static_cb_0__days90_310L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028179319345844292,
+      "coverage_train": 0.01269185590313256,
+      "coverage_valid": 0.03342306449876171,
+      "feature": "train_static_cb_0__firstquarter_103L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__for3years_128L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__for3years_504L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__for3years_584L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__formonth_118L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__formonth_206L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__formonth_535L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__forquarter_1017L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__forquarter_462L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__forquarter_634L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__fortoday_1092L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__forweek_1077L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__forweek_528L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__forweek_601L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__foryear_618L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__foryear_818L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.0004289897214062751,
+      "coverage_valid": 0.0005491547324216647,
+      "feature": "train_static_cb_0__foryear_850L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028179319345844292,
+      "coverage_train": 0.01269185590313256,
+      "coverage_valid": 0.03342306449876171,
+      "feature": "train_static_cb_0__fourthquarter_440L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028179319345844292,
+      "coverage_train": 0.01269185590313256,
+      "coverage_valid": 0.03342306449876171,
+      "feature": "train_static_cb_0__numberofqueries_373L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0003580114220463278,
+      "coverage_valid": 0.0,
+      "feature": "train_static_cb_0__pmtaverage_3A",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.0,
+      "feature": "train_static_cb_0__pmtaverage_4527227A",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.00305852729274193,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.0007860450091525788,
+      "feature": "train_static_cb_0__pmtaverage_4955615A",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.0,
+      "feature": "train_static_cb_0__pmtcount_4527229L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.00305852729274193,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.0007860450091525788,
+      "feature": "train_static_cb_0__pmtcount_4955617L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0003580114220463278,
+      "coverage_valid": 0.0,
+      "feature": "train_static_cb_0__pmtcount_693L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0011379927336941007,
+      "coverage_valid": 0.0,
+      "feature": "train_static_cb_0__pmtscount_423L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0011379927336941007,
+      "coverage_valid": 0.0,
+      "feature": "train_static_cb_0__pmtssum_45A",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.00045316914206735605,
+      "coverage_valid": 0.0005276192527188543,
+      "feature": "train_static_cb_0__riskassesment_940T",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028179319345844292,
+      "coverage_train": 0.01269185590313256,
+      "coverage_valid": 0.03342306449876171,
+      "feature": "train_static_cb_0__secondquarter_766L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028179319345844292,
+      "coverage_train": 0.01269185590313256,
+      "coverage_valid": 0.03342306449876171,
+      "feature": "train_static_cb_0__thirdquarter_1082L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__n_records",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999736333854073,
+      "coverage_train": 0.9997574258120775,
+      "coverage_valid": 0.9999892322601486,
+      "feature": "train_person_1__birth_259D__rel_mean",
+      "final_model_feature": true,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999736333854073,
+      "coverage_train": 0.9997574258120775,
+      "coverage_valid": 0.9999892322601486,
+      "feature": "train_person_1__birth_259D__rel_max",
+      "final_model_feature": true,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999736333854073,
+      "coverage_train": 0.9997574258120775,
+      "coverage_valid": 0.9999892322601486,
+      "feature": "train_person_1__birth_259D__rel_min",
+      "final_model_feature": true,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.0,
+      "feature": "train_person_1__birth_259D__rel_std",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999934083463519,
+      "coverage_train": 0.9999352615511332,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__persontype_792L__mean",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999934083463519,
+      "coverage_train": 0.9999352615511332,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__persontype_792L__max",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999934083463519,
+      "coverage_train": 0.9999352615511332,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__persontype_792L__min",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.4412452952072086,
+      "coverage_train": 0.38539578591696944,
+      "coverage_valid": 0.3212985894260795,
+      "feature": "train_person_1__persontype_792L__std",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999934083463519,
+      "coverage_train": 0.9999352615511332,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__personindex_1023L__mean",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999934083463519,
+      "coverage_train": 0.9999352615511332,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__personindex_1023L__max",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999934083463519,
+      "coverage_train": 0.9999352615511332,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__personindex_1023L__min",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.4412452952072086,
+      "coverage_train": 0.38539578591696944,
+      "coverage_valid": 0.3212985894260795,
+      "feature": "train_person_1__personindex_1023L__std",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__persontype_1072L__mean",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__persontype_1072L__max",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__persontype_1072L__min",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.46590467150494047,
+      "coverage_train": 0.5052235348441051,
+      "coverage_valid": 0.35218046731990954,
+      "feature": "train_person_1__persontype_1072L__std",
+      "final_model_feature": true,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999736333854073,
+      "coverage_train": 0.9997574258120775,
+      "coverage_valid": 0.9999892322601486,
+      "feature": "train_person_1__mainoccupationinc_384A__mean",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999736333854073,
+      "coverage_train": 0.9997574258120775,
+      "coverage_valid": 0.9999892322601486,
+      "feature": "train_person_1__mainoccupationinc_384A__max",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999736333854073,
+      "coverage_train": 0.9997574258120775,
+      "coverage_valid": 0.9999892322601486,
+      "feature": "train_person_1__mainoccupationinc_384A__min",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.0,
+      "feature": "train_person_1__mainoccupationinc_384A__std",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__incometype_1044T__nunique",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999736333854073,
+      "coverage_train": 0.9997574258120775,
+      "coverage_valid": 0.9999892322601486,
+      "feature": "train_person_1__incometype_1044T__maxcode",
+      "final_model_feature": true,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__sex_738L__nunique",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.9999736333854073,
+      "coverage_train": 0.9997574258120775,
+      "coverage_valid": 0.9999892322601486,
+      "feature": "train_person_1__sex_738L__maxcode",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__language1_981M__nunique",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__language1_981M__maxcode",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__education_927M__nunique",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__education_927M__maxcode",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__role_1084L__nunique",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__role_1084L__maxcode",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__type_25L__nunique",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 1.0,
+      "coverage_train": 1.0,
+      "coverage_valid": 1.0,
+      "feature": "train_person_1__type_25L__maxcode",
+      "final_model_feature": false,
+      "source": "train_person_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__n_records",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7521538228295332,
+      "coverage_train": 0.6500707443049665,
+      "coverage_valid": 0.729977387746312,
+      "feature": "train_applprev_1__maxdpdtolerance_577P__mean",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7521538228295332,
+      "coverage_train": 0.6500707443049665,
+      "coverage_valid": 0.729977387746312,
+      "feature": "train_applprev_1__maxdpdtolerance_577P__max",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7521538228295332,
+      "coverage_train": 0.6500707443049665,
+      "coverage_valid": 0.729977387746312,
+      "feature": "train_applprev_1__maxdpdtolerance_577P__min",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.566440572946535,
+      "coverage_train": 0.4392823547947791,
+      "coverage_valid": 0.5399052438893076,
+      "feature": "train_applprev_1__maxdpdtolerance_577P__std",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.6058059285332912,
+      "coverage_train": 0.6025940618462782,
+      "coverage_valid": 0.6096801981264133,
+      "feature": "train_applprev_1__employedfrom_700D__rel_mean",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.6058059285332912,
+      "coverage_train": 0.6025940618462782,
+      "coverage_valid": 0.6096801981264133,
+      "feature": "train_applprev_1__employedfrom_700D__rel_max",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.6058059285332912,
+      "coverage_train": 0.6025940618462782,
+      "coverage_valid": 0.6096801981264133,
+      "feature": "train_applprev_1__employedfrom_700D__rel_min",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.3601218137594178,
+      "coverage_train": 0.3424266154582936,
+      "coverage_valid": 0.3643587810918488,
+      "feature": "train_applprev_1__employedfrom_700D__rel_std",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.832314922844694,
+      "coverage_train": 0.7423573531178193,
+      "coverage_valid": 0.812727468504361,
+      "feature": "train_applprev_1__pmtnum_8L__mean",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.832314922844694,
+      "coverage_train": 0.7423573531178193,
+      "coverage_valid": 0.812727468504361,
+      "feature": "train_applprev_1__pmtnum_8L__max",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.832314922844694,
+      "coverage_train": 0.7423573531178193,
+      "coverage_valid": 0.812727468504361,
+      "feature": "train_applprev_1__pmtnum_8L__min",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.694714152939548,
+      "coverage_train": 0.5716381635496014,
+      "coverage_valid": 0.6677075481856358,
+      "feature": "train_applprev_1__pmtnum_8L__std",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.832314922844694,
+      "coverage_train": 0.7423573531178193,
+      "coverage_valid": 0.812727468504361,
+      "feature": "train_applprev_1__tenor_203L__mean",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.832314922844694,
+      "coverage_train": 0.7423573531178193,
+      "coverage_valid": 0.812727468504361,
+      "feature": "train_applprev_1__tenor_203L__max",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.832314922844694,
+      "coverage_train": 0.7423573531178193,
+      "coverage_valid": 0.812727468504361,
+      "feature": "train_applprev_1__tenor_203L__min",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.694714152939548,
+      "coverage_train": 0.5716381635496014,
+      "coverage_valid": 0.6677075481856358,
+      "feature": "train_applprev_1__tenor_203L__std",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8242862887012464,
+      "coverage_train": 0.7354287791264521,
+      "coverage_valid": 0.8052977280068914,
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_mean",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8242862887012464,
+      "coverage_train": 0.7354287791264521,
+      "coverage_valid": 0.8052977280068914,
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_max",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8242862887012464,
+      "coverage_train": 0.7354287791264521,
+      "coverage_valid": 0.8052977280068914,
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_min",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.6844443565557291,
+      "coverage_train": 0.5643929171457052,
+      "coverage_valid": 0.6584042209540217,
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_std",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548698133192728,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__creationdate_885D__rel_mean",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548698133192728,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__creationdate_885D__rel_max",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548698133192728,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__creationdate_885D__rel_min",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7147330050689816,
+      "coverage_train": 0.593203086854039,
+      "coverage_valid": 0.687164854097125,
+      "feature": "train_applprev_1__creationdate_885D__rel_std",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7497215026333657,
+      "coverage_train": 0.6477011610801805,
+      "coverage_valid": 0.7278669107354366,
+      "feature": "train_applprev_1__dateactivated_425D__rel_mean",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7497215026333657,
+      "coverage_train": 0.6477011610801805,
+      "coverage_valid": 0.7278669107354366,
+      "feature": "train_applprev_1__dateactivated_425D__rel_max",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7497215026333657,
+      "coverage_train": 0.6477011610801805,
+      "coverage_valid": 0.7278669107354366,
+      "feature": "train_applprev_1__dateactivated_425D__rel_min",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.5622285062653668,
+      "coverage_train": 0.4344722100458473,
+      "coverage_valid": 0.5359211801442877,
+      "feature": "train_applprev_1__dateactivated_425D__rel_std",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7547773009814972,
+      "coverage_train": 0.6535861200765629,
+      "coverage_valid": 0.7329600516851513,
+      "feature": "train_applprev_1__approvaldate_319D__rel_mean",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7547773009814972,
+      "coverage_train": 0.6535861200765629,
+      "coverage_valid": 0.7329600516851513,
+      "feature": "train_applprev_1__approvaldate_319D__rel_max",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7547773009814972,
+      "coverage_train": 0.6535861200765629,
+      "coverage_valid": 0.7329600516851513,
+      "feature": "train_applprev_1__approvaldate_319D__rel_min",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.5702439571015181,
+      "coverage_train": 0.44289132832377337,
+      "coverage_valid": 0.5437816302358135,
+      "feature": "train_applprev_1__approvaldate_319D__rel_std",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.6957094926404187,
+      "coverage_train": 0.5704089130024445,
+      "coverage_valid": 0.667395283729945,
+      "feature": "train_applprev_1__dtlastpmtallstes_3545839D__rel_mean",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.6957094926404187,
+      "coverage_train": 0.5704089130024445,
+      "coverage_valid": 0.667395283729945,
+      "feature": "train_applprev_1__dtlastpmtallstes_3545839D__rel_max",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.6957094926404187,
+      "coverage_train": 0.5704089130024445,
+      "coverage_valid": 0.667395283729945,
+      "feature": "train_applprev_1__dtlastpmtallstes_3545839D__rel_min",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.4805579175647795,
+      "coverage_train": 0.3338530608806613,
+      "coverage_valid": 0.44774415850113064,
+      "feature": "train_applprev_1__dtlastpmtallstes_3545839D__rel_std",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8404687984074565,
+      "coverage_train": 0.7534557072012554,
+      "coverage_valid": 0.8207386669538064,
+      "feature": "train_applprev_1__credamount_590A__mean",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8404687984074565,
+      "coverage_train": 0.7534557072012554,
+      "coverage_valid": 0.8207386669538064,
+      "feature": "train_applprev_1__credamount_590A__max",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8404687984074565,
+      "coverage_train": 0.7534557072012554,
+      "coverage_valid": 0.8207386669538064,
+      "feature": "train_applprev_1__credamount_590A__min",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7118656357320361,
+      "coverage_train": 0.5894193975112356,
+      "coverage_valid": 0.6837730160439324,
+      "feature": "train_applprev_1__credamount_590A__std",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8394932336675301,
+      "coverage_train": 0.7538293182495347,
+      "coverage_valid": 0.8198341768062883,
+      "feature": "train_applprev_1__mainoccupationinc_437A__mean",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8394932336675301,
+      "coverage_train": 0.7538293182495347,
+      "coverage_valid": 0.8198341768062883,
+      "feature": "train_applprev_1__mainoccupationinc_437A__max",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8394932336675301,
+      "coverage_train": 0.7538293182495347,
+      "coverage_valid": 0.8198341768062883,
+      "feature": "train_applprev_1__mainoccupationinc_437A__min",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7083456926839237,
+      "coverage_train": 0.5906486480583926,
+      "coverage_valid": 0.6819101970496393,
+      "feature": "train_applprev_1__mainoccupationinc_437A__std",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8404687984074565,
+      "coverage_train": 0.7534557072012554,
+      "coverage_valid": 0.8207386669538064,
+      "feature": "train_applprev_1__downpmt_134A__mean",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8404687984074565,
+      "coverage_train": 0.7534557072012554,
+      "coverage_valid": 0.8207386669538064,
+      "feature": "train_applprev_1__downpmt_134A__max",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8404687984074565,
+      "coverage_train": 0.7534557072012554,
+      "coverage_valid": 0.8207386669538064,
+      "feature": "train_applprev_1__downpmt_134A__min",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7118656357320361,
+      "coverage_train": 0.5894193975112356,
+      "coverage_valid": 0.6837730160439324,
+      "feature": "train_applprev_1__downpmt_134A__std",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8405149399829935,
+      "coverage_train": 0.7535040660425776,
+      "coverage_valid": 0.8207386669538064,
+      "feature": "train_applprev_1__credacc_credlmt_575A__mean",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8405149399829935,
+      "coverage_train": 0.7535040660425776,
+      "coverage_valid": 0.8207386669538064,
+      "feature": "train_applprev_1__credacc_credlmt_575A__max",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8405149399829935,
+      "coverage_train": 0.7535040660425776,
+      "coverage_valid": 0.8207386669538064,
+      "feature": "train_applprev_1__credacc_credlmt_575A__min",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7120633853414806,
+      "coverage_train": 0.5897103305404803,
+      "coverage_valid": 0.6840099063206633,
+      "feature": "train_applprev_1__credacc_credlmt_575A__std",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7706368196589478,
+      "coverage_train": 0.674527838312994,
+      "coverage_valid": 0.7501022935285884,
+      "feature": "train_applprev_1__currdebt_94A__mean",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7706368196589478,
+      "coverage_train": 0.674527838312994,
+      "coverage_valid": 0.7501022935285884,
+      "feature": "train_applprev_1__currdebt_94A__max",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.7706368196589478,
+      "coverage_train": 0.674527838312994,
+      "coverage_valid": 0.7501022935285884,
+      "feature": "train_applprev_1__currdebt_94A__min",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.5990956251194737,
+      "coverage_train": 0.48032419143237326,
+      "coverage_valid": 0.5760417788306235,
+      "feature": "train_applprev_1__currdebt_94A__std",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.770162220596281,
+      "coverage_train": 0.6739038532636759,
+      "coverage_valid": 0.7496608161946807,
+      "feature": "train_applprev_1__outstandingdebt_522A__mean",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.770162220596281,
+      "coverage_train": 0.6739038532636759,
+      "coverage_valid": 0.7496608161946807,
+      "feature": "train_applprev_1__outstandingdebt_522A__max",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.770162220596281,
+      "coverage_train": 0.6739038532636759,
+      "coverage_valid": 0.7496608161946807,
+      "feature": "train_applprev_1__outstandingdebt_522A__min",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.5984891929838438,
+      "coverage_train": 0.4794740118026772,
+      "coverage_valid": 0.5754818563583504,
+      "feature": "train_applprev_1__outstandingdebt_522A__std",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.6506028067261234,
+      "coverage_train": 0.6305181727845801,
+      "coverage_valid": 0.6467642941746528,
+      "feature": "train_applprev_1__childnum_21L__mean",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.6506028067261234,
+      "coverage_train": 0.6305181727845801,
+      "coverage_valid": 0.6467642941746528,
+      "feature": "train_applprev_1__childnum_21L__max",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.6506028067261234,
+      "coverage_train": 0.6305181727845801,
+      "coverage_valid": 0.6467642941746528,
+      "feature": "train_applprev_1__childnum_21L__min",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.4098228822664742,
+      "coverage_train": 0.37785024670808887,
+      "coverage_valid": 0.40885108215785504,
+      "feature": "train_applprev_1__childnum_21L__std",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__status_219L__nunique",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548698133192728,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__status_219L__maxcode",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__cancelreason_3545846M__nunique",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__cancelreason_3545846M__maxcode",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__rejectreason_755M__nunique",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__rejectreason_755M__maxcode",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__rejectreasonclient_4145042M__nunique",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__rejectreasonclient_4145042M__maxcode",
+      "final_model_feature": false,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__postype_4733339M__nunique",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__postype_4733339M__maxcode",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__education_1138M__nunique",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.8417673541761421,
+      "coverage_train": 0.7548752731884544,
+      "coverage_valid": 0.8219338860773123,
+      "feature": "train_applprev_1__education_1138M__maxcode",
+      "final_model_feature": true,
+      "source": "train_applprev_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__n_records",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.36739225728151553,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__dateofcredstart_181D__rel_mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.36739225728151553,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__dateofcredstart_181D__rel_max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.36739225728151553,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__dateofcredstart_181D__rel_min",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.5175305028772568,
+      "coverage_train": 0.2860082272428753,
+      "coverage_valid": 0.5401529019058899,
+      "feature": "train_credit_bureau_a_1__dateofcredstart_181D__rel_std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.61643167421411,
+      "coverage_train": 0.3672596604585354,
+      "coverage_valid": 0.6419941854204803,
+      "feature": "train_credit_bureau_a_1__dateofrealrepmt_138D__rel_mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.61643167421411,
+      "coverage_train": 0.3672596604585354,
+      "coverage_valid": 0.6419941854204803,
+      "feature": "train_credit_bureau_a_1__dateofrealrepmt_138D__rel_max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.61643167421411,
+      "coverage_train": 0.3672596604585354,
+      "coverage_valid": 0.6419941854204803,
+      "feature": "train_credit_bureau_a_1__dateofrealrepmt_138D__rel_min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.51723387846309,
+      "coverage_train": 0.2856268163814795,
+      "coverage_valid": 0.5399267793690105,
+      "feature": "train_credit_bureau_a_1__dateofrealrepmt_138D__rel_std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.3673914773002039,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__lastupdate_388D__rel_mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.3673914773002039,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__lastupdate_388D__rel_max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.3673914773002039,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__lastupdate_388D__rel_min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.5175305028772568,
+      "coverage_train": 0.28600744726156363,
+      "coverage_valid": 0.5401529019058899,
+      "feature": "train_credit_bureau_a_1__lastupdate_388D__rel_std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.36739225728151553,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.36739225728151553,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.36739225728151553,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__min",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.5175305028772568,
+      "coverage_train": 0.2860082272428753,
+      "coverage_valid": 0.5401529019058899,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.36739225728151553,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.36739225728151553,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.36739225728151553,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__min",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.5175305028772568,
+      "coverage_train": 0.2860082272428753,
+      "coverage_valid": 0.5401529019058899,
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.3673914773002039,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__dateofcredend_353D__rel_mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.3673914773002039,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__dateofcredend_353D__rel_max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164975907505916,
+      "coverage_train": 0.3673914773002039,
+      "coverage_valid": 0.6420372563798858,
+      "feature": "train_credit_bureau_a_1__dateofcredend_353D__rel_min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.5175305028772568,
+      "coverage_train": 0.2860082272428753,
+      "coverage_valid": 0.5401529019058899,
+      "feature": "train_credit_bureau_a_1__dateofcredend_353D__rel_std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9633306307553376,
+      "coverage_train": 0.8962765252144559,
+      "coverage_valid": 0.9601055238505438,
+      "feature": "train_credit_bureau_a_1__refreshdate_3813885D__rel_mean",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9633306307553376,
+      "coverage_train": 0.8962765252144559,
+      "coverage_valid": 0.9601055238505438,
+      "feature": "train_credit_bureau_a_1__refreshdate_3813885D__rel_max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9633306307553376,
+      "coverage_train": 0.8962765252144559,
+      "coverage_valid": 0.9601055238505438,
+      "feature": "train_credit_bureau_a_1__refreshdate_3813885D__rel_min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9614586011192627,
+      "coverage_train": 0.889227834101095,
+      "coverage_valid": 0.9577581565629374,
+      "feature": "train_credit_bureau_a_1__refreshdate_3813885D__rel_std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6163987159458694,
+      "coverage_train": 0.36732205896346726,
+      "coverage_valid": 0.6419726499407774,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstls_834L__mean",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6163987159458694,
+      "coverage_train": 0.36732205896346726,
+      "coverage_valid": 0.6419726499407774,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstls_834L__max",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6163987159458694,
+      "coverage_train": 0.36732205896346726,
+      "coverage_valid": 0.6419726499407774,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstls_834L__min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.5173591198824049,
+      "coverage_train": 0.2859060496910494,
+      "coverage_valid": 0.5400452245073759,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstls_834L__std",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164053075995175,
+      "coverage_train": 0.3673243989074022,
+      "coverage_valid": 0.6419726499407774,
+      "feature": "train_credit_bureau_a_1__overdueamount_31A__mean",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164053075995175,
+      "coverage_train": 0.3673243989074022,
+      "coverage_valid": 0.6419726499407774,
+      "feature": "train_credit_bureau_a_1__overdueamount_31A__max",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.6164053075995175,
+      "coverage_train": 0.3673243989074022,
+      "coverage_valid": 0.6419726499407774,
+      "feature": "train_credit_bureau_a_1__overdueamount_31A__min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.5173591198824049,
+      "coverage_train": 0.2859122895415426,
+      "coverage_valid": 0.5400452245073759,
+      "feature": "train_credit_bureau_a_1__overdueamount_31A__std",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__financialinstitution_382M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__financialinstitution_382M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__classificationofcontr_400M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__classificationofcontr_400M__maxcode",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__purposeofcred_874M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__purposeofcred_874M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__contractst_964M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__contractst_964M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__description_351M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__description_351M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__financialinstitution_591M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.9637195383205784,
+      "coverage_train": 0.8976165331078667,
+      "coverage_valid": 0.960773123721331,
+      "feature": "train_credit_bureau_a_1__financialinstitution_591M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_1"
+    },
+    {
+      "coverage_oot": 0.005213998035687213,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.0052761925271885435,
+      "feature": "train_credit_bureau_b_1__n_records",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__totalamount_881A__mean",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__totalamount_881A__max",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__totalamount_881A__min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.00013842472661116496,
+      "coverage_train": 4.757886001051415e-05,
+      "coverage_valid": 8.614191881124151e-05,
+      "feature": "train_credit_bureau_b_1__totalamount_881A__std",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__credquantity_984L__mean",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__credquantity_984L__max",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__credquantity_984L__min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.00013842472661116496,
+      "coverage_train": 4.757886001051415e-05,
+      "coverage_valid": 8.614191881124151e-05,
+      "feature": "train_credit_bureau_b_1__credquantity_984L__std",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__installmentamount_644A__mean",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__installmentamount_644A__max",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__installmentamount_644A__min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.00013842472661116496,
+      "coverage_train": 4.757886001051415e-05,
+      "coverage_valid": 8.614191881124151e-05,
+      "feature": "train_credit_bureau_b_1__installmentamount_644A__std",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__dpd_733P__mean",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__dpd_733P__max",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004475732827094333,
+      "coverage_train": 0.002390642720200424,
+      "coverage_valid": 0.004511682997738775,
+      "feature": "train_credit_bureau_b_1__dpd_733P__min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.00013842472661116496,
+      "coverage_train": 4.757886001051415e-05,
+      "coverage_valid": 8.614191881124151e-05,
+      "feature": "train_credit_bureau_b_1__dpd_733P__std",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.005213998035687213,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.0052761925271885435,
+      "feature": "train_credit_bureau_b_1__credor_3940957M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.004917373621520431,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.005200818348228707,
+      "feature": "train_credit_bureau_b_1__credor_3940957M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.005213998035687213,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.0052761925271885435,
+      "feature": "train_credit_bureau_b_1__contractst_516M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.005213998035687213,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.0052761925271885435,
+      "feature": "train_credit_bureau_b_1__contractst_516M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.005213998035687213,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.0052761925271885435,
+      "feature": "train_credit_bureau_b_1__classificationofcontr_1114M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.005213998035687213,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.0052761925271885435,
+      "feature": "train_credit_bureau_b_1__classificationofcontr_1114M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.005213998035687213,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.0052761925271885435,
+      "feature": "train_credit_bureau_b_1__purposeofcred_722M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.005213998035687213,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.0052761925271885435,
+      "feature": "train_credit_bureau_b_1__purposeofcred_722M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.005213998035687213,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.0052761925271885435,
+      "feature": "train_credit_bureau_b_1__contracttype_653M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.005213998035687213,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.0052761925271885435,
+      "feature": "train_credit_bureau_b_1__contracttype_653M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.005213998035687213,
+      "coverage_train": 0.0026363368333694724,
+      "coverage_valid": 0.0052761925271885435,
+      "feature": "train_credit_bureau_b_1__periodicityofpmts_997M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.005141489845557555,
+      "coverage_train": 0.0024959401972728733,
+      "coverage_valid": 0.005254657047485733,
+      "feature": "train_credit_bureau_b_1__periodicityofpmts_997M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_1"
+    },
+    {
+      "coverage_oot": 0.08619905475686686,
+      "coverage_train": 0.0710968565193178,
+      "coverage_valid": 0.08122106169914935,
+      "feature": "train_debitcard_1__n_records",
+      "final_model_feature": false,
+      "source": "train_debitcard_1"
+    },
+    {
+      "coverage_oot": 0.0809784650675315,
+      "coverage_train": 0.06686233797838204,
+      "coverage_valid": 0.07622483040809734,
+      "feature": "train_debitcard_1__openingdate_857D__rel_mean",
+      "final_model_feature": false,
+      "source": "train_debitcard_1"
+    },
+    {
+      "coverage_oot": 0.0809784650675315,
+      "coverage_train": 0.06686233797838204,
+      "coverage_valid": 0.07622483040809734,
+      "feature": "train_debitcard_1__openingdate_857D__rel_max",
+      "final_model_feature": false,
+      "source": "train_debitcard_1"
+    },
+    {
+      "coverage_oot": 0.0809784650675315,
+      "coverage_train": 0.06686233797838204,
+      "coverage_valid": 0.07622483040809734,
+      "feature": "train_debitcard_1__openingdate_857D__rel_min",
+      "final_model_feature": false,
+      "source": "train_debitcard_1"
+    },
+    {
+      "coverage_oot": 0.019722227715266927,
+      "coverage_train": 0.01666742064860126,
+      "coverage_valid": 0.018768170560999248,
+      "feature": "train_debitcard_1__openingdate_857D__rel_std",
+      "final_model_feature": false,
+      "source": "train_debitcard_1"
+    },
+    {
+      "coverage_oot": 0.0809916483748278,
+      "coverage_train": 0.06653786575273657,
+      "coverage_valid": 0.07639711424571982,
+      "feature": "train_deposit_1__n_records",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.0809916483748278,
+      "coverage_train": 0.06653786575273657,
+      "coverage_valid": 0.07639711424571982,
+      "feature": "train_deposit_1__openingdate_313D__rel_mean",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.0809916483748278,
+      "coverage_train": 0.06653786575273657,
+      "coverage_valid": 0.07639711424571982,
+      "feature": "train_deposit_1__openingdate_313D__rel_max",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.0809916483748278,
+      "coverage_train": 0.06653786575273657,
+      "coverage_valid": 0.07639711424571982,
+      "feature": "train_deposit_1__openingdate_313D__rel_min",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.019577211335007613,
+      "coverage_train": 0.016585522610878242,
+      "coverage_valid": 0.018703564121890816,
+      "feature": "train_deposit_1__openingdate_313D__rel_std",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.0809916483748278,
+      "coverage_train": 0.06653786575273657,
+      "coverage_valid": 0.07639711424571982,
+      "feature": "train_deposit_1__amount_416A__mean",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.0809916483748278,
+      "coverage_train": 0.06653786575273657,
+      "coverage_valid": 0.07639711424571982,
+      "feature": "train_deposit_1__amount_416A__max",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.0809916483748278,
+      "coverage_train": 0.06653786575273657,
+      "coverage_valid": 0.07639711424571982,
+      "feature": "train_deposit_1__amount_416A__min",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.019577211335007613,
+      "coverage_train": 0.016585522610878242,
+      "coverage_valid": 0.018703564121890816,
+      "feature": "train_deposit_1__amount_416A__std",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.0472489733499443,
+      "coverage_train": 0.03745158266007947,
+      "coverage_valid": 0.0427263917303758,
+      "feature": "train_deposit_1__contractenddate_991D__rel_mean",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.0472489733499443,
+      "coverage_train": 0.03745158266007947,
+      "coverage_valid": 0.0427263917303758,
+      "feature": "train_deposit_1__contractenddate_991D__rel_max",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.0472489733499443,
+      "coverage_train": 0.03745158266007947,
+      "coverage_valid": 0.0427263917303758,
+      "feature": "train_deposit_1__contractenddate_991D__rel_min",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.004080233608205291,
+      "coverage_train": 0.0032478421817013266,
+      "coverage_valid": 0.0036502638096263594,
+      "feature": "train_deposit_1__contractenddate_991D__rel_std",
+      "final_model_feature": false,
+      "source": "train_deposit_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__n_records",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdepositoutgoing_4809442A__mean",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdepositoutgoing_4809442A__max",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdepositoutgoing_4809442A__min",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.0,
+      "feature": "train_other_1__amtdepositoutgoing_4809442A__std",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdebitoutgoing_4809440A__mean",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdebitoutgoing_4809440A__max",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdebitoutgoing_4809440A__min",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.0,
+      "feature": "train_other_1__amtdebitoutgoing_4809440A__std",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdebitincoming_4809443A__mean",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdebitincoming_4809443A__max",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdebitincoming_4809443A__min",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.0,
+      "feature": "train_other_1__amtdebitincoming_4809443A__std",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdepositbalance_4809441A__mean",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdepositbalance_4809441A__max",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdepositbalance_4809441A__min",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.0,
+      "feature": "train_other_1__amtdepositbalance_4809441A__std",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdepositincoming_4809444A__mean",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdepositincoming_4809444A__max",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.13090364979862498,
+      "coverage_train": 0.01541009077422505,
+      "coverage_valid": 0.12375363411219985,
+      "feature": "train_other_1__amtdepositincoming_4809444A__min",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.0,
+      "coverage_valid": 0.0,
+      "feature": "train_other_1__amtdepositincoming_4809444A__std",
+      "final_model_feature": false,
+      "source": "train_other_1"
+    },
+    {
+      "coverage_oot": 0.6518354459583275,
+      "coverage_train": 0.0007199227506508944,
+      "coverage_valid": 0.5425648756326047,
+      "feature": "train_tax_registry_b_1__n_records",
+      "final_model_feature": false,
+      "source": "train_tax_registry_b_1"
+    },
+    {
+      "coverage_oot": 0.6518354459583275,
+      "coverage_train": 0.0007199227506508944,
+      "coverage_valid": 0.5425648756326047,
+      "feature": "train_tax_registry_b_1__amount_4917619A__mean",
+      "final_model_feature": false,
+      "source": "train_tax_registry_b_1"
+    },
+    {
+      "coverage_oot": 0.6518354459583275,
+      "coverage_train": 0.0007199227506508944,
+      "coverage_valid": 0.5425648756326047,
+      "feature": "train_tax_registry_b_1__amount_4917619A__max",
+      "final_model_feature": false,
+      "source": "train_tax_registry_b_1"
+    },
+    {
+      "coverage_oot": 0.6518354459583275,
+      "coverage_train": 0.0007199227506508944,
+      "coverage_valid": 0.5425648756326047,
+      "feature": "train_tax_registry_b_1__amount_4917619A__min",
+      "final_model_feature": false,
+      "source": "train_tax_registry_b_1"
+    },
+    {
+      "coverage_oot": 0.6423698313195831,
+      "coverage_train": 0.0006957433299898134,
+      "coverage_valid": 0.5325185743512437,
+      "feature": "train_tax_registry_b_1__amount_4917619A__std",
+      "final_model_feature": false,
+      "source": "train_tax_registry_b_1"
+    },
+    {
+      "coverage_oot": 0.6518354459583275,
+      "coverage_train": 0.0007199227506508944,
+      "coverage_valid": 0.5425648756326047,
+      "feature": "train_tax_registry_b_1__deductiondate_4917603D__rel_mean",
+      "final_model_feature": false,
+      "source": "train_tax_registry_b_1"
+    },
+    {
+      "coverage_oot": 0.6518354459583275,
+      "coverage_train": 0.0007199227506508944,
+      "coverage_valid": 0.5425648756326047,
+      "feature": "train_tax_registry_b_1__deductiondate_4917603D__rel_max",
+      "final_model_feature": false,
+      "source": "train_tax_registry_b_1"
+    },
+    {
+      "coverage_oot": 0.6518354459583275,
+      "coverage_train": 0.0007199227506508944,
+      "coverage_valid": 0.5425648756326047,
+      "feature": "train_tax_registry_b_1__deductiondate_4917603D__rel_min",
+      "final_model_feature": false,
+      "source": "train_tax_registry_b_1"
+    },
+    {
+      "coverage_oot": 0.6423698313195831,
+      "coverage_train": 0.0006957433299898134,
+      "coverage_valid": 0.5325185743512437,
+      "feature": "train_tax_registry_b_1__deductiondate_4917603D__rel_std",
+      "final_model_feature": false,
+      "source": "train_tax_registry_b_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.31434650825766214,
+      "coverage_valid": 0.0,
+      "feature": "train_tax_registry_c_1__n_records",
+      "final_model_feature": false,
+      "source": "train_tax_registry_c_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.31434650825766214,
+      "coverage_valid": 0.0,
+      "feature": "train_tax_registry_c_1__pmtamount_36A__mean",
+      "final_model_feature": false,
+      "source": "train_tax_registry_c_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.31434650825766214,
+      "coverage_valid": 0.0,
+      "feature": "train_tax_registry_c_1__pmtamount_36A__max",
+      "final_model_feature": false,
+      "source": "train_tax_registry_c_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.31434650825766214,
+      "coverage_valid": 0.0,
+      "feature": "train_tax_registry_c_1__pmtamount_36A__min",
+      "final_model_feature": false,
+      "source": "train_tax_registry_c_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.30131302054002784,
+      "coverage_valid": 0.0,
+      "feature": "train_tax_registry_c_1__pmtamount_36A__std",
+      "final_model_feature": false,
+      "source": "train_tax_registry_c_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.31434650825766214,
+      "coverage_valid": 0.0,
+      "feature": "train_tax_registry_c_1__processingdate_168D__rel_mean",
+      "final_model_feature": false,
+      "source": "train_tax_registry_c_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.31434650825766214,
+      "coverage_valid": 0.0,
+      "feature": "train_tax_registry_c_1__processingdate_168D__rel_max",
+      "final_model_feature": false,
+      "source": "train_tax_registry_c_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.31434650825766214,
+      "coverage_valid": 0.0,
+      "feature": "train_tax_registry_c_1__processingdate_168D__rel_min",
+      "final_model_feature": false,
+      "source": "train_tax_registry_c_1"
+    },
+    {
+      "coverage_oot": 0.0,
+      "coverage_train": 0.30131302054002784,
+      "coverage_valid": 0.0,
+      "feature": "train_tax_registry_c_1__processingdate_168D__rel_std",
+      "final_model_feature": false,
+      "source": "train_tax_registry_c_1"
+    },
+    {
+      "coverage_oot": 0.8627881376600948,
+      "coverage_train": 0.7893566870137791,
+      "coverage_valid": 0.8464627974588134,
+      "feature": "train_applprev_2__n_records",
+      "final_model_feature": true,
+      "source": "train_applprev_2"
+    },
+    {
+      "coverage_oot": 0.8627881376600948,
+      "coverage_train": 0.7893566870137791,
+      "coverage_valid": 0.8464627974588134,
+      "feature": "train_applprev_2__conts_type_509L__nunique",
+      "final_model_feature": true,
+      "source": "train_applprev_2"
+    },
+    {
+      "coverage_oot": 0.862405821748502,
+      "coverage_train": 0.7887709210487317,
+      "coverage_valid": 0.8460751588241628,
+      "feature": "train_applprev_2__conts_type_509L__maxcode",
+      "final_model_feature": true,
+      "source": "train_applprev_2"
+    },
+    {
+      "coverage_oot": 0.8627881376600948,
+      "coverage_train": 0.7893566870137791,
+      "coverage_valid": 0.8464627974588134,
+      "feature": "train_applprev_2__cacccardblochreas_147M__nunique",
+      "final_model_feature": false,
+      "source": "train_applprev_2"
+    },
+    {
+      "coverage_oot": 0.8502244458067195,
+      "coverage_train": 0.7726331077107392,
+      "coverage_valid": 0.8343813933455367,
+      "feature": "train_applprev_2__cacccardblochreas_147M__maxcode",
+      "final_model_feature": false,
+      "source": "train_applprev_2"
+    },
+    {
+      "coverage_oot": 0.6500820660879195,
+      "coverage_train": 0.9790107029035584,
+      "coverage_valid": 0.8755356950576074,
+      "feature": "train_person_2__n_records",
+      "final_model_feature": false,
+      "source": "train_person_2"
+    },
+    {
+      "coverage_oot": 0.6500820660879195,
+      "coverage_train": 0.9790107029035584,
+      "coverage_valid": 0.8755356950576074,
+      "feature": "train_person_2__conts_role_79M__nunique",
+      "final_model_feature": false,
+      "source": "train_person_2"
+    },
+    {
+      "coverage_oot": 0.6500820660879195,
+      "coverage_train": 0.9790107029035584,
+      "coverage_valid": 0.8755356950576074,
+      "feature": "train_person_2__conts_role_79M__maxcode",
+      "final_model_feature": false,
+      "source": "train_person_2"
+    },
+    {
+      "coverage_oot": 0.6500820660879195,
+      "coverage_train": 0.9790107029035584,
+      "coverage_valid": 0.8755356950576074,
+      "feature": "train_person_2__empls_economicalst_849M__nunique",
+      "final_model_feature": false,
+      "source": "train_person_2"
+    },
+    {
+      "coverage_oot": 0.6500820660879195,
+      "coverage_train": 0.9790107029035584,
+      "coverage_valid": 0.8755356950576074,
+      "feature": "train_person_2__empls_economicalst_849M__maxcode",
+      "final_model_feature": false,
+      "source": "train_person_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__n_records",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9112038337057617,
+      "coverage_train": 0.6164200105765466,
+      "coverage_valid": 0.9002153547970281,
+      "feature": "train_credit_bureau_a_2__pmts_overdue_1152A__mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9112038337057617,
+      "coverage_train": 0.6164200105765466,
+      "coverage_valid": 0.9002153547970281,
+      "feature": "train_credit_bureau_a_2__pmts_overdue_1152A__max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9112038337057617,
+      "coverage_train": 0.6164200105765466,
+      "coverage_valid": 0.9002153547970281,
+      "feature": "train_credit_bureau_a_2__pmts_overdue_1152A__min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9087451468950015,
+      "coverage_train": 0.6135886784152652,
+      "coverage_valid": 0.8973834392161085,
+      "feature": "train_credit_bureau_a_2__pmts_overdue_1152A__std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9111774670911692,
+      "coverage_train": 0.616363851922108,
+      "coverage_valid": 0.9001830515774739,
+      "feature": "train_credit_bureau_a_2__pmts_dpd_303P__mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9111774670911692,
+      "coverage_train": 0.616363851922108,
+      "coverage_valid": 0.9001830515774739,
+      "feature": "train_credit_bureau_a_2__pmts_dpd_303P__max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9111774670911692,
+      "coverage_train": 0.616363851922108,
+      "coverage_valid": 0.9001830515774739,
+      "feature": "train_credit_bureau_a_2__pmts_dpd_303P__min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9087253719340571,
+      "coverage_train": 0.6135239399663984,
+      "coverage_valid": 0.8973080650371487,
+      "feature": "train_credit_bureau_a_2__pmts_dpd_303P__std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9121134819092066,
+      "coverage_train": 0.6177022998528955,
+      "coverage_valid": 0.9016151609777108,
+      "feature": "train_credit_bureau_a_2__pmts_year_507T__rel_mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9121134819092066,
+      "coverage_train": 0.6177022998528955,
+      "coverage_valid": 0.9016151609777108,
+      "feature": "train_credit_bureau_a_2__pmts_year_507T__rel_max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9121134819092066,
+      "coverage_train": 0.6177022998528955,
+      "coverage_valid": 0.9016151609777108,
+      "feature": "train_credit_bureau_a_2__pmts_year_507T__rel_min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.9121134819092066,
+      "coverage_train": 0.61765238104895,
+      "coverage_valid": 0.9016151609777108,
+      "feature": "train_credit_bureau_a_2__pmts_year_507T__rel_std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.8385835854640854,
+      "coverage_train": 0.8254440823597866,
+      "coverage_valid": 0.841854204802412,
+      "feature": "train_credit_bureau_a_2__pmts_year_1139T__rel_mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.8385835854640854,
+      "coverage_train": 0.8254440823597866,
+      "coverage_valid": 0.841854204802412,
+      "feature": "train_credit_bureau_a_2__pmts_year_1139T__rel_max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.8385835854640854,
+      "coverage_train": 0.8254440823597866,
+      "coverage_valid": 0.841854204802412,
+      "feature": "train_credit_bureau_a_2__pmts_year_1139T__rel_min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.8385835854640854,
+      "coverage_train": 0.8244035872900485,
+      "coverage_valid": 0.841854204802412,
+      "feature": "train_credit_bureau_a_2__pmts_year_1139T__rel_std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__collaterals_typeofguarante_359M__nunique",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__collaterals_typeofguarante_359M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__subjectroles_name_541M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__subjectroles_name_541M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__collater_typofvalofguarant_407M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__collater_typofvalofguarant_407M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__collaterals_typeofguarante_669M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__collaterals_typeofguarante_669M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__subjectroles_name_838M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__subjectroles_name_838M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__collater_typofvalofguarant_298M__nunique",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.963436097213708,
+      "coverage_train": 0.8967850730296502,
+      "coverage_valid": 0.9605685366641542,
+      "feature": "train_credit_bureau_a_2__collater_typofvalofguarant_298M__maxcode",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_a_2"
+    },
+    {
+      "coverage_oot": 0.0360958953772733,
+      "coverage_train": 0.02139488737849841,
+      "coverage_valid": 0.037827070097986436,
+      "feature": "train_credit_bureau_b_2__n_records",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.03608271206997699,
+      "coverage_train": 0.02137148793914898,
+      "coverage_valid": 0.037827070097986436,
+      "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.03608271206997699,
+      "coverage_train": 0.02137148793914898,
+      "coverage_valid": 0.037827070097986436,
+      "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.03608271206997699,
+      "coverage_train": 0.02137148793914898,
+      "coverage_valid": 0.037827070097986436,
+      "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.03572676277297686,
+      "coverage_train": 0.021082114872527653,
+      "coverage_valid": 0.03757941208140411,
+      "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.03608271206997699,
+      "coverage_train": 0.02137148793914898,
+      "coverage_valid": 0.037827070097986436,
+      "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__mean",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.03608271206997699,
+      "coverage_train": 0.02137148793914898,
+      "coverage_valid": 0.037827070097986436,
+      "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__max",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.03608271206997699,
+      "coverage_train": 0.02137148793914898,
+      "coverage_valid": 0.037827070097986436,
+      "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.03572676277297686,
+      "coverage_train": 0.021082114872527653,
+      "coverage_valid": 0.03757941208140411,
+      "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__std",
+      "final_model_feature": true,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.0360958953772733,
+      "coverage_train": 0.02139488737849841,
+      "coverage_valid": 0.037827070097986436,
+      "feature": "train_credit_bureau_b_2__pmts_date_1107D__rel_mean",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.0360958953772733,
+      "coverage_train": 0.02139488737849841,
+      "coverage_valid": 0.037827070097986436,
+      "feature": "train_credit_bureau_b_2__pmts_date_1107D__rel_max",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.0360958953772733,
+      "coverage_train": 0.02139488737849841,
+      "coverage_valid": 0.037827070097986436,
+      "feature": "train_credit_bureau_b_2__pmts_date_1107D__rel_min",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.03573994608027316,
+      "coverage_train": 0.02110785425581203,
+      "coverage_valid": 0.03757941208140411,
+      "feature": "train_credit_bureau_b_2__pmts_date_1107D__rel_std",
+      "final_model_feature": false,
+      "source": "train_credit_bureau_b_2"
+    },
+    {
+      "coverage_oot": 0.18984621672038865,
+      "coverage_train": 0.1920922374699902,
+      "coverage_valid": 0.1315494777646172,
+      "feature": "train_static_0__bankacctype_710L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.07453841945328825,
+      "coverage_train": 0.10816156844881997,
+      "coverage_valid": 0.08197480348874771,
+      "feature": "train_static_0__cardtype_51L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939780762852922,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__credtype_322L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7892977911368625,
+      "coverage_train": 0.7936504841344001,
+      "coverage_valid": 0.7650586841821901,
+      "feature": "train_static_0__disbursementtype_67L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939780762852922,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__inittransactioncode_186L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__lastapprcommoditycat_1041M",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6554806304257549,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__lastapprcommoditytypec_5251766M",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7898580816969553,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657478195326801,
+      "feature": "train_static_0__lastcancelreason_561M",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__lastrejectcommoditycat_161M",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7200063279875022,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__lastrejectcommodtypec_5251769M",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__lastrejectreason_759M",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7899635481553258,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7657693550123829,
+      "feature": "train_static_0__lastrejectreasonclient_4145040M",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.6527516858154205,
+      "coverage_train": 0.583335543280383,
+      "coverage_valid": 0.6122321524711963,
+      "feature": "train_static_0__lastst_736L",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5327901810727257,
+      "coverage_train": 0.7926201288217134,
+      "coverage_valid": 0.7053623344459998,
+      "feature": "train_static_0__paytype1st_925L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.5327901810727257,
+      "coverage_train": 0.7926201288217134,
+      "coverage_valid": 0.7053623344459998,
+      "feature": "train_static_0__paytype_783L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7876894276467137,
+      "coverage_train": 0.7939788562666038,
+      "coverage_valid": 0.7649617745235275,
+      "feature": "train_static_0__previouscontdistrict_112M",
+      "final_model_feature": true,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.7898712650042516,
+      "coverage_train": 0.7939531168833195,
+      "coverage_valid": 0.7657370517928287,
+      "feature": "train_static_0__twobodfilling_608L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.11787854218987917,
+      "coverage_train": 0.2332799306128625,
+      "coverage_valid": 0.15704748573274468,
+      "feature": "train_static_0__typesuite_864L",
+      "final_model_feature": false,
+      "source": "train_static_0"
+    },
+    {
+      "coverage_oot": 0.0001120581120185621,
+      "coverage_train": 0.013931246207340871,
+      "coverage_valid": 0.013836545709055669,
+      "feature": "train_static_cb_0__description_5085714M",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028291377457862855,
+      "coverage_train": 0.013931246207340871,
+      "coverage_valid": 0.03348767093787014,
+      "feature": "train_static_cb_0__education_1103M",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028284785804214705,
+      "coverage_train": 0.013931246207340871,
+      "coverage_valid": 0.03348767093787014,
+      "feature": "train_static_cb_0__education_88M",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028291377457862855,
+      "coverage_train": 0.013931246207340871,
+      "coverage_valid": 0.03348767093787014,
+      "feature": "train_static_cb_0__maritalst_385M",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.028291377457862855,
+      "coverage_train": 0.013931246207340871,
+      "coverage_valid": 0.03348767093787014,
+      "feature": "train_static_cb_0__maritalst_893M",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 7.250819012965783e-05,
+      "coverage_train": 0.008742810522259887,
+      "coverage_valid": 0.0013998061806826747,
+      "feature": "train_static_cb_0__requesttype_4525192L",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    },
+    {
+      "coverage_oot": 0.0005075573309076048,
+      "coverage_train": 0.00045316914206735605,
+      "coverage_valid": 0.0005276192527188543,
+      "feature": "train_static_cb_0__riskassesment_302T",
+      "final_model_feature": false,
+      "source": "train_static_cb_0"
+    }
+  ],
+  "low_recent_coverage_dropped": [
+    "train_credit_bureau_b_1__classificationofcontr_1114M__maxcode",
+    "train_credit_bureau_b_1__classificationofcontr_1114M__nunique",
+    "train_credit_bureau_b_1__contractst_516M__maxcode",
+    "train_credit_bureau_b_1__contractst_516M__nunique",
+    "train_credit_bureau_b_1__contracttype_653M__maxcode",
+    "train_credit_bureau_b_1__contracttype_653M__nunique",
+    "train_credit_bureau_b_1__credor_3940957M__maxcode",
+    "train_credit_bureau_b_1__credor_3940957M__nunique",
+    "train_credit_bureau_b_1__credquantity_984L__max",
+    "train_credit_bureau_b_1__credquantity_984L__mean",
+    "train_credit_bureau_b_1__credquantity_984L__min",
+    "train_credit_bureau_b_1__credquantity_984L__std",
+    "train_credit_bureau_b_1__dpd_733P__max",
+    "train_credit_bureau_b_1__dpd_733P__mean",
+    "train_credit_bureau_b_1__dpd_733P__min",
+    "train_credit_bureau_b_1__dpd_733P__std",
+    "train_credit_bureau_b_1__installmentamount_644A__max",
+    "train_credit_bureau_b_1__installmentamount_644A__mean",
+    "train_credit_bureau_b_1__installmentamount_644A__min",
+    "train_credit_bureau_b_1__installmentamount_644A__std",
+    "train_credit_bureau_b_1__n_records",
+    "train_credit_bureau_b_1__periodicityofpmts_997M__maxcode",
+    "train_credit_bureau_b_1__periodicityofpmts_997M__nunique",
+    "train_credit_bureau_b_1__purposeofcred_722M__maxcode",
+    "train_credit_bureau_b_1__purposeofcred_722M__nunique",
+    "train_credit_bureau_b_1__totalamount_881A__max",
+    "train_credit_bureau_b_1__totalamount_881A__mean",
+    "train_credit_bureau_b_1__totalamount_881A__min",
+    "train_credit_bureau_b_1__totalamount_881A__std",
+    "train_deposit_1__contractenddate_991D__rel_std",
+    "train_other_1__amtdebitincoming_4809443A__std",
+    "train_other_1__amtdebitoutgoing_4809440A__std",
+    "train_other_1__amtdepositbalance_4809441A__std",
+    "train_other_1__amtdepositincoming_4809444A__std",
+    "train_other_1__amtdepositoutgoing_4809442A__std",
+    "train_person_1__birth_259D__rel_std",
+    "train_person_1__mainoccupationinc_384A__std",
+    "train_static_0__clientscnt_136L",
+    "train_static_0__equalitydataagreement_891L",
+    "train_static_0__equalityempfrom_62L",
+    "train_static_0__interestrategrace_34L",
+    "train_static_0__isbidproductrequest_292L",
+    "train_static_0__lastdependentsnum_448L",
+    "train_static_0__lastotherinc_902A",
+    "train_static_0__lastotherlnsexpense_631A",
+    "train_static_cb_0__contractssum_5085716L",
+    "train_static_cb_0__days120_123L",
+    "train_static_cb_0__days180_256L",
+    "train_static_cb_0__days30_165L",
+    "train_static_cb_0__days360_512L",
+    "train_static_cb_0__days90_310L",
+    "train_static_cb_0__description_5085714M",
+    "train_static_cb_0__education_1103M",
+    "train_static_cb_0__education_88M",
+    "train_static_cb_0__firstquarter_103L",
+    "train_static_cb_0__for3years_128L",
+    "train_static_cb_0__for3years_504L",
+    "train_static_cb_0__for3years_584L",
+    "train_static_cb_0__formonth_118L",
+    "train_static_cb_0__formonth_206L",
+    "train_static_cb_0__formonth_535L",
+    "train_static_cb_0__forquarter_1017L",
+    "train_static_cb_0__forquarter_462L",
+    "train_static_cb_0__forquarter_634L",
+    "train_static_cb_0__fortoday_1092L",
+    "train_static_cb_0__forweek_1077L",
+    "train_static_cb_0__forweek_528L",
+    "train_static_cb_0__forweek_601L",
+    "train_static_cb_0__foryear_618L",
+    "train_static_cb_0__foryear_818L",
+    "train_static_cb_0__foryear_850L",
+    "train_static_cb_0__fourthquarter_440L",
+    "train_static_cb_0__maritalst_385M",
+    "train_static_cb_0__maritalst_893M",
+    "train_static_cb_0__numberofqueries_373L",
+    "train_static_cb_0__pmtaverage_3A",
+    "train_static_cb_0__pmtaverage_4527227A",
+    "train_static_cb_0__pmtaverage_4955615A",
+    "train_static_cb_0__pmtcount_4527229L",
+    "train_static_cb_0__pmtcount_4955617L",
+    "train_static_cb_0__pmtcount_693L",
+    "train_static_cb_0__pmtscount_423L",
+    "train_static_cb_0__pmtssum_45A",
+    "train_static_cb_0__requesttype_4525192L",
+    "train_static_cb_0__riskassesment_302T",
+    "train_static_cb_0__riskassesment_940T",
+    "train_static_cb_0__secondquarter_766L",
+    "train_static_cb_0__thirdquarter_1082L",
+    "train_tax_registry_b_1__amount_4917619A__max",
+    "train_tax_registry_b_1__amount_4917619A__mean",
+    "train_tax_registry_b_1__amount_4917619A__min",
+    "train_tax_registry_b_1__amount_4917619A__std",
+    "train_tax_registry_b_1__deductiondate_4917603D__rel_max",
+    "train_tax_registry_b_1__deductiondate_4917603D__rel_mean",
+    "train_tax_registry_b_1__deductiondate_4917603D__rel_min",
+    "train_tax_registry_b_1__deductiondate_4917603D__rel_std",
+    "train_tax_registry_b_1__n_records",
+    "train_tax_registry_c_1__n_records",
+    "train_tax_registry_c_1__pmtamount_36A__max",
+    "train_tax_registry_c_1__pmtamount_36A__mean",
+    "train_tax_registry_c_1__pmtamount_36A__min",
+    "train_tax_registry_c_1__pmtamount_36A__std",
+    "train_tax_registry_c_1__processingdate_168D__rel_max",
+    "train_tax_registry_c_1__processingdate_168D__rel_mean",
+    "train_tax_registry_c_1__processingdate_168D__rel_min",
+    "train_tax_registry_c_1__processingdate_168D__rel_std"
+  ],
+  "n_final_features": 179,
+  "n_matrix_columns": 492,
+  "n_null_in_oot": 0,
+  "n_null_in_valid": 0,
+  "null_in_oot": [],
+  "null_in_valid": [],
+  "passed": true,
+  "recent_train_weeks": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "rule": "FAIL if any final model feature has zero non-null rows in VALID or OOT"
+}

@@ -1,0 +1,34 @@
+{
+  "metric": "OOT Gini difference (XGBoost minus other)",
+  "n_boot": 1000,
+  "results": {
+    "xgboost_minus_lightgbm": {
+      "ci95_hi": 0.007211212902657954,
+      "ci95_lo": 0.0009956221724763737,
+      "n_boot": 1000,
+      "point_gini_diff": 0.004020062514220157,
+      "share_positive": 0.992
+    },
+    "xgboost_minus_penalised_lr": {
+      "ci95_hi": 0.13280111152386886,
+      "ci95_lo": 0.11048425166996871,
+      "n_boot": 1000,
+      "point_gini_diff": 0.12175146477250265,
+      "share_positive": 1.0
+    },
+    "xgboost_minus_random_forest": {
+      "ci95_hi": 0.04630890697435439,
+      "ci95_lo": 0.03216736688338645,
+      "n_boot": 1000,
+      "point_gini_diff": 0.03914755617375398,
+      "share_positive": 1.0
+    },
+    "xgboost_minus_woe_scorecard": {
+      "ci95_hi": 0.08622052752888455,
+      "ci95_lo": 0.06885865758153392,
+      "n_boot": 1000,
+      "point_gini_diff": 0.07724187580532282,
+      "share_positive": 1.0
+    }
+  }
+}

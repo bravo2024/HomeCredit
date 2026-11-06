@@ -1,0 +1,16 @@
+feature,gain,gain_share,plain_name
+train_static_0__avgdpdtolclosure24_3658938P,180.2974395751953,0.04152102477895563,Average DPD (days past due) with tolerance within the past 24 months from the... [application]
+train_credit_bureau_a_2__pmts_dpd_303P__mean,162.74305725097656,0.03747839419484708,average Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)]
+train_applprev_1__maxdpdtolerance_577P__mean,161.8850860595703,0.03728081045110705,average Maximum DPD with tolerance (on previous application/s) [previous applications]
+train_static_0__lastcancelreason_561M,158.84910583496094,0.03658164905185794,Cancellation reason of the last application [application]
+train_static_0__lastrejectreasonclient_4145040M,107.18328857421875,0.0246834341700344,Reason for the client's last loan rejection [application]
+train_static_0__lastrejectreason_759M,81.30052947998047,0.01872284657527048,Reason for rejection on the most recent rejected application [application]
+train_applprev_1__education_1138M__maxcode,79.326904296875,0.018268336847760365,most recent category of Applicant's education level from their previous application [previous applications]
+train_static_0__maxdbddpdtollast12m_3658940P,75.96385955810547,0.01749385516759791,Maximum number of days past due in last 12 months [application]
+train_credit_bureau_b_2__pmts_pmtsoverdue_635A__mean,73.07975769042969,0.016829670110977323,"average Active contract that has overdue payments (num_group1 - existing contract, nu... [credit bureau (b)]"
+train_static_0__mobilephncnt_593L,68.57515716552734,0.01579229747576715,Number of persons with the same mobile phone number [application]
+train_static_0__numrejects9m_859L,64.0634994506836,0.014753299627469556,Number of credit applications that were rejected in the last 9 months [application]
+train_applprev_1__maxdpdtolerance_577P__min,59.833309173583984,0.013779121426553418,minimum Maximum DPD with tolerance (on previous application/s) [previous applications]
+train_person_1__incometype_1044T__maxcode,57.982852935791016,0.013352976499133465,most recent category of Type of income of the person [applicant / related person]
+train_credit_bureau_a_2__pmts_overdue_1152A__mean,53.370361328125,0.012290757430544022,"average Overdue payment for a closed contract (num_group1 - terminated contract, num_... [credit bureau (a)]"
+train_credit_bureau_b_2__pmts_pmtsoverdue_635A__std,51.66569900512695,0.01189818764852316,"variability (std) of Active contract that has overdue payments (num_group1 - existing contract, nu... [credit bureau (b)]"

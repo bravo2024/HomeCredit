@@ -1,0 +1,23 @@
+# Everything the test suite needs: the pipeline modules in src/ (which import
+# polars, sklearn, lightgbm, xgboost, optbinning, statsmodels) plus the app
+# contract tests, which drive app.py through streamlit.testing.
+#
+# This file is deliberately explicit rather than `-r requirements.txt`: the app
+# runtime pins xgboost-cpu (a smaller wheel) while the tests pin the full
+# xgboost build recorded in artifacts/environment.json. Installing both at once
+# would collide on the `xgboost` package.
+numpy==2.1.3
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.6.1
+joblib==1.6.0
+streamlit==1.53.1
+altair==6.0.0
+polars==1.35.2
+statsmodels==0.15.0
+optbinning==1.0.0
+lightgbm==4.6.0
+xgboost==3.4.1
+pyarrow==23.0.1
+matplotlib==3.11.1
+pytest==9.1.0

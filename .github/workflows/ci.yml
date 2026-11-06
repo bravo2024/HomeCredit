@@ -1,0 +1,71 @@
+name: tests
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt
+
+      - name: Tests (artifacts, frozen models, pipeline, Streamlit pages)
+        run: python -m pytest -q tests
+
+  app-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install app runtime only
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Every page renders on the real artifacts
+        run: |
+          python - <<'PY'
+          from streamlit.testing.v1 import AppTest
+
+          pages = [
+              "Overview",
+              "Model comparison",
+              "Stability & monitoring",
+              "Score a case",
+              "Batch scoring",
+              "Credit policy",
+              "Model card",
+          ]
+          at = AppTest.from_file("app.py", default_timeout=300).run()
+          assert not at.exception, [e.value for e in at.exception]
+          for page in pages:
+              at.sidebar.radio[0].set_value(page).run()
+              assert not at.exception, [e.value for e in at.exception]
+          print("all pages rendered:", len(pages))
+          PY

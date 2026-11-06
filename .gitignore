@@ -1,0 +1,13 @@
+# Raw competition data is never committed: it is 1.2 GB and the competition
+# rules forbid redistribution. Only artifacts/ and the provenance note are kept.
+data/raw/
+
+# Local scratch, caches and logs.
+.tmp_nbrun/
+hcnb_*/
+logs/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+.streamlit/secrets.toml

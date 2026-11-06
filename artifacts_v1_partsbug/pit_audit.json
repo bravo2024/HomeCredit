@@ -1,0 +1,351 @@
+{
+  "missing_tables": [
+    "train_tax_registry_a_1 (no usable columns)"
+  ],
+  "tables": [
+    {
+      "date_columns": [
+        "datefirstoffer_1144D",
+        "datelastinstal40dpd_247D",
+        "datelastunpaid_3546854D",
+        "dtlastpmtallstes_4499206D",
+        "firstclxcampaign_1125D",
+        "firstdatedue_489D",
+        "lastactivateddate_801D",
+        "lastapplicationdate_877D",
+        "lastapprdate_640D",
+        "lastdelinqdate_224D",
+        "lastrejectdate_50D",
+        "lastrepayingdate_696D",
+        "maxdpdinstldate_3546855D",
+        "payvacationpostpone_4187118D",
+        "validfrom_1069D"
+      ],
+      "depth": 0,
+      "drop_share": 0.19205644394011698,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 192778,
+      "rows_in": 1003757,
+      "rows_kept": 810979,
+      "rows_out": 810979,
+      "table": "train_static_0_0"
+    },
+    {
+      "date_columns": [
+        "datefirstoffer_1144D",
+        "datelastinstal40dpd_247D",
+        "datelastunpaid_3546854D",
+        "dtlastpmtallstes_4499206D",
+        "firstclxcampaign_1125D",
+        "firstdatedue_489D",
+        "lastactivateddate_801D",
+        "lastapplicationdate_877D",
+        "lastapprdate_640D",
+        "lastdelinqdate_224D",
+        "lastrejectdate_50D",
+        "lastrepayingdate_696D",
+        "maxdpdinstldate_3546855D",
+        "payvacationpostpone_4187118D",
+        "validfrom_1069D"
+      ],
+      "depth": 0,
+      "drop_share": 0.2390027194388241,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 124975,
+      "rows_in": 522902,
+      "rows_kept": 397927,
+      "rows_out": 397927,
+      "table": "train_static_0_1"
+    },
+    {
+      "date_columns": [
+        "assignmentdate_238D",
+        "assignmentdate_4527235D",
+        "assignmentdate_4955616D",
+        "birthdate_574D",
+        "dateofbirth_337D",
+        "dateofbirth_342D",
+        "responsedate_1012D",
+        "responsedate_4527233D",
+        "responsedate_4917613D"
+      ],
+      "depth": 0,
+      "drop_share": 0.9831633428325411,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 1475213,
+      "rows_in": 1500476,
+      "rows_kept": 25263,
+      "rows_out": 25263,
+      "table": "train_static_cb_0"
+    },
+    {
+      "date_columns": [
+        "birth_259D",
+        "birthdate_87D",
+        "empl_employedfrom_271D"
+      ],
+      "depth": 1,
+      "drop_share": 0.00010625452464382037,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 316,
+      "rows_in": 2973991,
+      "rows_kept": 2973675,
+      "rows_out": 1526659,
+      "table": "train_person_1"
+    },
+    {
+      "date_columns": [
+        "approvaldate_319D",
+        "creationdate_885D",
+        "dateactivated_425D",
+        "dtlastpmt_581D",
+        "dtlastpmtallstes_3545839D",
+        "employedfrom_700D",
+        "firstnonzeroinstldate_307D"
+      ],
+      "depth": 1,
+      "drop_share": 0.0918135321697957,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 356942,
+      "rows_in": 3887684,
+      "rows_kept": 3530742,
+      "rows_out": 747109,
+      "table": "train_applprev_1_0"
+    },
+    {
+      "date_columns": [
+        "approvaldate_319D",
+        "creationdate_885D",
+        "dateactivated_425D",
+        "dtlastpmt_581D",
+        "dtlastpmtallstes_3545839D",
+        "employedfrom_700D",
+        "firstnonzeroinstldate_307D"
+      ],
+      "depth": 1,
+      "drop_share": 0.08540818975891627,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 225332,
+      "rows_in": 2638295,
+      "rows_kept": 2412963,
+      "rows_out": 424738,
+      "table": "train_applprev_1_1"
+    },
+    {
+      "date_columns": [
+        "dateofcredend_289D",
+        "dateofcredend_353D",
+        "dateofcredstart_181D",
+        "dateofcredstart_739D",
+        "dateofrealrepmt_138D",
+        "lastupdate_1112D",
+        "lastupdate_388D",
+        "numberofoverdueinstlmaxdat_148D",
+        "numberofoverdueinstlmaxdat_641D",
+        "overdueamountmax2date_1002D",
+        "overdueamountmax2date_1142D",
+        "refreshdate_3813885D"
+      ],
+      "depth": 1,
+      "drop_share": 0.4690203426697551,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 1926835,
+      "rows_in": 4108212,
+      "rows_kept": 2181377,
+      "rows_out": 335270,
+      "table": "train_credit_bureau_a_1_0"
+    },
+    {
+      "date_columns": [
+        "dateofcredend_289D",
+        "dateofcredend_353D",
+        "dateofcredstart_181D",
+        "dateofcredstart_739D",
+        "dateofrealrepmt_138D",
+        "lastupdate_1112D",
+        "lastupdate_388D",
+        "numberofoverdueinstlmaxdat_148D",
+        "numberofoverdueinstlmaxdat_641D",
+        "overdueamountmax2date_1002D",
+        "overdueamountmax2date_1142D",
+        "refreshdate_3813885D"
+      ],
+      "depth": 1,
+      "drop_share": 0.44310948959527335,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 2662730,
+      "rows_in": 6009192,
+      "rows_kept": 3346462,
+      "rows_out": 549252,
+      "table": "train_credit_bureau_a_1_1"
+    },
+    {
+      "date_columns": [
+        "contractdate_551D",
+        "contractmaturitydate_151D",
+        "lastupdate_260D"
+      ],
+      "depth": 1,
+      "drop_share": 0.9430709514984089,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 80907,
+      "rows_in": 85791,
+      "rows_kept": 4884,
+      "rows_out": 4661,
+      "table": "train_credit_bureau_b_1"
+    },
+    {
+      "date_columns": [
+        "contractenddate_991D",
+        "openingdate_313D"
+      ],
+      "depth": 1,
+      "drop_share": 0.0035082640640723434,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 509,
+      "rows_in": 145086,
+      "rows_kept": 144577,
+      "rows_out": 104689,
+      "table": "train_deposit_1"
+    },
+    {
+      "date_columns": [],
+      "depth": 1,
+      "drop_share": 0.0,
+      "has_temporal_information": false,
+      "month_pairs_used": [],
+      "rows_dropped": 0,
+      "rows_in": null,
+      "rows_kept": null,
+      "rows_out": 51109,
+      "table": "train_other_1"
+    },
+    {
+      "date_columns": [
+        "processingdate_168D"
+      ],
+      "depth": 1,
+      "drop_share": 0.21722441533584544,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 726355,
+      "rows_in": 3343800,
+      "rows_kept": 2617445,
+      "rows_out": 403018,
+      "table": "train_tax_registry_c_1"
+    },
+    {
+      "date_columns": [],
+      "depth": 2,
+      "drop_share": 0.0,
+      "has_temporal_information": false,
+      "month_pairs_used": [],
+      "rows_dropped": 0,
+      "rows_in": null,
+      "rows_kept": null,
+      "rows_out": 1221522,
+      "table": "train_applprev_2"
+    },
+    {
+      "date_columns": [
+        "empls_employedfrom_796D"
+      ],
+      "depth": 2,
+      "drop_share": 0.0,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 0,
+      "rows_in": 1643410,
+      "rows_kept": 1643410,
+      "rows_out": 1435105,
+      "table": "train_person_2"
+    },
+    {
+      "date_columns": [],
+      "depth": 2,
+      "drop_share": 0.35093846693873204,
+      "has_temporal_information": true,
+      "month_pairs_used": [
+        [
+          "pmts_year_1139T",
+          "pmts_month_158T"
+        ],
+        [
+          "pmts_year_507T",
+          "pmts_month_706T"
+        ]
+      ],
+      "rows_dropped": 1858581,
+      "rows_in": 5296031,
+      "rows_kept": 3437450,
+      "rows_out": 98156,
+      "table": "train_credit_bureau_a_2_0"
+    },
+    {
+      "date_columns": [],
+      "depth": 2,
+      "drop_share": 0.28667842223081225,
+      "has_temporal_information": true,
+      "month_pairs_used": [
+        [
+          "pmts_year_1139T",
+          "pmts_month_158T"
+        ],
+        [
+          "pmts_year_507T",
+          "pmts_month_706T"
+        ]
+      ],
+      "rows_dropped": 2253811,
+      "rows_in": 7861809,
+      "rows_kept": 5607998,
+      "rows_out": 118481,
+      "table": "train_credit_bureau_a_2_1"
+    },
+    {
+      "date_columns": [],
+      "depth": 2,
+      "drop_share": 0.1398560910487452,
+      "has_temporal_information": true,
+      "month_pairs_used": [
+        [
+          "pmts_year_1139T",
+          "pmts_month_158T"
+        ],
+        [
+          "pmts_year_507T",
+          "pmts_month_706T"
+        ]
+      ],
+      "rows_dropped": 2502520,
+      "rows_in": 17893536,
+      "rows_kept": 15391016,
+      "rows_out": 156749,
+      "table": "train_credit_bureau_a_2_2"
+    },
+    {
+      "date_columns": [
+        "pmts_date_1107D"
+      ],
+      "depth": 2,
+      "drop_share": 0.006464323045179541,
+      "has_temporal_information": true,
+      "month_pairs_used": [],
+      "rows_dropped": 8318,
+      "rows_in": 1286755,
+      "rows_kept": 1278437,
+      "rows_out": 36419,
+      "table": "train_credit_bureau_b_2"
+    }
+  ]
+}

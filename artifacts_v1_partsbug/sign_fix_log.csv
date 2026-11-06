@@ -1,0 +1,17 @@
+round,dropped,p_value,n_wrong_before_drop,n_variables_before_drop
+1,train_static_0_0__maxdpdtolerance_374P,0.9632402827206697,11,47
+2,train_static_0_0__credamount_770A,0.8227276710135807,10,46
+3,train_static_0_0__numcontrs3months_479L,0.5094259226518125,9,45
+4,train_static_0_0__maxdpdlast6m_474P,0.12214461512469461,8,44
+5,train_static_0_0__numinstlswithdpd5_4187116L,0.00013053478111397585,7,43
+6,train_static_0_0__maxdpdlast9m_1059P,7.320554744987372e-05,6,42
+7,train_static_0_0__maxdpdlast24m_143P,0.4841160529784697,6,41
+8,train_static_0_0__maxdpdfrom6mto36m_3546853P,6.59055841466803e-13,5,40
+9,train_static_0_0__avgdbddpdlast24m_3658932P,0.6659298481529773,5,39
+10,train_static_0_0__numinstpaidlate1d_3546852L,4.0047986388723315e-14,4,38
+11,train_static_0_0__pctinstlsallpaidearl3d_427L,0.7343187141090333,4,37
+12,train_static_0_0__totalsettled_863A,1.0418292312305147e-15,3,36
+13,train_applprev_1_1__maxdpdtolerance_577P__max,6.28817090431801e-54,2,35
+14,train_static_0_0__avgmaxdpdlast9m_3716943P,4.715133929869205e-80,1,34
+15,train_static_0_0__amtinstpaidbefduel24m_4187115A,0.6285053455682622,2,33
+16,train_static_0_0__mindbddpdlast24m_3658935P,0.40163662224398367,1,32

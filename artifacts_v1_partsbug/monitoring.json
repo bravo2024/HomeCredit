@@ -1,0 +1,575 @@
+{
+  "csi_table": [
+    {
+      "band": "alert",
+      "csi": 5.714137802347784,
+      "feature": "train_static_0_0__lastrejectreasonclient_4145040M"
+    },
+    {
+      "band": "alert",
+      "csi": 5.643607020227829,
+      "feature": "train_static_0_0__lastcancelreason_561M"
+    },
+    {
+      "band": "alert",
+      "csi": 5.560246227193873,
+      "feature": "train_static_0_0__lastrejectcommoditycat_161M"
+    },
+    {
+      "band": "alert",
+      "csi": 5.504922129689107,
+      "feature": "train_static_0_0__lastrejectreason_759M"
+    }
+  ],
+  "monitoring_plan": {
+    "calibration_trigger": "mean predicted PD / observed default rate outside [0.8, 1.25] for a month",
+    "data_quality_trigger": "PSI of any feature in the model above the alert band, or a new category above 5% share",
+    "gini_trigger": {
+      "oot_mean_gini": 0.558544775147578,
+      "rule": "weekly Gini more than 0.05 below the VALID mean for 2 consecutive weeks",
+      "valid_mean_gini": 0.5460761344124135
+    },
+    "minimum_weekly_volume": 150,
+    "psi_bands": {
+      "alert": "PSI >= 0.25 - redevelop or recalibrate",
+      "stable": "PSI < 0.10 - no action, keep monitoring",
+      "watch": "0.10 <= PSI < 0.25 - investigate drivers, no rebuild"
+    }
+  },
+  "n_alert": 0,
+  "n_watch": 0,
+  "oot_mean_gini": 0.558544775147578,
+  "psi_by_month": [
+    {
+      "band": "stable",
+      "month": "2020-06",
+      "n": 1467,
+      "psi": 0.006633534454162843
+    },
+    {
+      "band": "stable",
+      "month": "2020-07",
+      "n": 28912,
+      "psi": 0.0014405045270497678
+    },
+    {
+      "band": "stable",
+      "month": "2020-08",
+      "n": 50831,
+      "psi": 0.0037387603999153
+    },
+    {
+      "band": "stable",
+      "month": "2020-09",
+      "n": 61905,
+      "psi": 0.008170788212404757
+    },
+    {
+      "band": "stable",
+      "month": "2020-10",
+      "n": 8592,
+      "psi": 0.014680586035949737
+    }
+  ],
+  "psi_table": [
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__num_group1__mean",
+      "psi": 0.07372329387906187
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__num_group2__mean",
+      "psi": 0.04026179475121782
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__num_group2__std",
+      "psi": 0.034921502376404685
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__maxdpdtolerance_577P__max",
+      "psi": 0.007908876626166182
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__maxdpdtolerance_577P__mean",
+      "psi": 0.003536800307357176
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__rejectreason_755M__maxcode",
+      "psi": 0.0033678748494883333
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avgdpdtolclosure24_3658938P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pctinstlsallpaidlate1d_3546856L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__maxdpdtolerance_577P__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pctinstlsallpaidlate4d_3546849L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pctinstlsallpaidlate6d_3546844L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__daysoverduetolerancedd_3976961L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdbddpdtollast12m_3658940P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avgdbddpdlast24m_3658932P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__maxdpdtolerance_577P__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pctinstlsallpaidlat10d_839L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pctinstlsallpaidearl3d_427L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstlswithdpd10_728L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__maxdpdtolerance_577P__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastrejectreason_759M",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastcancelreason_561M",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastrejectreasonclient_4145040M",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstlswithdpd5_4187116L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__mobilephncnt_593L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdtolerance_374P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdlast24m_143P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__maxdpdtolerance_577P__min",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdbddpdtollast6m_4187119P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidlate1d_3546852L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdfrom6mto36m_3546853P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avgmaxdpdlast9m_3716943P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidearly3d_3546850L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstlallpaidearly3d_817L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidearly_338L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdlast12m_727P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numrejects9m_859L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstlsallpaid_934L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__mindbddpdlast24m_3658935P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdlast9m_1059P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pmtnum_254L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__dpdmax_757P__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidearly5d_1087L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__numberofoverdueinstlmax_1151L__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avgdbddpdlast3m_4187120P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__eir_270L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__interestrate_311L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstlswithoutdpd_562L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmax_35A__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__dpdmax_757P__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__numberofoverdueinstlmax_1151L__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avgdbdtollast24m_4525197P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__dpdmax_757P__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmax2_398A__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastrejectcommoditycat_161M",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__numberofoverdueinstlmax_1151L__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__disbursedcredamount_1113A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdlast6m_474P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__totalsettled_863A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdbddpdlast1m_3658939P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numcontrs3months_479L",
+      "psi": null
+    }
+  ],
+  "reference_mean_gini": 0.5460761344124135,
+  "reference_split": "valid",
+  "score_drift": {
+    "psi_band": "watch",
+    "psi_train_to_oot": 0.22026174640259089,
+    "weekly_calibration": [
+      {
+        "gap": 0.015028149468262156,
+        "mean_pd": 0.03730113633291093,
+        "n": 8755,
+        "observed": 0.02227298686464877,
+        "week": 78
+      },
+      {
+        "gap": 0.019095435359419554,
+        "mean_pd": 0.04080927793406089,
+        "n": 5158,
+        "observed": 0.021713842574641335,
+        "week": 79
+      },
+      {
+        "gap": 0.021594835332489765,
+        "mean_pd": 0.040807131201846154,
+        "n": 6246,
+        "observed": 0.01921229586935639,
+        "week": 80
+      },
+      {
+        "gap": 0.012780451040886393,
+        "mean_pd": 0.04066121627891101,
+        "n": 6743,
+        "observed": 0.02788076523802462,
+        "week": 81
+      },
+      {
+        "gap": 0.019383253811097272,
+        "mean_pd": 0.04188002681496967,
+        "n": 5423,
+        "observed": 0.022496773003872397,
+        "week": 82
+      },
+      {
+        "gap": 0.019138264865879422,
+        "mean_pd": 0.040522774804193334,
+        "n": 7295,
+        "observed": 0.021384509938313912,
+        "week": 83
+      },
+      {
+        "gap": 0.016829624133170348,
+        "mean_pd": 0.03904956035372379,
+        "n": 9721,
+        "observed": 0.022219936220553443,
+        "week": 84
+      },
+      {
+        "gap": 0.01918871772799445,
+        "mean_pd": 0.038155402868705085,
+        "n": 16239,
+        "observed": 0.018966685140710635,
+        "week": 85
+      },
+      {
+        "gap": 0.02182160998338959,
+        "mean_pd": 0.039543938838156066,
+        "n": 15630,
+        "observed": 0.017722328854766475,
+        "week": 86
+      },
+      {
+        "gap": 0.02158687916054817,
+        "mean_pd": 0.039981154012387596,
+        "n": 17886,
+        "observed": 0.018394274851839428,
+        "week": 87
+      },
+      {
+        "gap": 0.022055614253135788,
+        "mean_pd": 0.04067300922292643,
+        "n": 14234,
+        "observed": 0.018617394969790643,
+        "week": 88
+      },
+      {
+        "gap": 0.018410575517550494,
+        "mean_pd": 0.04113116375284461,
+        "n": 13600,
+        "observed": 0.022720588235294117,
+        "week": 89
+      },
+      {
+        "gap": 0.014819292156043277,
+        "mean_pd": 0.04208525927163445,
+        "n": 12103,
+        "observed": 0.027265967115591174,
+        "week": 90
+      },
+      {
+        "gap": 0.0189895286733924,
+        "mean_pd": 0.04171321496027894,
+        "n": 12674,
+        "observed": 0.02272368628688654,
+        "week": 91
+      }
+    ]
+  },
+  "score_psi_train_to_valid": 0.1914994076181328,
+  "top15_feature_psi": [
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__mean",
+      "plain_name": "average Active contract that has overdue payments (num_group1 - existing contract, nu... [credit bureau (b)]",
+      "psi": 0.018703586648410205
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__mean",
+      "plain_name": "average Value of past due payment for active contract (num_group1 - existing contract... [credit bureau (b)]",
+      "psi": 0.018331214470631275
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__maxdpdlast24m_143P",
+      "plain_name": "Maximal days past due in the last 24 months [application]",
+      "psi": 0.00692575060523795
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__maxdpdtolerance_577P__mean",
+      "plain_name": "average Maximum DPD with tolerance (on previous application/s) [previous applications]",
+      "psi": 0.003536800307357176
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__rejectreason_755M__maxcode",
+      "plain_name": "most recent category of Reason for previous application rejection [previous applications]",
+      "psi": 0.0033678748494883333
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__maxdpdtolerance_577P__min",
+      "plain_name": "minimum Maximum DPD with tolerance (on previous application/s) [previous applications]",
+      "psi": 0.0009071180783912808
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__avgdpdtolclosure24_3658938P",
+      "plain_name": "Average DPD (days past due) with tolerance within the past 24 months from the... [application]",
+      "psi": 0.0004141570757481691
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avgdpdtolclosure24_3658938P",
+      "plain_name": "Average DPD (days past due) with tolerance within the past 24 months from the... [application]",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastrejectreasonclient_4145040M",
+      "plain_name": "Reason for the client's last loan rejection [application]",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastcancelreason_561M",
+      "plain_name": "Cancellation reason of the last application [application]",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__maxdpdtolerance_577P__min",
+      "plain_name": "minimum Maximum DPD with tolerance (on previous application/s) [previous applications]",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastrejectreason_759M",
+      "plain_name": "Reason for rejection on the most recent rejected application [application]",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__maxdpdtolerance_577P__std",
+      "plain_name": "variability (std) of Maximum DPD with tolerance (on previous application/s) [previous applications]",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__maxdpdtolerance_577P__max",
+      "plain_name": "maximum Maximum DPD with tolerance (on previous application/s) [previous applications]",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numrejects9m_859L",
+      "plain_name": "Number of credit applications that were rejected in the last 9 months [application]",
+      "psi": null
+    }
+  ]
+}

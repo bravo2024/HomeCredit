@@ -1,0 +1,98 @@
+{
+  "lightgbm_best_iter": 799,
+  "logistic_C": 1.0,
+  "logistic_C_grid": [
+    {
+      "C": 0.001,
+      "n_iter": 29,
+      "valid_auc": 0.7037659119935921
+    },
+    {
+      "C": 0.01,
+      "n_iter": 46,
+      "valid_auc": 0.7050416879091665
+    },
+    {
+      "C": 0.1,
+      "n_iter": 49,
+      "valid_auc": 0.7050481674069271
+    },
+    {
+      "C": 1.0,
+      "n_iter": 43,
+      "valid_auc": 0.705133418804956
+    }
+  ],
+  "rf": {
+    "max_depth": 12,
+    "max_features": 0.3,
+    "min_samples_leaf": 50,
+    "n_estimators": 200,
+    "train_rows": 500000
+  },
+  "xgb_best": {
+    "colsample_bytree": 0.3,
+    "max_depth": 4,
+    "min_child_weight": 50,
+    "reg_lambda": 20.0,
+    "subsample": 0.7
+  },
+  "xgb_best_iteration": 798,
+  "xgb_monotone_constrained_features": 191,
+  "xgb_search": [
+    {
+      "best_iteration": 517,
+      "colsample_bytree": 0.5,
+      "max_depth": 7,
+      "min_child_weight": 100,
+      "reg_lambda": 1.0,
+      "subsample": 0.9,
+      "valid_auc": 0.7739560160044573
+    },
+    {
+      "best_iteration": 586,
+      "colsample_bytree": 0.3,
+      "max_depth": 7,
+      "min_child_weight": 50,
+      "reg_lambda": 5.0,
+      "subsample": 0.9,
+      "valid_auc": 0.7743426031993987
+    },
+    {
+      "best_iteration": 559,
+      "colsample_bytree": 0.5,
+      "max_depth": 4,
+      "min_child_weight": 100,
+      "reg_lambda": 5.0,
+      "subsample": 0.7,
+      "valid_auc": 0.7720274111139781
+    },
+    {
+      "best_iteration": 792,
+      "colsample_bytree": 0.3,
+      "max_depth": 4,
+      "min_child_weight": 50,
+      "reg_lambda": 20.0,
+      "subsample": 0.7,
+      "valid_auc": 0.7750410431404129
+    },
+    {
+      "best_iteration": 472,
+      "colsample_bytree": 0.5,
+      "max_depth": 6,
+      "min_child_weight": 50,
+      "reg_lambda": 1.0,
+      "subsample": 0.7,
+      "valid_auc": 0.7740095134589665
+    },
+    {
+      "best_iteration": 574,
+      "colsample_bytree": 0.5,
+      "max_depth": 7,
+      "min_child_weight": 100,
+      "reg_lambda": 20.0,
+      "subsample": 0.9,
+      "valid_auc": 0.7739062990726218
+    }
+  ]
+}

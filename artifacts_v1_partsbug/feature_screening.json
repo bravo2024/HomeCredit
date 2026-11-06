@@ -1,0 +1,3504 @@
+{
+  "n_categorical": 43,
+  "n_features_built": 842,
+  "screening": [
+    {
+      "column": "birth_259D",
+      "coverage": 0.49595961934751903,
+      "dtype": "String",
+      "n_unique": 670,
+      "signal": 0.14628942494948227,
+      "table": "train_person_1",
+      "univariate_auc": 0.6462894249494823
+    },
+    {
+      "column": "birthdate_87D",
+      "coverage": 0.008113176966357175,
+      "dtype": "String",
+      "n_unique": 496,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "childnum_185L",
+      "coverage": 0.00319525805181875,
+      "dtype": "Float64",
+      "n_unique": 8,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "contaddr_district_15M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 352,
+      "signal": 0.054579284382783255,
+      "table": "train_person_1",
+      "univariate_auc": 0.5545792843827833
+    },
+    {
+      "column": "contaddr_matchlist_1032L",
+      "coverage": 0.49586237236333325,
+      "dtype": "Boolean",
+      "n_unique": 2,
+      "signal": 0.0,
+      "table": "train_person_1",
+      "univariate_auc": 0.5
+    },
+    {
+      "column": "contaddr_smempladdr_334L",
+      "coverage": 0.49586237236333325,
+      "dtype": "Boolean",
+      "n_unique": 3,
+      "signal": 0.00034319280898342797,
+      "table": "train_person_1",
+      "univariate_auc": 0.5003431928089834
+    },
+    {
+      "column": "contaddr_zipcode_807M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 3034,
+      "signal": 0.10764261321066115,
+      "table": "train_person_1",
+      "univariate_auc": 0.6076426132106612
+    },
+    {
+      "column": "education_927M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.022735154859275353,
+      "table": "train_person_1",
+      "univariate_auc": 0.5227351548592754
+    },
+    {
+      "column": "empl_employedfrom_271D",
+      "coverage": 0.1991062539072449,
+      "dtype": "String",
+      "n_unique": 2933,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "empl_employedtotal_800L",
+      "coverage": 0.20004630808770751,
+      "dtype": "String",
+      "n_unique": 4,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "empl_industry_691L",
+      "coverage": 0.19787908958299566,
+      "dtype": "String",
+      "n_unique": 25,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "empladdr_district_926M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 222,
+      "signal": 0.029751002617934952,
+      "table": "train_person_1",
+      "univariate_auc": 0.529751002617935
+    },
+    {
+      "column": "empladdr_zipcode_114M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 2239,
+      "signal": 0.05278743549203446,
+      "table": "train_person_1",
+      "univariate_auc": 0.5527874354920345
+    },
+    {
+      "column": "familystate_447L",
+      "coverage": 0.2391488573479358,
+      "dtype": "String",
+      "n_unique": 6,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "gender_992L",
+      "coverage": 0.008113176966357175,
+      "dtype": "String",
+      "n_unique": 3,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "housetype_905L",
+      "coverage": 0.0,
+      "dtype": "String",
+      "n_unique": 1,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "housingtype_772L",
+      "coverage": 0.00314431915534048,
+      "dtype": "String",
+      "n_unique": 7,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "incometype_1044T",
+      "coverage": 0.49595961934751903,
+      "dtype": "String",
+      "n_unique": 9,
+      "signal": 0.06688192570291285,
+      "table": "train_person_1",
+      "univariate_auc": 0.5668819257029128
+    },
+    {
+      "column": "isreference_387L",
+      "coverage": 0.008113176966357175,
+      "dtype": "Boolean",
+      "n_unique": 3,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "language1_981M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 3,
+      "signal": 0.02412681094998803,
+      "table": "train_person_1",
+      "univariate_auc": 0.524126810949988
+    },
+    {
+      "column": "mainoccupationinc_384A",
+      "coverage": 0.49595961934751903,
+      "dtype": "Float64",
+      "n_unique": 1509,
+      "signal": 0.003568902399215257,
+      "table": "train_person_1",
+      "univariate_auc": 0.5035689023992153
+    },
+    {
+      "column": "maritalst_703L",
+      "coverage": 0.0036583389288939315,
+      "dtype": "String",
+      "n_unique": 6,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 8,
+      "signal": 0.022366050824908168,
+      "table": "train_person_1",
+      "univariate_auc": 0.5223660508249082
+    },
+    {
+      "column": "personindex_1023L",
+      "coverage": 0.7613327467642224,
+      "dtype": "Float64",
+      "n_unique": 7,
+      "signal": 0.019299970650777598,
+      "table": "train_person_1",
+      "univariate_auc": 0.5192999706507776
+    },
+    {
+      "column": "persontype_1072L",
+      "coverage": 0.9979068744356202,
+      "dtype": "Float64",
+      "n_unique": 4,
+      "signal": 0.011494194762784349,
+      "table": "train_person_1",
+      "univariate_auc": 0.5114941947627843
+    },
+    {
+      "column": "persontype_792L",
+      "coverage": 0.7613327467642224,
+      "dtype": "Float64",
+      "n_unique": 4,
+      "signal": 0.021832365842344714,
+      "table": "train_person_1",
+      "univariate_auc": 0.5218323658423447
+    },
+    {
+      "column": "registaddr_district_1083M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 355,
+      "signal": 0.05555307116821395,
+      "table": "train_person_1",
+      "univariate_auc": 0.555553071168214
+    },
+    {
+      "column": "registaddr_zipcode_184M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 3040,
+      "signal": 0.10936585833851065,
+      "table": "train_person_1",
+      "univariate_auc": 0.6093658583385106
+    },
+    {
+      "column": "relationshiptoclient_415T",
+      "coverage": 0.2653731274167033,
+      "dtype": "String",
+      "n_unique": 11,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "relationshiptoclient_642T",
+      "coverage": 0.2690870360508463,
+      "dtype": "String",
+      "n_unique": 11,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "remitter_829L",
+      "coverage": 0.2653731274167033,
+      "dtype": "Boolean",
+      "n_unique": 2,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "role_1084L",
+      "coverage": 0.9979068744356202,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.018203319639481408,
+      "table": "train_person_1",
+      "univariate_auc": 0.5182033196394814
+    },
+    {
+      "column": "role_993L",
+      "coverage": 0.008113176966357175,
+      "dtype": "String",
+      "n_unique": 2,
+      "table": "train_person_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "safeguarantyflag_411L",
+      "coverage": 0.49595961934751903,
+      "dtype": "Boolean",
+      "n_unique": 2,
+      "signal": 0.0,
+      "table": "train_person_1",
+      "univariate_auc": 0.5
+    },
+    {
+      "column": "sex_738L",
+      "coverage": 0.49595961934751903,
+      "dtype": "String",
+      "n_unique": 3,
+      "signal": 0.05525803190281098,
+      "table": "train_person_1",
+      "univariate_auc": 0.555258031902811
+    },
+    {
+      "column": "type_25L",
+      "coverage": 0.9979068744356202,
+      "dtype": "String",
+      "n_unique": 7,
+      "signal": 0.016528408609484346,
+      "table": "train_person_1",
+      "univariate_auc": 0.5165284086094843
+    },
+    {
+      "column": "actualdpd_943P",
+      "coverage": 0.9999614812389559,
+      "dtype": "Float64",
+      "n_unique": 27,
+      "signal": 0.0005362944663089841,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.500536294466309
+    },
+    {
+      "column": "annuity_853A",
+      "coverage": 0.957297138537539,
+      "dtype": "Float64",
+      "n_unique": 40490,
+      "signal": 0.005747275883701719,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.4942527241162983
+    },
+    {
+      "column": "approvaldate_319D",
+      "coverage": 0.5283136967899428,
+      "dtype": "String",
+      "n_unique": 5021,
+      "signal": 0.31897858643946675,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.8189785864394667
+    },
+    {
+      "column": "byoccupationinc_3656910L",
+      "coverage": 0.2806428781218252,
+      "dtype": "Float64",
+      "n_unique": 3625,
+      "table": "train_applprev_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "cancelreason_3545846M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 49,
+      "signal": 0.0756292787371754,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5756292787371754
+    },
+    {
+      "column": "childnum_21L",
+      "coverage": 0.542493415699284,
+      "dtype": "Float64",
+      "n_unique": 17,
+      "signal": 0.004206462693833957,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.504206462693834
+    },
+    {
+      "column": "creationdate_885D",
+      "coverage": 0.999980740619478,
+      "dtype": "String",
+      "n_unique": 5068,
+      "signal": 0.22152327394058413,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.7215232739405841
+    },
+    {
+      "column": "credacc_actualbalance_314A",
+      "coverage": 0.042149154272452825,
+      "dtype": "Float64",
+      "n_unique": 4803,
+      "table": "train_applprev_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "credacc_credlmt_575A",
+      "coverage": 0.9677838712317818,
+      "dtype": "Float64",
+      "n_unique": 6202,
+      "signal": 0.007507176024821649,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.49249282397517835
+    },
+    {
+      "column": "credacc_maxhisbal_375A",
+      "coverage": 0.042149154272452825,
+      "dtype": "Float64",
+      "n_unique": 2926,
+      "table": "train_applprev_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "credacc_minhisbal_90A",
+      "coverage": 0.042149154272452825,
+      "dtype": "Float64",
+      "n_unique": 2887,
+      "table": "train_applprev_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "credacc_status_367L",
+      "coverage": 0.042149154272452825,
+      "dtype": "String",
+      "n_unique": 7,
+      "table": "train_applprev_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "credacc_transactions_402L",
+      "coverage": 0.042149154272452825,
+      "dtype": "Float64",
+      "n_unique": 39,
+      "table": "train_applprev_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "credamount_590A",
+      "coverage": 0.9667246053030705,
+      "dtype": "Float64",
+      "n_unique": 36755,
+      "signal": 0.01783840483105037,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5178384048310504
+    },
+    {
+      "column": "credtype_587L",
+      "coverage": 0.9667246053030705,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.01227583803610277,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5122758380361028
+    },
+    {
+      "column": "currdebt_94A",
+      "coverage": 0.6724653451521732,
+      "dtype": "Float64",
+      "n_unique": 10654,
+      "signal": 0.00911966767897765,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5091196676789776
+    },
+    {
+      "column": "dateactivated_425D",
+      "coverage": 0.5135658261552017,
+      "dtype": "String",
+      "n_unique": 3745,
+      "signal": 0.28509041985946937,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.7850904198594694
+    },
+    {
+      "column": "district_544M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 373,
+      "signal": 0.07386537310309826,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5738653731030983
+    },
+    {
+      "column": "downpmt_134A",
+      "coverage": 0.9667246053030705,
+      "dtype": "Float64",
+      "n_unique": 3125,
+      "signal": 0.011596772100701536,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.48840322789929846
+    },
+    {
+      "column": "dtlastpmt_581D",
+      "coverage": 0.2831947460409936,
+      "dtype": "String",
+      "n_unique": 1656,
+      "table": "train_applprev_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "dtlastpmtallstes_3545839D",
+      "coverage": 0.34742959492707914,
+      "dtype": "String",
+      "n_unique": 1674,
+      "signal": 0.2341911103580897,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.7341911103580897
+    },
+    {
+      "column": "education_1138M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.04091134956564135,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5409113495656414
+    },
+    {
+      "column": "employedfrom_700D",
+      "coverage": 0.46163772142269044,
+      "dtype": "String",
+      "n_unique": 3315,
+      "signal": 0.15963270935573037,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.6596327093557304
+    },
+    {
+      "column": "familystate_726L",
+      "coverage": 0.7115378133862325,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.025762431272522646,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5257624312725226
+    },
+    {
+      "column": "firstnonzeroinstldate_307D",
+      "coverage": 0.9084457198434213,
+      "dtype": "String",
+      "n_unique": 4761,
+      "signal": 0.2236025199157129,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.7236025199157129
+    },
+    {
+      "column": "inittransactioncode_279L",
+      "coverage": 0.9667246053030705,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.010990883701135878,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5109908837011359
+    },
+    {
+      "column": "isbidproduct_390L",
+      "coverage": 0.999980740619478,
+      "dtype": "Boolean",
+      "n_unique": 3,
+      "signal": 0.005564111836906527,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5055641118369065
+    },
+    {
+      "column": "isdebitcard_527L",
+      "coverage": 0.060609270502814276,
+      "dtype": "Boolean",
+      "n_unique": 3,
+      "table": "train_applprev_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "mainoccupationinc_437A",
+      "coverage": 0.9910443880572581,
+      "dtype": "Float64",
+      "n_unique": 4021,
+      "signal": 0.01777667703225494,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5177766770322549
+    },
+    {
+      "column": "maxdpdtolerance_577P",
+      "coverage": 0.5211010587844442,
+      "dtype": "Float64",
+      "n_unique": 1043,
+      "signal": 0.10686224840225023,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.6068622484022502
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 20,
+      "signal": 0.019554547777246523,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5195545477772465
+    },
+    {
+      "column": "outstandingdebt_522A",
+      "coverage": 0.6710016322324992,
+      "dtype": "Float64",
+      "n_unique": 10568,
+      "signal": 0.009201273176049352,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5092012731760494
+    },
+    {
+      "column": "pmtnum_8L",
+      "coverage": 0.9184798570953965,
+      "dtype": "Float64",
+      "n_unique": 47,
+      "signal": 0.046236339597546916,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5462363395975469
+    },
+    {
+      "column": "postype_4733339M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 9,
+      "signal": 0.002765364997781017,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.502765364997781
+    },
+    {
+      "column": "profession_152M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 1177,
+      "signal": 0.01047415922087791,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5104741592208779
+    },
+    {
+      "column": "rejectreason_755M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 18,
+      "signal": 0.06979910523761723,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5697991052376172
+    },
+    {
+      "column": "rejectreasonclient_4145042M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 11,
+      "signal": 0.06563309487586044,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5656330948758604
+    },
+    {
+      "column": "revolvingaccount_394A",
+      "coverage": 0.037021344208463536,
+      "dtype": "Float64",
+      "n_unique": 7037,
+      "table": "train_applprev_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "status_219L",
+      "coverage": 0.999980740619478,
+      "dtype": "String",
+      "n_unique": 11,
+      "signal": 0.08674006281546998,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.58674006281547
+    },
+    {
+      "column": "tenor_203L",
+      "coverage": 0.9184798570953965,
+      "dtype": "Float64",
+      "n_unique": 47,
+      "signal": 0.046236339597546916,
+      "table": "train_applprev_1_0",
+      "univariate_auc": 0.5462363395975469
+    },
+    {
+      "column": "actualdpd_943P",
+      "coverage": 0.9999706151508282,
+      "dtype": "Float64",
+      "n_unique": 42,
+      "signal": 0.0007828541232332009,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5007828541232332
+    },
+    {
+      "column": "annuity_853A",
+      "coverage": 0.9599904289348412,
+      "dtype": "Float64",
+      "n_unique": 43338,
+      "signal": 6.7119877568133646e-06,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5000067119877568
+    },
+    {
+      "column": "approvaldate_319D",
+      "coverage": 0.5031189918478033,
+      "dtype": "String",
+      "n_unique": 5093,
+      "signal": 0.2672973039237154,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.7672973039237154
+    },
+    {
+      "column": "byoccupationinc_3656910L",
+      "coverage": 0.22881142482935798,
+      "dtype": "Float64",
+      "n_unique": 3195,
+      "table": "train_applprev_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "cancelreason_3545846M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 53,
+      "signal": 0.0792724132170105,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5792724132170105
+    },
+    {
+      "column": "childnum_21L",
+      "coverage": 0.4418893618450327,
+      "dtype": "Float64",
+      "n_unique": 15,
+      "signal": 0.0007402882220675089,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.4992597117779325
+    },
+    {
+      "column": "creationdate_885D",
+      "coverage": 0.9999790108220201,
+      "dtype": "String",
+      "n_unique": 5152,
+      "signal": 0.17983877696330675,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.6798387769633067
+    },
+    {
+      "column": "credacc_actualbalance_314A",
+      "coverage": 0.05435777313217305,
+      "dtype": "Float64",
+      "n_unique": 6383,
+      "table": "train_applprev_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "credacc_credlmt_575A",
+      "coverage": 0.9688898403982906,
+      "dtype": "Float64",
+      "n_unique": 7024,
+      "signal": 0.007362047690747331,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.49263795230925267
+    },
+    {
+      "column": "credacc_maxhisbal_375A",
+      "coverage": 0.05435777313217305,
+      "dtype": "Float64",
+      "n_unique": 4493,
+      "table": "train_applprev_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "credacc_minhisbal_90A",
+      "coverage": 0.05435777313217305,
+      "dtype": "Float64",
+      "n_unique": 4342,
+      "table": "train_applprev_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "credacc_status_367L",
+      "coverage": 0.05435777313217305,
+      "dtype": "String",
+      "n_unique": 7,
+      "table": "train_applprev_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "credacc_transactions_402L",
+      "coverage": 0.05435777313217305,
+      "dtype": "Float64",
+      "n_unique": 55,
+      "table": "train_applprev_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "credamount_590A",
+      "coverage": 0.9674289936108942,
+      "dtype": "Float64",
+      "n_unique": 39961,
+      "signal": 0.02652949911775393,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5265294991177539
+    },
+    {
+      "column": "credtype_587L",
+      "coverage": 0.9674289936108942,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.016204617007191557,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5162046170071916
+    },
+    {
+      "column": "currdebt_94A",
+      "coverage": 0.6219051457068735,
+      "dtype": "Float64",
+      "n_unique": 10865,
+      "signal": 0.010521695298669087,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5105216952986691
+    },
+    {
+      "column": "dateactivated_425D",
+      "coverage": 0.4882838408516569,
+      "dtype": "String",
+      "n_unique": 3832,
+      "signal": 0.23787512462031735,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.7378751246203173
+    },
+    {
+      "column": "district_544M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 408,
+      "signal": 0.0815713050189385,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5815713050189385
+    },
+    {
+      "column": "downpmt_134A",
+      "coverage": 0.9674289936108942,
+      "dtype": "Float64",
+      "n_unique": 3208,
+      "signal": 0.005055103638833602,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.4949448963611664
+    },
+    {
+      "column": "dtlastpmt_581D",
+      "coverage": 0.29216096180809176,
+      "dtype": "String",
+      "n_unique": 1772,
+      "table": "train_applprev_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "dtlastpmtallstes_3545839D",
+      "coverage": 0.3575380533796774,
+      "dtype": "String",
+      "n_unique": 1785,
+      "signal": 0.1911860813676146,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.6911860813676146
+    },
+    {
+      "column": "education_1138M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.042862934728926105,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5428629347289261
+    },
+    {
+      "column": "employedfrom_700D",
+      "coverage": 0.40275713841943095,
+      "dtype": "String",
+      "n_unique": 3474,
+      "signal": 0.1581827668110105,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.6581827668110105
+    },
+    {
+      "column": "familystate_726L",
+      "coverage": 0.6092150887002662,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.028645088605032343,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5286450886050323
+    },
+    {
+      "column": "firstnonzeroinstldate_307D",
+      "coverage": 0.8938871118051532,
+      "dtype": "String",
+      "n_unique": 4836,
+      "signal": 0.1855586860143965,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.6855586860143965
+    },
+    {
+      "column": "inittransactioncode_279L",
+      "coverage": 0.9674289936108942,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.01744805808667871,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5174480580866787
+    },
+    {
+      "column": "isbidproduct_390L",
+      "coverage": 0.9999790108220201,
+      "dtype": "Boolean",
+      "n_unique": 3,
+      "signal": 0.00439203907497554,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5043920390749755
+    },
+    {
+      "column": "isdebitcard_527L",
+      "coverage": 0.07533855544081472,
+      "dtype": "Boolean",
+      "n_unique": 3,
+      "table": "train_applprev_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "mainoccupationinc_437A",
+      "coverage": 0.9820752420052221,
+      "dtype": "Float64",
+      "n_unique": 4243,
+      "signal": 0.017321338190198654,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5173213381901987
+    },
+    {
+      "column": "maxdpdtolerance_577P",
+      "coverage": 0.49536558950205273,
+      "dtype": "Float64",
+      "n_unique": 1206,
+      "signal": 0.1047304038229887,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.6047304038229887
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 20,
+      "signal": 0.03928155334082506,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5392815533408251
+    },
+    {
+      "column": "outstandingdebt_522A",
+      "coverage": 0.6204778816042449,
+      "dtype": "Float64",
+      "n_unique": 10830,
+      "signal": 0.011096087371563201,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5110960873715632
+    },
+    {
+      "column": "pmtnum_8L",
+      "coverage": 0.9101831095886961,
+      "dtype": "Float64",
+      "n_unique": 51,
+      "signal": 0.05350932227068339,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5535093222706834
+    },
+    {
+      "column": "postype_4733339M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 9,
+      "signal": 0.030860784902717264,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5308607849027173
+    },
+    {
+      "column": "profession_152M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 1211,
+      "signal": 0.007615061031172821,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5076150610311728
+    },
+    {
+      "column": "rejectreason_755M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 17,
+      "signal": 0.07435986537340589,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5743598653734059
+    },
+    {
+      "column": "rejectreasonclient_4145042M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 11,
+      "signal": 0.07484645373144982,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5748464537314498
+    },
+    {
+      "column": "revolvingaccount_394A",
+      "coverage": 0.04579418851640094,
+      "dtype": "Float64",
+      "n_unique": 9512,
+      "table": "train_applprev_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "status_219L",
+      "coverage": 0.9999790108220201,
+      "dtype": "String",
+      "n_unique": 10,
+      "signal": 0.0834603791507228,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5834603791507228
+    },
+    {
+      "column": "tenor_203L",
+      "coverage": 0.9101831095886961,
+      "dtype": "Float64",
+      "n_unique": 51,
+      "signal": 0.05350932227068339,
+      "table": "train_applprev_1_1",
+      "univariate_auc": 0.5535093222706834
+    },
+    {
+      "column": "annualeffectiverate_199L",
+      "coverage": 0.009677360203174137,
+      "dtype": "Float64",
+      "n_unique": 452,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "annualeffectiverate_63L",
+      "coverage": 0.00013294336612603032,
+      "dtype": "Float64",
+      "n_unique": 27,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "classificationofcontr_13M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.0005065397203294353,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.5005065397203294
+    },
+    {
+      "column": "classificationofcontr_400M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 125,
+      "signal": 0.01726901361375799,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.517269013613758
+    },
+    {
+      "column": "contractst_545M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 14,
+      "signal": 0.0006052765345073707,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.5006052765345074
+    },
+    {
+      "column": "contractst_964M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 59,
+      "signal": 0.010111256147468106,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.5101112561474681
+    },
+    {
+      "column": "contractsum_5085717L",
+      "coverage": 0.0,
+      "dtype": "Float64",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "credlmt_230A",
+      "coverage": 0.007279795358901246,
+      "dtype": "Float64",
+      "n_unique": 324,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "credlmt_935A",
+      "coverage": 0.0001879544141781808,
+      "dtype": "Float64",
+      "n_unique": 22,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "dateofcredend_289D",
+      "coverage": 0.0008572554988126782,
+      "dtype": "String",
+      "n_unique": 142,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "dateofcredend_353D",
+      "coverage": 0.08095334146274377,
+      "dtype": "String",
+      "n_unique": 3875,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "dateofcredstart_181D",
+      "coverage": 0.08095334146274377,
+      "dtype": "String",
+      "n_unique": 4344,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "dateofcredstart_739D",
+      "coverage": 0.0008572554988126782,
+      "dtype": "String",
+      "n_unique": 171,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "dateofrealrepmt_138D",
+      "coverage": 0.08064619644445259,
+      "dtype": "String",
+      "n_unique": 3606,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "debtoutstand_525A",
+      "coverage": 0.004533827210298068,
+      "dtype": "Float64",
+      "n_unique": 73,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "debtoverdue_47A",
+      "coverage": 0.004533827210298068,
+      "dtype": "Float64",
+      "n_unique": 38,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "description_351M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 12,
+      "signal": 0.0013689845133376677,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.5013689845133377
+    },
+    {
+      "column": "dpdmax_139P",
+      "coverage": 0.0008572554988126782,
+      "dtype": "Float64",
+      "n_unique": 83,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpdmax_757P",
+      "coverage": 0.07768935261164951,
+      "dtype": "Float64",
+      "n_unique": 632,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpdmaxdatemonth_442T",
+      "coverage": 0.07768935261164951,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpdmaxdatemonth_89T",
+      "coverage": 0.0008572554988126782,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpdmaxdateyear_596T",
+      "coverage": 0.0008572554988126782,
+      "dtype": "Float64",
+      "n_unique": 5,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpdmaxdateyear_896T",
+      "coverage": 0.07768935261164951,
+      "dtype": "Float64",
+      "n_unique": 17,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "financialinstitution_382M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 124,
+      "signal": 0.019639730948721623,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.5196397309487216
+    },
+    {
+      "column": "financialinstitution_591M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 24,
+      "signal": 0.0007463239820402201,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.5007463239820402
+    },
+    {
+      "column": "instlamount_768A",
+      "coverage": 0.0001879544141781808,
+      "dtype": "Float64",
+      "n_unique": 12,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "instlamount_852A",
+      "coverage": 0.004763039910515362,
+      "dtype": "Float64",
+      "n_unique": 238,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "interestrate_508L",
+      "coverage": 0.0005684474965388883,
+      "dtype": "Float64",
+      "n_unique": 32,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "lastupdate_1112D",
+      "coverage": 0.0008572554988126782,
+      "dtype": "String",
+      "n_unique": 55,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "lastupdate_388D",
+      "coverage": 0.08095334146274377,
+      "dtype": "String",
+      "n_unique": 2577,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "monthlyinstlamount_332A",
+      "coverage": 0.0008572554988126782,
+      "dtype": "Float64",
+      "n_unique": 150,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "monthlyinstlamount_674A",
+      "coverage": 0.07729052251327141,
+      "dtype": "Float64",
+      "n_unique": 7452,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "nominalrate_281L",
+      "coverage": 0.0004905151784650084,
+      "dtype": "Float64",
+      "n_unique": 37,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "nominalrate_498L",
+      "coverage": 0.029064170387552834,
+      "dtype": "Float64",
+      "n_unique": 270,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 172,
+      "signal": 0.017555595822605574,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.4824444041773944
+    },
+    {
+      "column": "numberofcontrsvalue_258L",
+      "coverage": 0.00047676241645197077,
+      "dtype": "Float64",
+      "n_unique": 6,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofcontrsvalue_358L",
+      "coverage": 0.0056615536953671525,
+      "dtype": "Float64",
+      "n_unique": 27,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofinstls_229L",
+      "coverage": 0.07362311930979472,
+      "dtype": "Float64",
+      "n_unique": 103,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofinstls_320L",
+      "coverage": 0.0006693010846344974,
+      "dtype": "Float64",
+      "n_unique": 28,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoutstandinstls_520L",
+      "coverage": 0.07364145632581211,
+      "dtype": "Float64",
+      "n_unique": 12,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoutstandinstls_59L",
+      "coverage": 0.0006693010846344974,
+      "dtype": "Float64",
+      "n_unique": 4,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoverdueinstlmax_1039L",
+      "coverage": 0.0008572554988126782,
+      "dtype": "Float64",
+      "n_unique": 85,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoverdueinstlmax_1151L",
+      "coverage": 0.08095334146274377,
+      "dtype": "Float64",
+      "n_unique": 667,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoverdueinstlmaxdat_148D",
+      "coverage": 0.021468061502351723,
+      "dtype": "String",
+      "n_unique": 1703,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoverdueinstlmaxdat_641D",
+      "coverage": 0.00047676241645197077,
+      "dtype": "String",
+      "n_unique": 68,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoverdueinstls_725L",
+      "coverage": 0.0008572554988126782,
+      "dtype": "Float64",
+      "n_unique": 57,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoverdueinstls_834L",
+      "coverage": 0.08089374616068727,
+      "dtype": "Float64",
+      "n_unique": 10,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "outstandingamount_354A",
+      "coverage": 0.07366896184983818,
+      "dtype": "Float64",
+      "n_unique": 6,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "outstandingamount_362A",
+      "coverage": 0.0006693010846344974,
+      "dtype": "Float64",
+      "n_unique": 78,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamount_31A",
+      "coverage": 0.08089833041469162,
+      "dtype": "Float64",
+      "n_unique": 7,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamount_659A",
+      "coverage": 0.0008572554988126782,
+      "dtype": "Float64",
+      "n_unique": 66,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax2_14A",
+      "coverage": 0.0008572554988126782,
+      "dtype": "Float64",
+      "n_unique": 105,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax2_398A",
+      "coverage": 0.08095334146274377,
+      "dtype": "Float64",
+      "n_unique": 4376,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax2date_1002D",
+      "coverage": 0.021509319788390834,
+      "dtype": "String",
+      "n_unique": 1786,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax2date_1142D",
+      "coverage": 0.00047676241645197077,
+      "dtype": "String",
+      "n_unique": 79,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax_155A",
+      "coverage": 0.0008572554988126782,
+      "dtype": "Float64",
+      "n_unique": 100,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax_35A",
+      "coverage": 0.077748947913706,
+      "dtype": "Float64",
+      "n_unique": 4185,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmaxdatemonth_284T",
+      "coverage": 0.077748947913706,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmaxdatemonth_365T",
+      "coverage": 0.0008572554988126782,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmaxdateyear_2T",
+      "coverage": 0.0008572554988126782,
+      "dtype": "Float64",
+      "n_unique": 5,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmaxdateyear_994T",
+      "coverage": 0.077748947913706,
+      "dtype": "Float64",
+      "n_unique": 17,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "periodicityofpmts_1102L",
+      "coverage": 0.06244670804719948,
+      "dtype": "Float64",
+      "n_unique": 5,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "periodicityofpmts_837L",
+      "coverage": 0.0005455262265171588,
+      "dtype": "Float64",
+      "n_unique": 2,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "prolongationcount_1120L",
+      "coverage": 0.009044733150574406,
+      "dtype": "Float64",
+      "n_unique": 24,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "prolongationcount_599L",
+      "coverage": 8.710082608257159e-05,
+      "dtype": "Float64",
+      "n_unique": 10,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "purposeofcred_426M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.0005971485383204911,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.5005971485383205
+    },
+    {
+      "column": "purposeofcred_874M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 16,
+      "signal": 0.012080187855962876,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.5120801878559629
+    },
+    {
+      "column": "refreshdate_3813885D",
+      "coverage": 0.5891958301625576,
+      "dtype": "String",
+      "n_unique": 12,
+      "signal": 0.008967009630144629,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.5089670096301446
+    },
+    {
+      "column": "residualamount_488A",
+      "coverage": 0.007229368564853442,
+      "dtype": "Float64",
+      "n_unique": 2,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "residualamount_856A",
+      "coverage": 0.0001879544141781808,
+      "dtype": "Float64",
+      "n_unique": 21,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "subjectrole_182M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.000408779337591203,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.5004087793375912
+    },
+    {
+      "column": "subjectrole_93M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.000806902090031536,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": 0.5008069020900315
+    },
+    {
+      "column": "totalamount_6A",
+      "coverage": 0.0736918831198599,
+      "dtype": "Float64",
+      "n_unique": 8214,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "totalamount_996A",
+      "coverage": 0.0006693010846344974,
+      "dtype": "Float64",
+      "n_unique": 127,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "totaldebtoverduevalue_178A",
+      "coverage": 0.00047676241645197077,
+      "dtype": "Float64",
+      "n_unique": 38,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "totaldebtoverduevalue_718A",
+      "coverage": 0.0056615536953671525,
+      "dtype": "Float64",
+      "n_unique": 5,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "totaloutstanddebtvalue_39A",
+      "coverage": 0.00047676241645197077,
+      "dtype": "Float64",
+      "n_unique": 74,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "totaloutstanddebtvalue_668A",
+      "coverage": 0.0056615536953671525,
+      "dtype": "Float64",
+      "n_unique": 4,
+      "table": "train_credit_bureau_a_1_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "annualeffectiverate_199L",
+      "coverage": 0.0499727473536246,
+      "dtype": "Float64",
+      "n_unique": 1362,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "annualeffectiverate_63L",
+      "coverage": 4.781166030771585e-05,
+      "dtype": "Float64",
+      "n_unique": 11,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "classificationofcontr_13M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 5,
+      "signal": 0.0006229765185106206,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5006229765185106
+    },
+    {
+      "column": "classificationofcontr_400M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 154,
+      "signal": 0.06288194819478632,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5628819481947863
+    },
+    {
+      "column": "contractst_545M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 9,
+      "signal": 0.000603280127129513,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5006032801271295
+    },
+    {
+      "column": "contractst_964M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 93,
+      "signal": 0.045338907137915,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.545338907137915
+    },
+    {
+      "column": "contractsum_5085717L",
+      "coverage": 0.0,
+      "dtype": "Float64",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "credlmt_230A",
+      "coverage": 0.033080887766908595,
+      "dtype": "Float64",
+      "n_unique": 958,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "credlmt_935A",
+      "coverage": 9.562332061543168e-06,
+      "dtype": "Float64",
+      "n_unique": 3,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "dateofcredend_289D",
+      "coverage": 0.00017690314313854863,
+      "dtype": "String",
+      "n_unique": 38,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "dateofcredend_353D",
+      "coverage": 0.38257934345028066,
+      "dtype": "String",
+      "n_unique": 4928,
+      "signal": 0.3375558520508499,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.8375558520508499
+    },
+    {
+      "column": "dateofcredstart_181D",
+      "coverage": 0.38257934345028066,
+      "dtype": "String",
+      "n_unique": 5261,
+      "signal": 0.3572783855850946,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.8572783855850946
+    },
+    {
+      "column": "dateofcredstart_739D",
+      "coverage": 0.00017690314313854863,
+      "dtype": "String",
+      "n_unique": 37,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "dateofrealrepmt_138D",
+      "coverage": 0.38146055059908013,
+      "dtype": "String",
+      "n_unique": 4590,
+      "signal": 0.3316479642633997,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.8316479642633997
+    },
+    {
+      "column": "debtoutstand_525A",
+      "coverage": 0.0012717901641852414,
+      "dtype": "Float64",
+      "n_unique": 5,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "debtoverdue_47A",
+      "coverage": 0.0012717901641852414,
+      "dtype": "Float64",
+      "n_unique": 4,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "description_351M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 7,
+      "signal": 0.00014958458013270004,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5001495845801327
+    },
+    {
+      "column": "dpdmax_139P",
+      "coverage": 0.00016734081107700545,
+      "dtype": "Float64",
+      "n_unique": 24,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpdmax_757P",
+      "coverage": 0.3689099897683047,
+      "dtype": "Float64",
+      "n_unique": 1358,
+      "signal": 0.07004980504888958,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5700498050488896
+    },
+    {
+      "column": "dpdmaxdatemonth_442T",
+      "coverage": 0.3689099897683047,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "signal": 0.002585713243782428,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.49741428675621757
+    },
+    {
+      "column": "dpdmaxdatemonth_89T",
+      "coverage": 0.00016734081107700545,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpdmaxdateyear_596T",
+      "coverage": 0.00016734081107700545,
+      "dtype": "Float64",
+      "n_unique": 3,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpdmaxdateyear_896T",
+      "coverage": 0.3689099897683047,
+      "dtype": "Float64",
+      "n_unique": 17,
+      "signal": 0.08784505396746012,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5878450539674601
+    },
+    {
+      "column": "financialinstitution_382M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 160,
+      "signal": 0.07515050969314052,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5751505096931405
+    },
+    {
+      "column": "financialinstitution_591M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 18,
+      "signal": 0.000664876009155102,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5006648760091551
+    },
+    {
+      "column": "instlamount_768A",
+      "coverage": 0.0,
+      "dtype": "Float64",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "instlamount_852A",
+      "coverage": 0.023241248075580673,
+      "dtype": "Float64",
+      "n_unique": 972,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "interestrate_508L",
+      "coverage": 0.0017929372615393443,
+      "dtype": "Float64",
+      "n_unique": 42,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "lastupdate_1112D",
+      "coverage": 0.00017690314313854863,
+      "dtype": "String",
+      "n_unique": 27,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "lastupdate_388D",
+      "coverage": 0.38257934345028066,
+      "dtype": "String",
+      "n_unique": 3416,
+      "signal": 0.29793404947226576,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.7979340494722658
+    },
+    {
+      "column": "monthlyinstlamount_332A",
+      "coverage": 0.00016734081107700545,
+      "dtype": "Float64",
+      "n_unique": 34,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "monthlyinstlamount_674A",
+      "coverage": 0.36880958528165847,
+      "dtype": "Float64",
+      "n_unique": 30168,
+      "signal": 0.007200568710493072,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.49279943128950693
+    },
+    {
+      "column": "nominalrate_281L",
+      "coverage": 7.171749046157377e-05,
+      "dtype": "Float64",
+      "n_unique": 10,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "nominalrate_498L",
+      "coverage": 0.14836436310087303,
+      "dtype": "Float64",
+      "n_unique": 496,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 165,
+      "signal": 0.02908960449506759,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.4709103955049324
+    },
+    {
+      "column": "numberofcontrsvalue_258L",
+      "coverage": 2.3905830153857924e-05,
+      "dtype": "Float64",
+      "n_unique": 3,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofcontrsvalue_358L",
+      "coverage": 0.0013769758168622164,
+      "dtype": "Float64",
+      "n_unique": 18,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofinstls_229L",
+      "coverage": 0.3493550207024489,
+      "dtype": "Float64",
+      "n_unique": 133,
+      "signal": 0.021227411782177297,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.4787725882178227
+    },
+    {
+      "column": "numberofinstls_320L",
+      "coverage": 0.00016734081107700545,
+      "dtype": "Float64",
+      "n_unique": 11,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoutstandinstls_520L",
+      "coverage": 0.34940283236275665,
+      "dtype": "Float64",
+      "n_unique": 19,
+      "signal": 0.0005847943577156345,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5005847943577156
+    },
+    {
+      "column": "numberofoutstandinstls_59L",
+      "coverage": 0.00016734081107700545,
+      "dtype": "Float64",
+      "n_unique": 3,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoverdueinstlmax_1039L",
+      "coverage": 0.00017690314313854863,
+      "dtype": "Float64",
+      "n_unique": 24,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoverdueinstlmax_1151L",
+      "coverage": 0.38257934345028066,
+      "dtype": "Float64",
+      "n_unique": 1472,
+      "signal": 0.06805773276707128,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5680577327670713
+    },
+    {
+      "column": "numberofoverdueinstlmaxdat_148D",
+      "coverage": 0.1002658328313109,
+      "dtype": "String",
+      "n_unique": 2938,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoverdueinstlmaxdat_641D",
+      "coverage": 0.00010518565267697486,
+      "dtype": "String",
+      "n_unique": 20,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoverdueinstls_725L",
+      "coverage": 0.00016734081107700545,
+      "dtype": "Float64",
+      "n_unique": 20,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "numberofoverdueinstls_834L",
+      "coverage": 0.3823163793185882,
+      "dtype": "Float64",
+      "n_unique": 18,
+      "signal": 0.0006611427987114338,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5006611427987114
+    },
+    {
+      "column": "outstandingamount_354A",
+      "coverage": 0.349479331019249,
+      "dtype": "Float64",
+      "n_unique": 21,
+      "signal": 0.0001403055855653812,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.4998596944144346
+    },
+    {
+      "column": "outstandingamount_362A",
+      "coverage": 0.00016734081107700545,
+      "dtype": "Float64",
+      "n_unique": 19,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamount_31A",
+      "coverage": 0.3823163793185882,
+      "dtype": "Float64",
+      "n_unique": 17,
+      "signal": 0.0006867262534806517,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5006867262534807
+    },
+    {
+      "column": "overdueamount_659A",
+      "coverage": 0.00016734081107700545,
+      "dtype": "Float64",
+      "n_unique": 20,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax2_14A",
+      "coverage": 0.00017690314313854863,
+      "dtype": "Float64",
+      "n_unique": 24,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax2_398A",
+      "coverage": 0.38257934345028066,
+      "dtype": "Float64",
+      "n_unique": 18335,
+      "signal": 0.0667510814677188,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5667510814677188
+    },
+    {
+      "column": "overdueamountmax2date_1002D",
+      "coverage": 0.1009399772416497,
+      "dtype": "String",
+      "n_unique": 2984,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax2date_1142D",
+      "coverage": 0.00010518565267697486,
+      "dtype": "String",
+      "n_unique": 22,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax_155A",
+      "coverage": 0.00017690314313854863,
+      "dtype": "Float64",
+      "n_unique": 24,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax_35A",
+      "coverage": 0.36909645524350476,
+      "dtype": "Float64",
+      "n_unique": 17596,
+      "signal": 0.06900682116224821,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5690068211622482
+    },
+    {
+      "column": "overdueamountmaxdatemonth_284T",
+      "coverage": 0.36909645524350476,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "signal": 0.002599361296375058,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.49740063870362494
+    },
+    {
+      "column": "overdueamountmaxdatemonth_365T",
+      "coverage": 0.00017690314313854863,
+      "dtype": "Float64",
+      "n_unique": 12,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmaxdateyear_2T",
+      "coverage": 0.00017690314313854863,
+      "dtype": "Float64",
+      "n_unique": 4,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmaxdateyear_994T",
+      "coverage": 0.36909645524350476,
+      "dtype": "Float64",
+      "n_unique": 17,
+      "signal": 0.0794296458580327,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5794296458580327
+    },
+    {
+      "column": "periodicityofpmts_1102L",
+      "coverage": 0.2987511594327625,
+      "dtype": "Float64",
+      "n_unique": 6,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "periodicityofpmts_837L",
+      "coverage": 8.606098855388853e-05,
+      "dtype": "Float64",
+      "n_unique": 2,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "prolongationcount_1120L",
+      "coverage": 0.041562676305497384,
+      "dtype": "Float64",
+      "n_unique": 27,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "prolongationcount_599L",
+      "coverage": 5.259282633848743e-05,
+      "dtype": "Float64",
+      "n_unique": 7,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "purposeofcred_426M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.0006057214190711147,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5006057214190711
+    },
+    {
+      "column": "purposeofcred_874M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 18,
+      "signal": 0.04730764671007204,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.547307646710072
+    },
+    {
+      "column": "refreshdate_3813885D",
+      "coverage": 0.5757336699274219,
+      "dtype": "String",
+      "n_unique": 19,
+      "signal": 0.02439877737114604,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.524398777371146
+    },
+    {
+      "column": "residualamount_488A",
+      "coverage": 0.03283704829933924,
+      "dtype": "Float64",
+      "n_unique": 2,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "residualamount_856A",
+      "coverage": 0.0,
+      "dtype": "Float64",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "subjectrole_182M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 3,
+      "signal": 7.356119302814879e-05,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5000735611930281
+    },
+    {
+      "column": "subjectrole_93M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 5,
+      "signal": 0.0004605785426052833,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.5004605785426053
+    },
+    {
+      "column": "totalamount_6A",
+      "coverage": 0.34957017317383365,
+      "dtype": "Float64",
+      "n_unique": 29061,
+      "signal": 0.07778676176819344,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": 0.42221323823180656
+    },
+    {
+      "column": "totalamount_996A",
+      "coverage": 0.00016734081107700545,
+      "dtype": "Float64",
+      "n_unique": 31,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "totaldebtoverduevalue_178A",
+      "coverage": 2.3905830153857924e-05,
+      "dtype": "Float64",
+      "n_unique": 4,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "totaldebtoverduevalue_718A",
+      "coverage": 0.0013769758168622164,
+      "dtype": "Float64",
+      "n_unique": 2,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "totaloutstanddebtvalue_39A",
+      "coverage": 2.3905830153857924e-05,
+      "dtype": "Float64",
+      "n_unique": 6,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "totaloutstanddebtvalue_668A",
+      "coverage": 0.0013769758168622164,
+      "dtype": "Float64",
+      "n_unique": 2,
+      "table": "train_credit_bureau_a_1_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "amount_1115A",
+      "coverage": 0.16552315608919382,
+      "dtype": "Float64",
+      "n_unique": 326,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "classificationofcontr_1114M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 9,
+      "signal": 0.1253373250126496,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.6253373250126496
+    },
+    {
+      "column": "contractdate_551D",
+      "coverage": 0.17066895368782162,
+      "dtype": "String",
+      "n_unique": 498,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "contractmaturitydate_151D",
+      "coverage": 0.1312178387650086,
+      "dtype": "String",
+      "n_unique": 399,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "contractst_516M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 12,
+      "signal": 0.1258913344952306,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.6258913344952306
+    },
+    {
+      "column": "contracttype_653M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 8,
+      "signal": 0.12120392234028599,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.621203922340286
+    },
+    {
+      "column": "credlmt_1052A",
+      "coverage": 0.0031446540880503146,
+      "dtype": "Float64",
+      "n_unique": 11,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "credlmt_228A",
+      "coverage": 0.02944539736992567,
+      "dtype": "Float64",
+      "n_unique": 66,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "credlmt_3940954A",
+      "coverage": 0.005145797598627788,
+      "dtype": "Float64",
+      "n_unique": 15,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "credor_3940957M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 49,
+      "signal": 0.14309666704147217,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.6430966670414722
+    },
+    {
+      "column": "credquantity_1099L",
+      "coverage": 0.0797598627787307,
+      "dtype": "Float64",
+      "n_unique": 7,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "credquantity_984L",
+      "coverage": 0.8936535162950258,
+      "dtype": "Float64",
+      "n_unique": 34,
+      "signal": 0.08805583020682367,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.41194416979317633
+    },
+    {
+      "column": "debtpastduevalue_732A",
+      "coverage": 0.1700971983990852,
+      "dtype": "Float64",
+      "n_unique": 451,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "debtvalue_227A",
+      "coverage": 0.16552315608919382,
+      "dtype": "Float64",
+      "n_unique": 366,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpd_550P",
+      "coverage": 0.0797598627787307,
+      "dtype": "Float64",
+      "n_unique": 227,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpd_733P",
+      "coverage": 0.8936535162950258,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "signal": 0.001880984952120357,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.49811901504787964
+    },
+    {
+      "column": "dpdmax_851P",
+      "coverage": 0.1700971983990852,
+      "dtype": "Float64",
+      "n_unique": 493,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpdmaxdatemonth_804T",
+      "coverage": 0.1700971983990852,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "dpdmaxdateyear_742T",
+      "coverage": 0.1700971983990852,
+      "dtype": "Float64",
+      "n_unique": 15,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "installmentamount_644A",
+      "coverage": 0.8936535162950258,
+      "dtype": "Float64",
+      "n_unique": 14,
+      "signal": 0.002051983584131334,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.49794801641586867
+    },
+    {
+      "column": "installmentamount_833A",
+      "coverage": 0.0797598627787307,
+      "dtype": "Float64",
+      "n_unique": 233,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "instlamount_892A",
+      "coverage": 0.1260720411663808,
+      "dtype": "Float64",
+      "n_unique": 364,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "interesteffectiverate_369L",
+      "coverage": 0.02715837621497999,
+      "dtype": "Float64",
+      "n_unique": 33,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "interestrateyearly_538L",
+      "coverage": 0.03773584905660377,
+      "dtype": "Float64",
+      "n_unique": 35,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "lastupdate_260D",
+      "coverage": 0.17066895368782162,
+      "dtype": "String",
+      "n_unique": 134,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "maxdebtpduevalodued_3940955A",
+      "coverage": 0.1700971983990852,
+      "dtype": "Float64",
+      "n_unique": 344,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 9,
+      "signal": 0.02324204475178504,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.523242044751785
+    },
+    {
+      "column": "numberofinstls_810L",
+      "coverage": 0.1260720411663808,
+      "dtype": "Float64",
+      "n_unique": 25,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmax_950A",
+      "coverage": 0.1700971983990852,
+      "dtype": "Float64",
+      "n_unique": 357,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmaxdatemonth_494T",
+      "coverage": 0.1700971983990852,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "overdueamountmaxdateyear_432T",
+      "coverage": 0.1700971983990852,
+      "dtype": "Float64",
+      "n_unique": 9,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "periodicityofpmts_997L",
+      "coverage": 0.002287021154945683,
+      "dtype": "String",
+      "n_unique": 3,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "periodicityofpmts_997M",
+      "coverage": 0.9479702687249857,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.11421632455065356,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.6142163245506536
+    },
+    {
+      "column": "pmtdaysoverdue_1135P",
+      "coverage": 0.1700971983990852,
+      "dtype": "Float64",
+      "n_unique": 341,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "pmtmethod_731M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 8,
+      "signal": 0.11218692022263443,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.6121869202226344
+    },
+    {
+      "column": "pmtnumpending_403L",
+      "coverage": 0.16552315608919382,
+      "dtype": "Float64",
+      "n_unique": 24,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "purposeofcred_722M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.12351541856411985,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.6235154185641198
+    },
+    {
+      "column": "residualamount_1093A",
+      "coverage": 0.02944539736992567,
+      "dtype": "Float64",
+      "n_unique": 2,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "residualamount_127A",
+      "coverage": 0.0031446540880503146,
+      "dtype": "Float64",
+      "n_unique": 10,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "residualamount_3940956A",
+      "coverage": 0.004574042309891366,
+      "dtype": "Float64",
+      "n_unique": 8,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "subjectrole_326M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 5,
+      "signal": 0.06329587620172028,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.5632958762017203
+    },
+    {
+      "column": "subjectrole_43M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 5,
+      "signal": 0.0767215288319184,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.5767215288319184
+    },
+    {
+      "column": "totalamount_503A",
+      "coverage": 0.0797598627787307,
+      "dtype": "Float64",
+      "n_unique": 224,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "totalamount_881A",
+      "coverage": 0.8936535162950258,
+      "dtype": "Float64",
+      "n_unique": 2899,
+      "signal": 0.11076817326055455,
+      "table": "train_credit_bureau_b_1",
+      "univariate_auc": 0.38923182673944545
+    },
+    {
+      "column": "amount_416A",
+      "coverage": 1.0,
+      "dtype": "Float64",
+      "n_unique": 36009,
+      "signal": 0.03003283599944162,
+      "table": "train_deposit_1",
+      "univariate_auc": 0.4699671640005584
+    },
+    {
+      "column": "contractenddate_991D",
+      "coverage": 0.44577121159586974,
+      "dtype": "String",
+      "n_unique": 1429,
+      "signal": 0.2303105060442493,
+      "table": "train_deposit_1",
+      "univariate_auc": 0.7303105060442493
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 65,
+      "signal": 0.027939853715119034,
+      "table": "train_deposit_1",
+      "univariate_auc": 0.47206014628488097
+    },
+    {
+      "column": "openingdate_313D",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 1566,
+      "signal": 0.21190879044548483,
+      "table": "train_deposit_1",
+      "univariate_auc": 0.7119087904454848
+    },
+    {
+      "column": "amtdebitincoming_4809443A",
+      "coverage": 1.0,
+      "dtype": "Float64",
+      "n_unique": 4703,
+      "signal": 0.07377734679842063,
+      "table": "train_other_1",
+      "univariate_auc": 0.5737773467984206
+    },
+    {
+      "column": "amtdebitoutgoing_4809440A",
+      "coverage": 1.0,
+      "dtype": "Float64",
+      "n_unique": 4847,
+      "signal": 0.07496026417746426,
+      "table": "train_other_1",
+      "univariate_auc": 0.5749602641774643
+    },
+    {
+      "column": "amtdepositbalance_4809441A",
+      "coverage": 1.0,
+      "dtype": "Float64",
+      "n_unique": 4346,
+      "signal": 0.06438544038839267,
+      "table": "train_other_1",
+      "univariate_auc": 0.43561455961160733
+    },
+    {
+      "column": "amtdepositincoming_4809444A",
+      "coverage": 1.0,
+      "dtype": "Float64",
+      "n_unique": 1301,
+      "signal": 0.0197222218101597,
+      "table": "train_other_1",
+      "univariate_auc": 0.4802777781898403
+    },
+    {
+      "column": "amtdepositoutgoing_4809442A",
+      "coverage": 1.0,
+      "dtype": "Float64",
+      "n_unique": 2604,
+      "signal": 0.10290904790013772,
+      "table": "train_other_1",
+      "univariate_auc": 0.3970909520998623
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 1,
+      "table": "train_other_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "employername_160M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 59096,
+      "signal": 0.42579772040181696,
+      "table": "train_tax_registry_c_1",
+      "univariate_auc": 0.925797720401817
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 74,
+      "signal": 0.02720058973324585,
+      "table": "train_tax_registry_c_1",
+      "univariate_auc": 0.47279941026675415
+    },
+    {
+      "column": "pmtamount_36A",
+      "coverage": 1.0,
+      "dtype": "Float64",
+      "n_unique": 73678,
+      "signal": 0.038525549278794036,
+      "table": "train_tax_registry_c_1",
+      "univariate_auc": 0.46147445072120596
+    },
+    {
+      "column": "processingdate_168D",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 280,
+      "signal": 0.06977486875488592,
+      "table": "train_tax_registry_c_1",
+      "univariate_auc": 0.5697748687548859
+    },
+    {
+      "column": "cacccardblochreas_147M",
+      "coverage": 0.9914985946052567,
+      "dtype": "String",
+      "n_unique": 8,
+      "signal": 0.0004019428484554055,
+      "table": "train_applprev_2",
+      "univariate_auc": 0.5004019428484554
+    },
+    {
+      "column": "conts_type_509L",
+      "coverage": 0.8472311257951576,
+      "dtype": "String",
+      "n_unique": 8,
+      "signal": 0.02959464594856631,
+      "table": "train_applprev_2",
+      "univariate_auc": 0.5295946459485663
+    },
+    {
+      "column": "credacc_cards_status_52L",
+      "coverage": 0.023117510725380937,
+      "dtype": "String",
+      "n_unique": 6,
+      "table": "train_applprev_2",
+      "univariate_auc": null
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 20,
+      "signal": 0.024260308250263485,
+      "table": "train_applprev_2",
+      "univariate_auc": 0.5242603082502635
+    },
+    {
+      "column": "num_group2",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 6,
+      "signal": 0.021444913782459607,
+      "table": "train_applprev_2",
+      "univariate_auc": 0.4785550862175404
+    },
+    {
+      "column": "addres_district_368M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 274,
+      "signal": 0.011950508458718145,
+      "table": "train_person_2",
+      "univariate_auc": 0.5119505084587181
+    },
+    {
+      "column": "addres_role_871L",
+      "coverage": 0.039935485117150525,
+      "dtype": "String",
+      "n_unique": 6,
+      "table": "train_person_2",
+      "univariate_auc": null
+    },
+    {
+      "column": "addres_zip_823M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 1204,
+      "signal": 0.019156461090152788,
+      "table": "train_person_2",
+      "univariate_auc": 0.5191564610901528
+    },
+    {
+      "column": "conts_role_79M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 10,
+      "signal": 0.002376880634332057,
+      "table": "train_person_2",
+      "univariate_auc": 0.5023768806343321
+    },
+    {
+      "column": "empls_economicalst_849M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 10,
+      "signal": 0.0014003989954493035,
+      "table": "train_person_2",
+      "univariate_auc": 0.5014003989954493
+    },
+    {
+      "column": "empls_employedfrom_796D",
+      "coverage": 0.003375441849684186,
+      "dtype": "String",
+      "n_unique": 263,
+      "table": "train_person_2",
+      "univariate_auc": null
+    },
+    {
+      "column": "empls_employer_name_740M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 911,
+      "signal": 0.00464447196491391,
+      "table": "train_person_2",
+      "univariate_auc": 0.5046444719649139
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 5,
+      "signal": 0.007061994390714199,
+      "table": "train_person_2",
+      "univariate_auc": 0.5070619943907142
+    },
+    {
+      "column": "num_group2",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 27,
+      "signal": 0.0029824210706617116,
+      "table": "train_person_2",
+      "univariate_auc": 0.5029824210706617
+    },
+    {
+      "column": "relatedpersons_role_762T",
+      "coverage": 0.01664059029186224,
+      "dtype": "String",
+      "n_unique": 11,
+      "table": "train_person_2",
+      "univariate_auc": null
+    },
+    {
+      "column": "collater_typofvalofguarant_298M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.0027443078245080743,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": 0.5027443078245081
+    },
+    {
+      "column": "collater_typofvalofguarant_407M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "collater_valueofguarantee_1124L",
+      "coverage": 0.05818904764024273,
+      "dtype": "Float64",
+      "n_unique": 717,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "collater_valueofguarantee_876L",
+      "coverage": 0.0,
+      "dtype": "Float64",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "collaterals_typeofguarante_359M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "collaterals_typeofguarante_669M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 14,
+      "signal": 0.0048281420062668,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": 0.5048281420062668
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 35,
+      "signal": 0.004475419651311097,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": 0.4955245803486889
+    },
+    {
+      "column": "num_group2",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 36,
+      "signal": 0.013150068581115115,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": 0.4868499314188849
+    },
+    {
+      "column": "pmts_dpd_1073P",
+      "coverage": 0.6925614357848301,
+      "dtype": "Float64",
+      "n_unique": 1304,
+      "signal": 0.06881334791897886,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": 0.5688133479189789
+    },
+    {
+      "column": "pmts_dpd_303P",
+      "coverage": 0.0,
+      "dtype": "Float64",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "pmts_month_158T",
+      "coverage": 0.9999950544749583,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "signal": 0.0002906953342284302,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": 0.49970930466577157
+    },
+    {
+      "column": "pmts_month_706T",
+      "coverage": 0.0,
+      "dtype": "Float64",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "pmts_overdue_1140A",
+      "coverage": 0.6930955524893301,
+      "dtype": "Float64",
+      "n_unique": 8489,
+      "signal": 0.06844595321605906,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": 0.5684459532160591
+    },
+    {
+      "column": "pmts_overdue_1152A",
+      "coverage": 0.0,
+      "dtype": "Float64",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "pmts_year_1139T",
+      "coverage": 0.9999950544749583,
+      "dtype": "Float64",
+      "n_unique": 6,
+      "signal": 0.011784656982723907,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": 0.5117846569827239
+    },
+    {
+      "column": "pmts_year_507T",
+      "coverage": 0.0,
+      "dtype": "Float64",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "subjectroles_name_541M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 1,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": null
+    },
+    {
+      "column": "subjectroles_name_838M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.0032334272327581015,
+      "table": "train_credit_bureau_a_2_0",
+      "univariate_auc": 0.5032334272327581
+    },
+    {
+      "column": "collater_typofvalofguarant_298M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.0011440552376705826,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.5011440552376706
+    },
+    {
+      "column": "collater_typofvalofguarant_407M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 5,
+      "signal": 0.0008515342912237545,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.5008515342912238
+    },
+    {
+      "column": "collater_valueofguarantee_1124L",
+      "coverage": 0.04381734120208102,
+      "dtype": "Float64",
+      "n_unique": 622,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "collater_valueofguarantee_876L",
+      "coverage": 0.01401995146939876,
+      "dtype": "Float64",
+      "n_unique": 254,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "collaterals_typeofguarante_359M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 15,
+      "signal": 0.00110775935474694,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.5011077593547469
+    },
+    {
+      "column": "collaterals_typeofguarante_669M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 14,
+      "signal": 0.0029936395527438986,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.5029936395527439
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 102,
+      "signal": 0.01868980812546267,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.48131019187453733
+    },
+    {
+      "column": "num_group2",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 45,
+      "signal": 0.0180094416128318,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.4819905583871682
+    },
+    {
+      "column": "pmts_dpd_1073P",
+      "coverage": 0.5197916978720429,
+      "dtype": "Float64",
+      "n_unique": 992,
+      "signal": 0.06119976932214455,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.5611997693221445
+    },
+    {
+      "column": "pmts_dpd_303P",
+      "coverage": 0.14444344587240246,
+      "dtype": "Float64",
+      "n_unique": 1146,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "pmts_month_158T",
+      "coverage": 0.7626444184815714,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "signal": 0.00041863179153145413,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.49958136820846855
+    },
+    {
+      "column": "pmts_month_706T",
+      "coverage": 0.3013490708287149,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "signal": 0.007294801027652009,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.492705198972348
+    },
+    {
+      "column": "pmts_overdue_1140A",
+      "coverage": 0.5206554626883556,
+      "dtype": "Float64",
+      "n_unique": 6052,
+      "signal": 0.06090126892604131,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.5609012689260413
+    },
+    {
+      "column": "pmts_overdue_1152A",
+      "coverage": 0.14457326023785985,
+      "dtype": "Float64",
+      "n_unique": 4311,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": null
+    },
+    {
+      "column": "pmts_year_1139T",
+      "coverage": 0.7626444184815714,
+      "dtype": "Float64",
+      "n_unique": 5,
+      "signal": 0.009755203382406208,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.5097552033824062
+    },
+    {
+      "column": "pmts_year_507T",
+      "coverage": 0.3013490708287149,
+      "dtype": "Float64",
+      "n_unique": 19,
+      "signal": 0.04878979860282773,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.5487897986028277
+    },
+    {
+      "column": "subjectroles_name_541M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 5,
+      "signal": 0.0011621913127346506,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.5011621913127347
+    },
+    {
+      "column": "subjectroles_name_838M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.002469526602504657,
+      "table": "train_credit_bureau_a_2_1",
+      "univariate_auc": 0.5024695266025047
+    },
+    {
+      "column": "collater_typofvalofguarant_298M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.003515337362103632,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.5035153373621036
+    },
+    {
+      "column": "collater_typofvalofguarant_407M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 4,
+      "signal": 0.0006977173734169506,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.500697717373417
+    },
+    {
+      "column": "collater_valueofguarantee_1124L",
+      "coverage": 0.01815676940853472,
+      "dtype": "Float64",
+      "n_unique": 287,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": null
+    },
+    {
+      "column": "collater_valueofguarantee_876L",
+      "coverage": 0.03821464195067995,
+      "dtype": "Float64",
+      "n_unique": 690,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": null
+    },
+    {
+      "column": "collaterals_typeofguarante_359M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 14,
+      "signal": 0.0019133341158092954,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.5019133341158093
+    },
+    {
+      "column": "collaterals_typeofguarante_669M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 12,
+      "signal": 0.005074733406942866,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.5050747334069429
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 143,
+      "signal": 0.04841912153112993,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.4515808784688701
+    },
+    {
+      "column": "num_group2",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 36,
+      "signal": 0.009365733704089219,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.4906342662959108
+    },
+    {
+      "column": "pmts_dpd_1073P",
+      "coverage": 0.24024018092576316,
+      "dtype": "Float64",
+      "n_unique": 563,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": null
+    },
+    {
+      "column": "pmts_dpd_303P",
+      "coverage": 0.39442705195690175,
+      "dtype": "Float64",
+      "n_unique": 1838,
+      "signal": 0.09629005866343887,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.5962900586634389
+    },
+    {
+      "column": "pmts_month_158T",
+      "coverage": 0.3551606308699645,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "signal": 0.008037618266882318,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.4919623817331177
+    },
+    {
+      "column": "pmts_month_706T",
+      "coverage": 0.8185261265887791,
+      "dtype": "Float64",
+      "n_unique": 13,
+      "signal": 0.0076826764404290815,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.4923173235595709
+    },
+    {
+      "column": "pmts_overdue_1140A",
+      "coverage": 0.24085248427269226,
+      "dtype": "Float64",
+      "n_unique": 2872,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": null
+    },
+    {
+      "column": "pmts_overdue_1152A",
+      "coverage": 0.39475789328145217,
+      "dtype": "Float64",
+      "n_unique": 12487,
+      "signal": 0.09737385958932832,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.5973738595893283
+    },
+    {
+      "column": "pmts_year_1139T",
+      "coverage": 0.3551606308699645,
+      "dtype": "Float64",
+      "n_unique": 5,
+      "signal": 0.009769631706997517,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.5097696317069975
+    },
+    {
+      "column": "pmts_year_507T",
+      "coverage": 0.8185261265887791,
+      "dtype": "Float64",
+      "n_unique": 20,
+      "signal": 0.05041272514924977,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.5504127251492498
+    },
+    {
+      "column": "subjectroles_name_541M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.0005357504929950352,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.500535750492995
+    },
+    {
+      "column": "subjectroles_name_838M",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 6,
+      "signal": 0.0041025030376447,
+      "table": "train_credit_bureau_a_2_2",
+      "univariate_auc": 0.5041025030376447
+    },
+    {
+      "column": "num_group1",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 17,
+      "signal": 4.691939982331972e-05,
+      "table": "train_credit_bureau_b_2",
+      "univariate_auc": 0.4999530806001767
+    },
+    {
+      "column": "num_group2",
+      "coverage": 1.0,
+      "dtype": "Int64",
+      "n_unique": 37,
+      "signal": 0.015015222874457501,
+      "table": "train_credit_bureau_b_2",
+      "univariate_auc": 0.4849847771255425
+    },
+    {
+      "column": "pmts_date_1107D",
+      "coverage": 1.0,
+      "dtype": "String",
+      "n_unique": 51,
+      "signal": 0.03746973540512,
+      "table": "train_credit_bureau_b_2",
+      "univariate_auc": 0.53746973540512
+    },
+    {
+      "column": "pmts_dpdvalue_108P",
+      "coverage": 0.9965987561655587,
+      "dtype": "Float64",
+      "n_unique": 19595,
+      "signal": 0.11144023043378204,
+      "table": "train_credit_bureau_b_2",
+      "univariate_auc": 0.611440230433782
+    },
+    {
+      "column": "pmts_pmtsoverdue_635A",
+      "coverage": 0.9965987561655587,
+      "dtype": "Float64",
+      "n_unique": 3018,
+      "signal": 0.11223929763540397,
+      "table": "train_credit_bureau_b_2",
+      "univariate_auc": 0.612239297635404
+    }
+  ],
+  "split_profile": {
+    "oot": {
+      "date_max": "2020-10-05",
+      "date_min": "2020-06-30",
+      "default_rate": 0.021192166478804536,
+      "n": 151707,
+      "n_weeks": 14,
+      "share": 0.09937189640908677,
+      "weeks": [
+        78,
+        91
+      ]
+    },
+    "train": {
+      "date_max": "2020-03-23",
+      "date_min": "2019-01-01",
+      "default_rate": 0.033167925296509894,
+      "n": 1282082,
+      "n_weeks": 64,
+      "share": 0.8397959203725259,
+      "weeks": [
+        0,
+        63
+      ]
+    },
+    "valid": {
+      "date_max": "2020-06-29",
+      "date_min": "2020-03-24",
+      "default_rate": 0.024281253364918702,
+      "n": 92870,
+      "n_weeks": 14,
+      "share": 0.06083218321838734,
+      "weeks": [
+        64,
+        77
+      ]
+    }
+  },
+  "tables_used": [
+    "train_static_0_0",
+    "train_static_0_1",
+    "train_static_cb_0",
+    "train_person_1",
+    "train_applprev_1_0",
+    "train_applprev_1_1",
+    "train_credit_bureau_a_1_0",
+    "train_credit_bureau_a_1_1",
+    "train_credit_bureau_b_1",
+    "train_deposit_1",
+    "train_other_1",
+    "train_tax_registry_c_1",
+    "train_applprev_2",
+    "train_person_2",
+    "train_credit_bureau_a_2_0",
+    "train_credit_bureau_a_2_1",
+    "train_credit_bureau_a_2_2",
+    "train_credit_bureau_b_2"
+  ]
+}

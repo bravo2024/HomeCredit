@@ -1,0 +1,1358 @@
+{
+  "adversarial": {
+    "auc": 0.9705416674074074,
+    "interpretation": "strong drift - OOT metrics are a different-population estimate",
+    "n_oot_sample": 150000,
+    "n_train_sample": 150000,
+    "top_drifting": [
+      {
+        "feature": "train_static_0_0__lastrejectreason_759M",
+        "gain": 655017.9347467422,
+        "gain_share": 0.37746741270630596
+      },
+      {
+        "feature": "train_applprev_1_0__rejectreason_755M__nunique",
+        "gain": 175480.39052295685,
+        "gain_share": 0.10112414558084303
+      },
+      {
+        "feature": "train_static_0_0__lastrejectreasonclient_4145040M",
+        "gain": 170425.7538986206,
+        "gain_share": 0.09821130837815416
+      },
+      {
+        "feature": "train_person_1__persontype_1072L__std",
+        "gain": 119533.02888536453,
+        "gain_share": 0.06888334006266855
+      },
+      {
+        "feature": "train_static_0_0__lastcancelreason_561M",
+        "gain": 102877.11954402924,
+        "gain_share": 0.059285033402904384
+      },
+      {
+        "feature": "train_applprev_1_0__rejectreason_755M__maxcode",
+        "gain": 95612.86234283447,
+        "gain_share": 0.055098857383115984
+      },
+      {
+        "feature": "train_person_1__education_927M__maxcode",
+        "gain": 94317.69048881531,
+        "gain_share": 0.05435248824906217
+      },
+      {
+        "feature": "train_static_0_0__mobilephncnt_593L",
+        "gain": 93170.11775970459,
+        "gain_share": 0.05369117611397198
+      },
+      {
+        "feature": "train_applprev_1_0__education_1138M__maxcode",
+        "gain": 35012.39357948303,
+        "gain_share": 0.02017660420582563
+      },
+      {
+        "feature": "train_person_1__incometype_1044T__maxcode",
+        "gain": 30692.177925109863,
+        "gain_share": 0.017686992030519266
+      },
+      {
+        "feature": "train_applprev_1_0__status_219L__maxcode",
+        "gain": 12840.22285938263,
+        "gain_share": 0.0073994396858423316
+      },
+      {
+        "feature": "train_static_0_0__numrejects9m_859L",
+        "gain": 8923.028373718262,
+        "gain_share": 0.005142076659373701
+      },
+      {
+        "feature": "train_static_0_0__lastrejectcommoditycat_161M",
+        "gain": 6870.7900390625,
+        "gain_share": 0.003959432561638084
+      },
+      {
+        "feature": "train_applprev_2__conts_type_509L__maxcode",
+        "gain": 5817.940480709076,
+        "gain_share": 0.0033527065810520684
+      },
+      {
+        "feature": "train_static_0_1__lastrejectreason_759M",
+        "gain": 5334.008596420288,
+        "gain_share": 0.0030738309860514467
+      },
+      {
+        "feature": "train_applprev_1_1__postype_4733339M__maxcode",
+        "gain": 5303.200713157654,
+        "gain_share": 0.003056077316465894
+      },
+      {
+        "feature": "train_applprev_1_1__credamount_590A__min",
+        "gain": 5083.441193580627,
+        "gain_share": 0.002929436421809485
+      },
+      {
+        "feature": "train_applprev_2__n_records",
+        "gain": 5039.952395439148,
+        "gain_share": 0.002904375117003353
+      },
+      {
+        "feature": "train_applprev_1_1__maxdpdtolerance_577P__max",
+        "gain": 4245.337420463562,
+        "gain_share": 0.0024464620694504024
+      },
+      {
+        "feature": "train_applprev_1_1__maxdpdtolerance_577P__std",
+        "gain": 4220.3546023368835,
+        "gain_share": 0.0024320652121734556
+      },
+      {
+        "feature": "train_applprev_2__num_group1__mean",
+        "gain": 4104.598596572876,
+        "gain_share": 0.002365358458536473
+      },
+      {
+        "feature": "train_applprev_2__num_group2__mean",
+        "gain": 3856.740231513977,
+        "gain_share": 0.002222525032437123
+      },
+      {
+        "feature": "train_tax_registry_c_1__num_group1__max",
+        "gain": 3828.244643688202,
+        "gain_share": 0.0022061038701458955
+      },
+      {
+        "feature": "train_applprev_1_1__num_group1__mean",
+        "gain": 3596.917176246643,
+        "gain_share": 0.002072796710156714
+      },
+      {
+        "feature": "train_static_0_1__numrejects9m_859L",
+        "gain": 3591.147020816803,
+        "gain_share": 0.002069471540683519
+      }
+    ]
+  },
+  "psi": [
+    {
+      "band": "alert",
+      "feature": "train_person_1__persontype_1072L__std",
+      "psi": 0.6557913502893236
+    },
+    {
+      "band": "alert",
+      "feature": "train_person_1__education_927M__maxcode",
+      "psi": 0.31520544722650223
+    },
+    {
+      "band": "watch",
+      "feature": "train_person_1__incometype_1044T__maxcode",
+      "psi": 0.20675319221010927
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__n_records",
+      "psi": 0.08990883014106692
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__num_group1__std",
+      "psi": 0.07645874302747083
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__num_group1__max",
+      "psi": 0.07589523323038956
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__num_group1__mean",
+      "psi": 0.07372329387906187
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__num_group2__max",
+      "psi": 0.04574100237819709
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__num_group2__mean",
+      "psi": 0.04026179475121782
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__conts_type_509L__nunique",
+      "psi": 0.03517757164290439
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__num_group2__std",
+      "psi": 0.034921502376404685
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__postype_4733339M__nunique",
+      "psi": 0.029154612210321347
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__conts_type_509L__maxcode",
+      "psi": 0.026298596088099306
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__n_records",
+      "psi": 0.02252019520690155
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__tenor_203L__max",
+      "psi": 0.021365147980722816
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__pmtnum_8L__max",
+      "psi": 0.021365147980722816
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__num_group1__max",
+      "psi": 0.02103953109167256
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__max",
+      "psi": 0.020520789300073644
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__credamount_590A__min",
+      "psi": 0.02020967542265425
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__mean",
+      "psi": 0.018703586648410205
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__num_group1__mean",
+      "psi": 0.01869491788986862
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__credamount_590A__max",
+      "psi": 0.018663549684227745
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__mean",
+      "psi": 0.018331214470631275
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__pctinstlsallpaidearl3d_427L",
+      "psi": 0.01802821122247781
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__std",
+      "psi": 0.01696987466220001
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__num_group1__std",
+      "psi": 0.01682853930114448
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__education_1138M__nunique",
+      "psi": 0.0155752798869492
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__annuity_853A__max",
+      "psi": 0.015480808921574158
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__postype_4733339M__maxcode",
+      "psi": 0.015267758127727528
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__cancelreason_3545846M__maxcode",
+      "psi": 0.014336875581998376
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__cancelreason_3545846M__nunique",
+      "psi": 0.013819921050385734
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__status_219L__nunique",
+      "psi": 0.01252511053849504
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__mobilephncnt_593L",
+      "psi": 0.012160172531852989
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__maxdbddpdtollast6m_4187119P",
+      "psi": 0.011464411798026486
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__tenor_203L__mean",
+      "psi": 0.011351017378495096
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__pmtnum_8L__mean",
+      "psi": 0.011351017378495096
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__maxdpdtolerance_374P",
+      "psi": 0.011280107719076022
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__credamount_590A__std",
+      "psi": 0.011141182883413026
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__numinstpaidlate1d_3546852L",
+      "psi": 0.01097846872777614
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__max",
+      "psi": 0.010846140652723997
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__std",
+      "psi": 0.01070568850683353
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__annuity_853A__min",
+      "psi": 0.009578235005809796
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__daysoverduetolerancedd_3976961L",
+      "psi": 0.009365199278041124
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__status_219L__maxcode",
+      "psi": 0.008930222515752298
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__tenor_203L__std",
+      "psi": 0.008571505725648599
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__pmtnum_8L__std",
+      "psi": 0.008571505725648599
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__mainoccupationinc_437A__min",
+      "psi": 0.00851244568459958
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__credamount_590A__mean",
+      "psi": 0.008400879996374008
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__pctinstlsallpaidlate4d_3546849L",
+      "psi": 0.008366105202411196
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__maxdpdtolerance_577P__max",
+      "psi": 0.007908876626166182
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__annuity_853A__mean",
+      "psi": 0.007613736561404644
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__maxdpdfrom6mto36m_3546853P",
+      "psi": 0.007334474307679379
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__annuity_853A__std",
+      "psi": 0.007259994421912634
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__maxdpdlast24m_143P",
+      "psi": 0.00692575060523795
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__avgdbdtollast24m_4525197P",
+      "psi": 0.006510913783500237
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__avgdbddpdlast24m_3658932P",
+      "psi": 0.0063161886642498265
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__rejectreasonclient_4145042M__nunique",
+      "psi": 0.0060387784043977825
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__mainoccupationinc_437A__max",
+      "psi": 0.005638790076194404
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__pctinstlsallpaidlat10d_839L",
+      "psi": 0.005412723119219747
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__pctinstlsallpaidlate1d_3546856L",
+      "psi": 0.005244752178366737
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__lastrejectcredamount_222A",
+      "psi": 0.00524261121867834
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__avgdbddpdlast3m_4187120P",
+      "psi": 0.005236474704708921
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__numinstlswithdpd5_4187116L",
+      "psi": 0.0052327190365355075
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__rejectreason_755M__nunique",
+      "psi": 0.004825311223675769
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__downpmt_134A__std",
+      "psi": 0.004691707901436263
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__downpmt_134A__mean",
+      "psi": 0.004506826385904296
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__currdebt_94A__mean",
+      "psi": 0.00430539221226234
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__maxdpdtolerance_577P__std",
+      "psi": 0.004146762146071733
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__maxdpdlast12m_727P",
+      "psi": 0.003980795914180637
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__mainoccupationinc_437A__std",
+      "psi": 0.003948291431371955
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__lastrejectreasonclient_4145040M",
+      "psi": 0.0037070453019543053
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__outstandingdebt_522A__mean",
+      "psi": 0.003660192315558629
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__rejectreasonclient_4145042M__maxcode",
+      "psi": 0.0036148038098826546
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__maxdpdtolerance_577P__mean",
+      "psi": 0.003536800307357176
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__maxdpdlast6m_474P",
+      "psi": 0.0034454951073229463
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__maxdbddpdtollast12m_3658940P",
+      "psi": 0.0033843188739088115
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__rejectreason_755M__maxcode",
+      "psi": 0.0033678748494883333
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__education_1138M__maxcode",
+      "psi": 0.002880599869749383
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__outstandingdebt_522A__max",
+      "psi": 0.0026560347863714964
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__maxdpdlast9m_1059P",
+      "psi": 0.0025916228567924486
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__pctinstlsallpaidlate6d_3546844L",
+      "psi": 0.00249780843769494
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__currdebt_94A__max",
+      "psi": 0.0024976159447030345
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__lastst_736L",
+      "psi": 0.0024036923347168734
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__lastrejectreason_759M",
+      "psi": 0.0023265011813501236
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__credacc_credlmt_575A__mean",
+      "psi": 0.0022202674770432345
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__numinstlswithdpd10_728L",
+      "psi": 0.0020490108792669145
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__downpmt_134A__max",
+      "psi": 0.0020006982300679365
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__credacc_credlmt_575A__std",
+      "psi": 0.0019367343460508517
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__mainoccupationinc_437A__mean",
+      "psi": 0.0016831823419468524
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__credacc_credlmt_575A__max",
+      "psi": 0.0012096826931861557
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__maxdpdtolerance_577P__min",
+      "psi": 0.0009071180783912808
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__tenor_203L__min",
+      "psi": 0.000733731874764154
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__pmtnum_8L__min",
+      "psi": 0.000733731874764154
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__lastcancelreason_561M",
+      "psi": 0.0006335124882314868
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1_1__num_group1__min",
+      "psi": 0.0004887108832818601
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__avgmaxdpdlast9m_3716943P",
+      "psi": 0.00042029303501564844
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__avgdpdtolclosure24_3658938P",
+      "psi": 0.0004141570757481691
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0_1__numrejects9m_859L",
+      "psi": 0.00012083221145672878
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avgdpdtolclosure24_3658938P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pctinstlsallpaidlate1d_3546856L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__maxdpdtolerance_577P__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pctinstlsallpaidlate4d_3546849L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pctinstlsallpaidlate6d_3546844L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__daysoverduetolerancedd_3976961L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdbddpdtollast12m_3658940P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avgdbddpdlast24m_3658932P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__maxdpdtolerance_577P__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pctinstlsallpaidlat10d_839L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pctinstlsallpaidearl3d_427L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstlswithdpd10_728L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__maxdpdtolerance_577P__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastrejectreason_759M",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastcancelreason_561M",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastrejectreasonclient_4145040M",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstlswithdpd5_4187116L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__mobilephncnt_593L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdtolerance_374P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdlast24m_143P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__maxdpdtolerance_577P__min",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdbddpdtollast6m_4187119P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidlate1d_3546852L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdfrom6mto36m_3546853P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avgmaxdpdlast9m_3716943P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidearly3d_3546850L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstlallpaidearly3d_817L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidearly_338L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdlast12m_727P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numrejects9m_859L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstlsallpaid_934L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__mindbddpdlast24m_3658935P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdlast9m_1059P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__pmtnum_254L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__dpdmax_757P__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidearly5d_1087L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__numberofoverdueinstlmax_1151L__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avgdbddpdlast3m_4187120P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__eir_270L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__interestrate_311L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstlswithoutdpd_562L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmax_35A__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__dpdmax_757P__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__numberofoverdueinstlmax_1151L__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avgdbdtollast24m_4525197P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__dpdmax_757P__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmax2_398A__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastrejectcommoditycat_161M",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__numberofoverdueinstlmax_1151L__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__disbursedcredamount_1113A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdpdlast6m_474P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__totalsettled_863A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdbddpdlast1m_3658939P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numcontrs3months_479L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastapprcommoditycat_1041M",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__credamount_770A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastst_736L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmax_35A__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__amtinstpaidbefduel24m_4187115A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__price_1097A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmax_35A__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__disbursementtype_67L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmax2_398A__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__applicationscnt_464L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__applicationscnt_867L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__annuity_780A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__homephncnt_628L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__previouscontdistrict_112M",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__sellerplacescnt_216L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__currdebt_22A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__totaldebt_9A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__credtype_322L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__dpdmaxdateyear_896T__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstls_657L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numactivecreds_622L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__annuitynextmonth_57A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__clientscnt_887L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numactiverelcontr_750L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__currdebtcredtyperange_828A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmax2_398A__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmax_35A__min",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__rejectreason_755M__nunique",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__dpdmax_757P__min",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmax2_398A__min",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_2__pmts_dpd_303P__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__numberofoverdueinstlmax_1151L__min",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_2__pmts_overdue_1152A__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmaxdateyear_994T__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxinstallast24m_3658928A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__pmtnum_8L__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__tenor_203L__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_tax_registry_c_1__num_group1__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_2__pmts_dpd_303P__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__dpdmaxdateyear_896T__min",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_tax_registry_c_1__n_records",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_tax_registry_c_1__num_group1__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__dpdmaxdateyear_896T__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__tenor_203L__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__pmtnum_8L__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_2__pmts_dpd_303P__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_tax_registry_c_1__num_group1__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidearly3dest_4493216L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_0__pmts_dpd_1073P__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__cntpmts24_3658933L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_2__pmts_overdue_1152A__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_1__pmts_dpd_1073P__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmaxdateyear_994T__min",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_0__pmts_dpd_1073P__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__monthsannuity_845L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_1__pmts_dpd_1073P__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__rejectreason_755M__maxcode",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_tax_registry_c_1__pmtamount_36A__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_0__pmts_overdue_1140A__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_1__pmts_dpd_1073P__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_1__pmts_overdue_1140A__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_2__pmts_overdue_1152A__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxdebt4_972A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstmatpaidtearly2d_4499204L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidearlyest_4493214L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maininc_215A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__avginstallast24m_3658937A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_tax_registry_c_1__pmtamount_36A__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_0__pmts_dpd_1073P__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numincomingpmts_3546848L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_tax_registry_c_1__pmtamount_36A__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__totalamount_6A__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__totalamount_6A__mean",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidearly5dobd_4499205L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__education_1138M__maxcode",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_0__pmts_overdue_1140A__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstregularpaid_973L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__maxannuity_159A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_0__pmts_overdue_1140A__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_1__pmts_overdue_1140A__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_2_1__pmts_overdue_1140A__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmaxdateyear_994T__max",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__cntincpaycont9m_3716944L",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_tax_registry_c_1__pmtamount_36A__min",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__lastapprcredamount_781A",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__overdueamountmaxdateyear_994T__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__dpdmaxdateyear_896T__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_applprev_1_0__status_219L__maxcode",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__mindbdtollast24m_4525191P",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_credit_bureau_a_1_1__totalamount_6A__std",
+      "psi": null
+    },
+    {
+      "band": "unknown",
+      "feature": "train_static_0_0__numinstpaidearly5dest_4493211L",
+      "psi": null
+    }
+  ],
+  "psi_bands": {
+    "alert": 2,
+    "stable": 95,
+    "unknown": 145,
+    "watch": 1
+  }
+}

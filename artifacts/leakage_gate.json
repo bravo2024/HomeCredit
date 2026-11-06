@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "check": "no_id_or_outcome_columns",
+      "critical": true,
+      "detail": {
+        "exact": [],
+        "token": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "target_not_in_design",
+      "critical": true,
+      "detail": {
+        "columns_checked": 150
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "time_split_ordering",
+      "critical": true,
+      "detail": {
+        "oot_min": "2020-06-30",
+        "train_max": "2020-03-23",
+        "valid_max": "2020-06-29",
+        "valid_min": "2020-03-24"
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "no_case_overlap",
+      "critical": true,
+      "detail": {
+        "overlapping_cases": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "univariate_auc_screen",
+      "critical": true,
+      "detail": {
+        "quarantined": [],
+        "still_in_design": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "scaler_fitted_on_train_rows",
+      "critical": true,
+      "detail": {
+        "delta_full": 145.30133756709438,
+        "delta_train": 6.803584437875543e-05,
+        "full_mean": 4042.623779296875,
+        "scaled_mean": 3897.3224417297806,
+        "train_mean": 3897.322509765625
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "woe_binned_on_train_rows",
+      "critical": true,
+      "detail": {
+        "bin_count_sum": 250000.0,
+        "fit_fraction": 0.19499532791194324,
+        "train_rows": 1282082.0,
+        "variable": "train_static_0__avgdpdtolclosure24_3658938P",
+        "woe_fit_rows": 250000.0
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "woe_fit_sample_within_train",
+      "critical": true,
+      "detail": {
+        "train_rows": 1282082.0,
+        "woe_fit_rows": 250000.0
+      },
+      "status": "PASS"
+    }
+  ],
+  "passed": true
+}

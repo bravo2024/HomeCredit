@@ -1,0 +1,220 @@
+{
+  "created_at": "2026-11-05T21:55:39",
+  "files": [
+    {
+      "bytes": 959,
+      "file": "bootstrap_ci.json",
+      "sha256": "8b371398081b0e0edf62e3e045ed0e743cf037c0055c0bd89005573a971221da"
+    },
+    {
+      "bytes": 9678,
+      "file": "business.json",
+      "sha256": "19791a4da2072782cfbca2735178b2a9857d8172cb8d9e3a9bd9a2179f8cb985"
+    },
+    {
+      "bytes": 4605,
+      "file": "calibration.json",
+      "sha256": "473c129a77d12a32a4e295987d16c4defb08cfce8c348a6a436f3e5bad9d6bf1"
+    },
+    {
+      "bytes": 1880,
+      "file": "champion.json",
+      "sha256": "7161a42e97acf6047f3239907594637b8cd9acd92efbab59995d487bc22a6397"
+    },
+    {
+      "bytes": 133294,
+      "file": "curves.json",
+      "sha256": "69f723939c0e915fb5c6297b168a3ceb5a98d05493edcbbdbbcac9a44ef1c0ad"
+    },
+    {
+      "bytes": 1508,
+      "file": "cutoff_strategies.csv",
+      "sha256": "3384ffd12b55a9b55fecdc0b6eaf04e439ce41c570821a9895976182b5ce33fb"
+    },
+    {
+      "bytes": 5506,
+      "file": "data_provenance.json",
+      "sha256": "2471f2c93cbf0c5526b61eafd6b6b5d8a36f8139874e7883e555760a3bd81553"
+    },
+    {
+      "bytes": 4929,
+      "file": "decision.json",
+      "sha256": "80b13adffd86be0233f6e4773b0aaa3c875e851b10f8d9ac3332d00d45c5ff7d"
+    },
+    {
+      "bytes": 3428,
+      "file": "default_rate_drop.json",
+      "sha256": "7b352141b9ec083e0cde29f827151d8b9c44438fcd9d4d7e4bf97abcb463bc19"
+    },
+    {
+      "bytes": 26109,
+      "file": "drift.json",
+      "sha256": "7242eb776b2ca9bdea1036f43d4ce6aaa13fedab4b1ad4c39ba8dfedcecd43e0"
+    },
+    {
+      "bytes": 538,
+      "file": "environment.json",
+      "sha256": "3425927dd3408a7f74a917d51defc64f08d4495407e23ffce23e5b9af55de6d1"
+    },
+    {
+      "bytes": 6369,
+      "file": "evaluation.json",
+      "sha256": "7f2b58780d5a894f11da2e38e7af2fab3b462d77eba58f70b2671f54e9c83aed"
+    },
+    {
+      "bytes": 145448,
+      "file": "feature_coverage.json",
+      "sha256": "11810db74f6aa7fa96177ea9514ceb1b01bd6cd0b4f4e1b9257919588bb638e5"
+    },
+    {
+      "bytes": 36763,
+      "file": "feature_meta.json",
+      "sha256": "d7db5618d6ee22e98edf0d3bf8a6704f758805f372fd21e95f854c6bfae965f5"
+    },
+    {
+      "bytes": 60433,
+      "file": "feature_screening.json",
+      "sha256": "6a130ea18c96c58cdccf913a2f5b33c57845a5e63f22b473d4fc7a2c7ff1570b"
+    },
+    {
+      "bytes": 67867,
+      "file": "figures/calibration.png",
+      "sha256": "c6668264d2066458ea873401865f488af8d424965569b47cc0c82508e301ad09"
+    },
+    {
+      "bytes": 78371,
+      "file": "figures/credit_policy.png",
+      "sha256": "522391fdf1dfd03a61dc220b9c43f046811f356ccfeb375c15523d4c7358a015"
+    },
+    {
+      "bytes": 96386,
+      "file": "figures/default_rate_drop.png",
+      "sha256": "87246df6957e78ddb7d315f7577cb08e12c76e98efee4cdcce4d63670075939c"
+    },
+    {
+      "bytes": 130520,
+      "file": "figures/psi.png",
+      "sha256": "0fcdcbeea6ddefd6c938c2e36fa6213333634beba455ac8d87cdefcdbb2976cf"
+    },
+    {
+      "bytes": 153033,
+      "file": "figures/weekly_gini_oot.png",
+      "sha256": "1d8b5aff89ca0f8439455a9f21618762f33036424d3cf6e0f697529e7818df71"
+    },
+    {
+      "bytes": 11084,
+      "file": "iv_table.csv",
+      "sha256": "a65810dc7a1ea92c3c0feecf9b925903506d4f13aee73ff49aa8ddc59ad56e0b"
+    },
+    {
+      "bytes": 1848,
+      "file": "leakage_gate.json",
+      "sha256": "351909a169b9444d87a25b00bb089fa4be468cd838f9d4859e48c94e7bd6dcfb"
+    },
+    {
+      "bytes": 1571,
+      "file": "master_scale.csv",
+      "sha256": "1fa377b77402a1c0259d5fe44709eba9b0894111395a52efea12f89642096ed4"
+    },
+    {
+      "bytes": 46036,
+      "file": "metrics.json",
+      "sha256": "ceb20c39488d646f3e362fa3ffe764393a7071cd3fa23effc8039e2cdcae6613"
+    },
+    {
+      "bytes": 2350,
+      "file": "metrics_table.csv",
+      "sha256": "04fc1b4d73429d4848552b7545785b8eeead2005ae80685e9b29ace21abc17ce"
+    },
+    {
+      "bytes": 2400146,
+      "file": "models/champion_xgb.txt",
+      "sha256": "66e2cf3f0601c60fa22b297226ac089d8aebe8b88106f2f23e1a9d7710bc5541"
+    },
+    {
+      "bytes": 6479,
+      "file": "models/penalised_lr.joblib",
+      "sha256": "e83e526793174b494d818e563c5edcdd605001be43c792d3972e69cb08b6c621"
+    },
+    {
+      "bytes": 46210,
+      "file": "models/scorecard.joblib",
+      "sha256": "b2523903c389fae6fc5fbed3f00231a13127796585fd02c671564abe29266f3e"
+    },
+    {
+      "bytes": 16316,
+      "file": "monitoring.json",
+      "sha256": "95cecdf6620116e8b25ca9140369bdd9169839d1fa011d59ac003f4af27c8239"
+    },
+    {
+      "bytes": 7033,
+      "file": "pit_audit.json",
+      "sha256": "ac10f37021d8191f252addd928835ac7eb330966076b52c0f8f064f34d163ae8"
+    },
+    {
+      "bytes": 11391,
+      "file": "psi.csv",
+      "sha256": "020ba16bd881ad59a861baba6879080ff75d91ec8fa3764633c39f4c81be0397"
+    },
+    {
+      "bytes": 3623,
+      "file": "quality_gates.json",
+      "sha256": "0d491969d8f0033ab53e3d5eeb8ec8ba44cbe5712650c686306219deac791a2b"
+    },
+    {
+      "bytes": 28788,
+      "file": "scorecard.json",
+      "sha256": "ddd0f440c0cc149c72841912b4a74a705e564324807729f537bcf6e04ef4163b"
+    },
+    {
+      "bytes": 5919,
+      "file": "scorecard_coefficients.csv",
+      "sha256": "27510f012f8ea355e3300cc52eef456a67f1d2ec00763f76c9fd994e36e650d5"
+    },
+    {
+      "bytes": 43411,
+      "file": "scorecard_points.csv",
+      "sha256": "7934a4d2882d6075d9ed6923fa2d2b0358e6f7ec70cdbf52e283d64fb96e9676"
+    },
+    {
+      "bytes": 865536,
+      "file": "scored_oot_sample.parquet",
+      "sha256": "515279320e8882d47329b97d072e0ec231f92ef72caa3a04cbf4d99bdc6daf8e"
+    },
+    {
+      "bytes": 3157,
+      "file": "sign_check.csv",
+      "sha256": "af97a7248d3dd1a59c0bfd8e92086378b76ec11adf31d5520ce2085e5417153e"
+    },
+    {
+      "bytes": 797,
+      "file": "sign_fix_log.csv",
+      "sha256": "5b33be18d587259c6dc8a7d1cd60d50cd977e292740012d03cf885a046a45c3d"
+    },
+    {
+      "bytes": 1956,
+      "file": "split.json",
+      "sha256": "25cc09398bc97f767733aecdeaba49667c5f4564d84c9909918612f6da92d5db"
+    },
+    {
+      "bytes": 1275,
+      "file": "stability.csv",
+      "sha256": "7ede945209beaff355964396cccbfeabd659ecab579f70e5b0fc32605c040199"
+    },
+    {
+      "bytes": 2584,
+      "file": "top_features.csv",
+      "sha256": "48c3d2f47b5a71d6fcad0ad706720f32bbbadb1339346460fb454623a4c15f1a"
+    },
+    {
+      "bytes": 2083,
+      "file": "tuning.json",
+      "sha256": "a7e15f4a5e200c4b6c249c16becf7206e946c23037ca988d13f99c2c432ef6bb"
+    },
+    {
+      "bytes": 10381,
+      "file": "weekly_gini.json",
+      "sha256": "42a4c61448f921f6c7a59d0c2f1cd3b15e7dd8018436a4818350ea8b543ec0b6"
+    }
+  ]
+}

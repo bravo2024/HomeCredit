@@ -1,0 +1,289 @@
+{
+  "split_totals": {
+    "oot": 151707,
+    "train": 1282082,
+    "valid": 92870
+  },
+  "files": [
+    {
+      "file": "train_applprev_1_0",
+      "n_cases": 782997,
+      "week_min": 0,
+      "week_max": 49,
+      "cases_train": 782997,
+      "cases_valid": 0,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_applprev_1_1",
+      "n_cases": 438525,
+      "week_min": 50,
+      "week_max": 91,
+      "cases_train": 229023,
+      "cases_valid": 78611,
+      "cases_oot": 130891
+    },
+    {
+      "file": "train_applprev_2",
+      "n_cases": 1221522,
+      "week_min": 0,
+      "week_max": 91,
+      "cases_train": 1012020,
+      "cases_valid": 78611,
+      "cases_oot": 130891
+    },
+    {
+      "file": "train_credit_bureau_a_1_0",
+      "n_cases": 335275,
+      "week_min": 0,
+      "week_max": 24,
+      "cases_train": 335275,
+      "cases_valid": 0,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_credit_bureau_a_1_1",
+      "n_cases": 549263,
+      "week_min": 25,
+      "week_max": 49,
+      "cases_train": 549263,
+      "cases_valid": 0,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_credit_bureau_a_1_2",
+      "n_cases": 325127,
+      "week_min": 50,
+      "week_max": 74,
+      "cases_train": 266301,
+      "cases_valid": 58826,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_credit_bureau_a_1_3",
+      "n_cases": 176608,
+      "week_min": 75,
+      "week_max": 91,
+      "cases_train": 0,
+      "cases_valid": 30403,
+      "cases_oot": 146205
+    },
+    {
+      "file": "train_credit_bureau_a_2_0",
+      "n_cases": 98303,
+      "week_min": 0,
+      "week_max": 8,
+      "cases_train": 98303,
+      "cases_valid": 0,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_credit_bureau_a_2_1",
+      "n_cases": 118481,
+      "week_min": 9,
+      "week_max": 17,
+      "cases_train": 118481,
+      "cases_valid": 0,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_credit_bureau_a_2_10",
+      "n_cases": 23734,
+      "week_min": 90,
+      "week_max": 91,
+      "cases_train": 0,
+      "cases_valid": 0,
+      "cases_oot": 23734
+    },
+    {
+      "file": "train_credit_bureau_a_2_2",
+      "n_cases": 156749,
+      "week_min": 18,
+      "week_max": 26,
+      "cases_train": 156749,
+      "cases_valid": 0,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_credit_bureau_a_2_3",
+      "n_cases": 190486,
+      "week_min": 27,
+      "week_max": 35,
+      "cases_train": 190486,
+      "cases_valid": 0,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_credit_bureau_a_2_4",
+      "n_cases": 190313,
+      "week_min": 36,
+      "week_max": 44,
+      "cases_train": 190313,
+      "cases_valid": 0,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_credit_bureau_a_2_5",
+      "n_cases": 231250,
+      "week_min": 45,
+      "week_max": 53,
+      "cases_train": 231250,
+      "cases_valid": 0,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_credit_bureau_a_2_6",
+      "n_cases": 150426,
+      "week_min": 54,
+      "week_max": 62,
+      "cases_train": 150426,
+      "cases_valid": 0,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_credit_bureau_a_2_7",
+      "n_cases": 45056,
+      "week_min": 63,
+      "week_max": 71,
+      "cases_train": 13912,
+      "cases_valid": 31144,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_credit_bureau_a_2_8",
+      "n_cases": 77457,
+      "week_min": 72,
+      "week_max": 80,
+      "cases_train": 0,
+      "cases_valid": 58064,
+      "cases_oot": 19393
+    },
+    {
+      "file": "train_credit_bureau_a_2_9",
+      "n_cases": 103033,
+      "week_min": 81,
+      "week_max": 89,
+      "cases_train": 0,
+      "cases_valid": 0,
+      "cases_oot": 103033
+    },
+    {
+      "file": "train_credit_bureau_b_1",
+      "n_cases": 36500,
+      "week_min": 0,
+      "week_max": 91,
+      "cases_train": 27498,
+      "cases_valid": 3518,
+      "cases_oot": 5484
+    },
+    {
+      "file": "train_credit_bureau_b_2",
+      "n_cases": 36447,
+      "week_min": 0,
+      "week_max": 91,
+      "cases_train": 27450,
+      "cases_valid": 3517,
+      "cases_oot": 5480
+    },
+    {
+      "file": "train_debitcard_1",
+      "n_cases": 111772,
+      "week_min": 0,
+      "week_max": 91,
+      "cases_train": 91152,
+      "cases_valid": 7543,
+      "cases_oot": 13077
+    },
+    {
+      "file": "train_deposit_1",
+      "n_cases": 105111,
+      "week_min": 0,
+      "week_max": 91,
+      "cases_train": 85729,
+      "cases_valid": 7095,
+      "cases_oot": 12287
+    },
+    {
+      "file": "train_other_1",
+      "n_cases": 51109,
+      "week_min": 54,
+      "week_max": 91,
+      "cases_train": 19757,
+      "cases_valid": 11493,
+      "cases_oot": 19859
+    },
+    {
+      "file": "train_person_1",
+      "n_cases": 1526659,
+      "week_min": 0,
+      "week_max": 91,
+      "cases_train": 1282082,
+      "cases_valid": 92870,
+      "cases_oot": 151707
+    },
+    {
+      "file": "train_person_2",
+      "n_cases": 1435105,
+      "week_min": 0,
+      "week_max": 91,
+      "cases_train": 1255172,
+      "cases_valid": 81311,
+      "cases_oot": 98622
+    },
+    {
+      "file": "train_static_0_0",
+      "n_cases": 1003757,
+      "week_min": 0,
+      "week_max": 49,
+      "cases_train": 1003757,
+      "cases_valid": 0,
+      "cases_oot": 0
+    },
+    {
+      "file": "train_static_0_1",
+      "n_cases": 522902,
+      "week_min": 50,
+      "week_max": 91,
+      "cases_train": 278325,
+      "cases_valid": 92870,
+      "cases_oot": 151707
+    },
+    {
+      "file": "train_static_cb_0",
+      "n_cases": 1500476,
+      "week_min": 0,
+      "week_max": 91,
+      "cases_train": 1256205,
+      "cases_valid": 92825,
+      "cases_oot": 151446
+    },
+    {
+      "file": "train_tax_registry_a_1",
+      "n_cases": 457934,
+      "week_min": 34,
+      "week_max": 91,
+      "cases_train": 443824,
+      "cases_valid": 12411,
+      "cases_oot": 1699
+    },
+    {
+      "file": "train_tax_registry_b_1",
+      "n_cases": 150732,
+      "week_min": 62,
+      "week_max": 91,
+      "cases_train": 930,
+      "cases_valid": 50619,
+      "cases_oot": 99183
+    },
+    {
+      "file": "train_tax_registry_c_1",
+      "n_cases": 482265,
+      "week_min": 0,
+      "week_max": 40,
+      "cases_train": 482265,
+      "cases_valid": 0,
+      "cases_oot": 0
+    }
+  ],
+  "note": "distinct case_id per file, joined to train_base WEEK_NUM; produced after the run by scripts/check_table_parts.py"
+}

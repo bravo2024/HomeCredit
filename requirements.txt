@@ -1,0 +1,15 @@
+# Runtime dependencies for the Streamlit app only (app.py + artifacts/).
+# The app never trains: it reads the frozen JSON/CSV in artifacts/ and scores
+# with the saved XGBoost booster in artifacts/models/.
+#
+# xgboost-cpu is used instead of xgboost because the CPU wheel is a much smaller
+# install (the GPU build adds ~1 GB of CUDA payload this app cannot use). The
+# saved booster in artifacts/models/champion_xgb.txt loads unchanged.
+numpy==2.1.3
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.6.1
+joblib==1.6.0
+xgboost-cpu==3.2.0
+streamlit==1.53.1
+altair==6.0.0

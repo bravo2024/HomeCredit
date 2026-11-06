@@ -1,0 +1,505 @@
+[{"stream_name":"stderr","time":7.910655367,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.910714639,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.910719561,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.910722496,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.556391187,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.556442042,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.556447636,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.556451907,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":23.287071716,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":23.287100109,"data":"grpcio-tools 1.85.1 requires protobuf\u003c8.0.0,\u003e=7.35.1, but you have protobuf 6.33.6 which is incompatible.\n"}
+,{"stream_name":"stderr","time":23.49019121,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":23.490225363,"data":"grpcio-tools 1.85.1 requires protobuf\u003c8.0.0,\u003e=7.35.1, but you have protobuf 6.33.6 which is incompatible.\n"}
+,{"stream_name":"stderr","time":23.490230811,"data":"\n"}
+,{"stream_name":"stderr","time":23.490234647,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":23.490238607,"data":"grpcio-tools 1.85.1 requires protobuf\u003c8.0.0,\u003e=7.35.1, but you have protobuf 6.33.6 which is incompatible.\n"}
+,{"stream_name":"stderr","time":27.557891222,"data":"(CVXPY) Nov 05 09:14:22 PM: Encountered unexpected exception importing solver HIGHS:\n"}
+,{"stream_name":"stderr","time":27.557921376,"data":"ImportError('/usr/local/lib/python3.13/dist-packages/highspy/_core.cpython-313-x86_64-linux-gnu.so: undefined symbol: _ZN5Highs13releaseMemoryEv')\n"}
+,{"stream_name":"stderr","time":27.557927662,"data":"\n"}
+,{"stream_name":"stderr","time":27.557931679,"data":"(CVXPY) Nov 05 09:14:22 PM: Encountered unexpected exception importing solver HIGHS:\n"}
+,{"stream_name":"stderr","time":27.557935871,"data":"ImportError('/usr/local/lib/python3.13/dist-packages/highspy/_core.cpython-313-x86_64-linux-gnu.so: undefined symbol: _ZN5Highs13releaseMemoryEv')\n"}
+,{"stream_name":"stderr","time":27.559035724,"data":"(CVXPY) Nov 05 09:14:22 PM: Encountered unexpected exception importing solver GLOP:\n"}
+,{"stream_name":"stderr","time":27.559054301,"data":"RuntimeError('Unrecognized new version of ortools (9.15.6755). Expected \u003c 9.12.0. Please open a feature request on cvxpy to enable support for this version.')\n"}
+,{"stream_name":"stderr","time":27.559059645,"data":"\n"}
+,{"stream_name":"stderr","time":27.559063464,"data":"(CVXPY) Nov 05 09:14:22 PM: Encountered unexpected exception importing solver GLOP:\n"}
+,{"stream_name":"stderr","time":27.559068312,"data":"RuntimeError('Unrecognized new version of ortools (9.15.6755). Expected \u003c 9.12.0. Please open a feature request on cvxpy to enable support for this version.')\n"}
+,{"stream_name":"stderr","time":27.560130827000002,"data":"(CVXPY) Nov 05 09:14:22 PM: Encountered unexpected exception importing solver PDLP:\n"}
+,{"stream_name":"stderr","time":27.560151811,"data":"RuntimeError('Unrecognized new version of ortools (9.15.6755). Expected \u003c 9.12.0. Please open a feature request on cvxpy to enable support for this version.')\n"}
+,{"stream_name":"stderr","time":27.560162864,"data":"\n"}
+,{"stream_name":"stderr","time":27.560167418,"data":"(CVXPY) Nov 05 09:14:22 PM: Encountered unexpected exception importing solver PDLP:\n"}
+,{"stream_name":"stderr","time":27.560170421,"data":"RuntimeError('Unrecognized new version of ortools (9.15.6755). Expected \u003c 9.12.0. Please open a feature request on cvxpy to enable support for this version.')\n"}
+,{"stream_name":"stderr","time":27.622969774,"data":"(CVXPY) Nov 05 09:14:22 PM: Encountered unexpected exception importing solver HIGHS:\n"}
+,{"stream_name":"stderr","time":27.622994507,"data":"ImportError('/usr/local/lib/python3.13/dist-packages/highspy/_core.cpython-313-x86_64-linux-gnu.so: undefined symbol: _ZN5Highs13releaseMemoryEv')\n"}
+,{"stream_name":"stderr","time":27.623000249,"data":"\n"}
+,{"stream_name":"stderr","time":27.623004248,"data":"(CVXPY) Nov 05 09:14:22 PM: Encountered unexpected exception importing solver HIGHS:\n"}
+,{"stream_name":"stderr","time":27.623008484,"data":"ImportError('/usr/local/lib/python3.13/dist-packages/highspy/_core.cpython-313-x86_64-linux-gnu.so: undefined symbol: _ZN5Highs13releaseMemoryEv')\n"}
+,{"stream_name":"stdout","time":27.906201219,"data":"optbinning: installed\n"}
+,{"stream_name":"stdout","time":28.385528706,"data":"polars: present\n"}
+,{"stream_name":"stdout","time":28.385556498,"data":"statsmodels: present\n"}
+,{"stream_name":"stdout","time":28.385561792,"data":"[end of code cell 1]\n"}
+,{"stream_name":"stdout","time":28.408399213,"data":"cwd: /kaggle/working | cpu count: 4\n"}
+,{"stream_name":"stdout","time":28.408420595,"data":"[end of code cell 2]\n"}
+,{"stream_name":"stdout","time":28.455213915,"data":"module hc_config.py loaded\n"}
+,{"stream_name":"stdout","time":28.455243383,"data":"[end of code cell 3]\n"}
+,{"stream_name":"stdout","time":28.509253829,"data":"module hc_metrics.py loaded\n"}
+,{"stream_name":"stdout","time":28.509278384,"data":"[end of code cell 4]\n"}
+,{"stream_name":"stdout","time":28.601627581,"data":"module hc_data.py loaded\n"}
+,{"stream_name":"stdout","time":28.601671151,"data":"[end of code cell 5]\n"}
+,{"stream_name":"stdout","time":28.66778401,"data":"module hc_features.py loaded\n"}
+,{"stream_name":"stdout","time":28.667810795,"data":"[end of code cell 6]\n"}
+,{"stream_name":"stdout","time":28.884384331,"data":"module hc_model.py loaded\n"}
+,{"stream_name":"stdout","time":28.884413357,"data":"[end of code cell 7]\n"}
+,{"stream_name":"stdout","time":28.921506557,"data":"module hc_stability.py loaded\n"}
+,{"stream_name":"stdout","time":28.921528558,"data":"[end of code cell 8]\n"}
+,{"stream_name":"stdout","time":29.140807734,"data":"module hc_pipeline.py loaded\n"}
+,{"stream_name":"stdout","time":29.140838102,"data":"[end of code cell 9]\n"}
+,{"stream_name":"stdout","time":29.222033288,"data":"module hc_ladder.py loaded\n"}
+,{"stream_name":"stdout","time":29.22206462,"data":"[end of code cell 10]\n"}
+,{"stream_name":"stdout","time":29.242903285,"data":"SAMPLE_CASES = None | N_BOOT = 1000\n"}
+,{"stream_name":"stdout","time":29.24292395,"data":"[end of code cell 11]\n"}
+,{"stream_name":"stdout","time":29.34090031,"data":"mounted inputs: ['competitions']\n"}
+,{"stream_name":"stdout","time":29.422018423,"data":"data root: /kaggle/input/competitions/home-credit-credit-risk-model-stability/parquet_files\n"}
+,{"stream_name":"stdout","time":29.422057122,"data":"32 train parquet files, e.g. ['train_applprev_1_0.parquet', 'train_applprev_1_1.parquet', 'train_applprev_2.parquet', 'train_base.parquet']\n"}
+,{"stream_name":"stdout","time":29.422063345,"data":"feature definitions: /kaggle/input/competitions/home-credit-credit-risk-model-stability/feature_definitions.csv 465\n"}
+,{"stream_name":"stdout","time":30.259987233,"data":"base: (1526659, 5) | weeks 0 - 91 | default rate 0.03144\n"}
+,{"stream_name":"stdout","time":50.767339128,"data":"provenance (sha256) written for 32 files\n"}
+,{"stream_name":"stdout","time":50.767393538,"data":"[end of code cell 12]\n"}
+,{"stream_name":"stdout","time":51.161507078,"data":"shape: (3, 9)\n"}
+,{"stream_name":"stdout","time":51.161530857,"data":"┌───────┬─────────┬──────────────┬──────────┬───┬─────────┬────────────┬────────────┬──────────┐\n"}
+,{"stream_name":"stdout","time":51.161539891,"data":"│ split ┆ n       ┆ default_rate ┆ week_min ┆ … ┆ n_weeks ┆ date_min   ┆ date_max   ┆ share    │\n"}
+,{"stream_name":"stdout","time":51.161545629,"data":"│ ---   ┆ ---     ┆ ---          ┆ ---      ┆   ┆ ---     ┆ ---        ┆ ---        ┆ ---      │\n"}
+,{"stream_name":"stdout","time":51.161550963,"data":"│ str   ┆ u32     ┆ f64          ┆ i64      ┆   ┆ u32     ┆ date       ┆ date       ┆ f64      │\n"}
+,{"stream_name":"stdout","time":51.161557231,"data":"╞═══════╪═════════╪══════════════╪══════════╪═══╪═════════╪════════════╪════════════╪══════════╡\n"}
+,{"stream_name":"stdout","time":51.161563681,"data":"│ train ┆ 1282082 ┆ 0.033168     ┆ 0        ┆ … ┆ 64      ┆ 2019-01-01 ┆ 2020-03-23 ┆ 0.839796 │\n"}
+,{"stream_name":"stdout","time":51.161568988,"data":"│ valid ┆ 92870   ┆ 0.024281     ┆ 64       ┆ … ┆ 14      ┆ 2020-03-24 ┆ 2020-06-29 ┆ 0.060832 │\n"}
+,{"stream_name":"stdout","time":51.161574121,"data":"│ oot   ┆ 151707  ┆ 0.021192     ┆ 78       ┆ … ┆ 14      ┆ 2020-06-30 ┆ 2020-10-05 ┆ 0.099372 │\n"}
+,{"stream_name":"stdout","time":51.161580007,"data":"└───────┴─────────┴──────────────┴──────────┴───┴─────────┴────────────┴────────────┴──────────┘\n"}
+,{"stream_name":"stdout","time":51.161586987,"data":"[end of code cell 13]\n"}
+,{"stream_name":"stdout","time":63.739067829,"data":"  train_static_0           rows_in=1526659 kept=1208906 dropped=317753 cols_added=167\n"}
+,{"stream_name":"stdout","time":65.87586134,"data":"  train_static_cb_0        rows_in=1500476 kept=25263 dropped=1475213 cols_added=52\n"}
+,{"stream_name":"stdout","time":82.258522108,"data":"  train_person_1           rows_in=2973991 kept=2973675 dropped=316 cols_added=34\n"}
+,{"stream_name":"stdout","time":120.87315397,"data":"  train_applprev_1         rows_in=6525979 kept=5943705 dropped=582274 cols_added=66\n"}
+,{"stream_name":"stdout","time":199.553190591,"data":"  train_credit_bureau_a_1  rows_in=15940537 kept=9189067 dropped=6751470 cols_added=34\n"}
+,{"stream_name":"stdout","time":200.303811434,"data":"  train_credit_bureau_b_1  rows_in=85791 kept=4884 dropped=80907 cols_added=34\n"}
+,{"stream_name":"stdout","time":201.308541027,"data":"  train_debitcard_1        rows_in=157302 kept=157302 dropped=0 cols_added=6\n"}
+,{"stream_name":"stdout","time":202.423040454,"data":"  train_deposit_1          rows_in=145086 kept=144577 dropped=509 cols_added=10\n"}
+,{"stream_name":"stdout","time":202.661322103,"data":"  train_other_1            rows_in=None kept=None dropped=0 cols_added=21\n"}
+,{"stream_name":"stdout","time":207.602545813,"data":"  train_tax_registry_b_1   rows_in=1107933 kept=1027261 dropped=80672 cols_added=12\n"}
+,{"stream_name":"stdout","time":214.488329375,"data":"  train_tax_registry_c_1   rows_in=3343800 kept=2617445 dropped=726355 cols_added=10\n"}
+,{"stream_name":"stdout","time":221.462783388,"data":"  train_applprev_2         rows_in=None kept=None dropped=0 cols_added=13\n"}
+,{"stream_name":"stdout","time":229.686975749,"data":"  train_person_2           rows_in=1643410 kept=1643410 dropped=0 cols_added=14\n"}
+,{"stream_name":"stdout","time":462.891090804,"data":"  train_credit_bureau_a_2  rows_in=188298452 kept=169158563 dropped=19139889 cols_added=45\n"}
+,{"stream_name":"stdout","time":465.572789407,"data":"  train_credit_bureau_b_2  rows_in=1286755 kept=1278437 dropped=8318 cols_added=20\n"}
+,{"stream_name":"stdout","time":477.740865121,"data":"\n"}
+,{"stream_name":"stdout","time":477.740944827,"data":"built in 426s: 1526659 rows x 504 columns, 25 categorical\n"}
+,{"stream_name":"stdout","time":477.778147048,"data":"             n default_rate     weeks n_weeks    date_min    date_max     share\n"}
+,{"stream_name":"stdout","time":477.778176388,"data":"train  1282082     0.033168   [0, 63]      64  2019-01-01  2020-03-23  0.839796\n"}
+,{"stream_name":"stdout","time":477.778182768,"data":"valid    92870     0.024281  [64, 77]      14  2020-03-24  2020-06-29  0.060832\n"}
+,{"stream_name":"stdout","time":477.778188107,"data":"oot     151707     0.021192  [78, 91]      14  2020-06-30  2020-10-05  0.099372\n"}
+,{"stream_name":"stdout","time":477.778193306,"data":"\n"}
+,{"stream_name":"stdout","time":477.778198248,"data":"point-in-time filter (history rows dropped because dated after date_decision):\n"}
+,{"stream_name":"stdout","time":477.778202748,"data":"                  table  depth     rows_in   rows_kept  rows_dropped  drop_share\n"}
+,{"stream_name":"stdout","time":477.778206984,"data":"         train_static_0      0   1526659.0   1208906.0        317753    0.208136\n"}
+,{"stream_name":"stdout","time":477.778211865,"data":"      train_static_cb_0      0   1500476.0     25263.0       1475213    0.983163\n"}
+,{"stream_name":"stdout","time":477.778217039,"data":"         train_person_1      1   2973991.0   2973675.0           316    0.000106\n"}
+,{"stream_name":"stdout","time":477.778222253,"data":"       train_applprev_1      1   6525979.0   5943705.0        582274    0.089224\n"}
+,{"stream_name":"stdout","time":477.778227141,"data":"train_credit_bureau_a_1      1  15940537.0   9189067.0       6751470    0.423541\n"}
+,{"stream_name":"stdout","time":477.77823228,"data":"train_credit_bureau_b_1      1     85791.0      4884.0         80907    0.943071\n"}
+,{"stream_name":"stdout","time":477.778237712,"data":"      train_debitcard_1      1    157302.0    157302.0             0    0.000000\n"}
+,{"stream_name":"stdout","time":477.778242618,"data":"        train_deposit_1      1    145086.0    144577.0           509    0.003508\n"}
+,{"stream_name":"stdout","time":477.778248088,"data":"          train_other_1      1         NaN         NaN             0    0.000000\n"}
+,{"stream_name":"stdout","time":477.778253374,"data":" train_tax_registry_b_1      1   1107933.0   1027261.0         80672    0.072813\n"}
+,{"stream_name":"stdout","time":477.778283969,"data":" train_tax_registry_c_1      1   3343800.0   2617445.0        726355    0.217224\n"}
+,{"stream_name":"stdout","time":477.778287046,"data":"       train_applprev_2      2         NaN         NaN             0    0.000000\n"}
+,{"stream_name":"stdout","time":477.778289574,"data":"         train_person_2      2   1643410.0   1643410.0             0    0.000000\n"}
+,{"stream_name":"stdout","time":477.778291948,"data":"train_credit_bureau_a_2      2 188298452.0 169158563.0      19139889    0.101647\n"}
+,{"stream_name":"stdout","time":477.778294406,"data":"train_credit_bureau_b_2      2   1286755.0   1278437.0          8318    0.006464\n"}
+,{"stream_name":"stdout","time":477.778296849,"data":"[end of code cell 14]\n"}
+,{"stream_name":"stdout","time":497.133814336,"data":"candidates after the univariate screen: 394\n"}
+,{"stream_name":"stdout","time":497.133849469,"data":"selected: trees=166 linear=120 woe=70\n"}
+,{"stream_name":"stdout","time":497.133854905,"data":"quarantined (single-feature AUC \u003e 0.8 ): []\n"}
+,{"stream_name":"stdout","time":497.13385931,"data":"                                          feature       iv iv_band\n"}
+,{"stream_name":"stdout","time":497.133863833,"data":"     train_credit_bureau_a_2__pmts_dpd_303P__mean 0.274035  medium\n"}
+,{"stream_name":"stdout","time":497.13386947,"data":"     train_applprev_1__maxdpdtolerance_577P__mean 0.255973  medium\n"}
+,{"stream_name":"stdout","time":497.133878868,"data":"train_credit_bureau_a_2__pmts_overdue_1152A__mean 0.255828  medium\n"}
+,{"stream_name":"stdout","time":497.133881883,"data":"      train_credit_bureau_a_2__pmts_dpd_303P__std 0.252180  medium\n"}
+,{"stream_name":"stdout","time":497.133884504,"data":"      train_static_0__avgdpdtolclosure24_3658938P 0.224604  medium\n"}
+,{"stream_name":"stdout","time":497.13388736,"data":"  train_static_0__pctinstlsallpaidlate1d_3546856L 0.221735  medium\n"}
+,{"stream_name":"stdout","time":497.133889876,"data":"      train_credit_bureau_a_2__pmts_dpd_303P__max 0.221325  medium\n"}
+,{"stream_name":"stdout","time":497.133892447,"data":"      train_applprev_1__maxdpdtolerance_577P__max 0.217154  medium\n"}
+,{"stream_name":"stdout","time":497.133894943,"data":"  train_static_0__pctinstlsallpaidlate4d_3546849L 0.206126  medium\n"}
+,{"stream_name":"stdout","time":497.133897462,"data":" train_credit_bureau_a_2__pmts_overdue_1152A__std 0.203592  medium\n"}
+,{"stream_name":"stdout","time":497.133899944,"data":"  train_static_0__daysoverduetolerancedd_3976961L 0.197514  medium\n"}
+,{"stream_name":"stdout","time":497.133902544,"data":"     train_static_0__maxdbddpdtollast12m_3658940P 0.193487  medium\n"}
+,{"stream_name":"stdout","time":497.133905059,"data":"dropped by the TRAIN recent-window coverage rule (\u003c 1% non-null in the last 8 train weeks): 110\n"}
+,{"stream_name":"stdout","time":499.865425851,"data":"final model features: 166 | null in VALID: 0 | null in OOT: 0\n"}
+,{"stream_name":"stdout","time":499.865487278,"data":"                         n_features  mean_coverage_train  mean_coverage_valid  mean_coverage_oot\n"}
+,{"stream_name":"stdout","time":499.865496694,"data":"train_static_0                 76.0                0.579                0.612              0.644\n"}
+,{"stream_name":"stdout","time":499.86550315,"data":"train_person_1                  2.0                0.752                0.676              0.733\n"}
+,{"stream_name":"stdout","time":499.865508975,"data":"train_applprev_1               44.0                0.708                0.782              0.803\n"}
+,{"stream_name":"stdout","time":499.865514941,"data":"train_credit_bureau_a_1        13.0                0.559                0.749              0.734\n"}
+,{"stream_name":"stdout","time":499.865541654,"data":"train_applprev_2                9.0                0.783                0.842              0.858\n"}
+,{"stream_name":"stdout","time":499.865548542,"data":"train_credit_bureau_a_2        16.0                0.708                0.901              0.907\n"}
+,{"stream_name":"stdout","time":499.865554274,"data":"train_credit_bureau_b_2         6.0                0.021                0.038              0.036\n"}
+,{"stream_name":"stdout","time":505.237520252,"data":"\n"}
+,{"stream_name":"stdout","time":505.237569412,"data":"linear design: (1526659, 113)\n"}
+,{"stream_name":"stdout","time":918.583337589,"data":"scorecard before sign fix: kept 70 after IV; 46 after VIF\n"}
+,{"stream_name":"stdout","time":993.120705535,"data":"sign consistency BEFORE fix: 38/46\n"}
+,{"stream_name":"stdout","time":993.120743158,"data":"sign consistency AFTER fix : 35/35 (dropped 11 wrong-sign variables)\n"}
+,{"stream_name":"stdout","time":1019.027735304,"data":"\n"}
+,{"stream_name":"stdout","time":1019.027772302,"data":"                      check status\n"}
+,{"stream_name":"stdout","time":1019.027780392,"data":"   no_id_or_outcome_columns   PASS\n"}
+,{"stream_name":"stdout","time":1019.027786012,"data":"       target_not_in_design   PASS\n"}
+,{"stream_name":"stdout","time":1019.027791321,"data":"        time_split_ordering   PASS\n"}
+,{"stream_name":"stdout","time":1019.027796761,"data":"            no_case_overlap   PASS\n"}
+,{"stream_name":"stdout","time":1019.027801994,"data":"      univariate_auc_screen   PASS\n"}
+,{"stream_name":"stdout","time":1019.02780728,"data":"scaler_fitted_on_train_rows   PASS\n"}
+,{"stream_name":"stdout","time":1019.027812524,"data":"   woe_binned_on_train_rows   PASS\n"}
+,{"stream_name":"stdout","time":1019.02781779,"data":"woe_fit_sample_within_train   PASS\n"}
+,{"stream_name":"stdout","time":1019.027823142,"data":"[end of code cell 15]\n"}
+,{"stream_name":"stdout","time":1019.181789358,"data":"statsmodels Logit on the WoE design: 35 variables (all coefficients negative = more WoE (safer) lowers PD)\n"}
+,{"stream_name":"stdout","time":1019.181815779,"data":"                                                     feature    coef  std_err         z  p_value  ci_low  ci_high\n"}
+,{"stream_name":"stdout","time":1019.181822438,"data":"                                                       const -3.2101   0.0076 -424.0737   0.0000 -3.2250  -3.1953\n"}
+,{"stream_name":"stdout","time":1019.181828329,"data":"                 train_static_0__avgdpdtolclosure24_3658938P -0.1499   0.0174   -8.6316   0.0000 -0.1840  -0.1159\n"}
+,{"stream_name":"stdout","time":1019.181835024,"data":"                 train_credit_bureau_a_2__pmts_dpd_303P__max -0.4590   0.0194  -23.6458   0.0000 -0.4970  -0.4209\n"}
+,{"stream_name":"stdout","time":1019.181839804,"data":"                 train_applprev_1__maxdpdtolerance_577P__max -0.1043   0.0198   -5.2689   0.0000 -0.1431  -0.0655\n"}
+,{"stream_name":"stdout","time":1019.181845602,"data":"                   train_static_0__avgdbddpdlast24m_3658932P -0.0151   0.0194   -0.7796   0.4356 -0.0531   0.0229\n"}
+,{"stream_name":"stdout","time":1019.181851467,"data":"                 train_applprev_1__maxdpdtolerance_577P__std -0.2783   0.0185  -15.0418   0.0000 -0.3146  -0.2421\n"}
+,{"stream_name":"stdout","time":1019.181856824,"data":"                     train_static_0__numinstlswithdpd10_728L -0.0699   0.0199   -3.5109   0.0004 -0.1090  -0.0309\n"}
+,{"stream_name":"stdout","time":1019.181862115,"data":"                 train_static_0__pctinstlsallpaidlat10d_839L -0.1411   0.0199   -7.1052   0.0000 -0.1800  -0.1021\n"}
+,{"stream_name":"stdout","time":1019.181867232,"data":"            train_credit_bureau_a_2__pmts_overdue_1152A__max -0.1057   0.0221   -4.7756   0.0000 -0.1491  -0.0623\n"}
+,{"stream_name":"stdout","time":1019.181882472,"data":"                 train_applprev_1__maxdpdtolerance_577P__min -0.2736   0.0156  -17.5197   0.0000 -0.3042  -0.2430\n"}
+,{"stream_name":"stdout","time":1019.181886702,"data":"                 train_static_0__maxdbddpdtollast6m_4187119P -0.1533   0.0219   -6.9965   0.0000 -0.1962  -0.1103\n"}
+,{"stream_name":"stdout","time":1019.181890793,"data":"                           train_static_0__mobilephncnt_593L -0.6586   0.0189  -34.8478   0.0000 -0.6956  -0.6215\n"}
+,{"stream_name":"stdout","time":1019.181894884,"data":"                          train_static_0__maxdpdlast12m_727P -0.1016   0.0189   -5.3648   0.0000 -0.1387  -0.0645\n"}
+,{"stream_name":"stdout","time":1019.181898972,"data":"                    train_static_0__avgmaxdpdlast9m_3716943P -0.1837   0.0222   -8.2582   0.0000 -0.2273  -0.1401\n"}
+,{"stream_name":"stdout","time":1019.181903105,"data":"train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__mean -0.1530   0.0306   -5.0026   0.0000 -0.2130  -0.0931\n"}
+,{"stream_name":"stdout","time":1019.18190734,"data":"                           train_static_0__numrejects9m_859L -0.2025   0.0194  -10.4318   0.0000 -0.2406  -0.1645\n"}
+,{"stream_name":"stdout","time":1019.181915017,"data":"                train_applprev_1__rejectreason_755M__nunique -0.1036   0.0192   -5.4068   0.0000 -0.1412  -0.0661\n"}
+,{"stream_name":"stdout","time":1019.181941717,"data":"                           train_applprev_1__pmtnum_8L__mean -0.6079   0.0211  -28.8222   0.0000 -0.6492  -0.5666\n"}
+,{"stream_name":"stdout","time":1019.18194653,"data":"       train_credit_bureau_a_1__overdueamountmax2_398A__mean -0.1398   0.0316   -4.4283   0.0000 -0.2016  -0.0779\n"}
+,{"stream_name":"stdout","time":1019.181951242,"data":" train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__std -0.0638   0.0337   -1.8931   0.0583 -0.1298   0.0023\n"}
+,{"stream_name":"stdout","time":1019.181956026,"data":"                    train_static_0__avgdbddpdlast3m_4187120P -0.1060   0.0298   -3.5581   0.0004 -0.1644  -0.0476\n"}
+,{"stream_name":"stdout","time":1019.181960663,"data":"                   train_static_0__mindbddpdlast24m_3658935P -0.1024   0.0252   -4.0590   0.0000 -0.1519  -0.0530\n"}
+,{"stream_name":"stdout","time":1019.181964942,"data":"                    train_static_0__numinstpaidearly5d_1087L -0.0504   0.0236   -2.1336   0.0329 -0.0966  -0.0041\n"}
+,{"stream_name":"stdout","time":1019.181969116,"data":"                          train_applprev_2__num_group2__mean -0.5131   0.0403  -12.7278   0.0000 -0.5921  -0.4341\n"}
+,{"stream_name":"stdout","time":1019.181973263,"data":"                                 train_static_0__pmtnum_254L -0.6377   0.0302  -21.1167   0.0000 -0.6969  -0.5785\n"}
+,{"stream_name":"stdout","time":1019.181977357,"data":"                  train_applprev_1__education_1138M__maxcode -0.4410   0.0338  -13.0485   0.0000 -0.5072  -0.3747\n"}
+,{"stream_name":"stdout","time":1019.181982174,"data":"                   train_static_0__disbursedcredamount_1113A -0.8439   0.0303  -27.8681   0.0000 -0.9032  -0.7845\n"}
+,{"stream_name":"stdout","time":1019.181987411,"data":"        train_credit_bureau_a_1__overdueamountmax2_398A__std -0.0489   0.0380   -1.2874   0.1980 -0.1233   0.0255\n"}
+,{"stream_name":"stdout","time":1019.181991622,"data":"                           train_applprev_2__num_group2__std -0.1343   0.0446   -3.0122   0.0026 -0.2217  -0.0469\n"}
+,{"stream_name":"stdout","time":1019.181995259,"data":"               train_credit_bureau_a_2__pmts_year_507T__mean -0.9545   0.0227  -41.9600   0.0000 -0.9991  -0.9099\n"}
+,{"stream_name":"stdout","time":1019.181999264,"data":"                    train_static_0__numinstlswithoutdpd_562L -0.9139   0.0276  -33.1544   0.0000 -0.9679  -0.8599\n"}
+,{"stream_name":"stdout","time":1019.182008379,"data":"                    train_static_0__maxdbddpdlast1m_3658939P -0.3403   0.0336  -10.1355   0.0000 -0.4061  -0.2745\n"}
+,{"stream_name":"stdout","time":1019.182013337,"data":"              train_credit_bureau_a_2__pmts_year_1139T__mean -0.5622   0.0221  -25.4811   0.0000 -0.6054  -0.5190\n"}
+,{"stream_name":"stdout","time":1019.182017651,"data":"                                    train_static_0__eir_270L -0.3329   0.0333   -9.9821   0.0000 -0.3982  -0.2675\n"}
+,{"stream_name":"stdout","time":1019.18202201,"data":"                   train_person_1__incometype_1044T__maxcode -1.2330   0.0232  -53.0520   0.0000 -1.2786  -1.1875\n"}
+,{"stream_name":"stdout","time":1019.18202643,"data":"                       train_static_0__numcontrs3months_479L -0.2707   0.0319   -8.4941   0.0000 -0.3332  -0.2083\n"}
+,{"stream_name":"stdout","time":1019.182039873,"data":"\n"}
+,{"stream_name":"stdout","time":1019.182044095,"data":"wrong-sign drop log (largest p-value dropped each round):\n"}
+,{"stream_name":"stdout","time":1019.182048638,"data":" round                                     dropped  p_value  n_wrong_before_drop  n_variables_before_drop\n"}
+,{"stream_name":"stdout","time":1019.182053423,"data":"     1 train_static_0__pctinstlsallpaidearl3d_427L   0.8806                    8                       46\n"}
+,{"stream_name":"stdout","time":1019.182057828,"data":"     2          train_static_0__maxdpdlast9m_1059P   0.4609                    7                       45\n"}
+,{"stream_name":"stdout","time":1019.182062359,"data":"     3  train_static_0__numinstpaidlate1d_3546852L   0.2452                    6                       44\n"}
+,{"stream_name":"stdout","time":1019.182067502,"data":"     4            train_applprev_1__pmtnum_8L__std   0.1706                    5                       43\n"}
+,{"stream_name":"stdout","time":1019.182072071,"data":"     5        train_static_0__maxdpdtolerance_374P   0.0004                    4                       42\n"}
+,{"stream_name":"stdout","time":1019.182076161,"data":"     6           train_static_0__maxdpdlast6m_474P   0.8761                    4                       41\n"}
+,{"stream_name":"stdout","time":1019.182081082,"data":"     7  train_static_0__maxdpdfrom6mto36m_3546853P   0.0000                    3                       40\n"}
+,{"stream_name":"stdout","time":1019.182086353,"data":"     8          train_static_0__maxdpdlast24m_143P   0.0190                    3                       39\n"}
+,{"stream_name":"stdout","time":1019.182090759,"data":"     9   train_static_0__avgdbdtollast24m_4525197P   0.9882                    3                       38\n"}
+,{"stream_name":"stdout","time":1019.182095104,"data":"    10          train_applprev_2__num_group1__mean   0.0000                    2                       37\n"}
+,{"stream_name":"stdout","time":1019.182099859,"data":"    11  train_static_0__numinstlswithdpd5_4187116L   0.0000                    1                       36\n"}
+,{"stream_name":"stdout","time":1019.182104655,"data":"\n"}
+,{"stream_name":"stdout","time":1019.182109122,"data":"scorecard points table: (221, 7) | base points 606.19\n"}
+,{"stream_name":"stdout","time":1019.182113502,"data":"                                                                                               feature_plain             bin    count  event_rate    woe  points\n"}
+,{"stream_name":"stdout","time":1019.182118813,"data":"              Average DPD (days past due) with tolerance within the past 24 months from the... [application]    (-inf, 0.50)  88803.0       0.017  0.679   2.938\n"}
+,{"stream_name":"stdout","time":1019.182125334,"data":"              Average DPD (days past due) with tolerance within the past 24 months from the... [application]    [0.50, 1.50)  14033.0       0.039 -0.160  -0.690\n"}
+,{"stream_name":"stdout","time":1019.182135258,"data":"              Average DPD (days past due) with tolerance within the past 24 months from the... [application]     [1.50, inf)  20760.0       0.082 -0.965  -4.173\n"}
+,{"stream_name":"stdout","time":1019.182139996,"data":"              Average DPD (days past due) with tolerance within the past 24 months from the... [application]         Special      0.0       0.000  0.000   0.000\n"}
+,{"stream_name":"stdout","time":1019.18214417,"data":"              Average DPD (days past due) with tolerance within the past 24 months from the... [application]         Missing 126404.0       0.036 -0.077  -0.333\n"}
+,{"stream_name":"stdout","time":1019.182148501,"data":"maximum Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)]    (-inf, 4.50)  68852.0       0.018  0.643   8.522\n"}
+,{"stream_name":"stdout","time":1019.182152622,"data":"maximum Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)]   [4.50, 14.50)  16398.0       0.023  0.376   4.982\n"}
+,{"stream_name":"stdout","time":1019.182157274,"data":"maximum Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)]  [14.50, 33.50)  22618.0       0.031  0.052   0.688\n"}
+,{"stream_name":"stdout","time":1019.182161393,"data":"maximum Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)] [33.50, 114.50)  12643.0       0.056 -0.554  -7.339\n"}
+,{"stream_name":"stdout","time":1019.182165903,"data":"maximum Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)]   [114.50, inf)  33652.0       0.068 -0.755  -9.994\n"}
+,{"stream_name":"stdout","time":1019.182169843,"data":"maximum Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)]         Special      0.0       0.000  0.000   0.000\n"}
+,{"stream_name":"stdout","time":1019.182173696,"data":"maximum Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)]         Missing  95837.0       0.031  0.066   0.878\n"}
+,{"stream_name":"stdout","time":1019.182178196,"data":"                      maximum Maximum DPD with tolerance (on previous application/s) [previous applications]    (-inf, 0.50)  85947.0       0.022  0.433   1.302\n"}
+,{"stream_name":"stdout","time":1019.182182895,"data":"                      maximum Maximum DPD with tolerance (on previous application/s) [previous applications]    [0.50, 2.50)  34536.0       0.027  0.216   0.649\n"}
+,{"stream_name":"stdout","time":1019.182187517,"data":"\n"}
+,{"stream_name":"stdout","time":1019.182191689,"data":"score reconstruction: sum(points)=625.96 vs model score=625.96 delta=+0.00\n"}
+,{"stream_name":"stdout","time":1019.182195725,"data":"[end of code cell 16]\n"}
+,{"stream_name":"stdout","time":1054.413175332,"data":"L2 logistic regression: C chosen on VALID AUC\n"}
+,{"stream_name":"stdout","time":1054.413229993,"data":"    C  valid_auc  n_iter\n"}
+,{"stream_name":"stdout","time":1054.413235945,"data":"0.001    0.74962      28\n"}
+,{"stream_name":"stdout","time":1054.413240655,"data":"0.010    0.75021      34\n"}
+,{"stream_name":"stdout","time":1054.413245234,"data":"0.100    0.75022      36\n"}
+,{"stream_name":"stdout","time":1054.413249813,"data":"1.000    0.75044      40\n"}
+,{"stream_name":"stdout","time":1054.413254418,"data":"chosen C=1.0, final fit n_iter=39, 35s\n"}
+,{"stream_name":"stdout","time":1054.413259246,"data":"[end of code cell 17]\n"}
+,{"stream_name":"stdout","time":1056.599082004,"data":"tree design: (1282082, 166) (92870, 166) (151707, 166)\n"}
+,{"stream_name":"stdout","time":2000.320015054,"data":"random forest fitted on a 500000-row TRAIN subsample (compute cap) in 943s | VALID AUC 0.7972\n"}
+,{"stream_name":"stdout","time":2000.320050584,"data":"[end of code cell 18]\n"}
+,{"stream_name":"stdout","time":2088.670785238,"data":"XGBoost random search (6 configs, 500k-row TRAIN subsample, scored on VALID AUC):\n"}
+,{"stream_name":"stdout","time":2088.670821346,"data":" max_depth  min_child_weight  colsample_bytree  subsample  reg_lambda  valid_auc  best_iteration\n"}
+,{"stream_name":"stdout","time":2088.670827029,"data":"         7               100               0.5        0.9         1.0    0.81334             474\n"}
+,{"stream_name":"stdout","time":2088.670831542,"data":"         7                50               0.3        0.9         5.0    0.81343             325\n"}
+,{"stream_name":"stdout","time":2088.670835759,"data":"         4               100               0.5        0.7         5.0    0.81168             730\n"}
+,{"stream_name":"stdout","time":2088.670840304,"data":"         4                50               0.3        0.7        20.0    0.81198             797\n"}
+,{"stream_name":"stdout","time":2088.67084463,"data":"         6                50               0.5        0.7         1.0    0.81204             362\n"}
+,{"stream_name":"stdout","time":2088.670848897,"data":"         7               100               0.5        0.9        20.0    0.81309             488\n"}
+,{"stream_name":"stdout","time":2088.670853119,"data":"best: {'max_depth': 7, 'min_child_weight': 50, 'colsample_bytree': 0.3, 'subsample': 0.9, 'reg_lambda': 5.0} | 88s\n"}
+,{"stream_name":"stdout","time":2124.335850691,"data":"final XGBoost on full TRAIN: best_iteration=480 | VALID AUC 0.8168 | 36s\n"}
+,{"stream_name":"stdout","time":2165.917854207,"data":"monotone XGBoost: 115 of 166 features constrained | VALID AUC 0.8128 | 42s\n"}
+,{"stream_name":"stdout","time":2260.275991324,"data":"LightGBM (fixed documented parameters, no search): best_iter=263 | VALID AUC 0.8114 | 95s\n"}
+,{"stream_name":"stdout","time":2260.276034497,"data":"[end of code cell 19]\n"}
+,{"stream_name":"stdout","time":2265.710500471,"data":"VALID metrics (OOT not yet scored):\n"}
+,{"stream_name":"stdout","time":2265.710544038,"data":"                     auc    gini      ks  pr_auc   brier\n"}
+,{"stream_name":"stdout","time":2265.71055024,"data":"dummy             0.5000  0.0000  0.0449  0.0243  0.0238\n"}
+,{"stream_name":"stdout","time":2265.710555914,"data":"woe_scorecard     0.7830  0.5661  0.4247  0.0975  0.0235\n"}
+,{"stream_name":"stdout","time":2265.710561358,"data":"penalised_lr      0.7513  0.5025  0.3745  0.0834  0.0236\n"}
+,{"stream_name":"stdout","time":2265.71056715,"data":"random_forest     0.7972  0.5943  0.4492  0.1150  0.0229\n"}
+,{"stream_name":"stdout","time":2265.710572658,"data":"xgboost           0.8168  0.6335  0.4813  0.1296  0.0230\n"}
+,{"stream_name":"stdout","time":2265.710577998,"data":"xgboost_monotone  0.8128  0.6255  0.4735  0.1263  0.0235\n"}
+,{"stream_name":"stdout","time":2265.710583371,"data":"lightgbm          0.8114  0.6228  0.4731  0.1284  0.0229\n"}
+,{"stream_name":"stdout","time":2265.71058879,"data":"\n"}
+,{"stream_name":"stdout","time":2265.710594,"data":"CHAMPION (rule frozen on VALID): xgboost | tied set: ['xgboost']\n"}
+,{"stream_name":"stdout","time":2266.09057033,"data":"\n"}
+,{"stream_name":"stdout","time":2266.090605813,"data":"calibrator selection on VALID (fit early VALID weeks, score late VALID weeks):\n"}
+,{"stream_name":"stdout","time":2266.090613507,"data":"  method  late_valid_logloss  late_valid_brier  late_valid_ece\n"}
+,{"stream_name":"stdout","time":2266.090619069,"data":"    none            0.098955          0.022377        0.018025\n"}
+,{"stream_name":"stdout","time":2266.090639833,"data":"   platt            0.093918          0.021693        0.002060\n"}
+,{"stream_name":"stdout","time":2266.090645436,"data":"isotonic            0.094178          0.021746        0.001735\n"}
+,{"stream_name":"stdout","time":2266.090649874,"data":"chosen calibrator: platt\n"}
+,{"stream_name":"stdout","time":2266.090654373,"data":"\n"}
+,{"stream_name":"stdout","time":2266.090658777,"data":"cut-offs chosen on VALID (approve if raw PD \u003c cut-off):\n"}
+,{"stream_name":"stdout","time":2266.090663806,"data":"               bad_rate_15  bad_rate_20  approval_80\n"}
+,{"stream_name":"stdout","time":2266.090667831,"data":"penalised_lr       0.06481      0.11579      0.05660\n"}
+,{"stream_name":"stdout","time":2266.090672321,"data":"woe_scorecard      0.07929      0.15353      0.06130\n"}
+,{"stream_name":"stdout","time":2266.090675895,"data":"xgboost            0.11004      0.19659      0.06401\n"}
+,{"stream_name":"stdout","time":2266.090679612,"data":"lightgbm           0.09963      0.17368      0.06182\n"}
+,{"stream_name":"stdout","time":2266.090683287,"data":"frozen -\u003e artifacts/champion.json\n"}
+,{"stream_name":"stdout","time":2266.090687053,"data":"[end of code cell 20]\n"}
+,{"stream_name":"stdout","time":2274.633729777,"data":"OOT weeks 78-91, n=151707, default rate 0.0212\n"}
+,{"stream_name":"stdout","time":2274.63377579,"data":"                             auc    gini      ks  pr_auc   brier\n"}
+,{"stream_name":"stdout","time":2274.633779867,"data":"Dummy (base rate)         0.5000  0.0000  0.0356  0.0212  0.0209\n"}
+,{"stream_name":"stdout","time":2274.633782737,"data":"WoE scorecard             0.7893  0.5786  0.4382  0.0861  0.0210\n"}
+,{"stream_name":"stdout","time":2274.633785553,"data":"Logistic regression (L2)  0.7697  0.5395  0.4045  0.0800  0.0206\n"}
+,{"stream_name":"stdout","time":2274.633788315,"data":"Random forest             0.8120  0.6240  0.4711  0.1076  0.0203\n"}
+,{"stream_name":"stdout","time":2274.633790947,"data":"XGBoost                   0.8306  0.6612  0.5063  0.1232  0.0207\n"}
+,{"stream_name":"stdout","time":2274.63379359,"data":"XGBoost (monotone)        0.8265  0.6530  0.5019  0.1190  0.0211\n"}
+,{"stream_name":"stdout","time":2274.63379614,"data":"LightGBM                  0.8255  0.6511  0.4930  0.1215  0.0203\n"}
+,{"stream_name":"stdout","time":2274.633798827,"data":"\n"}
+,{"stream_name":"stdout","time":2274.633801268,"data":"weekly-Gini stability metric (OOT):\n"}
+,{"stream_name":"stdout","time":2274.633803907,"data":"Dummy (base rate)           0.0000\n"}
+,{"stream_name":"stdout","time":2274.633806406,"data":"WoE scorecard               0.5460\n"}
+,{"stream_name":"stdout","time":2274.633808979,"data":"Logistic regression (L2)    0.5036\n"}
+,{"stream_name":"stdout","time":2274.633811552,"data":"Random forest               0.5868\n"}
+,{"stream_name":"stdout","time":2274.633814133,"data":"XGBoost                     0.6304\n"}
+,{"stream_name":"stdout","time":2274.633816628,"data":"XGBoost (monotone)          0.6186\n"}
+,{"stream_name":"stdout","time":2274.633819227,"data":"LightGBM                    0.6197\n"}
+,{"stream_name":"stdout","time":2275.470063511,"data":"[end of code cell 21]\n"}
+,{"stream_name":"stdout","time":2453.66400872,"data":"paired bootstrap of OOT Gini difference, 1000 resamples (178s):\n"}
+,{"stream_name":"stdout","time":2453.664059378,"data":"                             point_gini_diff  ci95_lo  ci95_hi  n_boot  share_positive\n"}
+,{"stream_name":"stdout","time":2453.66406667,"data":"xgboost_minus_penalised_lr            0.1218   0.1091   0.1331  1000.0             1.0\n"}
+,{"stream_name":"stdout","time":2453.664071822,"data":"xgboost_minus_woe_scorecard           0.0826   0.0739   0.0912  1000.0             1.0\n"}
+,{"stream_name":"stdout","time":2453.664094115,"data":"xgboost_minus_random_forest           0.0372   0.0305   0.0442  1000.0             1.0\n"}
+,{"stream_name":"stdout","time":2453.664097572,"data":"xgboost_minus_lightgbm                0.0101   0.0066   0.0138  1000.0             1.0\n"}
+,{"stream_name":"stdout","time":2453.664100178,"data":"[end of code cell 22]\n"}
+,{"stream_name":"stdout","time":2454.149391666,"data":"champion = xgboost; calibrator chosen on VALID = platt\n"}
+,{"stream_name":"stdout","time":2454.149432085,"data":"OOT calibration, before and after (Platt vs isotonic fitted on VALID):\n"}
+,{"stream_name":"stdout","time":2454.149437564,"data":"calibration  expected_over_actual  mean_pd  actual_rate     ece   brier  logloss  chosen_on_valid\n"}
+,{"stream_name":"stdout","time":2454.149443094,"data":" none (raw)               2.03897  0.04321      0.02119 0.02202 0.02066  0.09336            False\n"}
+,{"stream_name":"stdout","time":2454.149451034,"data":"      platt               1.18234  0.02506      0.02119 0.00386 0.01962  0.08593             True\n"}
+,{"stream_name":"stdout","time":2454.149454256,"data":"   isotonic               1.18366  0.02508      0.02119 0.00389 0.01962  0.08610            False\n"}
+,{"stream_name":"stdout","time":2454.149456988,"data":"\n"}
+,{"stream_name":"stdout","time":2454.149459291,"data":"expected vs actual by decile (before / after):\n"}
+,{"stream_name":"stdout","time":2454.149479496,"data":" decile  n_before  expected_before  actual_before  expected_over_actual_before  expected_after  actual_after  expected_over_actual_after\n"}
+,{"stream_name":"stdout","time":2454.149482343,"data":"      1     15171           0.0020         0.0008                       2.5783          0.0009        0.0008                      1.1964\n"}
+,{"stream_name":"stdout","time":2454.149485158,"data":"      2     15171           0.0047         0.0018                       2.6628          0.0023        0.0018                      1.2812\n"}
+,{"stream_name":"stdout","time":2454.149488071,"data":"      3     15170           0.0081         0.0024                       3.3365          0.0040        0.0024                      1.6468\n"}
+,{"stream_name":"stdout","time":2454.149490761,"data":"      4     15171           0.0126         0.0051                       2.4534          0.0064        0.0051                      1.2376\n"}
+,{"stream_name":"stdout","time":2454.149493534,"data":"      5     15171           0.0186         0.0065                       2.8463          0.0096        0.0065                      1.4650\n"}
+,{"stream_name":"stdout","time":2454.149496246,"data":"      6     15170           0.0267         0.0105                       2.5463          0.0140        0.0105                      1.3375\n"}
+,{"stream_name":"stdout","time":2454.149499067,"data":"      7     15171           0.0380         0.0167                       2.2719          0.0204        0.0167                      1.2193\n"}
+,{"stream_name":"stdout","time":2454.14950177,"data":"      8     15170           0.0552         0.0256                       2.1526          0.0304        0.0256                      1.1849\n"}
+,{"stream_name":"stdout","time":2454.149504481,"data":"      9     15171           0.0855         0.0382                       2.2392          0.0487        0.0382                      1.2765\n"}
+,{"stream_name":"stdout","time":2454.149508277,"data":"     10     15171           0.1806         0.1042                       1.7331          0.1139        0.1042                      1.0926\n"}
+,{"stream_name":"stdout","time":2454.55217192,"data":"[end of code cell 23]\n"}
+,{"stream_name":"stdout","time":2466.375389391,"data":"default rate by calendar quarter of date_decision:\n"}
+,{"stream_name":"stdout","time":2466.375467116,"data":"     q      n  default_rate       split\n"}
+,{"stream_name":"stdout","time":2466.375472814,"data":"2019Q1 207740        0.0267       train\n"}
+,{"stream_name":"stdout","time":2466.375480312,"data":"2019Q2 231004        0.0289       train\n"}
+,{"stream_name":"stdout","time":2466.375486726,"data":"2019Q3 295013        0.0294       train\n"}
+,{"stream_name":"stdout","time":2466.37550101,"data":"2019Q4 337005        0.0360       train\n"}
+,{"stream_name":"stdout","time":2466.375505671,"data":"2020Q1 222681        0.0441 train/valid\n"}
+,{"stream_name":"stdout","time":2466.375508097,"data":"2020Q2  82976        0.0234   oot/valid\n"}
+,{"stream_name":"stdout","time":2466.375513459,"data":"2020Q3 141648        0.0211         oot\n"}
+,{"stream_name":"stdout","time":2466.375516989,"data":"2020Q4   8592        0.0220         oot\n"}
+,{"stream_name":"stdout","time":2466.37552082,"data":"\n"}
+,{"stream_name":"stdout","time":2466.375525312,"data":"TRAIN default rate 0.0332 | VALID 0.0243 | OOT 0.0212\n"}
+,{"stream_name":"stdout","time":2466.685494162,"data":"\n"}
+,{"stream_name":"stdout","time":2466.685537988,"data":"TRAIN -\u003e OOT, champion-score deciles fitted on TRAIN:\n"}
+,{"stream_name":"stdout","time":2466.685546387,"data":" band  w_train  w_other  rate_train  rate_other\n"}
+,{"stream_name":"stdout","time":2466.685564681,"data":"    1      0.1   0.0921      0.0006      0.0009\n"}
+,{"stream_name":"stdout","time":2466.68556961,"data":"    2      0.1   0.0955      0.0019      0.0016\n"}
+,{"stream_name":"stdout","time":2466.685573845,"data":"    3      0.1   0.0951      0.0040      0.0024\n"}
+,{"stream_name":"stdout","time":2466.685577743,"data":"    4      0.1   0.0903      0.0072      0.0047\n"}
+,{"stream_name":"stdout","time":2466.685582168,"data":"    5      0.1   0.0880      0.0118      0.0059\n"}
+,{"stream_name":"stdout","time":2466.685586563,"data":"    6      0.1   0.0832      0.0182      0.0081\n"}
+,{"stream_name":"stdout","time":2466.685590875,"data":"    7      0.1   0.0866      0.0257      0.0125\n"}
+,{"stream_name":"stdout","time":2466.68559466,"data":"    8      0.1   0.0885      0.0398      0.0186\n"}
+,{"stream_name":"stdout","time":2466.68559843,"data":"    9      0.1   0.1127      0.0606      0.0277\n"}
+,{"stream_name":"stdout","time":2466.68560216,"data":"   10      0.1   0.1681      0.1619      0.0790\n"}
+,{"stream_name":"stdout","time":2466.685605969,"data":"total change in default rate -0.0120 = score-mix effect +0.0104 + within-band rate effect -0.0224\n"}
+,{"stream_name":"stdout","time":2466.685610174,"data":"TRAIN -\u003e VALID: total -0.0089 = mix +0.0092 + rate -0.0181\n"}
+,{"stream_name":"stdout","time":2466.68561436,"data":"Reading: a near-zero mix effect means applicants did not get safer on the model's own scale; the drop is inside the same risk bands.\n"}
+,{"stream_name":"stdout","time":2466.685618389,"data":"ASSUMPTION (context, not tested here): 2020 payment moratoria / COVID-period relief plausibly lowered observed defaults.\n"}
+,{"stream_name":"stdout","time":2467.02155842,"data":"[end of code cell 24]\n"}
+,{"stream_name":"stdout","time":2467.59330057,"data":"share of OOT defaulters caught when the riskiest 5/10/20% of applications are reviewed:\n"}
+,{"stream_name":"stdout","time":2467.593352075,"data":"                   model  caught_at_5pct  caught_at_10pct  caught_at_20pct\n"}
+,{"stream_name":"stdout","time":2467.593358069,"data":"Logistic regression (L2)          0.2345           0.3733           0.5664\n"}
+,{"stream_name":"stdout","time":2467.593362192,"data":"           WoE scorecard          0.2560           0.4034           0.6006\n"}
+,{"stream_name":"stdout","time":2467.5934388699998,"data":"           Random forest          0.2949           0.4420           0.6414\n"}
+,{"stream_name":"stdout","time":2467.593447532,"data":"                 XGBoost          0.3182           0.4918           0.6719\n"}
+,{"stream_name":"stdout","time":2467.593452256,"data":"                LightGBM          0.3138           0.4793           0.6650\n"}
+,{"stream_name":"stdout","time":2467.593456446,"data":"      random (reference)          0.0500           0.1000           0.2000\n"}
+,{"stream_name":"stdout","time":2467.593460062,"data":"\n"}
+,{"stream_name":"stdout","time":2467.593463556,"data":"cut-off strategies on the SAME OOT loans (observed defaults):\n"}
+,{"stream_name":"stdout","time":2467.593467183,"data":"                 strategy                    model  approval_rate  bad_rate_approved  bad_rate_all  defaulters_declined_share\n"}
+,{"stream_name":"stdout","time":2467.593470981,"data":"              approve all                        -         1.0000             0.0212        0.0212                     0.0000\n"}
+,{"stream_name":"stdout","time":2467.59347473,"data":" bad rate \u003c= 1.5% (VALID) Logistic regression (L2)         0.8634             0.0134        0.0212                     0.4557\n"}
+,{"stream_name":"stdout","time":2467.593478847,"data":" bad rate \u003c= 1.5% (VALID)                  XGBoost         0.9006             0.0120        0.0212                     0.4899\n"}
+,{"stream_name":"stdout","time":2467.593482671,"data":" bad rate \u003c= 1.5% (VALID)                 LightGBM         0.8986             0.0122        0.0212                     0.4824\n"}
+,{"stream_name":"stdout","time":2467.593486427,"data":" bad rate \u003c= 2.0% (VALID) Logistic regression (L2)         0.9581             0.0175        0.0212                     0.2090\n"}
+,{"stream_name":"stdout","time":2467.593490194,"data":" bad rate \u003c= 2.0% (VALID)                  XGBoost         0.9719             0.0171        0.0212                     0.2168\n"}
+,{"stream_name":"stdout","time":2467.593493902,"data":" bad rate \u003c= 2.0% (VALID)                 LightGBM         0.9716             0.0169        0.0212                     0.2258\n"}
+,{"stream_name":"stdout","time":2467.593497691,"data":"approval rate 80% (VALID) Logistic regression (L2)         0.8242             0.0122        0.0212                     0.5253\n"}
+,{"stream_name":"stdout","time":2467.593504938,"data":"approval rate 80% (VALID)                  XGBoost         0.7895             0.0083        0.0212                     0.6899\n"}
+,{"stream_name":"stdout","time":2467.593509071,"data":"approval rate 80% (VALID)                 LightGBM         0.7977             0.0088        0.0212                     0.6678\n"}
+,{"stream_name":"stdout","time":2467.593511648,"data":"\n"}
+,{"stream_name":"stdout","time":2467.593513887,"data":"swap sets at 80% approval on OOT (A = XGBoost, B = logistic regression, same number of loans approved by each):\n"}
+,{"stream_name":"stdout","time":2467.593516373,"data":"                        n  bad_rate  defaults\n"}
+,{"stream_name":"stdout","time":2467.593518748,"data":"both_approve     110655.0    0.0078     858.0\n"}
+,{"stream_name":"stdout","time":2467.593521935,"data":"both_decline      19630.0    0.0827    1624.0\n"}
+,{"stream_name":"stdout","time":2467.593525327,"data":"swap_in_A_only    10711.0    0.0184     197.0\n"}
+,{"stream_name":"stdout","time":2467.593538701,"data":"swap_out_B_only   10711.0    0.0500     536.0\n"}
+,{"stream_name":"stdout","time":2467.593542699,"data":"portfolio bad rate of approved loans: XGBoost 0.0087 | logistic regression 0.0115\n"}
+,{"stream_name":"stdout","time":2467.895188832,"data":"\n"}
+,{"stream_name":"stdout","time":2467.895228825,"data":"master scale: 10 grades from VALID quantiles of the champion score; grade PD = VALID observed default rate\n"}
+,{"stream_name":"stdout","time":2467.895250423,"data":" grade  n_valid  grade_pd_valid  n_oot  defaults_oot  oot_default_rate  binomial_p     direction  expected_loss  realised_loss  el_over_realised\n"}
+,{"stream_name":"stdout","time":2467.895255861,"data":"     1     9287         0.00140  16610            14           0.00084     0.06044 lower than PD   4.486602e+05   2.255373e+05           1.98929\n"}
+,{"stream_name":"stdout","time":2467.895260175,"data":"     2     9287         0.00269  14967            26           0.00174     0.02183 lower than PD   8.398412e+05   5.274335e+05           1.59232\n"}
+,{"stream_name":"stdout","time":2467.895264552,"data":"     3     9287         0.00398  14547            42           0.00289     0.03490 lower than PD   1.305763e+06   1.074985e+06           1.21468\n"}
+,{"stream_name":"stdout","time":2467.895268684,"data":"     4     9287         0.00528  14525            72           0.00496     0.64672 lower than PD   1.841339e+06   1.733302e+06           1.06233\n"}
+,{"stream_name":"stdout","time":2467.895273132,"data":"     5     9287         0.01055  14666            94           0.00641     0.00000 lower than PD   3.887875e+06   2.340141e+06           1.66139\n"}
+,{"stream_name":"stdout","time":2467.89527768,"data":"     6     9287         0.01238  14544           149           0.01024     0.01815 lower than PD   4.738588e+06   3.698098e+06           1.28136\n"}
+,{"stream_name":"stdout","time":2467.895297914,"data":"     7     9287         0.02057  14753           243           0.01647     0.00032 lower than PD   8.309559e+06   5.899591e+06           1.40850\n"}
+,{"stream_name":"stdout","time":2467.895300728,"data":"     8     9287         0.02940  15162           357           0.02355     0.00001 lower than PD   1.262002e+07   1.092056e+07           1.15562\n"}
+,{"stream_name":"stdout","time":2467.895303603,"data":"     9     9287         0.04566  15838           596           0.03763     0.00000 lower than PD   2.104721e+07   1.721889e+07           1.22233\n"}
+,{"stream_name":"stdout","time":2467.895306588,"data":"    10     9287         0.11091  16095          1622           0.10078     0.00004 lower than PD   5.492268e+07   5.330510e+07           1.03035\n"}
+,{"stream_name":"stdout","time":2467.895309443,"data":"OOT observed default rate monotone across grades: True\n"}
+,{"stream_name":"stdout","time":2467.895312058,"data":"grades where the binomial test rejects the grade PD at 5%: 8 of 10\n"}
+,{"stream_name":"stdout","time":2467.895314817,"data":"ILLUSTRATIVE expected loss = PD x LGD x EAD (LGD 0.45 assumed, EAD = application credit amount, median-filled where missing): expected 109,961,533 vs realised 96,943,646 (ratio 1.134)\n"}
+,{"stream_name":"stdout","time":2468.50538865,"data":"[end of code cell 25]\n"}
+,{"stream_name":"stdout","time":2468.707453247,"data":"score PSI TRAIN -\u003e VALID 0.0370 | TRAIN -\u003e OOT 0.0470 (stable)\n"}
+,{"stream_name":"stdout","time":2468.707488855,"data":"\n"}
+,{"stream_name":"stdout","time":2468.707494839,"data":"top 15 XGBoost features by gain:\n"}
+,{"stream_name":"stdout","time":2468.707500292,"data":"                                                                                                               plain_name  gain_share                                                           feature\n"}
+,{"stream_name":"stdout","time":2468.707507189,"data":"                                                                Cancellation reason of the last application [application]      0.0432                             train_static_0__lastcancelreason_561M\n"}
+,{"stream_name":"stdout","time":2468.707512434,"data":"                           Average DPD (days past due) with tolerance within the past 24 months from the... [application]      0.0368                       train_static_0__avgdpdtolclosure24_3658938P\n"}
+,{"stream_name":"stdout","time":2468.707543609,"data":"             average Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)]      0.0300                      train_credit_bureau_a_2__pmts_dpd_303P__mean\n"}
+,{"stream_name":"stdout","time":2468.707549083,"data":"                                   minimum Maximum DPD with tolerance (on previous application/s) [previous applications]      0.0293                       train_applprev_1__maxdpdtolerance_577P__min\n"}
+,{"stream_name":"stdout","time":2468.70755387,"data":"                                   average Maximum DPD with tolerance (on previous application/s) [previous applications]      0.0273                      train_applprev_1__maxdpdtolerance_577P__mean\n"}
+,{"stream_name":"stdout","time":2468.707558901,"data":"variability (std) of Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)]      0.0205                       train_credit_bureau_a_2__pmts_dpd_303P__std\n"}
+,{"stream_name":"stdout","time":2468.70756384,"data":"                                               Reason for rejection on the most recent rejected application [application]      0.0197                             train_static_0__lastrejectreason_759M\n"}
+,{"stream_name":"stdout","time":2468.707568979,"data":"                                        most recent category of Type of income of the person [applicant / related person]      0.0185                         train_person_1__incometype_1044T__maxcode\n"}
+,{"stream_name":"stdout","time":2468.707575953,"data":"                                                                Reason for the client's last loan rejection [application]      0.0174                   train_static_0__lastrejectreasonclient_4145040M\n"}
+,{"stream_name":"stdout","time":2468.707580995,"data":"              most recent category of Applicant's education level from their previous application [previous applications]      0.0157                        train_applprev_1__education_1138M__maxcode\n"}
+,{"stream_name":"stdout","time":2468.707585607,"data":"   number of distinct values of Type of collateral that was used as a guarantee for a closed contract [credit bureau (a)]      0.0157 train_credit_bureau_a_2__collaterals_typeofguarante_359M__nunique\n"}
+,{"stream_name":"stdout","time":2468.707590816,"data":"                                      Number of credit applications that were rejected in the last 9 months [application]      0.0149                                 train_static_0__numrejects9m_859L\n"}
+,{"stream_name":"stdout","time":2468.707595616,"data":"                                                        Number of persons with the same mobile phone number [application]      0.0146                                 train_static_0__mobilephncnt_593L\n"}
+,{"stream_name":"stdout","time":2468.707600627,"data":"                                                          Maximum number of days past due in last 12 months [application]      0.0146                      train_static_0__maxdbddpdtollast12m_3658940P\n"}
+,{"stream_name":"stdout","time":2468.707605387,"data":"                                       most recent category of Classificiation of the closed contract [credit bureau (a)]      0.0140      train_credit_bureau_a_1__classificationofcontr_400M__maxcode\n"}
+,{"stream_name":"stdout","time":2469.41614467,"data":"\n"}
+,{"stream_name":"stdout","time":2469.416183893,"data":"feature stability (PSI/CSI, TRAIN -\u003e OOT) for those top 15 features:\n"}
+,{"stream_name":"stdout","time":2469.416191316,"data":"                                                                                                               plain_name    psi   band\n"}
+,{"stream_name":"stdout","time":2469.416196878,"data":"   number of distinct values of Type of collateral that was used as a guarantee for a closed contract [credit bureau (a)] 0.5375  alert\n"}
+,{"stream_name":"stdout","time":2469.416220178,"data":"                                        most recent category of Type of income of the person [applicant / related person] 0.2218  watch\n"}
+,{"stream_name":"stdout","time":2469.41622626,"data":"                                       most recent category of Classificiation of the closed contract [credit bureau (a)] 0.2037  watch\n"}
+,{"stream_name":"stdout","time":2469.416231504,"data":"                                               Reason for rejection on the most recent rejected application [application] 0.0484 stable\n"}
+,{"stream_name":"stdout","time":2469.4162368,"data":"              most recent category of Applicant's education level from their previous application [previous applications] 0.0275 stable\n"}
+,{"stream_name":"stdout","time":2469.41624161,"data":"                                                        Number of persons with the same mobile phone number [application] 0.0246 stable\n"}
+,{"stream_name":"stdout","time":2469.416246594,"data":"                                                                Reason for the client's last loan rejection [application] 0.0186 stable\n"}
+,{"stream_name":"stdout","time":2469.416251842,"data":"                                                          Maximum number of days past due in last 12 months [application] 0.0122 stable\n"}
+,{"stream_name":"stdout","time":2469.416257721,"data":"variability (std) of Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)] 0.0117 stable\n"}
+,{"stream_name":"stdout","time":2469.416262863,"data":"                                   average Maximum DPD with tolerance (on previous application/s) [previous applications] 0.0100 stable\n"}
+,{"stream_name":"stdout","time":2469.416268242,"data":"             average Days past due of the payment for terminated contract according to credit bure... [credit bureau (a)] 0.0092 stable\n"}
+,{"stream_name":"stdout","time":2469.416273398,"data":"                                                                Cancellation reason of the last application [application] 0.0047 stable\n"}
+,{"stream_name":"stdout","time":2469.416278746,"data":"                                      Number of credit applications that were rejected in the last 9 months [application] 0.0040 stable\n"}
+,{"stream_name":"stdout","time":2469.416286802,"data":"                                   minimum Maximum DPD with tolerance (on previous application/s) [previous applications] 0.0013 stable\n"}
+,{"stream_name":"stdout","time":2469.416293662,"data":"                           Average DPD (days past due) with tolerance within the past 24 months from the... [application] 0.0001 stable\n"}
+,{"stream_name":"stdout","time":2474.911558796,"data":"\n"}
+,{"stream_name":"stdout","time":2474.911634633,"data":"all tree features PSI bands: {'stable': 145, 'alert': 15, 'watch': 6}\n"}
+,{"stream_name":"stdout","time":2488.035888999,"data":"adversarial AUC TRAIN vs OOT: 0.9999 - strong drift - OOT metrics are a different-population estimate\n"}
+,{"stream_name":"stdout","time":2494.800360446,"data":"[end of code cell 26]\n"}
+,{"stream_name":"stdout","time":2495.000550877,"data":"                                  gate status\n"}
+,{"stream_name":"stdout","time":2495.000586249,"data":"      leakage:no_id_or_outcome_columns   PASS\n"}
+,{"stream_name":"stdout","time":2495.000593465,"data":"          leakage:target_not_in_design   PASS\n"}
+,{"stream_name":"stdout","time":2495.000599298,"data":"           leakage:time_split_ordering   PASS\n"}
+,{"stream_name":"stdout","time":2495.000616111,"data":"               leakage:no_case_overlap   PASS\n"}
+,{"stream_name":"stdout","time":2495.000621367,"data":"         leakage:univariate_auc_screen   PASS\n"}
+,{"stream_name":"stdout","time":2495.000639787,"data":"   leakage:scaler_fitted_on_train_rows   PASS\n"}
+,{"stream_name":"stdout","time":2495.000644438,"data":"      leakage:woe_binned_on_train_rows   PASS\n"}
+,{"stream_name":"stdout","time":2495.000648296,"data":"   leakage:woe_fit_sample_within_train   PASS\n"}
+,{"stream_name":"stdout","time":2495.00065226,"data":"                 dummy_baseline_beaten   PASS\n"}
+,{"stream_name":"stdout","time":2495.000656539,"data":"                   plausible_oot_range   PASS\n"}
+,{"stream_name":"stdout","time":2495.00066039,"data":"              valid_oot_gap_under_0.05   PASS\n"}
+,{"stream_name":"stdout","time":2495.000664187,"data":"        scorecard_all_signs_consistent   PASS\n"}
+,{"stream_name":"stdout","time":2495.000673124,"data":"     calibration_expected_actual_after   PASS\n"}
+,{"stream_name":"stdout","time":2495.000677342,"data":"                score_psi_train_to_oot   PASS\n"}
+,{"stream_name":"stdout","time":2495.000681659,"data":"         xgb_minus_lr_ci_excludes_zero   PASS\n"}
+,{"stream_name":"stdout","time":2495.000686411,"data":"no_final_feature_empty_in_valid_or_oot   PASS\n"}
+,{"stream_name":"stdout","time":2495.000690172,"data":"            champion_frozen_before_oot   PASS\n"}
+,{"stream_name":"stdout","time":2505.069310391,"data":"{\n"}
+,{"stream_name":"stdout","time":2505.069338385,"data":"  \"python\": \"3.13.16\",\n"}
+,{"stream_name":"stdout","time":2505.069343103,"data":"  \"platform\": \"Linux-6.18.55+-x86_64-with-glibc2.39\",\n"}
+,{"stream_name":"stdout","time":2505.069347081,"data":"  \"sklearn\": \"1.6.1\",\n"}
+,{"stream_name":"stdout","time":2505.069350781,"data":"  \"pandas\": \"2.3.3\",\n"}
+,{"stream_name":"stdout","time":2505.069354341,"data":"  \"numpy\": \"2.1.3\",\n"}
+,{"stream_name":"stdout","time":2505.069357913,"data":"  \"polars\": \"1.35.2\",\n"}
+,{"stream_name":"stdout","time":2505.069361483,"data":"  \"lightgbm\": \"4.6.0\",\n"}
+,{"stream_name":"stdout","time":2505.069365129,"data":"  \"xgboost\": \"3.4.1\",\n"}
+,{"stream_name":"stdout","time":2505.069368613,"data":"  \"statsmodels\": \"0.15.0\",\n"}
+,{"stream_name":"stdout","time":2505.069372333,"data":"  \"optbinning\": \"1.0.0\",\n"}
+,{"stream_name":"stdout","time":2505.069377655,"data":"  \"kernel\": \"Batch\",\n"}
+,{"stream_name":"stdout","time":2505.06940327,"data":"  \"sample_cases\": null,\n"}
+,{"stream_name":"stdout","time":2505.069407748,"data":"  \"runtime_seconds\": 2476.6,\n"}
+,{"stream_name":"stdout","time":2505.069412385,"data":"  \"devices\": {\n"}
+,{"stream_name":"stdout","time":2505.069416211,"data":"    \"xgboost\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":2505.069419864,"data":"    \"xgboost_monotone\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":2505.069424096,"data":"    \"lightgbm\": \"cpu\",\n"}
+,{"stream_name":"stdout","time":2505.069427699,"data":"    \"random_forest\": \"cpu\",\n"}
+,{"stream_name":"stdout","time":2505.069431401,"data":"    \"penalised_lr\": \"cpu\",\n"}
+,{"stream_name":"stdout","time":2505.069434986,"data":"    \"woe_scorecard\": \"cpu\"\n"}
+,{"stream_name":"stdout","time":2505.069438535,"data":"  },\n"}
+,{"stream_name":"stdout","time":2505.069441922,"data":"  \"gpu_visible\": true\n"}
+,{"stream_name":"stdout","time":2505.069445469,"data":"}\n"}
+,{"stream_name":"stdout","time":2505.069448815,"data":"manifest: 43 files | total runtime 2477s\n"}
+,{"stream_name":"stdout","time":2505.069452369,"data":"DONE\n"}
+,{"stream_name":"stdout","time":2505.069455475,"data":"[end of code cell 27]\n"}
+,{"stream_name":"stderr","time":2511.876402745,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2511.87644811,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2512.075790709,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2512.075824198,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2512.954123053,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2513.091666903,"data":"[NbConvertApp] Writing 827712 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2515.8809089,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2517.373319312,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":2517.373378596,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2517.373719777,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2517.373932455,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2517.374177279,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2517.374366351,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":2517.374662427,"data":"[NbConvertApp] Writing 1295113 bytes to __results__.html\n"}
+]

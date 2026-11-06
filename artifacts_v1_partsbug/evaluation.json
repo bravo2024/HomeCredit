@@ -1,0 +1,184 @@
+{
+  "bootstrap": {
+    "xgboost_minus_lightgbm": {
+      "ci95_hi": -0.00048457632370946274,
+      "ci95_lo": -0.005940516835107945,
+      "n_boot": 1000,
+      "point_gini_diff": -0.0031519635305925497,
+      "share_positive": 0.012
+    },
+    "xgboost_minus_penalised_lr": {
+      "ci95_hi": 0.13971954029461384,
+      "ci95_lo": 0.11423702008827759,
+      "n_boot": 1000,
+      "point_gini_diff": 0.12757192484703372,
+      "share_positive": 1.0
+    },
+    "xgboost_minus_random_forest": {
+      "ci95_hi": 0.04519418757733517,
+      "ci95_lo": 0.031110116148436718,
+      "n_boot": 1000,
+      "point_gini_diff": 0.03819356098756077,
+      "share_positive": 1.0
+    },
+    "xgboost_minus_woe_scorecard": {
+      "ci95_hi": 0.21528866090141716,
+      "ci95_lo": 0.1892186257685565,
+      "n_boot": 1000,
+      "point_gini_diff": 0.20193463040711768,
+      "share_positive": 1.0
+    }
+  },
+  "calibration": [
+    {
+      "decile": 1,
+      "expected_over_actual": 1.2112658490665469,
+      "mean_pd": 0.0029541122151118737,
+      "n": 15171,
+      "observed": 0.0024388636213829016
+    },
+    {
+      "decile": 2,
+      "expected_over_actual": 1.2527699747426395,
+      "mean_pd": 0.005284903986785903,
+      "n": 15171,
+      "observed": 0.0042185749126623165
+    },
+    {
+      "decile": 3,
+      "expected_over_actual": 1.308910854777963,
+      "mean_pd": 0.007334042363620756,
+      "n": 15170,
+      "observed": 0.005603164139749505
+    },
+    {
+      "decile": 4,
+      "expected_over_actual": 1.2153050538246897,
+      "mean_pd": 0.009452639664578035,
+      "n": 15171,
+      "observed": 0.007777997495221145
+    },
+    {
+      "decile": 5,
+      "expected_over_actual": 1.1316355990797469,
+      "mean_pd": 0.012233091968168117,
+      "n": 15171,
+      "observed": 0.010810098213697186
+    },
+    {
+      "decile": 6,
+      "expected_over_actual": 1.2141149245332759,
+      "mean_pd": 0.015766686890774907,
+      "n": 15170,
+      "observed": 0.012986156888595913
+    },
+    {
+      "decile": 7,
+      "expected_over_actual": 1.216913694917929,
+      "mean_pd": 0.020534566337023916,
+      "n": 15171,
+      "observed": 0.016874299650649266
+    },
+    {
+      "decile": 8,
+      "expected_over_actual": 1.2222338056136313,
+      "mean_pd": 0.02827976702507479,
+      "n": 15170,
+      "observed": 0.023137771918259723
+    },
+    {
+      "decile": 9,
+      "expected_over_actual": 1.112985276123714,
+      "mean_pd": 0.04394424760385635,
+      "n": 15171,
+      "observed": 0.03948322457319887
+    },
+    {
+      "decile": 10,
+      "expected_over_actual": 1.11473399628373,
+      "mean_pd": 0.09875436629130135,
+      "n": 15171,
+      "observed": 0.08859007316590864
+    }
+  ],
+  "note": "'shap' key kept for the app; values are XGBoost gain shares",
+  "shap": {
+    "top_features": [
+      {
+        "feature": "train_static_0_0__avgdpdtolclosure24_3658938P",
+        "gain_share": 0.037268967441823675,
+        "plain_name": "Average DPD (days past due) with tolerance within the past 24 months from the... [application]"
+      },
+      {
+        "feature": "train_static_0_0__lastrejectreasonclient_4145040M",
+        "gain_share": 0.033507337155912593,
+        "plain_name": "Reason for the client's last loan rejection [application]"
+      },
+      {
+        "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__mean",
+        "gain_share": 0.028074182635360073,
+        "plain_name": "average Value of past due payment for active contract (num_group1 - existing contract... [credit bureau (b)]"
+      },
+      {
+        "feature": "train_applprev_1_1__rejectreason_755M__maxcode",
+        "gain_share": 0.01984045130160125,
+        "plain_name": "most recent category of Reason for previous application rejection [previous applications]"
+      },
+      {
+        "feature": "train_static_0_1__avgdpdtolclosure24_3658938P",
+        "gain_share": 0.01854169182029809,
+        "plain_name": "Average DPD (days past due) with tolerance within the past 24 months from the... [application]"
+      },
+      {
+        "feature": "train_static_0_0__lastcancelreason_561M",
+        "gain_share": 0.018234386199696723,
+        "plain_name": "Cancellation reason of the last application [application]"
+      },
+      {
+        "feature": "train_applprev_1_0__maxdpdtolerance_577P__min",
+        "gain_share": 0.018216716515376694,
+        "plain_name": "minimum Maximum DPD with tolerance (on previous application/s) [previous applications]"
+      },
+      {
+        "feature": "train_applprev_1_1__maxdpdtolerance_577P__min",
+        "gain_share": 0.017202267530512155,
+        "plain_name": "minimum Maximum DPD with tolerance (on previous application/s) [previous applications]"
+      },
+      {
+        "feature": "train_applprev_1_1__maxdpdtolerance_577P__mean",
+        "gain_share": 0.016765270371772015,
+        "plain_name": "average Maximum DPD with tolerance (on previous application/s) [previous applications]"
+      },
+      {
+        "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__mean",
+        "gain_share": 0.01657069698434812,
+        "plain_name": "average Active contract that has overdue payments (num_group1 - existing contract, nu... [credit bureau (b)]"
+      },
+      {
+        "feature": "train_static_0_0__lastrejectreason_759M",
+        "gain_share": 0.015136853175327432,
+        "plain_name": "Reason for rejection on the most recent rejected application [application]"
+      },
+      {
+        "feature": "train_applprev_1_0__maxdpdtolerance_577P__std",
+        "gain_share": 0.012799487802050273,
+        "plain_name": "variability (std) of Maximum DPD with tolerance (on previous application/s) [previous applications]"
+      },
+      {
+        "feature": "train_applprev_1_0__maxdpdtolerance_577P__max",
+        "gain_share": 0.012381194627147948,
+        "plain_name": "maximum Maximum DPD with tolerance (on previous application/s) [previous applications]"
+      },
+      {
+        "feature": "train_static_0_0__numrejects9m_859L",
+        "gain_share": 0.012316600617806144,
+        "plain_name": "Number of credit applications that were rejected in the last 9 months [application]"
+      },
+      {
+        "feature": "train_static_0_1__maxdpdlast24m_143P",
+        "gain_share": 0.011497024887047402,
+        "plain_name": "Maximal days past due in the last 24 months [application]"
+      }
+    ]
+  }
+}

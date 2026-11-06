@@ -1,0 +1,180 @@
+{
+  "champion": "xgboost",
+  "chosen_on_valid": "platt",
+  "deciles_after": [
+    {
+      "actual": 0.0005932370970931383,
+      "decile": 1,
+      "expected": 0.0008762462251514378,
+      "expected_over_actual": 1.4770590535302734,
+      "n": 15171
+    },
+    {
+      "actual": 0.001713796058269066,
+      "decile": 2,
+      "expected": 0.0021350722733821936,
+      "expected_over_actual": 1.2458146715185099,
+      "n": 15171
+    },
+    {
+      "actual": 0.002175346077785102,
+      "decile": 3,
+      "expected": 0.003745396216024352,
+      "expected_over_actual": 1.7217472908208915,
+      "n": 15170
+    },
+    {
+      "actual": 0.004943642475776152,
+      "decile": 4,
+      "expected": 0.005830356020485746,
+      "expected_over_actual": 1.1793644158238568,
+      "n": 15171
+    },
+    {
+      "actual": 0.0060642014369520795,
+      "decile": 5,
+      "expected": 0.008772255507621559,
+      "expected_over_actual": 1.4465640033274638,
+      "n": 15171
+    },
+    {
+      "actual": 0.01008569545154911,
+      "decile": 6,
+      "expected": 0.012906476024446195,
+      "expected_over_actual": 1.2796813156264628,
+      "n": 15170
+    },
+    {
+      "actual": 0.013908114165183574,
+      "decile": 7,
+      "expected": 0.018829124087137265,
+      "expected_over_actual": 1.353822945620661,
+      "n": 15171
+    },
+    {
+      "actual": 0.026763348714568227,
+      "decile": 8,
+      "expected": 0.028276698325109026,
+      "expected_over_actual": 1.0565455999800588,
+      "n": 15170
+    },
+    {
+      "actual": 0.04310856238876804,
+      "decile": 9,
+      "expected": 0.04583028393590501,
+      "expected_over_actual": 1.0631364489168424,
+      "n": 15171
+    },
+    {
+      "actual": 0.10256410256410256,
+      "decile": 10,
+      "expected": 0.1089386601705483,
+      "expected_over_actual": 1.062151936662846,
+      "n": 15171
+    }
+  ],
+  "deciles_before": [
+    {
+      "actual": 0.0005932370970931383,
+      "decile": 1,
+      "expected": 0.001737211039773649,
+      "expected_over_actual": 2.9283587427117808,
+      "n": 15171
+    },
+    {
+      "actual": 0.001713796058269066,
+      "decile": 2,
+      "expected": 0.004077402816646581,
+      "expected_over_actual": 2.37916454351328,
+      "n": 15171
+    },
+    {
+      "actual": 0.002175346077785102,
+      "decile": 3,
+      "expected": 0.006970902987747854,
+      "expected_over_actual": 3.204502979519241,
+      "n": 15170
+    },
+    {
+      "actual": 0.004943642475776152,
+      "decile": 4,
+      "expected": 0.010625563850748513,
+      "expected_over_actual": 2.149339055729409,
+      "n": 15171
+    },
+    {
+      "actual": 0.0060642014369520795,
+      "decile": 5,
+      "expected": 0.015666955292593706,
+      "expected_over_actual": 2.5835149863471645,
+      "n": 15171
+    },
+    {
+      "actual": 0.01008569545154911,
+      "decile": 6,
+      "expected": 0.022593552358915088,
+      "expected_over_actual": 2.240158099900274,
+      "n": 15170
+    },
+    {
+      "actual": 0.013908114165183574,
+      "decile": 7,
+      "expected": 0.03228007714782151,
+      "expected_over_actual": 2.3209528455431285,
+      "n": 15171
+    },
+    {
+      "actual": 0.026763348714568227,
+      "decile": 8,
+      "expected": 0.047306197030800065,
+      "expected_over_actual": 1.7675739136877757,
+      "n": 15170
+    },
+    {
+      "actual": 0.04310856238876804,
+      "decile": 9,
+      "expected": 0.07418191213894712,
+      "expected_over_actual": 1.720816191223191,
+      "n": 15171
+    },
+    {
+      "actual": 0.10256410256410256,
+      "decile": 10,
+      "expected": 0.16101611293540477,
+      "expected_over_actual": 1.5699071011201966,
+      "n": 15171
+    }
+  ],
+  "oot": [
+    {
+      "actual_rate": 0.021192166478804536,
+      "brier": 0.020078947748749826,
+      "calibration": "none (raw)",
+      "chosen_on_valid": false,
+      "ece": 0.016453660016466625,
+      "expected_over_actual": 1.7764029238314474,
+      "logloss": 0.08960946601547859,
+      "mean_pd": 0.037645826495271165
+    },
+    {
+      "actual_rate": 0.021192166478804536,
+      "brier": 0.019516477236430536,
+      "calibration": "platt",
+      "chosen_on_valid": true,
+      "ece": 0.002422061213253011,
+      "expected_over_actual": 1.1142904013931496,
+      "logloss": 0.08492427108218387,
+      "mean_pd": 0.02361422769205756
+    },
+    {
+      "actual_rate": 0.021192166478804536,
+      "brier": 0.019542256392324167,
+      "calibration": "isotonic",
+      "chosen_on_valid": false,
+      "ece": 0.0024469365452690524,
+      "expected_over_actual": 1.1154641998361219,
+      "logloss": 0.08510328984489685,
+      "mean_pd": 0.02363910302407359
+    }
+  ]
+}

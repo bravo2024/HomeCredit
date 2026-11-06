@@ -1,0 +1,16 @@
+feature,gain,gain_share,plain_name
+train_static_0_0__avgdpdtolclosure24_3658938P,354.6343688964844,0.037268967441823675,Average DPD (days past due) with tolerance within the past 24 months from the... [application]
+train_static_0_0__lastrejectreasonclient_4145040M,318.8404235839844,0.033507337155912593,Reason for the client's last loan rejection [application]
+train_credit_bureau_b_2__pmts_dpdvalue_108P__mean,267.1410217285156,0.028074182635360073,average Value of past due payment for active contract (num_group1 - existing contract... [credit bureau (b)]
+train_applprev_1_1__rejectreason_755M__maxcode,188.79261779785156,0.01984045130160125,most recent category of Reason for previous application rejection [previous applications]
+train_static_0_1__avgdpdtolclosure24_3658938P,176.43421936035156,0.01854169182029809,Average DPD (days past due) with tolerance within the past 24 months from the... [application]
+train_static_0_0__lastcancelreason_561M,173.51004028320312,0.018234386199696723,Cancellation reason of the last application [application]
+train_applprev_1_0__maxdpdtolerance_577P__min,173.34190368652344,0.018216716515376694,minimum Maximum DPD with tolerance (on previous application/s) [previous applications]
+train_applprev_1_1__maxdpdtolerance_577P__min,163.68887329101562,0.017202267530512155,minimum Maximum DPD with tolerance (on previous application/s) [previous applications]
+train_applprev_1_1__maxdpdtolerance_577P__mean,159.53060913085938,0.016765270371772015,average Maximum DPD with tolerance (on previous application/s) [previous applications]
+train_credit_bureau_b_2__pmts_pmtsoverdue_635A__mean,157.67913818359375,0.01657069698434812,"average Active contract that has overdue payments (num_group1 - existing contract, nu... [credit bureau (b)]"
+train_static_0_0__lastrejectreason_759M,144.03533935546875,0.015136853175327432,Reason for rejection on the most recent rejected application [application]
+train_applprev_1_0__maxdpdtolerance_577P__std,121.7940444946289,0.012799487802050273,variability (std) of Maximum DPD with tolerance (on previous application/s) [previous applications]
+train_applprev_1_0__maxdpdtolerance_577P__max,117.81375885009766,0.012381194627147948,maximum Maximum DPD with tolerance (on previous application/s) [previous applications]
+train_static_0_0__numrejects9m_859L,117.19911193847656,0.012316600617806144,Number of credit applications that were rejected in the last 9 months [application]
+train_static_0_1__maxdpdlast24m_143P,109.40040588378906,0.011497024887047402,Maximal days past due in the last 24 months [application]

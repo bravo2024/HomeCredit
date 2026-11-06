@@ -1,0 +1,166 @@
+{
+  "files": [
+    {
+      "bytes": 106951598,
+      "file": "train_applprev_1_0.parquet",
+      "sha256": "0301380ee0092b0d3215329896b850e6321ff1fc73ff889c07778c7034472dee"
+    },
+    {
+      "bytes": 72860971,
+      "file": "train_applprev_1_1.parquet",
+      "sha256": "cae63fdb5d8de8ba0c61eca8a9f15be4d15d24e320bf3ad8bc1c78f877d1a5d2"
+    },
+    {
+      "bytes": 28484608,
+      "file": "train_applprev_2.parquet",
+      "sha256": "153dbbd225a9b3846666fb78f75a1191ba322b9ac93994b8e4b3fe92cfd15246"
+    },
+    {
+      "bytes": 7048047,
+      "file": "train_base.parquet",
+      "sha256": "29d94662545eece908f20e44e6592336c9c40916dcfdad7735de92b8e9edf908"
+    },
+    {
+      "bytes": 64863053,
+      "file": "train_credit_bureau_a_1_0.parquet",
+      "sha256": "b8e29ea89da103ce50a86d3fadd24bcc9e1523b3f3d7a1fe9dedde172fee1b00"
+    },
+    {
+      "bytes": 183293106,
+      "file": "train_credit_bureau_a_1_1.parquet",
+      "sha256": "5f3c4b28e09685fbcf23e0baaac1523af96734934ab6723e5c8e8afbd7764aaf"
+    },
+    {
+      "bytes": 123506425,
+      "file": "train_credit_bureau_a_1_2.parquet",
+      "sha256": "931908b33e0c3d675f88b7ad6e134f38ffd8b838e0d906b1284f795576d545fc"
+    },
+    {
+      "bytes": 71774171,
+      "file": "train_credit_bureau_a_1_3.parquet",
+      "sha256": "b9d4f5803ecb24311fd0f2a9372629ea05262f6429070e3239be6240761a310b"
+    },
+    {
+      "bytes": 5786632,
+      "file": "train_credit_bureau_a_2_0.parquet",
+      "sha256": "053c2269990eabd6fe26a888409e9f6334109b4a933591bde0ad09801beb715f"
+    },
+    {
+      "bytes": 10006927,
+      "file": "train_credit_bureau_a_2_1.parquet",
+      "sha256": "18f30c8bb9f781488f4a871fe0b6ccee82f1e79fad665fc4850708be855ec6db"
+    },
+    {
+      "bytes": 7646586,
+      "file": "train_credit_bureau_a_2_10.parquet",
+      "sha256": "4913d6516000587f15addbbb8f80a6fdcc41a2c17a3ba14c731ede392f608323"
+    },
+    {
+      "bytes": 30669743,
+      "file": "train_credit_bureau_a_2_2.parquet",
+      "sha256": "c36e8952d3ffedef387e0a2f6cac233aab6121cea322820a8fb6df1083598696"
+    },
+    {
+      "bytes": 47836939,
+      "file": "train_credit_bureau_a_2_3.parquet",
+      "sha256": "55de63492b08a48016f86f58a2d3418deb3685c35a1eae041661566ca988d1e9"
+    },
+    {
+      "bytes": 49233367,
+      "file": "train_credit_bureau_a_2_4.parquet",
+      "sha256": "6262695f7ae7631936611a889eefee80f355f8bd867dde93e22b94816bb7db50"
+    },
+    {
+      "bytes": 60984109,
+      "file": "train_credit_bureau_a_2_5.parquet",
+      "sha256": "92e20fe1e772353c2cc1fca5b934fe3066d729bc774702f8be79527f08324fe8"
+    },
+    {
+      "bytes": 45183113,
+      "file": "train_credit_bureau_a_2_6.parquet",
+      "sha256": "720fc7c9bc407d498f22cc6de83b38887058874333c4273b373672e0caec9a53"
+    },
+    {
+      "bytes": 14137608,
+      "file": "train_credit_bureau_a_2_7.parquet",
+      "sha256": "80779c277c1d336f935a27052a3fefbdb43170dd7ba590abf5d88c9f28b5bc56"
+    },
+    {
+      "bytes": 23832969,
+      "file": "train_credit_bureau_a_2_8.parquet",
+      "sha256": "f639dc8b7c896e6c972b3e7fbc84a2eb06aceb44f672cbaeb8c734e770b68be1"
+    },
+    {
+      "bytes": 32090419,
+      "file": "train_credit_bureau_a_2_9.parquet",
+      "sha256": "882177fa0b1cb55000980d849e924d79a7232f46f2e93ad7af5cc1215cfffac4"
+    },
+    {
+      "bytes": 4506882,
+      "file": "train_credit_bureau_b_1.parquet",
+      "sha256": "a4842614f688e939486a303e0bbd305ab3ffe952b2efacc7a8898f98d95128ff"
+    },
+    {
+      "bytes": 2067641,
+      "file": "train_credit_bureau_b_2.parquet",
+      "sha256": "9cd22472c28a2714e2ba4ba001ff0cb0ea6b78462e9ab42d32b8959941c0083f"
+    },
+    {
+      "bytes": 1188384,
+      "file": "train_debitcard_1.parquet",
+      "sha256": "4f1d81bd55075dff22780fe6f453dd7f2f91087f58dd1651d427f9d89ce15dbf"
+    },
+    {
+      "bytes": 1598148,
+      "file": "train_deposit_1.parquet",
+      "sha256": "845fa0b14c3614b4f4c37891ede924414b035e5d6c04a2a6d50a5976dcdd6996"
+    },
+    {
+      "bytes": 805374,
+      "file": "train_other_1.parquet",
+      "sha256": "a84aaf075bc3dd115c114bd80ed6d37f824adba0ce5829c7fb1cdd22c77af21e"
+    },
+    {
+      "bytes": 43892239,
+      "file": "train_person_1.parquet",
+      "sha256": "81fcdb5596d8f7474a8a57a5bfa7184b5d179330d3479bd83f17a9b5a59748de"
+    },
+    {
+      "bytes": 7559249,
+      "file": "train_person_2.parquet",
+      "sha256": "c295eb898df66fde0a629c4461b9cd6bd2468b80e78706d60f7700bc894eb032"
+    },
+    {
+      "bytes": 113858592,
+      "file": "train_static_0_0.parquet",
+      "sha256": "c993192e68853259183babe05870b173b2695799c9ea56a7824ee6cf6b083366"
+    },
+    {
+      "bytes": 74691173,
+      "file": "train_static_0_1.parquet",
+      "sha256": "78adb27582754d3c986b692dbe6ca03ef43806d5265e65d9f460eef8554d3d2d"
+    },
+    {
+      "bytes": 30654579,
+      "file": "train_static_cb_0.parquet",
+      "sha256": "08a460c7c10b9ebc80597f2c7be636ba15ba68c482f138f7d2a0ebdb592b74e0"
+    },
+    {
+      "bytes": 21687764,
+      "file": "train_tax_registry_a_1.parquet",
+      "sha256": "50ff790d9daec8dc48b94c18af361de3b3298bbb354b36dbfea33e04af367531"
+    },
+    {
+      "bytes": 9915038,
+      "file": "train_tax_registry_b_1.parquet",
+      "sha256": "a1f1de27b00da19ee690ce86b85008d9b97dbd89c9e8a60afc2a6fb710df1e93"
+    },
+    {
+      "bytes": 29825347,
+      "file": "train_tax_registry_c_1.parquet",
+      "sha256": "59786491e9cc79058d7fdffb17ac59e77422641d8b575c61801070f047ded77d"
+    }
+  ],
+  "root": "/kaggle/input/competitions/home-credit-credit-risk-model-stability/parquet_files",
+  "sample_cases": null
+}

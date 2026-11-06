@@ -1,0 +1,279 @@
+{
+  "capture": [
+    {
+      "caught_at_10pct": 0.3073094867807154,
+      "caught_at_20pct": 0.48149300155520997,
+      "caught_at_5pct": 0.18102643856920683,
+      "model": "Logistic regression (L2)"
+    },
+    {
+      "caught_at_10pct": 0.23048211508553654,
+      "caught_at_20pct": 0.40746500777604977,
+      "caught_at_5pct": 0.13530326594090203,
+      "model": "WoE scorecard"
+    },
+    {
+      "caught_at_10pct": 0.4031104199066874,
+      "caught_at_20pct": 0.5685847589424572,
+      "caught_at_5pct": 0.26065318818040434,
+      "model": "Random forest"
+    },
+    {
+      "caught_at_10pct": 0.4186625194401244,
+      "caught_at_20pct": 0.5984447900466563,
+      "caught_at_5pct": 0.27620528771384134,
+      "model": "XGBoost"
+    },
+    {
+      "caught_at_10pct": 0.41804043545878694,
+      "caught_at_20pct": 0.6043545878693624,
+      "caught_at_5pct": 0.27744945567651635,
+      "model": "LightGBM"
+    },
+    {
+      "caught_at_10pct": 0.1,
+      "caught_at_20pct": 0.2,
+      "caught_at_5pct": 0.05,
+      "model": "random (reference)"
+    }
+  ],
+  "cutoff_strategies_oot": [
+    {
+      "approval_rate": 1.0,
+      "bad_rate_all": 0.021192166478804536,
+      "bad_rate_approved": 0.021192166478804536,
+      "bad_rate_declined": null,
+      "defaulters_declined_share": 0.0,
+      "model": "-",
+      "n_applications": 151707,
+      "strategy": "approve all"
+    },
+    {
+      "approval_rate": 0.7341915666383225,
+      "bad_rate_all": 0.021192166478804536,
+      "bad_rate_approved": 0.012497531019374765,
+      "bad_rate_declined": 0.045207687538747675,
+      "defaulters_declined_share": 0.5670295489891135,
+      "model": "Logistic regression (L2)",
+      "n_applications": 151707,
+      "strategy": "bad rate <= 1.5% (VALID)"
+    },
+    {
+      "approval_rate": 0.8728601844344691,
+      "bad_rate_all": 0.021192166478804536,
+      "bad_rate_approved": 0.012694552896487665,
+      "bad_rate_declined": 0.07953131480713396,
+      "defaulters_declined_share": 0.4771384136858476,
+      "model": "XGBoost",
+      "n_applications": 151707,
+      "strategy": "bad rate <= 1.5% (VALID)"
+    },
+    {
+      "approval_rate": 0.9201882576281912,
+      "bad_rate_all": 0.021192166478804536,
+      "bad_rate_approved": 0.01707748622841138,
+      "bad_rate_declined": 0.06863230921704658,
+      "defaulters_declined_share": 0.25847589424572315,
+      "model": "Logistic regression (L2)",
+      "n_applications": 151707,
+      "strategy": "bad rate <= 2.0% (VALID)"
+    },
+    {
+      "approval_rate": 0.9634624638283006,
+      "bad_rate_all": 0.021192166478804536,
+      "bad_rate_approved": 0.017145124654497686,
+      "bad_rate_declined": 0.12790907450838895,
+      "defaulters_declined_share": 0.22052877138413685,
+      "model": "XGBoost",
+      "n_applications": 151707,
+      "strategy": "bad rate <= 2.0% (VALID)"
+    },
+    {
+      "approval_rate": 0.7777821722135432,
+      "bad_rate_all": 0.021192166478804536,
+      "bad_rate_approved": 0.013322598415187084,
+      "bad_rate_declined": 0.04873635500711913,
+      "defaulters_declined_share": 0.5110419906687402,
+      "model": "Logistic regression (L2)",
+      "n_applications": 151707,
+      "strategy": "approval rate 80% (VALID)"
+    },
+    {
+      "approval_rate": 0.8009188765185522,
+      "bad_rate_all": 0.021192166478804536,
+      "bad_rate_approved": 0.010674457841241101,
+      "bad_rate_declined": 0.06350572809747698,
+      "defaulters_declined_share": 0.5965785381026438,
+      "model": "XGBoost",
+      "n_applications": 151707,
+      "strategy": "approval rate 80% (VALID)"
+    }
+  ],
+  "expected_loss_illustrative": {
+    "ead": "application credit amount (credamount_770A), median-filled when missing",
+    "expected_loss_total": 91020830.04483849,
+    "lgd_ASSUMED": 0.45,
+    "ratio": 0.9389045492726489,
+    "realised_loss_total": 96943645.77885
+  },
+  "master_scale": [
+    {
+      "binomial_p": 0.019654994035162694,
+      "defaults_oot": 34,
+      "direction": "lower than PD",
+      "el_over_realised": 1.2596924211841458,
+      "expected_loss": 1356505.3418300329,
+      "grade": 1,
+      "grade_pd_valid": 0.0035533541509637128,
+      "n_oot": 14217,
+      "n_valid": 9287,
+      "oot_default_rate": 0.002391503130055567,
+      "realised_loss": 1076854.41225
+    },
+    {
+      "binomial_p": 0.9501305393843097,
+      "defaults_oot": 63,
+      "direction": "lower than PD",
+      "el_over_realised": 0.7008951534383054,
+      "expected_loss": 1653431.341718725,
+      "grade": 2,
+      "grade_pd_valid": 0.004307095940562076,
+      "n_oot": 14934,
+      "n_valid": 9287,
+      "oot_default_rate": 0.004218561671353958,
+      "realised_loss": 2359028.0708999997
+    },
+    {
+      "binomial_p": 0.0009939224400837702,
+      "defaults_oot": 86,
+      "direction": "lower than PD",
+      "el_over_realised": 0.9187005032650033,
+      "expected_loss": 2938325.901609704,
+      "grade": 3,
+      "grade_pd_valid": 0.007645095294497685,
+      "n_oot": 15795,
+      "n_valid": 9287,
+      "oot_default_rate": 0.005444761000316556,
+      "realised_loss": 3198350.16
+    },
+    {
+      "binomial_p": 0.3778620189811218,
+      "defaults_oot": 114,
+      "direction": "higher than PD",
+      "el_over_realised": 0.639088627144394,
+      "expected_loss": 2746628.9577528485,
+      "grade": 4,
+      "grade_pd_valid": 0.0071059431524547806,
+      "n_oot": 14784,
+      "n_valid": 9288,
+      "oot_default_rate": 0.007711038961038961,
+      "realised_loss": 4297727.7972
+    },
+    {
+      "binomial_p": 0.006088957536230599,
+      "defaults_oot": 181,
+      "direction": "lower than PD",
+      "el_over_realised": 0.9345819497633187,
+      "expected_loss": 5563117.658773135,
+      "grade": 5,
+      "grade_pd_valid": 0.012814990307990524,
+      "n_oot": 17262,
+      "n_valid": 9286,
+      "oot_default_rate": 0.01048545939056888,
+      "realised_loss": 5952519.90495
+    },
+    {
+      "binomial_p": 0.060989700256812815,
+      "defaults_oot": 184,
+      "direction": "lower than PD",
+      "el_over_realised": 0.8815556385273637,
+      "expected_loss": 5537739.409237524,
+      "grade": 6,
+      "grade_pd_valid": 0.015489072777424145,
+      "n_oot": 13629,
+      "n_valid": 9426,
+      "oot_default_rate": 0.013500623670115196,
+      "realised_loss": 6281780.9418
+    },
+    {
+      "binomial_p": 0.0013554141546262052,
+      "defaults_oot": 257,
+      "direction": "lower than PD",
+      "el_over_realised": 0.9809063494199014,
+      "expected_loss": 7944120.94287283,
+      "grade": 7,
+      "grade_pd_valid": 0.020222999562745956,
+      "n_oot": 15440,
+      "n_valid": 9148,
+      "oot_default_rate": 0.016645077720207253,
+      "realised_loss": 8098755.7554
+    },
+    {
+      "binomial_p": 2.7622687662558834e-07,
+      "defaults_oot": 337,
+      "direction": "lower than PD",
+      "el_over_realised": 0.9656860282410087,
+      "expected_loss": 11499280.318569254,
+      "grade": 8,
+      "grade_pd_valid": 0.03004199418542048,
+      "n_oot": 14626,
+      "n_valid": 9287,
+      "oot_default_rate": 0.023041159578832217,
+      "realised_loss": 11907887.2245
+    },
+    {
+      "binomial_p": 0.004129057316594482,
+      "defaults_oot": 605,
+      "direction": "lower than PD",
+      "el_over_realised": 0.9492904916061481,
+      "expected_loss": 17092883.709241346,
+      "grade": 9,
+      "grade_pd_valid": 0.043501668999676966,
+      "n_oot": 15578,
+      "n_valid": 9287,
+      "oot_default_rate": 0.03883682115804339,
+      "realised_loss": 18005956.9335
+    },
+    {
+      "binomial_p": 8.611070471264404e-06,
+      "defaults_oot": 1354,
+      "direction": "lower than PD",
+      "el_over_realised": 0.9699148721905553,
+      "expected_loss": 34688796.46323308,
+      "grade": 10,
+      "grade_pd_valid": 0.09820178744481534,
+      "n_oot": 15442,
+      "n_valid": 9287,
+      "oot_default_rate": 0.08768294262401244,
+      "realised_loss": 35764784.57835
+    }
+  ],
+  "master_scale_oot_monotone": true,
+  "note": "all rates are observed OOT outcomes; LGD is an assumption; expected loss is illustrative",
+  "swap_sets": {
+    "approval_rate": 0.8,
+    "both_approve": {
+      "bad_rate": 0.009940393981245911,
+      "defaults": 1094,
+      "n": 110056
+    },
+    "both_decline": {
+      "bad_rate": 0.07098943828490357,
+      "defaults": 1351,
+      "n": 19031
+    },
+    "n_approved_each": 121366,
+    "portfolio_bad_rate_A": 0.010637246016182456,
+    "portfolio_bad_rate_B": 0.013735313020120956,
+    "swap_in_A_only": {
+      "bad_rate": 0.017418213969938107,
+      "defaults": 197,
+      "n": 11310
+    },
+    "swap_out_B_only": {
+      "bad_rate": 0.0506631299734748,
+      "defaults": 573,
+      "n": 11310
+    }
+  }
+}

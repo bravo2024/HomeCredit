@@ -1,0 +1,65 @@
+{
+  "calibrator": "platt",
+  "calibrator_selection": [
+    {
+      "late_valid_brier": 0.022529484635072407,
+      "late_valid_ece": 0.015751323334675667,
+      "late_valid_logloss": 0.10284649326900638,
+      "method": "none"
+    },
+    {
+      "late_valid_brier": 0.022141697161214252,
+      "late_valid_ece": 0.001146634506103141,
+      "late_valid_logloss": 0.09877740952972248,
+      "method": "platt"
+    },
+    {
+      "late_valid_brier": 0.02216499348273891,
+      "late_valid_ece": 0.001622675456237925,
+      "late_valid_logloss": 0.09915734728875872,
+      "method": "isotonic"
+    }
+  ],
+  "calibrator_split": {
+    "fit_weeks_lt": 71,
+    "score_weeks_ge": 71
+  },
+  "champion": "lightgbm",
+  "cutoffs_valid_raw_pd": {
+    "penalised_lr": {
+      "approval_80": 0.05539634340082472,
+      "bad_rate_15": 0.05042864435100631,
+      "bad_rate_20": 0.08781762832581051
+    },
+    "woe_scorecard": {
+      "approval_80": 0.07009293298762025,
+      "bad_rate_15": 0.058320802595362764,
+      "bad_rate_20": 0.08071253759367884
+    },
+    "xgboost": {
+      "approval_80": 0.055984821170568466,
+      "bad_rate_15": 0.07618186622858047,
+      "bad_rate_20": 0.1394113302230835
+    }
+  },
+  "frozen_at": "2026-11-05T10:25:40",
+  "oot_scored_after_this_point": true,
+  "rule": "max VALID Gini; models within 0.002 Gini of the best are tied and the tie goes to 'xgboost'",
+  "targets": {
+    "approval_rate": 0.8,
+    "bad_rate_among_approved": [
+      0.015,
+      0.02
+    ]
+  },
+  "tied": [
+    "lightgbm"
+  ],
+  "valid_gini": {
+    "lightgbm": 0.5525353445224568,
+    "penalised_lr": 0.4123111876677148,
+    "random_forest": 0.5094516957479396,
+    "woe_scorecard": 0.3558955562708779,
+    "xgboost": 0.548227300683565
+  }
+}

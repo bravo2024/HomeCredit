@@ -1,0 +1,1027 @@
+{
+  "adversarial": {
+    "auc": 0.9992483281481482,
+    "interpretation": "strong drift - OOT metrics are a different-population estimate",
+    "n_oot_sample": 150000,
+    "n_train_sample": 150000,
+    "top_drifting": [
+      {
+        "feature": "train_applprev_1__postype_4733339M__maxcode",
+        "gain": 780118.1836843491,
+        "gain_share": 0.3455085378583311
+      },
+      {
+        "feature": "train_credit_bureau_a_2__pmts_year_1139T__rel_max",
+        "gain": 452905.3068113327,
+        "gain_share": 0.20058838983296703
+      },
+      {
+        "feature": "train_person_1__persontype_1072L__std",
+        "gain": 246108.43266391754,
+        "gain_share": 0.10899959327024417
+      },
+      {
+        "feature": "train_credit_bureau_a_2__pmts_year_1139T__rel_std",
+        "gain": 231951.60055494308,
+        "gain_share": 0.10272963768533915
+      },
+      {
+        "feature": "train_credit_bureau_a_2__pmts_year_507T__rel_max",
+        "gain": 115801.002576828,
+        "gain_share": 0.05128740224191158
+      },
+      {
+        "feature": "train_applprev_1__postype_4733339M__nunique",
+        "gain": 96724.58929920197,
+        "gain_share": 0.04283860076928663
+      },
+      {
+        "feature": "train_applprev_1__creationdate_885D__rel_max",
+        "gain": 62740.61344051361,
+        "gain_share": 0.027787350772658974
+      },
+      {
+        "feature": "train_credit_bureau_a_2__pmts_year_1139T__rel_mean",
+        "gain": 30210.397946357727,
+        "gain_share": 0.013379960422493859
+      },
+      {
+        "feature": "train_applprev_1__rejectreason_755M__nunique",
+        "gain": 25821.48754310608,
+        "gain_share": 0.011436144667479666
+      },
+      {
+        "feature": "train_person_1__birth_259D__rel_min",
+        "gain": 16880.826892375946,
+        "gain_share": 0.007476392602309008
+      },
+      {
+        "feature": "train_static_0__clientscnt_887L",
+        "gain": 15759.147153377533,
+        "gain_share": 0.006979608993527667
+      },
+      {
+        "feature": "train_static_0__applicationscnt_464L",
+        "gain": 11799.677421569824,
+        "gain_share": 0.00522598931596772
+      },
+      {
+        "feature": "train_person_1__incometype_1044T__maxcode",
+        "gain": 9895.955368995667,
+        "gain_share": 0.004382844986518661
+      },
+      {
+        "feature": "train_static_0__eir_270L",
+        "gain": 8895.179765224457,
+        "gain_share": 0.003939608919452204
+      },
+      {
+        "feature": "train_static_0__mindbddpdlast24m_3658935P",
+        "gain": 8568.195735931396,
+        "gain_share": 0.0037947901263169024
+      },
+      {
+        "feature": "train_static_0__lastapprcommoditycat_1041M",
+        "gain": 8203.504867553711,
+        "gain_share": 0.003633271254768021
+      },
+      {
+        "feature": "train_applprev_1__approvaldate_319D__rel_min",
+        "gain": 7194.0527057647705,
+        "gain_share": 0.0031861924047270774
+      },
+      {
+        "feature": "train_person_1__birth_259D__rel_max",
+        "gain": 6869.651144981384,
+        "gain_share": 0.003042517367675795
+      },
+      {
+        "feature": "train_applprev_1__creationdate_885D__rel_min",
+        "gain": 6764.381097793579,
+        "gain_share": 0.0029958940472035564
+      },
+      {
+        "feature": "train_applprev_1__cancelreason_3545846M__nunique",
+        "gain": 6656.451452255249,
+        "gain_share": 0.002948092810414792
+      },
+      {
+        "feature": "train_applprev_1__creationdate_885D__rel_mean",
+        "gain": 5950.463695526123,
+        "gain_share": 0.002635416086970976
+      },
+      {
+        "feature": "train_static_0__annuity_780A",
+        "gain": 5323.611198425293,
+        "gain_share": 0.0023577877810862543
+      },
+      {
+        "feature": "train_static_0__mindbdtollast24m_4525191P",
+        "gain": 4863.571178436279,
+        "gain_share": 0.00215403947988394
+      },
+      {
+        "feature": "train_static_0__disbursementtype_67L",
+        "gain": 4497.267217636108,
+        "gain_share": 0.0019918061817058887
+      },
+      {
+        "feature": "train_applprev_1__n_records",
+        "gain": 4481.564777374268,
+        "gain_share": 0.001984851687772606
+      }
+    ]
+  },
+  "psi": [
+    {
+      "band": "alert",
+      "feature": "train_credit_bureau_a_2__pmts_year_1139T__rel_max",
+      "psi": 3.7711838261449073
+    },
+    {
+      "band": "alert",
+      "feature": "train_credit_bureau_a_2__pmts_year_1139T__rel_std",
+      "psi": 1.8948377284349076
+    },
+    {
+      "band": "alert",
+      "feature": "train_applprev_1__postype_4733339M__nunique",
+      "psi": 1.3646716780302608
+    },
+    {
+      "band": "alert",
+      "feature": "train_applprev_1__postype_4733339M__maxcode",
+      "psi": 0.7584021586955642
+    },
+    {
+      "band": "alert",
+      "feature": "train_person_1__persontype_1072L__std",
+      "psi": 0.6557913502893236
+    },
+    {
+      "band": "alert",
+      "feature": "train_credit_bureau_a_2__collaterals_typeofguarante_359M__nunique",
+      "psi": 0.5374699544601731
+    },
+    {
+      "band": "alert",
+      "feature": "train_static_0__clientscnt_887L",
+      "psi": 0.48406215483083254
+    },
+    {
+      "band": "alert",
+      "feature": "train_credit_bureau_a_2__pmts_year_1139T__rel_mean",
+      "psi": 0.44235354072120525
+    },
+    {
+      "band": "alert",
+      "feature": "train_static_0__applicationscnt_464L",
+      "psi": 0.3810887170609338
+    },
+    {
+      "band": "alert",
+      "feature": "train_credit_bureau_a_2__n_records",
+      "psi": 0.35193533284360123
+    },
+    {
+      "band": "watch",
+      "feature": "train_person_1__incometype_1044T__maxcode",
+      "psi": 0.22183098724667666
+    },
+    {
+      "band": "watch",
+      "feature": "train_credit_bureau_a_1__classificationofcontr_400M__maxcode",
+      "psi": 0.20373131810698125
+    },
+    {
+      "band": "watch",
+      "feature": "train_credit_bureau_a_2__pmts_year_507T__rel_max",
+      "psi": 0.19308033207239741
+    },
+    {
+      "band": "watch",
+      "feature": "train_static_0__totalsettled_863A",
+      "psi": 0.13340823587413314
+    },
+    {
+      "band": "watch",
+      "feature": "train_static_0__annuity_780A",
+      "psi": 0.1302876577321267
+    },
+    {
+      "band": "watch",
+      "feature": "train_static_0__maxannuity_159A",
+      "psi": 0.1088320412362557
+    },
+    {
+      "band": "watch",
+      "feature": "train_person_1__birth_259D__rel_min",
+      "psi": 0.103820031114205
+    },
+    {
+      "band": "watch",
+      "feature": "train_person_1__birth_259D__rel_max",
+      "psi": 0.103820031114205
+    },
+    {
+      "band": "watch",
+      "feature": "train_person_1__birth_259D__rel_mean",
+      "psi": 0.103820031114205
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maxdebt4_972A",
+      "psi": 0.09320136922267415
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__credamount_590A__min",
+      "psi": 0.0912844691869349
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__n_records",
+      "psi": 0.08990883014106692
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstlswithoutdpd_562L",
+      "psi": 0.0824351578467808
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__applicationscnt_867L",
+      "psi": 0.08211299855396079
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__sellerplacescnt_216L",
+      "psi": 0.08115176911227692
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__interestrate_311L",
+      "psi": 0.07958179083406354
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__eir_270L",
+      "psi": 0.07958179083406354
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maxinstallast24m_3658928A",
+      "psi": 0.07501031304273693
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__monthsannuity_845L",
+      "psi": 0.07363146529123674
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__lastapprcommoditycat_1041M",
+      "psi": 0.071104560093598
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstmatpaidtearly2d_4499204L",
+      "psi": 0.07074965577201567
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__n_records",
+      "psi": 0.07036333556771804
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstlsallpaid_934L",
+      "psi": 0.07035271573678228
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__credamount_590A__max",
+      "psi": 0.07031461396689911
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__pmtnum_8L__max",
+      "psi": 0.06573486442905632
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__tenor_203L__max",
+      "psi": 0.06573486442905632
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__dateofcredstart_181D__rel_min",
+      "psi": 0.06442569579504401
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstpaidearly3dest_4493216L",
+      "psi": 0.06421374616569134
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_max",
+      "psi": 0.06184644656876333
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__rejectreasonclient_4145042M__nunique",
+      "psi": 0.061820220926572564
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__creationdate_885D__rel_max",
+      "psi": 0.058124061259824826
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__cancelreason_3545846M__nunique",
+      "psi": 0.0569050240384677
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__credamount_770A",
+      "psi": 0.056392335214899766
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__amtinstpaidbefduel24m_4187115A",
+      "psi": 0.055390981299017206
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__previouscontdistrict_112M",
+      "psi": 0.055129809197476246
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstpaidearly5dobd_4499205L",
+      "psi": 0.053603162831615245
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstlallpaidearly3d_817L",
+      "psi": 0.05330510434519538
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__employedfrom_700D__rel_min",
+      "psi": 0.05326426754403369
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstpaidearly3d_3546850L",
+      "psi": 0.05303699974015771
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstpaidearlyest_4493214L",
+      "psi": 0.052554522402981085
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__disbursedcredamount_1113A",
+      "psi": 0.051866951826933225
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__credamount_590A__std",
+      "psi": 0.05072392317681597
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__credtype_322L",
+      "psi": 0.0502091048281364
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__employedfrom_700D__rel_max",
+      "psi": 0.04902510576252217
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__lastrejectreason_759M",
+      "psi": 0.048358551814699356
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__education_1138M__nunique",
+      "psi": 0.047998641089001204
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__approvaldate_319D__rel_min",
+      "psi": 0.04594388895253599
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__employedfrom_700D__rel_mean",
+      "psi": 0.045386863222982535
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__cntpmts24_3658933L",
+      "psi": 0.045201700901114195
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstpaidearly_338L",
+      "psi": 0.042189440868999346
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__dateactivated_425D__rel_min",
+      "psi": 0.041449239282875555
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__status_219L__nunique",
+      "psi": 0.041035723849188174
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__mainoccupationinc_437A__max",
+      "psi": 0.04077183373087663
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__rejectreason_755M__nunique",
+      "psi": 0.03666904370714748
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_2__pmts_year_507T__rel_std",
+      "psi": 0.03555099282627707
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__conts_type_509L__nunique",
+      "psi": 0.03517757164290439
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__tenor_203L__mean",
+      "psi": 0.035073172690029686
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__pmtnum_8L__mean",
+      "psi": 0.035073172690029686
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__pmtnum_8L__std",
+      "psi": 0.03230862907851697
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__tenor_203L__std",
+      "psi": 0.03230862907851697
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__creationdate_885D__rel_mean",
+      "psi": 0.03181469236140203
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__dateofcredstart_181D__rel_max",
+      "psi": 0.03180833255062934
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_mean",
+      "psi": 0.029769049312898362
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__creationdate_885D__rel_min",
+      "psi": 0.029367483190572828
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__credamount_590A__mean",
+      "psi": 0.02826013421409396
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__education_1138M__maxcode",
+      "psi": 0.02754572391388978
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_min",
+      "psi": 0.027471898132100367
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__pctinstlsallpaidearl3d_427L",
+      "psi": 0.024995693294981396
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__mobilephncnt_593L",
+      "psi": 0.02460544057851202
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__daysoverduetolerancedd_3976961L",
+      "psi": 0.02443262418184651
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__price_1097A",
+      "psi": 0.02351250490893643
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstpaidearly5d_1087L",
+      "psi": 0.02350466516968317
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__dateofcredend_353D__rel_mean",
+      "psi": 0.022575492204401283
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__dateofrealrepmt_138D__rel_mean",
+      "psi": 0.02227857447962364
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__pmtnum_254L",
+      "psi": 0.02097080460791379
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__mainoccupationinc_437A__mean",
+      "psi": 0.020942525196835184
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__max",
+      "psi": 0.020520789300073644
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__dateofcredstart_181D__rel_mean",
+      "psi": 0.02007369408810169
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__maxdpdtolerance_577P__max",
+      "psi": 0.01971225954042841
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__mainoccupationinc_437A__std",
+      "psi": 0.019648573939237822
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstpaidlate1d_3546852L",
+      "psi": 0.01933746372371151
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maxdpdtolerance_374P",
+      "psi": 0.019208234455738132
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__lastrejectcredamount_222A",
+      "psi": 0.019008025770403822
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__lastupdate_388D__rel_mean",
+      "psi": 0.018860708734355497
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__mean",
+      "psi": 0.018703586648410205
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__lastrejectreasonclient_4145040M",
+      "psi": 0.018602487667042835
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__mean",
+      "psi": 0.018331214470631275
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__status_219L__maxcode",
+      "psi": 0.018114393672294983
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_pmtsoverdue_635A__std",
+      "psi": 0.01696987466220001
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__dateofcredend_353D__rel_max",
+      "psi": 0.01590057409798
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__mindbddpdlast24m_3658935P",
+      "psi": 0.01574418541004442
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__pctinstlsallpaidlate4d_3546849L",
+      "psi": 0.015395409193488247
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__creationdate_885D__rel_std",
+      "psi": 0.015370556026756174
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_2__pmts_dpd_303P__max",
+      "psi": 0.015199544886492687
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__mindbdtollast24m_4525191P",
+      "psi": 0.015130441247619562
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_std",
+      "psi": 0.015092497229571658
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__lastrejectcommoditycat_161M",
+      "psi": 0.01498545912290125
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numactiverelcontr_750L",
+      "psi": 0.014638685113135003
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_2__pmts_year_507T__rel_mean",
+      "psi": 0.014431982591805165
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__lastupdate_388D__rel_max",
+      "psi": 0.012581837603015246
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maxdbddpdtollast12m_3658940P",
+      "psi": 0.0122197008277536
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_2__pmts_dpd_303P__std",
+      "psi": 0.011716298195914885
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__maxdpdtolerance_577P__std",
+      "psi": 0.011563414385910147
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__max",
+      "psi": 0.011241610863953038
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__max",
+      "psi": 0.010846140652723997
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maxdbddpdtollast6m_4187119P",
+      "psi": 0.01072912654708568
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_b_2__pmts_dpdvalue_108P__std",
+      "psi": 0.01070568850683353
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_2__pmts_overdue_1152A__max",
+      "psi": 0.010650837340327957
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maxdpdlast24m_143P",
+      "psi": 0.010602938628426619
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__maxdpdtolerance_577P__mean",
+      "psi": 0.010041199201919248
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__dateofrealrepmt_138D__rel_max",
+      "psi": 0.010021154946746273
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstlswithdpd5_4187116L",
+      "psi": 0.009950829194847622
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_2__pmts_dpd_303P__mean",
+      "psi": 0.00918304288475192
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__pctinstlsallpaidlate1d_3546856L",
+      "psi": 0.008574133862374019
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__pctinstlsallpaidlat10d_839L",
+      "psi": 0.008459393806640637
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__homephncnt_628L",
+      "psi": 0.008192857243257792
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_2__pmts_overdue_1152A__std",
+      "psi": 0.00818014808081905
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numactivecreds_622L",
+      "psi": 0.007929107902645024
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstpaidearly5dest_4493211L",
+      "psi": 0.0078361550524158
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__annuitynextmonth_57A",
+      "psi": 0.007715263894918601
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__avgdbddpdlast3m_4187120P",
+      "psi": 0.007456027777216545
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__max",
+      "psi": 0.007424440030323647
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__mean",
+      "psi": 0.007359675694986841
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__min",
+      "psi": 0.007225690434421061
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__downpmt_134A__mean",
+      "psi": 0.007007555795251379
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__dateactivated_425D__rel_std",
+      "psi": 0.006930814946771369
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_2__pmts_overdue_1152A__mean",
+      "psi": 0.0069304507375210055
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__mean",
+      "psi": 0.006924434694295477
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maininc_215A",
+      "psi": 0.0067164681209048276
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__min",
+      "psi": 0.006662761483558451
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__approvaldate_319D__rel_std",
+      "psi": 0.006537522106486517
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__std",
+      "psi": 0.006457810440708364
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__lastupdate_388D__rel_std",
+      "psi": 0.006368096746886545
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__downpmt_134A__std",
+      "psi": 0.0061989670534064265
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__avgdbdtollast24m_4525197P",
+      "psi": 0.005857669302925227
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maxdpdlast12m_727P",
+      "psi": 0.005780488518174084
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maxdpdfrom6mto36m_3546853P",
+      "psi": 0.005768737039553498
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__lastst_736L",
+      "psi": 0.00542843658181282
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maxdbddpdlast1m_3658939P",
+      "psi": 0.005109954735603677
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstls_657L",
+      "psi": 0.005092285630531115
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numinstlswithdpd10_728L",
+      "psi": 0.004922845741981337
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__credacc_credlmt_575A__max",
+      "psi": 0.004921013667633365
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__mainoccupationinc_437A__min",
+      "psi": 0.004842330252507864
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__lastcancelreason_561M",
+      "psi": 0.004695411731669911
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__dateofrealrepmt_138D__rel_std",
+      "psi": 0.004604375269300208
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__dateofcredend_353D__rel_std",
+      "psi": 0.004407884741661011
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__avgdbddpdlast24m_3658932P",
+      "psi": 0.004389702114870481
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__pctinstlsallpaidlate6d_3546844L",
+      "psi": 0.004070326574405375
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numrejects9m_859L",
+      "psi": 0.004004029496024992
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maxdpdlast9m_1059P",
+      "psi": 0.003867490977959874
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__std",
+      "psi": 0.0034666918335812006
+    },
+    {
+      "band": "stable",
+      "feature": "train_credit_bureau_a_1__dateofcredstart_181D__rel_std",
+      "psi": 0.0034435716207970495
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__maxdpdlast6m_474P",
+      "psi": 0.0034092641133775543
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__currdebt_22A",
+      "psi": 0.003132978479918006
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__totaldebt_9A",
+      "psi": 0.0031307801597978704
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__avgmaxdpdlast9m_3716943P",
+      "psi": 0.002452725847354401
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__credacc_credlmt_575A__std",
+      "psi": 0.0017353085242269085
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__downpmt_134A__max",
+      "psi": 0.001715072923438108
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__maxdpdtolerance_577P__min",
+      "psi": 0.0013072056530922744
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__pmtnum_8L__min",
+      "psi": 0.0012656397232895427
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__tenor_203L__min",
+      "psi": 0.0012656397232895427
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_1__credacc_credlmt_575A__mean",
+      "psi": 0.0007101636513028736
+    },
+    {
+      "band": "stable",
+      "feature": "train_applprev_2__conts_type_509L__maxcode",
+      "psi": 0.0002849382271884534
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__disbursementtype_67L",
+      "psi": 0.00016628782215656523
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__avgdpdtolclosure24_3658938P",
+      "psi": 0.0001448919539428869
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__numcontrs3months_479L",
+      "psi": 0.00013290810110059832
+    },
+    {
+      "band": "stable",
+      "feature": "train_static_0__currdebtcredtyperange_828A",
+      "psi": 2.152103778673293e-05
+    }
+  ],
+  "psi_bands": {
+    "alert": 10,
+    "stable": 158,
+    "watch": 9
+  }
+}

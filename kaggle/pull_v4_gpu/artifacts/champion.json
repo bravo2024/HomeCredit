@@ -1,0 +1,70 @@
+{
+  "calibrator": "platt",
+  "calibrator_selection": [
+    {
+      "late_valid_brier": 0.022065401871709217,
+      "late_valid_ece": 0.014336887722189393,
+      "late_valid_logloss": 0.09685108527634424,
+      "method": "none"
+    },
+    {
+      "late_valid_brier": 0.02164033374807774,
+      "late_valid_ece": 0.002027978128100255,
+      "late_valid_logloss": 0.09344220977024385,
+      "method": "platt"
+    },
+    {
+      "late_valid_brier": 0.021679352289495454,
+      "late_valid_ece": 0.0016763918167833982,
+      "late_valid_logloss": 0.09372740526459264,
+      "method": "isotonic"
+    }
+  ],
+  "calibrator_split": {
+    "fit_weeks_lt": 71,
+    "score_weeks_ge": 71
+  },
+  "champion": "xgboost",
+  "cutoffs_valid_raw_pd": {
+    "lightgbm": {
+      "approval_80": 0.059134160458614166,
+      "bad_rate_15": 0.09980683549730691,
+      "bad_rate_20": 0.17327985601519522
+    },
+    "penalised_lr": {
+      "approval_80": 0.05339362117724985,
+      "bad_rate_15": 0.06317009225336558,
+      "bad_rate_20": 0.11837033652963394
+    },
+    "woe_scorecard": {
+      "approval_80": 0.04977525505260493,
+      "bad_rate_15": 0.0699299407705036,
+      "bad_rate_20": 0.13273922573616062
+    },
+    "xgboost": {
+      "approval_80": 0.05890227109193802,
+      "bad_rate_15": 0.10492900758981705,
+      "bad_rate_20": 0.18283769488334656
+    }
+  },
+  "frozen_at": "2026-11-05T23:00:34",
+  "oot_scored_after_this_point": true,
+  "rule": "max VALID Gini; models within 0.002 Gini of the best are tied and the tie goes to 'xgboost'",
+  "targets": {
+    "approval_rate": 0.8,
+    "bad_rate_among_approved": [
+      0.015,
+      0.02
+    ]
+  },
+  "tied": [
+    "xgboost"
+  ],
+  "valid_gini": {
+    "lightgbm": 0.6355591166692545,
+    "penalised_lr": 0.5259813790294527,
+    "random_forest": 0.6032832897349754,
+    "woe_scorecard": 0.580823290172978,
+    "xgboost": 0.640834881328904
+  }
+}

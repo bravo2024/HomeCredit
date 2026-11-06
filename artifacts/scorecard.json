@@ -1,0 +1,916 @@
+{
+  "base_odds": 20.0,
+  "base_points": 607.7800549483399,
+  "base_score": 600.0,
+  "coefficients": [
+    {
+      "ci_high": -3.2498223981437437,
+      "ci_low": -3.280914464168558,
+      "coef": -3.265368431156151,
+      "feature": "const",
+      "p_value": 0.0,
+      "std_err": 0.007931795244724954,
+      "z": -411.6808780871879
+    },
+    {
+      "ci_high": -0.11300897120970252,
+      "ci_low": -0.1783494990535899,
+      "coef": -0.1456792351316462,
+      "feature": "train_static_0__avgdpdtolclosure24_3658938P",
+      "p_value": 2.338728737262075e-18,
+      "std_err": 0.01666880829425569,
+      "z": -8.739631085795699
+    },
+    {
+      "ci_high": -0.4299463291953966,
+      "ci_low": -0.5068259467469458,
+      "coef": -0.4683861379711712,
+      "feature": "train_credit_bureau_a_2__pmts_dpd_303P__max",
+      "p_value": 4.710616330284632e-126,
+      "std_err": 0.0196125077190106,
+      "z": -23.882011657140602
+    },
+    {
+      "ci_high": -0.09860442367895264,
+      "ci_low": -0.17744831119146307,
+      "coef": -0.13802636743520785,
+      "feature": "train_applprev_1__maxdpdtolerance_577P__max",
+      "p_value": 6.774246569150233e-12,
+      "std_err": 0.020113606202568253,
+      "z": -6.8623381627897055
+    },
+    {
+      "ci_high": -0.20118068922141064,
+      "ci_low": -0.27415868743860694,
+      "coef": -0.2376696883300088,
+      "feature": "train_applprev_1__maxdpdtolerance_577P__std",
+      "p_value": 2.533811877567108e-37,
+      "std_err": 0.018617178374918473,
+      "z": -12.76614981839586
+    },
+    {
+      "ci_high": -0.052835162215663915,
+      "ci_low": -0.13051147189545143,
+      "coef": -0.09167331705555767,
+      "feature": "train_static_0__numinstlswithdpd10_728L",
+      "p_value": 3.722817065631102e-06,
+      "std_err": 0.019815749241437176,
+      "z": -4.626285685118454
+    },
+    {
+      "ci_high": -0.16710961780098715,
+      "ci_low": -0.24405207113873584,
+      "coef": -0.2055808444698615,
+      "feature": "train_static_0__pctinstlsallpaidlat10d_839L",
+      "p_value": 1.1425231026590586e-25,
+      "std_err": 0.019628537550858326,
+      "z": -10.473569105043781
+    },
+    {
+      "ci_high": -0.10097445100090606,
+      "ci_low": -0.1888311746314114,
+      "coef": -0.14490281281615874,
+      "feature": "train_credit_bureau_a_2__pmts_overdue_1152A__max",
+      "p_value": 1.0118548633527417e-10,
+      "std_err": 0.02241284133879704,
+      "z": -6.465169258363032
+    },
+    {
+      "ci_high": -0.18310373617255038,
+      "ci_low": -0.24572489958290167,
+      "coef": -0.21441431787772602,
+      "feature": "train_applprev_1__maxdpdtolerance_577P__min",
+      "p_value": 4.5063799458380066e-41,
+      "std_err": 0.015975080130119494,
+      "z": -13.421799210475834
+    },
+    {
+      "ci_high": -0.11542089480688839,
+      "ci_low": -0.20093365660522589,
+      "coef": -0.15817727570605714,
+      "feature": "train_static_0__maxdbddpdtollast6m_4187119P",
+      "p_value": 4.140455078407314e-13,
+      "std_err": 0.02181488090415213,
+      "z": -7.250888803887556
+    },
+    {
+      "ci_high": -0.6774915195298853,
+      "ci_low": -0.7514407461933971,
+      "coef": -0.7144661328616412,
+      "feature": "train_static_0__mobilephncnt_593L",
+      "p_value": 0.0,
+      "std_err": 0.018864945286447568,
+      "z": -37.87268513176702
+    },
+    {
+      "ci_high": -0.01998325474495187,
+      "ci_low": -0.09336420190045933,
+      "coef": -0.0566737283227056,
+      "feature": "train_static_0__maxdpdlast12m_727P",
+      "p_value": 0.0024662890933149105,
+      "std_err": 0.018719973360308406,
+      "z": -3.0274470605214536
+    },
+    {
+      "ci_high": -0.14087529108902627,
+      "ci_low": -0.22790468756626928,
+      "coef": -0.18438998932764777,
+      "feature": "train_static_0__avgmaxdpdlast9m_3716943P",
+      "p_value": 9.966174097744476e-17,
+      "std_err": 0.022201784615360223,
+      "z": -8.305187737028952
+    },
+    {
+      "ci_high": -0.08689612844909006,
+      "ci_low": -0.2080683439116655,
+      "coef": -0.14748223618037778,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__mean",
+      "p_value": 1.8326019586739226e-06,
+      "std_err": 0.030911847467189814,
+      "z": -4.771058615532996
+    },
+    {
+      "ci_high": 0.025010866028328554,
+      "ci_low": -0.06708201062175363,
+      "coef": -0.02103557229671254,
+      "feature": "train_static_0__avgdbdtollast24m_4525197P",
+      "p_value": 0.37058510059581784,
+      "std_err": 0.02349351247688709,
+      "z": -0.8953779183682018
+    },
+    {
+      "ci_high": -0.12554721475293626,
+      "ci_low": -0.20186028968975253,
+      "coef": -0.1637037522213444,
+      "feature": "train_static_0__numrejects9m_859L",
+      "p_value": 4.139708272046952e-17,
+      "std_err": 0.019467978886031596,
+      "z": -8.408872496713201
+    },
+    {
+      "ci_high": -0.07030018945208344,
+      "ci_low": -0.14609418571715047,
+      "coef": -0.10819718758461695,
+      "feature": "train_applprev_1__rejectreason_755M__nunique",
+      "p_value": 2.1965456272192613e-08,
+      "std_err": 0.01933555842426708,
+      "z": -5.595762233007149
+    },
+    {
+      "ci_high": -0.5862276493584359,
+      "ci_low": -0.6690911134501415,
+      "coef": -0.6276593814042887,
+      "feature": "train_applprev_1__pmtnum_8L__mean",
+      "p_value": 9.748769423056593e-194,
+      "std_err": 0.02113902723349054,
+      "z": -29.691970896839024
+    },
+    {
+      "ci_high": -0.06418175913692338,
+      "ci_low": -0.18970048265844558,
+      "coef": -0.12694112089768447,
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__mean",
+      "p_value": 7.359645542239132e-05,
+      "std_err": 0.032020670918342854,
+      "z": -3.9643491924763823
+    },
+    {
+      "ci_high": 0.011988139501789938,
+      "ci_low": -0.12182938549665061,
+      "coef": -0.054920622997430335,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__std",
+      "p_value": 0.10766130363110303,
+      "std_err": 0.034137751013277824,
+      "z": -1.6087944099208247
+    },
+    {
+      "ci_high": -0.029314472569006003,
+      "ci_low": -0.1449928267956873,
+      "coef": -0.08715364968234666,
+      "feature": "train_static_0__avgdbddpdlast3m_4187120P",
+      "p_value": 0.00314368565142553,
+      "std_err": 0.029510326500674866,
+      "z": -2.953327191427501
+    },
+    {
+      "ci_high": -0.08807208816584454,
+      "ci_low": -0.17697328747894298,
+      "coef": -0.13252268782239376,
+      "feature": "train_static_0__mindbddpdlast24m_3658935P",
+      "p_value": 5.116631816061006e-09,
+      "std_err": 0.022679294113141815,
+      "z": -5.843333886904432
+    },
+    {
+      "ci_high": -0.1773937850570514,
+      "ci_low": -0.3607191916998661,
+      "coef": -0.26905648837845875,
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_min",
+      "p_value": 8.764238958026209e-09,
+      "std_err": 0.0467675447326742,
+      "z": -5.753059946088684
+    },
+    {
+      "ci_high": -0.010208148420194636,
+      "ci_low": -0.10197300716588434,
+      "coef": -0.056090577793039484,
+      "feature": "train_static_0__numinstpaidearly5d_1087L",
+      "p_value": 0.01657389625990175,
+      "std_err": 0.023409832902420453,
+      "z": -2.396026405948417
+    },
+    {
+      "ci_high": -0.20950898342222637,
+      "ci_low": -0.33916313286028577,
+      "coef": -0.27433605814125606,
+      "feature": "train_applprev_1__employedfrom_700D__rel_min",
+      "p_value": 1.093173949918771e-16,
+      "std_err": 0.033075645894708974,
+      "z": -8.294201087245915
+    },
+    {
+      "ci_high": -0.6221450007327871,
+      "ci_low": -0.7399863506712774,
+      "coef": -0.6810656757020322,
+      "feature": "train_static_0__pmtnum_254L",
+      "p_value": 1.2376457568437962e-113,
+      "std_err": 0.030062121260392507,
+      "z": -22.65527671193819
+    },
+    {
+      "ci_high": -0.6344547133239894,
+      "ci_low": -0.7230386351927517,
+      "coef": -0.6787466742583705,
+      "feature": "train_person_1__birth_259D__rel_mean",
+      "p_value": 3.404827168932581e-198,
+      "std_err": 0.022598354502302315,
+      "z": -30.035225537736387
+    },
+    {
+      "ci_high": 0.06724694931882017,
+      "ci_low": -0.11865578746446945,
+      "coef": -0.02570441907282464,
+      "feature": "train_applprev_1__creationdate_885D__rel_min",
+      "p_value": 0.5878178095328375,
+      "std_err": 0.04742503899297811,
+      "z": -0.5420010108295432
+    },
+    {
+      "ci_high": 0.02255308821110199,
+      "ci_low": -0.1317188749644974,
+      "coef": -0.054582893376697715,
+      "feature": "train_applprev_1__employedfrom_700D__rel_max",
+      "p_value": 0.16546983693020578,
+      "std_err": 0.03935581581918775,
+      "z": -1.386907938269344
+    },
+    {
+      "ci_high": -0.5574098737740609,
+      "ci_low": -0.6895927532485135,
+      "coef": -0.6235013135112872,
+      "feature": "train_applprev_1__education_1138M__maxcode",
+      "p_value": 2.4789990292447116e-76,
+      "std_err": 0.033720741941457674,
+      "z": -18.490142197753038
+    },
+    {
+      "ci_high": -0.8416080203329055,
+      "ci_low": -0.9595825731966634,
+      "coef": -0.9005952967647844,
+      "feature": "train_static_0__disbursedcredamount_1113A",
+      "p_value": 9.595300766583012e-197,
+      "std_err": 0.030096102222879118,
+      "z": -29.923984511195275
+    },
+    {
+      "ci_high": 0.03458193804653164,
+      "ci_low": -0.11669929622062036,
+      "coef": -0.041058679087044365,
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__std",
+      "p_value": 0.28737711947560185,
+      "std_err": 0.038592860751636024,
+      "z": -1.0638931213541565
+    },
+    {
+      "ci_high": -0.8104389413201142,
+      "ci_low": -0.918726086254852,
+      "coef": -0.8645825137874831,
+      "feature": "train_static_0__numinstlswithoutdpd_562L",
+      "p_value": 5.069530428686566e-215,
+      "std_err": 0.02762477927882681,
+      "z": -31.29735463443677
+    },
+    {
+      "ci_high": -0.42598156046249774,
+      "ci_low": -0.5784688756721337,
+      "coef": -0.5022252180673157,
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_mean",
+      "p_value": 3.9276942066188474e-38,
+      "std_err": 0.03890054011513385,
+      "z": -12.910494727859323
+    },
+    {
+      "ci_high": -0.2831361994025531,
+      "ci_low": -0.4127934074895515,
+      "coef": -0.3479648034460523,
+      "feature": "train_static_0__maxdbddpdlast1m_3658939P",
+      "p_value": 6.985564856404258e-26,
+      "std_err": 0.03307642617663334,
+      "z": -10.520024188461756
+    },
+    {
+      "ci_high": -0.3252372306874722,
+      "ci_low": -0.455830022975171,
+      "coef": -0.3905336268313216,
+      "feature": "train_static_0__interestrate_311L",
+      "p_value": 9.783548637107111e-32,
+      "std_err": 0.03331510000127505,
+      "z": -11.72242096876116
+    },
+    {
+      "ci_high": -0.7511276479163831,
+      "ci_low": -0.8536570142852118,
+      "coef": -0.8023923311007974,
+      "feature": "train_person_1__incometype_1044T__maxcode",
+      "p_value": 1.1445167752175363e-206,
+      "std_err": 0.026155931225667225,
+      "z": -30.67726108384156
+    },
+    {
+      "ci_high": -0.6831390060142755,
+      "ci_low": -0.7857202511905454,
+      "coef": -0.7344296286024105,
+      "feature": "train_credit_bureau_a_2__pmts_year_507T__rel_mean",
+      "p_value": 2.6435714068575504e-173,
+      "std_err": 0.02616916585851008,
+      "z": -28.064693868092004
+    }
+  ],
+  "features": [
+    "train_static_0__avgdpdtolclosure24_3658938P",
+    "train_credit_bureau_a_2__pmts_dpd_303P__max",
+    "train_applprev_1__maxdpdtolerance_577P__max",
+    "train_applprev_1__maxdpdtolerance_577P__std",
+    "train_static_0__numinstlswithdpd10_728L",
+    "train_static_0__pctinstlsallpaidlat10d_839L",
+    "train_credit_bureau_a_2__pmts_overdue_1152A__max",
+    "train_applprev_1__maxdpdtolerance_577P__min",
+    "train_static_0__maxdbddpdtollast6m_4187119P",
+    "train_static_0__mobilephncnt_593L",
+    "train_static_0__maxdpdlast12m_727P",
+    "train_static_0__avgmaxdpdlast9m_3716943P",
+    "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__mean",
+    "train_static_0__avgdbdtollast24m_4525197P",
+    "train_static_0__numrejects9m_859L",
+    "train_applprev_1__rejectreason_755M__nunique",
+    "train_applprev_1__pmtnum_8L__mean",
+    "train_credit_bureau_a_1__overdueamountmax2_398A__mean",
+    "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__std",
+    "train_static_0__avgdbddpdlast3m_4187120P",
+    "train_static_0__mindbddpdlast24m_3658935P",
+    "train_applprev_1__firstnonzeroinstldate_307D__rel_min",
+    "train_static_0__numinstpaidearly5d_1087L",
+    "train_applprev_1__employedfrom_700D__rel_min",
+    "train_static_0__pmtnum_254L",
+    "train_person_1__birth_259D__rel_mean",
+    "train_applprev_1__creationdate_885D__rel_min",
+    "train_applprev_1__employedfrom_700D__rel_max",
+    "train_applprev_1__education_1138M__maxcode",
+    "train_static_0__disbursedcredamount_1113A",
+    "train_credit_bureau_a_1__overdueamountmax2_398A__std",
+    "train_static_0__numinstlswithoutdpd_562L",
+    "train_applprev_1__firstnonzeroinstldate_307D__rel_mean",
+    "train_static_0__maxdbddpdlast1m_3658939P",
+    "train_static_0__interestrate_311L",
+    "train_person_1__incometype_1044T__maxcode",
+    "train_credit_bureau_a_2__pmts_year_507T__rel_mean"
+  ],
+  "pdo": 20.0,
+  "process_vars": [
+    "train_credit_bureau_a_2__pmts_dpd_303P__mean",
+    "train_applprev_1__maxdpdtolerance_577P__mean",
+    "train_credit_bureau_a_2__pmts_overdue_1152A__mean",
+    "train_credit_bureau_a_2__pmts_dpd_303P__std",
+    "train_static_0__avgdpdtolclosure24_3658938P",
+    "train_static_0__pctinstlsallpaidlate1d_3546856L",
+    "train_credit_bureau_a_2__pmts_dpd_303P__max",
+    "train_applprev_1__maxdpdtolerance_577P__max",
+    "train_static_0__pctinstlsallpaidlate4d_3546849L",
+    "train_credit_bureau_a_2__pmts_overdue_1152A__std",
+    "train_static_0__daysoverduetolerancedd_3976961L",
+    "train_static_0__maxdbddpdtollast12m_3658940P",
+    "train_static_0__pctinstlsallpaidlate6d_3546844L",
+    "train_static_0__avgdbddpdlast24m_3658932P",
+    "train_applprev_1__maxdpdtolerance_577P__std",
+    "train_static_0__numinstlswithdpd10_728L",
+    "train_static_0__pctinstlsallpaidlat10d_839L",
+    "train_static_0__pctinstlsallpaidearl3d_427L",
+    "train_credit_bureau_a_2__pmts_overdue_1152A__max",
+    "train_applprev_1__maxdpdtolerance_577P__min",
+    "train_static_0__numinstlswithdpd5_4187116L",
+    "train_static_0__maxdpdtolerance_374P",
+    "train_static_0__maxdpdlast24m_143P",
+    "train_static_0__maxdbddpdtollast6m_4187119P",
+    "train_static_0__mobilephncnt_593L",
+    "train_static_0__maxdpdfrom6mto36m_3546853P",
+    "train_static_0__numinstpaidlate1d_3546852L",
+    "train_static_0__maxdpdlast12m_727P",
+    "train_static_0__avgmaxdpdlast9m_3716943P",
+    "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__mean",
+    "train_static_0__avgdbdtollast24m_4525197P",
+    "train_static_0__maxdpdlast9m_1059P",
+    "train_static_0__numinstpaidearly3d_3546850L",
+    "train_static_0__numrejects9m_859L",
+    "train_applprev_1__rejectreason_755M__nunique",
+    "train_applprev_1__tenor_203L__mean",
+    "train_applprev_1__pmtnum_8L__mean",
+    "train_credit_bureau_a_1__overdueamountmax2_398A__mean",
+    "train_static_0__numinstlallpaidearly3d_817L",
+    "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__max",
+    "train_static_0__numinstpaidearly_338L",
+    "train_applprev_1__pmtnum_8L__max",
+    "train_applprev_1__tenor_203L__max",
+    "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__std",
+    "train_static_0__avgdbddpdlast3m_4187120P",
+    "train_static_0__mindbddpdlast24m_3658935P",
+    "train_applprev_1__firstnonzeroinstldate_307D__rel_min",
+    "train_static_0__numinstpaidearly5d_1087L",
+    "train_applprev_1__employedfrom_700D__rel_min",
+    "train_static_0__pmtnum_254L",
+    "train_person_1__birth_259D__rel_min",
+    "train_person_1__birth_259D__rel_max",
+    "train_person_1__birth_259D__rel_mean",
+    "train_applprev_1__employedfrom_700D__rel_mean",
+    "train_static_0__numinstlsallpaid_934L",
+    "train_applprev_1__creationdate_885D__rel_min",
+    "train_static_0__maxdpdlast6m_474P",
+    "train_credit_bureau_a_1__overdueamountmax2_398A__max",
+    "train_applprev_1__employedfrom_700D__rel_max",
+    "train_applprev_1__education_1138M__maxcode",
+    "train_static_0__disbursedcredamount_1113A",
+    "train_credit_bureau_a_1__overdueamountmax2_398A__std",
+    "train_static_0__numinstlswithoutdpd_562L",
+    "train_applprev_1__firstnonzeroinstldate_307D__rel_mean",
+    "train_static_0__maxdbddpdlast1m_3658939P",
+    "train_static_0__eir_270L",
+    "train_static_0__interestrate_311L",
+    "train_person_1__incometype_1044T__maxcode",
+    "train_static_0__credamount_770A",
+    "train_credit_bureau_a_2__pmts_year_507T__rel_mean"
+  ],
+  "reconstruction_delta_points": 1.1368683772161603e-13,
+  "sign_check": [
+    {
+      "coef": -0.1456792351316462,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__avgdpdtolclosure24_3658938P",
+      "woe_event_rate_spearman": -0.8999999999999998
+    },
+    {
+      "coef": -0.4683861379711712,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_credit_bureau_a_2__pmts_dpd_303P__max",
+      "woe_event_rate_spearman": -0.642857142857143
+    },
+    {
+      "coef": -0.13802636743520785,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_applprev_1__maxdpdtolerance_577P__max",
+      "woe_event_rate_spearman": -0.6571428571428573
+    },
+    {
+      "coef": -0.2376696883300088,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_applprev_1__maxdpdtolerance_577P__std",
+      "woe_event_rate_spearman": -0.8285714285714287
+    },
+    {
+      "coef": -0.09167331705555767,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__numinstlswithdpd10_728L",
+      "woe_event_rate_spearman": -0.7999999999999999
+    },
+    {
+      "coef": -0.2055808444698615,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__pctinstlsallpaidlat10d_839L",
+      "woe_event_rate_spearman": -0.8285714285714287
+    },
+    {
+      "coef": -0.14490281281615874,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_credit_bureau_a_2__pmts_overdue_1152A__max",
+      "woe_event_rate_spearman": -0.75
+    },
+    {
+      "coef": -0.21441431787772602,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_applprev_1__maxdpdtolerance_577P__min",
+      "woe_event_rate_spearman": -0.39999999999999997
+    },
+    {
+      "coef": -0.15817727570605714,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__maxdbddpdtollast6m_4187119P",
+      "woe_event_rate_spearman": -0.7
+    },
+    {
+      "coef": -0.7144661328616412,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__mobilephncnt_593L",
+      "woe_event_rate_spearman": -0.942857142857143
+    },
+    {
+      "coef": -0.0566737283227056,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__maxdpdlast12m_727P",
+      "woe_event_rate_spearman": -0.7
+    },
+    {
+      "coef": -0.18438998932764777,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__avgmaxdpdlast9m_3716943P",
+      "woe_event_rate_spearman": -0.7999999999999999
+    },
+    {
+      "coef": -0.14748223618037778,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__mean",
+      "woe_event_rate_spearman": -0.8285714285714287
+    },
+    {
+      "coef": -0.02103557229671254,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__avgdbdtollast24m_4525197P",
+      "woe_event_rate_spearman": -0.39999999999999997
+    },
+    {
+      "coef": -0.1637037522213444,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__numrejects9m_859L",
+      "woe_event_rate_spearman": -0.7999999999999999
+    },
+    {
+      "coef": -0.10819718758461695,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_applprev_1__rejectreason_755M__nunique",
+      "woe_event_rate_spearman": -0.7
+    },
+    {
+      "coef": -0.6276593814042887,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_applprev_1__pmtnum_8L__mean",
+      "woe_event_rate_spearman": -0.9
+    },
+    {
+      "coef": -0.12694112089768447,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__mean",
+      "woe_event_rate_spearman": -0.7857142857142859
+    },
+    {
+      "coef": -0.054920622997430335,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__std",
+      "woe_event_rate_spearman": -0.6571428571428573
+    },
+    {
+      "coef": -0.08715364968234666,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__avgdbddpdlast3m_4187120P",
+      "woe_event_rate_spearman": -0.7
+    },
+    {
+      "coef": -0.13252268782239376,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__mindbddpdlast24m_3658935P",
+      "woe_event_rate_spearman": -0.642857142857143
+    },
+    {
+      "coef": -0.26905648837845875,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_min",
+      "woe_event_rate_spearman": -0.8181818181818182
+    },
+    {
+      "coef": -0.056090577793039484,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__numinstpaidearly5d_1087L",
+      "woe_event_rate_spearman": -0.7857142857142859
+    },
+    {
+      "coef": -0.27433605814125606,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_applprev_1__employedfrom_700D__rel_min",
+      "woe_event_rate_spearman": -0.8181818181818182
+    },
+    {
+      "coef": -0.6810656757020322,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__pmtnum_254L",
+      "woe_event_rate_spearman": -0.7857142857142859
+    },
+    {
+      "coef": -0.6787466742583705,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_person_1__birth_259D__rel_mean",
+      "woe_event_rate_spearman": -0.8181818181818182
+    },
+    {
+      "coef": -0.02570441907282464,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_applprev_1__creationdate_885D__rel_min",
+      "woe_event_rate_spearman": -0.8181818181818182
+    },
+    {
+      "coef": -0.054582893376697715,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_applprev_1__employedfrom_700D__rel_max",
+      "woe_event_rate_spearman": -0.8181818181818182
+    },
+    {
+      "coef": -0.6235013135112872,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_applprev_1__education_1138M__maxcode",
+      "woe_event_rate_spearman": -0.7
+    },
+    {
+      "coef": -0.9005952967647844,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__disbursedcredamount_1113A",
+      "woe_event_rate_spearman": -0.6606060606060605
+    },
+    {
+      "coef": -0.041058679087044365,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_credit_bureau_a_1__overdueamountmax2_398A__std",
+      "woe_event_rate_spearman": -0.8285714285714287
+    },
+    {
+      "coef": -0.8645825137874831,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__numinstlswithoutdpd_562L",
+      "woe_event_rate_spearman": -0.75
+    },
+    {
+      "coef": -0.5022252180673157,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_applprev_1__firstnonzeroinstldate_307D__rel_mean",
+      "woe_event_rate_spearman": -0.8333333333333333
+    },
+    {
+      "coef": -0.3479648034460523,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__maxdbddpdlast1m_3658939P",
+      "woe_event_rate_spearman": -0.7
+    },
+    {
+      "coef": -0.3905336268313216,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_static_0__interestrate_311L",
+      "woe_event_rate_spearman": -0.7
+    },
+    {
+      "coef": -0.8023923311007974,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_person_1__incometype_1044T__maxcode",
+      "woe_event_rate_spearman": -0.39999999999999997
+    },
+    {
+      "coef": -0.7344296286024105,
+      "consistent": true,
+      "expected_sign": -1.0,
+      "feature": "train_credit_bureau_a_2__pmts_year_507T__rel_mean",
+      "woe_event_rate_spearman": -0.7454545454545454
+    }
+  ],
+  "sign_consistent": 37,
+  "sign_consistent_before_fix": 39,
+  "sign_fix_log": [
+    {
+      "dropped": "train_static_0__maxdpdlast24m_143P",
+      "n_variables_before_drop": 46,
+      "n_wrong_before_drop": 7,
+      "p_value": 0.5678418296004969,
+      "round": 1
+    },
+    {
+      "dropped": "train_static_0__avgdbddpdlast24m_3658932P",
+      "n_variables_before_drop": 45,
+      "n_wrong_before_drop": 7,
+      "p_value": 0.9033372796142667,
+      "round": 2
+    },
+    {
+      "dropped": "train_static_0__maxdpdlast9m_1059P",
+      "n_variables_before_drop": 44,
+      "n_wrong_before_drop": 6,
+      "p_value": 0.4980201116995372,
+      "round": 3
+    },
+    {
+      "dropped": "train_static_0__maxdpdlast6m_474P",
+      "n_variables_before_drop": 43,
+      "n_wrong_before_drop": 5,
+      "p_value": 0.17199589940787496,
+      "round": 4
+    },
+    {
+      "dropped": "train_static_0__pctinstlsallpaidearl3d_427L",
+      "n_variables_before_drop": 42,
+      "n_wrong_before_drop": 4,
+      "p_value": 0.006399709958570301,
+      "round": 5
+    },
+    {
+      "dropped": "train_static_0__numinstpaidlate1d_3546852L",
+      "n_variables_before_drop": 41,
+      "n_wrong_before_drop": 4,
+      "p_value": 0.6524222647661637,
+      "round": 6
+    },
+    {
+      "dropped": "train_static_0__maxdpdtolerance_374P",
+      "n_variables_before_drop": 40,
+      "n_wrong_before_drop": 3,
+      "p_value": 0.0006770908721109286,
+      "round": 7
+    },
+    {
+      "dropped": "train_static_0__maxdpdfrom6mto36m_3546853P",
+      "n_variables_before_drop": 39,
+      "n_wrong_before_drop": 2,
+      "p_value": 6.177510585796778e-10,
+      "round": 8
+    },
+    {
+      "dropped": "train_static_0__numinstlswithdpd5_4187116L",
+      "n_variables_before_drop": 38,
+      "n_wrong_before_drop": 1,
+      "p_value": 6.53377554290321e-20,
+      "round": 9
+    }
+  ],
+  "sign_total": 37,
+  "sign_total_before_fix": 46,
+  "train_rows": 1282082,
+  "vif_drops": [
+    {
+      "dropped": "train_applprev_1__tenor_203L__mean",
+      "round": 1,
+      "vif": 999999999.9999999
+    },
+    {
+      "dropped": "train_applprev_1__pmtnum_8L__max",
+      "round": 2,
+      "vif": 999999999.9999999
+    },
+    {
+      "dropped": "train_person_1__birth_259D__rel_min",
+      "round": 3,
+      "vif": 999999999.9999999
+    },
+    {
+      "dropped": "train_person_1__birth_259D__rel_max",
+      "round": 4,
+      "vif": 999999999.9999999
+    },
+    {
+      "dropped": "train_static_0__eir_270L",
+      "round": 5,
+      "vif": 999999999.9999999
+    },
+    {
+      "dropped": "train_credit_bureau_a_2__pmts_dpd_303P__std",
+      "round": 6,
+      "vif": 22.146625958412777
+    },
+    {
+      "dropped": "train_credit_bureau_a_2__pmts_overdue_1152A__std",
+      "round": 7,
+      "vif": 18.740904857456595
+    },
+    {
+      "dropped": "train_static_0__numinstpaidearly3d_3546850L",
+      "round": 8,
+      "vif": 18.49921802755677
+    },
+    {
+      "dropped": "train_applprev_1__employedfrom_700D__rel_mean",
+      "round": 9,
+      "vif": 17.770660692292335
+    },
+    {
+      "dropped": "train_static_0__pctinstlsallpaidlate6d_3546844L",
+      "round": 10,
+      "vif": 16.342710369316965
+    },
+    {
+      "dropped": "train_applprev_1__maxdpdtolerance_577P__mean",
+      "round": 11,
+      "vif": 14.225360157928696
+    },
+    {
+      "dropped": "train_static_0__numinstlsallpaid_934L",
+      "round": 12,
+      "vif": 13.932483604458195
+    },
+    {
+      "dropped": "train_credit_bureau_a_2__pmts_dpd_303P__mean",
+      "round": 13,
+      "vif": 13.826605046724069
+    },
+    {
+      "dropped": "train_credit_bureau_a_1__numberofoverdueinstlmax_1151L__max",
+      "round": 14,
+      "vif": 10.349030775453205
+    },
+    {
+      "dropped": "train_static_0__numinstlallpaidearly3d_817L",
+      "round": 15,
+      "vif": 9.863578564644126
+    },
+    {
+      "dropped": "train_static_0__pctinstlsallpaidlate1d_3546856L",
+      "round": 16,
+      "vif": 9.524245017716623
+    },
+    {
+      "dropped": "train_credit_bureau_a_2__pmts_overdue_1152A__mean",
+      "round": 17,
+      "vif": 7.792889916377918
+    },
+    {
+      "dropped": "train_static_0__maxdbddpdtollast12m_3658940P",
+      "round": 18,
+      "vif": 7.134081957501963
+    },
+    {
+      "dropped": "train_static_0__pctinstlsallpaidlate4d_3546849L",
+      "round": 19,
+      "vif": 7.106911943181655
+    },
+    {
+      "dropped": "train_static_0__numinstpaidearly_338L",
+      "round": 20,
+      "vif": 6.978335155665583
+    },
+    {
+      "dropped": "train_static_0__daysoverduetolerancedd_3976961L",
+      "round": 21,
+      "vif": 6.260229340579382
+    },
+    {
+      "dropped": "train_credit_bureau_a_1__overdueamountmax2_398A__max",
+      "round": 22,
+      "vif": 5.89054377821399
+    },
+    {
+      "dropped": "train_static_0__credamount_770A",
+      "round": 23,
+      "vif": 5.805063370948269
+    },
+    {
+      "dropped": "train_applprev_1__tenor_203L__max",
+      "round": 24,
+      "vif": 5.143501029285598
+    }
+  ],
+  "woe_fit_rows": 250000
+}

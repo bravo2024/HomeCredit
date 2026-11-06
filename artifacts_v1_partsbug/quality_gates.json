@@ -1,0 +1,153 @@
+{
+  "gates": [
+    {
+      "detail": {
+        "exact": [],
+        "token": []
+      },
+      "gate": "leakage:no_id_or_outcome_columns",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "columns_checked": 181
+      },
+      "gate": "leakage:target_not_in_design",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "oot_min": "2020-06-30",
+        "train_max": "2020-03-23",
+        "valid_max": "2020-06-29",
+        "valid_min": "2020-03-24"
+      },
+      "gate": "leakage:time_split_ordering",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "overlapping_cases": 0
+      },
+      "gate": "leakage:no_case_overlap",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "quarantined": [],
+        "still_in_design": []
+      },
+      "gate": "leakage:univariate_auc_screen",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "delta_full": 86.0842542465341,
+        "delta_train": 2.5730909101184807e-05,
+        "full_mean": 1408.72412109375,
+        "scaled_mean": 1494.808375340284,
+        "train_mean": 1494.808349609375
+      },
+      "gate": "leakage:scaler_fitted_on_train_rows",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "bin_count_sum": 250000.0,
+        "fit_fraction": 0.19499532791194324,
+        "train_rows": 1282082.0,
+        "variable": "train_static_0_0__avgdpdtolclosure24_3658938P",
+        "woe_fit_rows": 250000.0
+      },
+      "gate": "leakage:woe_binned_on_train_rows",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "train_rows": 1282082.0,
+        "woe_fit_rows": 250000.0
+      },
+      "gate": "leakage:woe_fit_sample_within_train",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "lightgbm": true,
+        "penalised_lr": true,
+        "random_forest": true,
+        "woe_scorecard": true,
+        "xgboost": true,
+        "xgboost_monotone": true
+      },
+      "gate": "dummy_baseline_beaten",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "champion_oot_auc": 0.7822710265135585,
+        "range": [
+          0.74,
+          0.86
+        ]
+      },
+      "gate": "plausible_oot_range",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "oot_auc": 0.7822710265135585,
+        "valid_auc": 0.7762676722612284
+      },
+      "gate": "valid_oot_gap_under_0.05",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "before_fix": {
+          "consistent": 36,
+          "total": 47
+        },
+        "consistent": 31,
+        "total": 31
+      },
+      "gate": "scorecard_all_signs_consistent",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "after": 1.1539163468931188,
+        "before": 1.8966066321699857
+      },
+      "gate": "calibration_expected_actual_after",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "psi": 0.22026174640259089
+      },
+      "gate": "score_psi_train_to_oot",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "ci95_hi": 0.13971954029461384,
+        "ci95_lo": 0.11423702008827759,
+        "n_boot": 1000,
+        "point_gini_diff": 0.12757192484703372,
+        "share_positive": 1.0
+      },
+      "gate": "xgb_minus_lr_ci_excludes_zero",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "file": "artifacts/champion.json"
+      },
+      "gate": "champion_frozen_before_oot",
+      "status": "PASS"
+    }
+  ],
+  "n_fail": 0,
+  "n_pass": 16,
+  "n_warn": 0
+}
