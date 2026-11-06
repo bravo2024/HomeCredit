@@ -382,21 +382,21 @@ def page_comparison() -> None:
         c = pd.DataFrame(cal["oot"])
         view = pd.DataFrame({
             "Calibration": c.calibration,
-            "Mean PD": c.mean_pd,
-            "Observed": c.actual_rate,
+            "Mean PD": 100 * c.mean_pd,
+            "Observed": 100 * c.actual_rate,
             "Expected / actual": c.expected_over_actual,
-            "ECE": c.ece,
+            "ECE": 100 * c.ece,
             "Brier": c.brier,
             "Log loss": c.logloss,
             "Chosen on VALID": c.chosen_on_valid.map({True: "yes", False: "no"}),
         })
         st.dataframe(view, hide_index=True, width="stretch", column_config={
-            "Mean PD": st.column_config.NumberColumn(format="%.4f"),
-            "Observed": st.column_config.NumberColumn(format="%.4f"),
+            "Mean PD": st.column_config.NumberColumn(format="%.2f%%"),
+            "Observed": st.column_config.NumberColumn(format="%.2f%%"),
             "Expected / actual": st.column_config.NumberColumn(format="%.2f"),
-            "ECE": st.column_config.NumberColumn(format="%.4f"),
-            "Brier": st.column_config.NumberColumn(format="%.4f"),
-            "Log loss": st.column_config.NumberColumn(format="%.4f"),
+            "ECE": st.column_config.NumberColumn(format="%.3f%%"),
+            "Brier": st.column_config.NumberColumn(format="%.5f"),
+            "Log loss": st.column_config.NumberColumn(format="%.5f"),
         })
         st.caption(f"The calibrator was chosen on the earlier VALID weeks and refitted on all VALID rows: "
                    f"**{cal.get('chosen_on_valid')}**. The raw score over-predicts on OOT by a factor of "
@@ -745,20 +745,28 @@ def page_policy() -> None:
     strategies = biz.get("cutoff_strategies_oot")
     if strategies:
         d = pd.DataFrame(strategies)
-        view = pd.DataFrame({"Strategy": d.strategy,
-                             "Model": d.model.replace("-", "—") if "model" in d else "—"})
-        spec = [("approval_rate", "Approval rate"), ("bad_rate_approved", "Bad rate, approved"),
-                ("bad_rate_declined", "Bad rate, declined"), ("defaulters_declined_share", "Defaulters declined")]
-        keep = [(c, t) for c, t in spec if c in d.columns]
-        for col, name in keep:
-            view[name] = 100 * d[col]
-        st.markdown("#### Cut-off strategies")
-        st.dataframe(view, hide_index=True, width="stretch", column_config={
-            t: st.column_config.NumberColumn(format="%.2f%%" if t != "Defaulters declined" else "%.1f%%")
-            for _, t in keep
-        })
-        st.caption("Bad rate, approved is the share of approved loans that default on OOT; Defaulters declined is the "
-                   "share of all OOT defaulters the cut-off rejects.")
+        base = d[d["bad_rate_declined"].isna()] if "bad_rate_declined" in d else d.iloc[:0]
+        d = d.drop(base.index)
+        if not d.empty:
+            model_col = d["model"].replace("-", "—") if "model" in d else "—"
+            view = pd.DataFrame({"Strategy": d.strategy, "Model": model_col})
+            spec = [("approval_rate", "Approval rate"), ("bad_rate_approved", "Bad rate, approved"),
+                    ("bad_rate_declined", "Bad rate, declined"), ("defaulters_declined_share", "Defaulters declined")]
+            keep = [(c, t) for c, t in spec if c in d.columns]
+            for col, name in keep:
+                view[name] = 100 * d[col].astype(float)
+            st.markdown("#### Cut-off strategies")
+            st.dataframe(view, hide_index=True, width="stretch", column_config={
+                t: st.column_config.NumberColumn(format="%.2f%%" if t != "Defaulters declined" else "%.1f%%")
+                for _, t in keep
+            })
+            reference = ""
+            if not base.empty:
+                row = base.iloc[0]
+                reference = (f" Approving every application approves 100% of them and yields a "
+                             f"{pct(row.get('bad_rate_approved'))} bad rate.")
+            st.caption("Bad rate, approved is the share of approved loans that default on OOT; Defaulters declined is the "
+                       "share of all OOT defaulters the cut-off rejects." + reference)
 
     capture = biz.get("capture")
     if capture:
@@ -786,7 +794,7 @@ def page_policy() -> None:
     labels = {"both_approve": "Approved by both", "swap_in_A_only": "XGBoost only (A)",
               "swap_out_B_only": "Logistic regression only (B)", "both_decline": "Declined by both"}
     rows = [{"Segment": labels.get(k, k), "Applications": v.get("n"), "Defaults": v.get("defaults"),
-             "Bad rate": v.get("bad_rate")}
+             "Bad rate": (100 * float(v["bad_rate"])) if v.get("bad_rate") is not None else None}
             for k, v in swap.items() if isinstance(v, dict) and "n" in v]
     rows.sort(key=lambda r: list(labels.values()).index(r["Segment"]) if r["Segment"] in labels.values() else 99)
     if rows:
