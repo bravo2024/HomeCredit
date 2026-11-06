@@ -17,6 +17,7 @@ import os
 for _var in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS", "NUMEXPR_NUM_THREADS"):
     os.environ.setdefault(_var, "1")
 
+import importlib.util
 import json
 import textwrap
 from pathlib import Path
@@ -584,7 +585,11 @@ def page_scorer() -> None:
         return
     model = load_champion(meta)
     if model is None:
-        missing(meta.get("model_file") or "champion model")
+        problem = package_problem(meta)
+        if problem:
+            st.error(problem)
+        else:
+            missing(meta.get("model_file") or "champion model")
         return
 
     features = meta["features"]
@@ -670,8 +675,13 @@ def page_batch() -> None:
         return
     model = load_champion(meta)
     if model is None:
-        missing(meta.get("model_file") or "champion model")
+        problem = package_problem(meta)
+        if problem:
+            st.error(problem)
+        else:
+            missing(meta.get("model_file") or "champion model")
         return
+
     features = meta["features"]
 
     st.caption(f"The file needs the {len(features)} champion features, in any order. Missing features are scored as "
@@ -906,6 +916,21 @@ carries no exposure, LGD or margin. It is illustrative only.
 
 
 # --------------------------------------------------------------------------- scoring helpers
+MISSING_PKG = (
+    "This deployment is missing the `{}` package, so the saved model cannot be loaded. "
+    "The dependency install did not finish: redeploy the app (Manage app → Reboot) and check "
+    "the build log for the failed pin. requirements.txt pins `xgboost-cpu`."
+)
+
+
+def package_problem(meta: dict | None) -> str:
+    """Explain a missing scorer dependency, if that is why the model is absent."""
+    mod = {"xgb": "xgboost", "lgbm": "lightgbm", "rf": "joblib"}.get((meta or {}).get("kind"))
+    if mod and importlib.util.find_spec(mod) is None:
+        return MISSING_PKG.format(mod)
+    return ""
+
+
 @st.cache_resource(show_spinner=False)
 def load_champion(meta: dict):
     """Load the saved champion in its native format. Never refit."""
@@ -916,20 +941,23 @@ def load_champion(meta: dict):
     if not path.exists():
         return None
     kind = meta.get("kind")
-    if kind == "lgbm":
-        import lightgbm as lgb
+    try:
+        if kind == "lgbm":
+            import lightgbm as lgb
 
-        return lgb.Booster(model_file=str(path))
-    if kind == "xgb":
-        import xgboost as xgb
+            return lgb.Booster(model_file=str(path))
+        if kind == "xgb":
+            import xgboost as xgb
 
-        booster = xgb.Booster()
-        booster.load_model(str(path))
-        return booster
-    if kind == "rf":
-        import joblib
+            booster = xgb.Booster()
+            booster.load_model(str(path))
+            return booster
+        if kind == "rf":
+            import joblib
 
-        return joblib.load(path)
+            return joblib.load(path)
+    except ImportError:
+        return None
     return None
 
 
